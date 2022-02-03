@@ -1,6 +1,6 @@
 export const MENUITEMS = [
    {
-      title: 'Inicio', type: 'sub', link: '/', children: [
+      title: 'Inicio', type: 'sub', link: '/#', children: [
          { path: '/', title: 'Inicio', type: 'link' },
          { path: '/#Nosotros', title: 'Nosotros', type: 'link' },
          { path: '/#Servicios', title: 'Servicios', type: 'link' },

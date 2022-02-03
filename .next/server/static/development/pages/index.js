@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 const MENUITEMS = [{
   title: 'Inicio',
   type: 'sub',
-  link: '/',
+  link: '/#',
   children: [{
     path: '/',
     title: 'Inicio',
@@ -6727,7 +6727,7 @@ module.exports = "/_next/static/images/9-cdd017a1678448e08a33b684af6ef66f.jpg";
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
