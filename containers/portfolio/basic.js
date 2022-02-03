@@ -32,13 +32,13 @@ const Basic = ({ className, title, subTitle, fluid }) => {
     const [portfolioData, setPortfolioData] = useState([]);
     useEffect(() => {
         async function PortfolioData() {
-        const res = await fetch('http://localhost:1337/api/portfolios?populate=%2A');
+        const res = await fetch('https://api.2meta.digital//api/portfolios?populate=%2A');
         const data = await res.json();
         setPortfolioData(data.data)
         }
         PortfolioData()
     }, [])
-    const imgUrl = "http://localhost:1337"
+    const imgUrl = "https://api.2meta.digital/"
     
     const initilindex = { index: 0 }
     const [photoIndex, setPhotoIndex] = useState(initilindex)

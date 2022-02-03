@@ -1232,7 +1232,7 @@ var Basic = function Basic(_ref) {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return fetch('http://localhost:1337/api/portfolios?populate=%2A');
+                return fetch('https://api.2meta.digital//api/portfolios?populate=%2A');
 
               case 2:
                 res = _context.sent;
@@ -1255,7 +1255,7 @@ var Basic = function Basic(_ref) {
 
     PortfolioData();
   }, []);
-  var imgUrl = "http://localhost:1337";
+  var imgUrl = "https://api.2meta.digital/";
   var initilindex = {
     index: 0
   };
@@ -36456,7 +36456,7 @@ var Testimonial = function Testimonial() {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return fetch('http://localhost:1337/api/testimonios?populate=%2A');
+                return fetch('https://api.2meta.digital/api/testimonios?populate=%2A');
 
               case 2:
                 res = _context.sent;
@@ -36479,7 +36479,7 @@ var Testimonial = function Testimonial() {
 
     TestimonialData();
   }, []);
-  var imgUrl = "http://localhost:1337"; //console.log(imgUrl+item.attributes.photo.data.attributes.url)
+  var imgUrl = "https://api.2meta.digital"; //console.log(imgUrl+item.attributes.photo.data.attributes.url)
 
   return __jsx("section", {
     className: "agency testimonial format testimonial-bg",
@@ -36842,7 +36842,7 @@ module.exports = "/_next/static/images/9-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5Cportfolio%5Cunice%5Cpages%5Cindex.js ***!
   \****************************************************************************************************************************/
@@ -36865,5 +36865,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

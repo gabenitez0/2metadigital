@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1282,14 +1282,14 @@ const Basic = ({
   } = Object(react__WEBPACK_IMPORTED_MODULE_7__["useState"])([]);
   Object(react__WEBPACK_IMPORTED_MODULE_7__["useEffect"])(() => {
     async function PortfolioData() {
-      const res = await fetch('http://localhost:1337/api/portfolios?populate=%2A');
+      const res = await fetch('https://api.2meta.digital//api/portfolios?populate=%2A');
       const data = await res.json();
       setPortfolioData(data.data);
     }
 
     PortfolioData();
   }, []);
-  const imgUrl = "http://localhost:1337";
+  const imgUrl = "https://api.2meta.digital/";
   const initilindex = {
     index: 0
   };
@@ -6363,14 +6363,14 @@ const Testimonial = () => {
   } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]);
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
     async function TestimonialData() {
-      const res = await fetch('http://localhost:1337/api/testimonios?populate=%2A');
+      const res = await fetch('https://api.2meta.digital/api/testimonios?populate=%2A');
       const data = await res.json();
       setTestimonialData(data.data);
     }
 
     TestimonialData();
   }, []);
-  const imgUrl = "http://localhost:1337"; //console.log(imgUrl+item.attributes.photo.data.attributes.url)
+  const imgUrl = "https://api.2meta.digital"; //console.log(imgUrl+item.attributes.photo.data.attributes.url)
 
   return __jsx("section", {
     className: "agency testimonial format testimonial-bg",
@@ -6727,7 +6727,7 @@ module.exports = "/_next/static/images/9-cdd017a1678448e08a33b684af6ef66f.jpg";
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

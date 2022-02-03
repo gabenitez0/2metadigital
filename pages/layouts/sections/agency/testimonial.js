@@ -32,13 +32,13 @@ const Testimonial = () => {
     const [testimonialData, setTestimonialData] = useState([]);
     useEffect(() => {
         async function TestimonialData() {
-        const res = await fetch('http://localhost:1337/api/testimonios?populate=%2A');
+        const res = await fetch('https://api.2meta.digital/api/testimonios?populate=%2A');
         const data = await res.json();
         setTestimonialData(data.data)
         }
         TestimonialData()
     }, [])
-    const imgUrl = "http://localhost:1337";
+    const imgUrl = "https://api.2meta.digital";
     //console.log(imgUrl+item.attributes.photo.data.attributes.url)
     
     return (
