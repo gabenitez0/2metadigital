@@ -1,6 +1,4 @@
 import React, { useState, useEffect, Fragment } from 'react';
-import { Portfolio } from './database';
-import Lightbox from 'react-image-lightbox-next';
 import {Container,Row,Col} from 'reactstrap'
 const feshion = [
     require('../../public/assets/images/portfolio/1.jpg'),

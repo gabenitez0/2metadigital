@@ -1,1 +1,0 @@
-{"ast":null,"code":"module.exports = {\n  BoxshadowData: [{\n    class: 'shadow-lg',\n    heading: 'large shadow'\n  }, {\n    class: 'shadow',\n    heading: 'regular shadow'\n  }, {\n    class: 'shadow-sm',\n    heading: 'small shadow'\n  }]\n};","map":null,"metadata":{},"sourceType":"script"}

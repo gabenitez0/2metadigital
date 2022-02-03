@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../../containers/common/common-layout'
 import Portfolio from '../../containers/portfolio/basic'
 
 const PortfolioTitle3Col = () => (

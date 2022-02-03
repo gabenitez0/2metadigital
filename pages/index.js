@@ -8,7 +8,6 @@ const Home = () => {
 
   return (
     <Fragment>
-      <div className="landing-page">
       <Head>
           <title>Meta Digital - Potenciemos Tu Proyecto Ahora! - Agencia Digital</title>
           <meta description='Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresión, una imagen profesional y textos precisos.' content='' />
@@ -16,7 +15,6 @@ const Home = () => {
       </Head>
 
       <Agency />
-      </div>
       <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21389125.js"></script>
     </Fragment>
   )
