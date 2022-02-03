@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Portfolio from '../../../../containers/portfolio/basic';\n\nvar Section = function Section() {\n  return __jsx(Portfolio, {\n    className: \"col-lg-3 col-sm-6 isotopeSelector\"\n  });\n};\n\nexport default Section;","map":null,"metadata":{},"sourceType":"module"}
