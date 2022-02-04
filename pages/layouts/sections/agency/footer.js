@@ -17,7 +17,7 @@ const Footer = () => (
                                     <h6 className="text-white para-address">Buenos Aires, Argentina</h6>
                                     <h6 className="text-white para-address">2MetaDigital</h6>
                                 </div>
-                                <ul className="d-d-flex footer-social social">
+                                {/*<ul className="d-d-flex footer-social social">
                                     <li className="footer-social-list">
                                         <a href="#"><i aria-hidden="true" className="fa fa-instagram"></i></a>
                                     </li>
@@ -27,7 +27,7 @@ const Footer = () => (
                                     <li className="footer-social-list">
                                         <a href="#"><i aria-hidden="true" className="fa fa-google"></i></a>
                                     </li>
-                                </ul>
+                                </ul>*/}
                             </div>
                         </div>
                     </Col>
