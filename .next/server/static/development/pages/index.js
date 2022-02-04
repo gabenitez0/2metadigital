@@ -302,7 +302,7 @@ const Header = props => {
   }, props.className == 'agency' ? __jsx("img", {
     alt: "",
     className: "img-fluid",
-    src: "/assets/images/logo/logo3.png",
+    src: "/assets/images/logo/logo4.png",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -5458,7 +5458,7 @@ const Footer = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment
 }, __jsx("img", {
   alt: "",
   className: "img-fluid footer-logo",
-  src: "/assets/images/logo/logo3neg.png",
+  src: "/assets/images/logo/logo4neg.png",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,

@@ -11,7 +11,7 @@ const Footer = () => (
                                 <h3 className="text-white">Nosotros</h3>
                             </div>
                             <div className="footer-contant">
-                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo3neg.png" />
+                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo4neg.png" />
                                 <div className="footer-para">
                                     <h6 className="text-white para-address">Somos Emprendedores que buscan complementarse y mejorar junto a otros emprendedores.</h6>
                                     <h6 className="text-white para-address">Buenos Aires, Argentina</h6>

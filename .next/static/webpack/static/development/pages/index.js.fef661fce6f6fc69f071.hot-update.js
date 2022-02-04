@@ -90,7 +90,7 @@ var Header = function Header(props) {
   }, props.className == 'agency' ? __jsx("img", {
     alt: "",
     className: "img-fluid",
-    src: "/assets/images/logo/logo2.png",
+    src: "/assets/images/logo/logo4.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -382,4 +382,4 @@ var Header = function Header(props) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.8492aff4d01706289f1e.hot-update.js.map
+//# sourceMappingURL=index.js.fef661fce6f6fc69f071.hot-update.js.map

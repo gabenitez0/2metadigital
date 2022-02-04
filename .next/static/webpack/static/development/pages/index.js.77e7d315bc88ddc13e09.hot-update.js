@@ -95,7 +95,7 @@ var Footer = function Footer() {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid footer-logo",
-    src: "/assets/images/logo/logo3neg.png",
+    src: "/assets/images/logo/logo4neg.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -543,4 +543,4 @@ var Footer = function Footer() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.50f47efb8e4074ed5f48.hot-update.js.map
+//# sourceMappingURL=index.js.77e7d315bc88ddc13e09.hot-update.js.map
