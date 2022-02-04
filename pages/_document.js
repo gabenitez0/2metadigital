@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon4.ico" />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='generator' content='mdx-docs' />
           <link href="https://fonts.googleapis.com/css?family=Capriola&amp;subset=latin-ext" rel="stylesheet" />
