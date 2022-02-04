@@ -161,40 +161,48 @@ var Header = function Header(props) {
     document.querySelector('.navbar').classList.add('openSidebar');
   };
 
+  var logo = {
+    maxWidth: '30vw',
+    height: 'auto',
+    minWidth: '200px'
+  };
   return __jsx("header", {
     className: "".concat(props.className || 'app2', " loding-header nav-abs custom-scroll  "),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 23,
       columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 24,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 25,
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 26,
       columnNumber: 21
     }
   }, __jsx("nav", {
+    style: {
+      alignItems: 'baseline'
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 27,
       columnNumber: 25
     }
   }, __jsx("a", {
@@ -203,17 +211,18 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 28,
       columnNumber: 29
     }
   }, props.className == 'agency' ? __jsx("img", {
     alt: "",
+    style: logo,
     className: "img-fluid",
     src: "/assets/images/logo/logo4.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 30,
       columnNumber: 37
     }
   }) : props.className == 'dark' ? __jsx("img", {
@@ -223,7 +232,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 33,
       columnNumber: 41
     }
   }) : props.className == 'dark position-relative ecommerce' ? __jsx("img", {
@@ -233,7 +242,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 36,
       columnNumber: 45
     }
   }) : props.className == 'dark bg-white ecommerce' ? __jsx("img", {
@@ -243,7 +252,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 39,
       columnNumber: 45
     }
   }) : props.className == 'dark agency' ? __jsx("img", {
@@ -253,7 +262,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 42,
       columnNumber: 53
     }
   }) : props.className == 'saas1' ? __jsx("img", {
@@ -263,7 +272,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 45,
       columnNumber: 57
     }
   }) : __jsx("img", {
@@ -273,7 +282,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 47,
       columnNumber: 59
     }
   })), __jsx("div", {
@@ -281,7 +290,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 50,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -290,7 +299,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 51,
       columnNumber: 33
     }
   }, __jsx("i", {
@@ -299,14 +308,14 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 52,
       columnNumber: 37
     }
   }))), __jsx(_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 55,
       columnNumber: 29
     }
   }), props.shop && __jsx("div", {
@@ -314,14 +323,14 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 57,
       columnNumber: 33
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 58,
       columnNumber: 37
     }
   }, __jsx("li", {
@@ -329,7 +338,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 59,
       columnNumber: 41
     }
   }, __jsx("a", {
@@ -340,7 +349,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 60,
       columnNumber: 45
     }
   }, __jsx("i", {
@@ -348,7 +357,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 61,
       columnNumber: 49
     }
   })), __jsx("div", {
@@ -357,7 +366,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 63,
       columnNumber: 45
     }
   }, __jsx("form", {
@@ -365,7 +374,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 64,
       columnNumber: 49
     }
   }, __jsx("div", {
@@ -373,7 +382,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 65,
       columnNumber: 53
     }
   }, __jsx("label", {
@@ -381,7 +390,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 66,
       columnNumber: 57
     }
   }, "Email"), __jsx("input", {
@@ -391,7 +400,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 67,
       columnNumber: 57
     }
   }), __jsx("span", {
@@ -399,7 +408,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 69,
       columnNumber: 57
     }
   }))))), __jsx("li", {
@@ -407,7 +416,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 75,
       columnNumber: 41
     }
   }, __jsx("a", {
@@ -418,7 +427,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 76,
       columnNumber: 45
     }
   }, __jsx("i", {
@@ -426,7 +435,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 77,
       columnNumber: 49
     }
   })), __jsx("div", {
@@ -434,7 +443,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 79,
       columnNumber: 45
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -442,7 +451,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 80,
       columnNumber: 49
     }
   }, __jsx("a", {
@@ -450,7 +459,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 80,
       columnNumber: 81
     }
   }, "Login")), __jsx("a", {
@@ -458,7 +467,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 81,
       columnNumber: 49
     }
   }, "Account"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -466,7 +475,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 82,
       columnNumber: 49
     }
   }, __jsx("a", {
@@ -474,7 +483,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 82,
       columnNumber: 79
     }
   }, "Wishlist")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -482,7 +491,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 83,
       columnNumber: 49
     }
   }, __jsx("a", {
@@ -490,7 +499,7 @@ var Header = function Header(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 83,
       columnNumber: 79
     }
   }, "checkout")))))))))));
@@ -602,6 +611,9 @@ var Nav = function Nav() {
 
   return __jsx("div", {
     className: "navbar",
+    style: {
+      justifyContent: 'end'
+    },
     id: "togglebtn",
     __self: _this,
     __source: {
@@ -633,7 +645,7 @@ var Nav = function Nav() {
       lineNumber: 82,
       columnNumber: 21
     }
-  }, "back"))), __jsx("ul", {
+  }, "Cerrar"))), __jsx("ul", {
     className: "main-menu",
     __self: _this,
     __source: {
@@ -35420,6 +35432,9 @@ var Video = function Video() {
     }
   }, __jsx("a", {
     className: "btn btn-default primary-btn",
+    onClick: function onClick() {
+      return window.HubSpotConversations.widget.open();
+    },
     href: "#!",
     __self: _this,
     __source: {

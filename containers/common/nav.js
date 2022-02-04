@@ -76,10 +76,10 @@ const Nav = () => {
     }
 
     return (
-        <div className={`navbar`} id="togglebtn">
+        <div className={`navbar`} style={{justifyContent: 'end'}} id="togglebtn">
             <div className="responsive-btn">
                 <a className="btn-back" onClick={closeSidebar}>
-                    <h5>back</h5>
+                    <h5>Cerrar</h5>
                 </a>
             </div>
             <ul className="main-menu">

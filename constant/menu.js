@@ -35,8 +35,8 @@ export const MENUITEMS = [
    },
    {
       title: 'Contacto', type: 'sub', link: '/#Contacto', children: [
-         { path: '/Contacto#Como', title: 'Como Trabajamos', type: 'link' },
-         { path: '/Contacto', title: 'Contacto', type: 'link' }
+         { path: '/#Contacto', title: 'iniciar Chat', type: 'link' },
+         { path: '/#Contacto', title: 'Contacto', type: 'link' }
       ],
    },
 ]

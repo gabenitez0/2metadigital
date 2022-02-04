@@ -24,7 +24,7 @@ const Video = () => {
                                                 <h6 className="video-text text-white text-center">↓ CHATEA con nosotros ↓</h6>
                                             </div>
                                             <div style={{marginTop: 40, textAlign: 'center'}}>
-                                                <a className="btn btn-default primary-btn" href="#!">Iniciar Chat</a>
+                                                <a className="btn btn-default primary-btn" onClick={() => window.HubSpotConversations.widget.open()} href="#!">Iniciar Chat</a>
                                             </div>
                                         </div>
                                     </div>

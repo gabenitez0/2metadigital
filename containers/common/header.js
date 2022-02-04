@@ -13,15 +13,21 @@ const Header = props => {
         document.querySelector('.navbar').classList.add('openSidebar')
     }
 
+    const logo = {
+        maxWidth: '30vw',
+        height: 'auto',
+        minWidth: '200px',
+    }
+
     return (
         <header className={`${props.className || 'app2'} loding-header nav-abs custom-scroll  `}>
             <Container>
                 <Row>
                     <Col>
-                        <nav>
+                        <nav style={{alignItems: 'baseline'}}>
                             <a className="m-r-auto" href="/">
                                 {props.className == 'agency' ?
-                                    <img alt="" className="img-fluid" src="/assets/images/logo/logo4.png" />
+                                    <img alt="" style={logo} className="img-fluid" src="/assets/images/logo/logo4.png" />
                                     :
                                     props.className == 'dark' ?
                                         <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
