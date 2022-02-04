@@ -11,7 +11,7 @@ const Footer = () => (
                                 <h3 className="text-white">Nosotros</h3>
                             </div>
                             <div className="footer-contant">
-                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/1.png" />
+                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo3neg.png" />
                                 <div className="footer-para">
                                     <h6 className="text-white para-address">Somos Emprendedores que buscan complementarse y mejorar junto a otros emprendedores.</h6>
                                     <h6 className="text-white para-address">Buenos Aires, Argentina</h6>
@@ -93,7 +93,7 @@ const Footer = () => (
                 <Row>
                     <Col md="12">
                         <div>
-                            <h6 className="copyright-text text-white text-center">Copyright © 2022 Todos los derechos reservados por <i aria-hidden="true" className="fa fa-heart"></i> 2MetaDigital
+                            <h6 className="copyright-text text-white text-center">Copyright © 2022 Todos los derechos reservados por <i aria-hidden="true" className="fa fa-heart"></i> 2Meta.Digital
                             </h6>
                         </div>
                     </Col>

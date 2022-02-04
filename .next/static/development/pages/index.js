@@ -209,7 +209,7 @@ var Header = function Header(props) {
   }, props.className == 'agency' ? __jsx("img", {
     alt: "",
     className: "img-fluid",
-    src: "/assets/images/logo/9.png",
+    src: "/assets/images/logo/logo3.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35529,7 +35529,7 @@ var Footer = function Footer() {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid footer-logo",
-    src: "/assets/images/logo/1.png",
+    src: "/assets/images/logo/logo3neg.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35969,7 +35969,7 @@ var Footer = function Footer() {
       lineNumber: 96,
       columnNumber: 134
     }
-  }), " 2MetaDigital")))))));
+  }), " 2Meta.Digital")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
