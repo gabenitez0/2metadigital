@@ -14177,7 +14177,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/assets/scss/slick-theme.scss */ "./public/assets/scss/slick-theme.scss");
 /* harmony import */ var _public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_13__);
 
-var _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\_app.js";
+var _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 

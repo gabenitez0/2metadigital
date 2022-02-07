@@ -20,10 +20,6 @@ const About = () => {
                                 <h3 className="agency-head-text">De Emprendedores para Emprendedores <span className="block-span">Que quieren dar un salto de calidad</span></h3>
                             </div>
                         </div>
-    
-                        <p className="agency-para">Podemos ayudarte a mejorar tu imagen y posicionarte en internet, tenemos años de experiencia en el mercado digital más cantidad de socios y clientes satisfechos.</p>
-                        <p className="agency-para">Hacemos diseños increíbles que impactan en la visual del visitante y redacción persuasiva que generan conversiones de valor!</p>
-                        <a className=" btn btn-default btn-gradient" href="/#Servicios">¿Qué hacemos?</a>
                     </Col>
                 </Row>
             </Container>

@@ -19,12 +19,8 @@ var MENUITEMS = [{
     title: 'Inicio',
     type: 'link'
   }, {
-    path: '/#Nosotros',
-    title: 'Nosotros',
-    type: 'link'
-  }, {
     path: '/#Servicios',
-    title: 'Servicios',
+    title: 'Qué hacemos',
     type: 'link'
   }, {
     path: '/#Proyectos',
@@ -35,29 +31,8 @@ var MENUITEMS = [{
     title: 'Calificaciones',
     type: 'link'
   }, {
-    path: '/#Empezar',
-    title: 'Empezar',
-    type: 'link'
-  }]
-}, {
-  title: 'Nosotros',
-  type: 'sub',
-  link: '/#Nosotros',
-  children: [{
-    path: '/#Nosotros',
-    title: 'Quienes Somos',
-    type: 'link'
-  }, {
-    path: '/#Nosotros',
-    title: 'Cómo Trabajamos',
-    type: 'link'
-  }, {
-    path: '/#Nosotros',
-    title: 'Qué Hacemos',
-    type: 'link'
-  }, {
-    path: '/#Nosotros',
-    title: 'Emprendedores',
+    path: '/#Contacto',
+    title: 'Contacto',
     type: 'link'
   }]
 }, {
@@ -70,36 +45,31 @@ var MENUITEMS = [{
     type: 'link'
   }, {
     path: '/#Servicios',
-    title: 'Diseño Web',
-    type: 'link'
-  }, {
-    path: '/#Servicios',
     title: 'Diseño Gráfico',
     type: 'link'
   }, {
     path: '/#Servicios',
-    title: 'Administración Servidores',
-    type: 'link'
-  }]
-}, {
-  title: 'Portfolio',
-  type: 'sub',
-  link: '/#Proyectos',
-  children: [{
-    path: '/#Proyectos',
-    title: 'Desarrollo Web',
+    title: 'Copywriting',
     type: 'link'
   }, {
-    path: '/#Proyectos',
-    title: 'Diseño Web',
+    path: '/#Servicios',
+    title: 'E-commerces',
     type: 'link'
   }, {
-    path: '/#Proyectos',
-    title: 'Diseño Gráfico',
+    path: '/#Servicios',
+    title: 'Landing Pages',
     type: 'link'
   }, {
-    path: '/#Proyectos',
-    title: 'Administración Servidores',
+    path: '/#Servicios',
+    title: 'Mantenimiento',
+    type: 'link'
+  }, {
+    path: '/#Servicios',
+    title: 'Dominios y SSL',
+    type: 'link'
+  }, {
+    path: '/#Servicios',
+    title: 'Hosting y DNS',
     type: 'link'
   }]
 }, {
@@ -107,11 +77,11 @@ var MENUITEMS = [{
   type: 'sub',
   link: '/#Contacto',
   children: [{
-    path: '/Contacto#Como',
-    title: 'Como Trabajamos',
+    path: '/#Contacto',
+    title: 'iniciar Chat',
     type: 'link'
   }, {
-    path: '/Contacto',
+    path: '/#Contacto',
     title: 'Contacto',
     type: 'link'
   }]
@@ -135,7 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\containers\\common\\header.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\containers\\common\\header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -525,7 +495,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _constant_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../constant/menu */ "./constant/menu.js");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\containers\\common\\nav.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\containers\\common\\nav.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1206,7 +1176,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\containers\\portfolio\\basic.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\containers\\portfolio\\basic.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
@@ -9020,10 +8990,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5Cportfolio%5Cunice%5Cpages%5Cindex.js!./":
-/*!************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5Cportfolio%5Cunice%5Cpages%5Cindex.js ***!
-  \************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js!./":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34462,7 +34432,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _pages_layouts_agency__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/layouts/agency */ "./pages/layouts/agency.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\index.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -34559,7 +34529,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sections_agency_cta2__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/agency/cta2 */ "./pages/layouts/sections/agency/cta2.js");
 /* harmony import */ var _sections_agency_footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sections/agency/footer */ "./pages/layouts/sections/agency/footer.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\layouts\\agency.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\agency.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -34702,7 +34672,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\layouts\\sections\\agency\\about.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -34804,39 +34774,14 @@ var About = function About() {
       lineNumber: 20,
       columnNumber: 102
     }
-  }, "Que quieren dar un salto de calidad")))), __jsx("p", {
-    className: "agency-para",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 25
-    }
-  }, "Podemos ayudarte a mejorar tu imagen y posicionarte en internet, tenemos a\xF1os de experiencia en el mercado digital m\xE1s cantidad de socios y clientes satisfechos."), __jsx("p", {
-    className: "agency-para",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 25
-    }
-  }, "Hacemos dise\xF1os incre\xEDbles que impactan en la visual del visitante y redacci\xF3n persuasiva que generan conversiones de valor!"), __jsx("a", {
-    className: " btn btn-default btn-gradient",
-    href: "/#Servicios",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 25
-    }
-  }, "\xBFQu\xE9 hacemos?")))), __jsx("div", {
+  }, "Que quieren dar un salto de calidad"))))))), __jsx("div", {
     className: "side-img  set-abs left-0 top-0",
     "data-aos": "fade-right",
     "data-aos-duration": "4500",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 26,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -34844,7 +34789,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 28,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -34852,7 +34797,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 29,
       columnNumber: 21
     }
   })), __jsx("div", {
@@ -34860,7 +34805,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 32,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -34868,7 +34813,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 33,
       columnNumber: 21
     }
   })), __jsx("div", {
@@ -34876,7 +34821,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 36,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -34884,7 +34829,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 37,
       columnNumber: 21
     }
   })), __jsx("img", {
@@ -34894,7 +34839,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 40,
       columnNumber: 17
     }
   })), __jsx("img", {
@@ -34904,7 +34849,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 42,
       columnNumber: 13
     }
   }));
@@ -34928,7 +34873,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_parallax_tilt__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-parallax-tilt */ "./node_modules/react-parallax-tilt/dist/index.esm.js");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\layouts\\sections\\agency\\banner.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\banner.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -35021,14 +34966,14 @@ var Banner = function Banner() {
       lineNumber: 13,
       columnNumber: 108
     }
-  }), "Tu Proyecto ", __jsx("br", {
+  }), "Tu Negocio ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 125
+      columnNumber: 124
     }
-  }), "Ahora!"))), __jsx("div", {
+  }), "Digital!"))), __jsx("div", {
     className: "header-sub-text",
     __self: _this,
     __source: {
@@ -35043,7 +34988,7 @@ var Banner = function Banner() {
       lineNumber: 16,
       columnNumber: 37
     }
-  }, "Somos una Agencia Digital que brinda Servicios Profesionales, Dise\xF1os Incre\xEDbles y Atenci\xF3n al Cliente Personalizada!")), __jsx("div", {
+  }, "Te ayudamos a mejorar la imagen de tu negocio y posicionarte en el mercado digital de forma profesional para optimizar el proceso de venta.")), __jsx("div", {
     className: "link-horizontal",
     __self: _this,
     __source: {
@@ -35067,14 +35012,14 @@ var Banner = function Banner() {
     }
   }, __jsx("a", {
     className: "btn btn-default btn-gradient text-white active",
-    href: "#Nosotros",
+    href: "#Servicios",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
       columnNumber: 45
     }
-  }, "Saber m\xE1s")))))))))), __jsx("div", {
+  }, "Qu\xE9 hacemos")))))))))), __jsx("div", {
     className: "set-abs abs-horizon-center girl-boy",
     __self: _this,
     __source: {
@@ -35094,7 +35039,7 @@ var Banner = function Banner() {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid",
-    src: "/assets/images/agency/slider/img.png",
+    src: "/assets/images/agency/slider/img3.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35281,7 +35226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\layouts\\sections\\agency\\cta2.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\cta2.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -35381,12 +35326,12 @@ var Video = function Video() {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid m-b-20",
-    src: "/assets/images/agency/cta/cta2.png",
+    src: "/assets/images/agency/cta/cta4.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 49
+      columnNumber: 45
     }
   }), __jsx("div", {
     __self: _this,
@@ -35403,34 +35348,42 @@ var Video = function Video() {
       lineNumber: 22,
       columnNumber: 49
     }
-  }, "\xBFTienes Ideas para tu proyecto?"), __jsx("h6", {
-    className: "video-text text-white text-center pb-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 49
-    }
-  }, "Contanos tu meta e ideas y hag\xE1moslas realidad ahora!"), __jsx("h6", {
-    className: "video-text text-white text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 49
-    }
-  }, "\u2193 CHATEA con nosotros \u2193")), __jsx("div", {
+  }, "\xBFTenes ideas para tu proyecto?")), __jsx("div", {
     style: {
-      marginTop: 40,
+      margin: '0 0 0',
       textAlign: 'center'
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 24,
       columnNumber: 45
     }
-  }, __jsx("a", {
+  }, __jsx("h6", {
+    className: "video-text text-white text-center pb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 49
+    }
+  }, "Contanos qu\xE9 quer\xE9s lograr"), __jsx("h6", {
+    className: "video-text text-white text-center pb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 49
+    }
+  }, "Tambi\xE9n qu\xE9 dudas tenes"), __jsx("h6", {
+    className: "video-text text-white text-center pb-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 49
+    }
+  }, "Te proponemos soluciones"), __jsx("a", {
     className: "btn btn-default primary-btn",
     onClick: function onClick() {
       return window.HubSpotConversations.widget.open();
@@ -35439,7 +35392,7 @@ var Video = function Video() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 49
     }
   }, "Iniciar Chat")))))))))));
@@ -35462,7 +35415,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\layouts\\sections\\agency\\footer.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -35583,90 +35536,7 @@ var Footer = function Footer() {
       lineNumber: 18,
       columnNumber: 37
     }
-  }, "2MetaDigital")), __jsx("ul", {
-    className: "d-d-flex footer-social social",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 33
-    }
-  }, __jsx("li", {
-    className: "footer-social-list",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 41
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-instagram",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 53
-    }
-  }))), __jsx("li", {
-    className: "footer-social-list",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 41
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-twitter",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 53
-    }
-  }))), __jsx("li", {
-    className: "footer-social-list",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 41
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-google",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 53
-    }
-  }))))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  }, "2MetaDigital"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     lg: "3",
     md: "4",
     sm: "12",
@@ -35692,7 +35562,7 @@ var Footer = function Footer() {
       lineNumber: 36,
       columnNumber: 29
     }
-  }, "Nosotros")), __jsx("div", {
+  }, "Inicio")), __jsx("div", {
     className: "footer-contant",
     __self: _this,
     __source: {
@@ -35708,7 +35578,7 @@ var Footer = function Footer() {
       lineNumber: 39,
       columnNumber: 29
     }
-  }, "Nosotros"), __jsx("div", {
+  }, "Inicio"), __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35731,14 +35601,14 @@ var Footer = function Footer() {
       columnNumber: 37
     }
   }, __jsx("a", {
-    href: "#Nosotros",
+    href: "#",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
       columnNumber: 41
     }
-  }, "Meta")), __jsx("li", {
+  }, "Potencia tu Negocio")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35753,7 +35623,7 @@ var Footer = function Footer() {
       lineNumber: 46,
       columnNumber: 41
     }
-  }, "Servicios")), __jsx("li", {
+  }, "Qu\xE9 Hacemos")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35799,7 +35669,7 @@ var Footer = function Footer() {
       columnNumber: 41
     }
   }, "Contacto")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    lg: "4",
+    lg: "3",
     md: "4",
     sm: "12",
     __self: _this,
@@ -35885,7 +35755,7 @@ var Footer = function Footer() {
       lineNumber: 73,
       columnNumber: 41
     }
-  }, "Dise\xF1o Web Profesional")), __jsx("li", {
+  }, "Dise\xF1o Gr\xE1fico Profesional")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35900,7 +35770,7 @@ var Footer = function Footer() {
       lineNumber: 76,
       columnNumber: 41
     }
-  }, "Dise\xF1o Gr\xE1fico Profesional")), __jsx("li", {
+  }, "E-Commerces: Tiendas Online")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35915,7 +35785,7 @@ var Footer = function Footer() {
       lineNumber: 79,
       columnNumber: 41
     }
-  }, "Administaci\xF3n de Servidores")), __jsx("li", {
+  }, "Copywriting: Redacci\xF3n Ventas")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35930,30 +35800,40 @@ var Footer = function Footer() {
       lineNumber: 82,
       columnNumber: 41
     }
-  }, "Copywriting (Redacci\xF3n)"))))))))), __jsx("div", {
-    className: "agency copyright pt-5",
+  }, "Landing Pages: P\xE1gina Ventas")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 9
+      lineNumber: 84,
+      columnNumber: 37
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+  }, __jsx("a", {
+    href: "#Servicios",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 13
+      lineNumber: 85,
+      columnNumber: 41
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, "Administraci\xF3n y Mantenimiento")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 17
+      lineNumber: 87,
+      columnNumber: 37
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "12",
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 41
+    }
+  }, "Hosting, Dominios, SSL y DNS")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    lg: "2",
+    md: "4",
+    sm: "12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35961,10 +35841,117 @@ var Footer = function Footer() {
       columnNumber: 21
     }
   }, __jsx("div", {
+    className: "footer-title mobile-title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95,
+      columnNumber: 25
+    }
+  }, __jsx("h3", {
+    className: "text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 29
+    }
+  }, "Contacto")), __jsx("div", {
+    className: "footer-contant",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 25
+    }
+  }, __jsx("h5", {
+    className: "footer-headings",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 29
+    }
+  }, "Contacto"), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 29
+    }
+  }, __jsx("ul", {
+    className: "footer-lists op-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101,
+      columnNumber: 33
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Contacto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103,
+      columnNumber: 41
+    }
+  }, "Contactar")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Contacto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106,
+      columnNumber: 41
+    }
+  }, "Iniciar Chat"))))))))), __jsx("div", {
+    className: "agency copyright pt-5",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    md: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119,
       columnNumber: 25
     }
   }, __jsx("h6", {
@@ -35972,7 +35959,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 120,
       columnNumber: 29
     }
   }, "Copyright \xA9 2022 Todos los derechos reservados por ", __jsx("i", {
@@ -35981,7 +35968,7 @@ var Footer = function Footer() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 120,
       columnNumber: 134
     }
   }), " 2Meta.Digital")))))));
@@ -36004,7 +35991,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\layouts\\sections\\agency\\service.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\service.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -36090,15 +36077,15 @@ var Service = function Service() {
       lineNumber: 14,
       columnNumber: 33
     }
-  }, "Podemos ayudarte ", __jsx("span", {
+  }, "\xBFC\xF3mo Te Ayudamos ", __jsx("span", {
     className: "block-span",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 84
+      columnNumber: 85
     }
-  }, "a Mejorar Tu Proyecto"))), __jsx("div", {
+  }, "A Mejorar Tu Negocio?"))), __jsx("div", {
     className: "format-sub-text",
     __self: _this,
     __source: {
@@ -36114,7 +36101,7 @@ var Service = function Service() {
       lineNumber: 18,
       columnNumber: 33
     }
-  }, "Potenciemos tu negocio dando una excelente impresi\xF3n, una imagen profesional y textos precisos.")), __jsx("a", {
+  }, "Optimizamos el proceso de venta mediante servicios que mejoran la imagen de tu marca y accesibilidad en internet.")), __jsx("a", {
     className: " btn btn-default btn-gradient",
     href: "/#Proyectos",
     __self: _this,
@@ -36123,7 +36110,7 @@ var Service = function Service() {
       lineNumber: 20,
       columnNumber: 29
     }
-  }, "Ver Proyectos")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  }, "Ver Ejemplos")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     lg: "7",
     md: "8",
     __self: _this,
@@ -36177,7 +36164,7 @@ var Service = function Service() {
     }
   }, __jsx("img", {
     alt: "",
-    src: "/assets/images/agency/service/web-development.png",
+    src: "/assets/images/agency/service/web-development2.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -36229,7 +36216,7 @@ var Service = function Service() {
     }
   }, __jsx("img", {
     alt: "",
-    src: "/assets/images/agency/service/web-design.png",
+    src: "/assets/images/agency/service/graphic-design.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -36243,7 +36230,7 @@ var Service = function Service() {
       lineNumber: 41,
       columnNumber: 41
     }
-  }, "Dise\xF1o Web Profesional"))), __jsx("li", {
+  }, "Dise\xF1o Gr\xE1fico Profesional"))), __jsx("li", {
     className: "about-icon",
     __self: _this,
     __source: {
@@ -36262,7 +36249,7 @@ var Service = function Service() {
     }
   }, __jsx("img", {
     alt: "",
-    src: "/assets/images/agency/service/graphic-design.png",
+    src: "/assets/images/agency/service/ventas3.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -36276,7 +36263,14 @@ var Service = function Service() {
       lineNumber: 47,
       columnNumber: 41
     }
-  }, "Dise\xF1o Gr\xE1fico Profesional"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  }, "Copywriting:", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 57
+    }
+  }), "Enfocado en Ventas"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     sm: "4",
     className: "center-content unset-height",
     __self: _this,
@@ -36314,7 +36308,7 @@ var Service = function Service() {
     }
   }, __jsx("img", {
     alt: "",
-    src: "/assets/images/agency/service/sysadmin.png",
+    src: "/assets/images/agency/service/ecommerce2.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -36328,7 +36322,14 @@ var Service = function Service() {
       lineNumber: 57,
       columnNumber: 41
     }
-  }, "Administraci\xF3n Servidores"))), __jsx("li", {
+  }, "E-Commerce", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 55
+    }
+  }), "Tienda Online"))), __jsx("li", {
     className: "about-icon",
     __self: _this,
     __source: {
@@ -36347,7 +36348,7 @@ var Service = function Service() {
     }
   }, __jsx("img", {
     alt: "",
-    src: "/assets/images/agency/service/copywriting.png",
+    src: "/assets/images/agency/service/landing.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -36361,7 +36362,21 @@ var Service = function Service() {
       lineNumber: 63,
       columnNumber: 41
     }
-  }, "Redacci\xF3n persuasiva"))), __jsx("li", {
+  }, "Landing Page", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 57
+    }
+  }), " P\xE1gina Simple", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 76
+    }
+  }), "con Acci\xF3n"))), __jsx("li", {
     className: "about-icon",
     __self: _this,
     __source: {
@@ -36380,7 +36395,7 @@ var Service = function Service() {
     }
   }, __jsx("img", {
     alt: "",
-    src: "/assets/images/agency/service/support.png",
+    src: "/assets/images/agency/service/server.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -36394,7 +36409,7 @@ var Service = function Service() {
       lineNumber: 69,
       columnNumber: 41
     }
-  }, "Soporte Personalizado"))))))))));
+  }, "Gesti\xF3n Hosting, Dominios, SSL y DNS."))))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Service);
@@ -36424,7 +36439,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\layouts\\sections\\agency\\testimonial.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\testimonial.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
@@ -36703,7 +36718,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _containers_portfolio_basic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../containers/portfolio/basic */ "./containers/portfolio/basic.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\portfolio\\unice\\pages\\portfolio\\portfolio-title-3-col.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\portfolio\\portfolio-title-3-col.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -36858,13 +36873,13 @@ module.exports = "/_next/static/images/9-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
 /***/ }),
 
 /***/ 7:
-/*!****************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5Cportfolio%5Cunice%5Cpages%5Cindex.js ***!
-  \****************************************************************************************************************************/
+/*!*******************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5Cportfolio%5Cunice%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5Cportfolio%5Cunice%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js!./");
 
 
 /***/ }),

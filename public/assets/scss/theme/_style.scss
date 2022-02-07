@@ -5981,13 +5981,6 @@ yoga-theme css end
       &:last-child {
         margin-bottom: 0;
       }
-      &:hover {
-        a {
-          img {
-            filter: brightness(0) invert(1);
-          }
-        }
-      }
     }
   }
   &.pricing {

@@ -2,41 +2,28 @@ export const MENUITEMS = [
    {
       title: 'Inicio', type: 'sub', link: '/#', children: [
          { path: '/', title: 'Inicio', type: 'link' },
-         { path: '/#Nosotros', title: 'Nosotros', type: 'link' },
-         { path: '/#Servicios', title: 'Servicios', type: 'link' },
+         { path: '/#Servicios', title: 'Qué hacemos', type: 'link' },
          { path: '/#Proyectos', title: 'Proyectos', type: 'link' },
          { path: '/#Calificaciones', title: 'Calificaciones', type: 'link' },
-         { path: '/#Empezar', title: 'Empezar', type: 'link' }
-      ],
-   },
-   {
-      title: 'Nosotros', type: 'sub', link: '/#Nosotros', children: [
-         { path: '/#Nosotros', title: 'Quienes Somos', type: 'link' },
-         { path: '/#Nosotros', title: 'Cómo Trabajamos', type: 'link' },
-         { path: '/#Nosotros', title: 'Qué Hacemos', type: 'link' },
-         { path: '/#Nosotros', title: 'Emprendedores', type: 'link' },
+         { path: '/#Contacto', title: 'Contacto', type: 'link' }
       ],
    },
    {
       title: 'Servicios Profesionales', type: 'sub', link: '/#Servicios', children: [
          { path: '/#Servicios', title: 'Desarrollo Web', type: 'link' },
-         { path: '/#Servicios', title: 'Diseño Web', type: 'link' },
          { path: '/#Servicios', title: 'Diseño Gráfico', type: 'link' },
-         { path: '/#Servicios', title: 'Administración Servidores', type: 'link' },
-      ],
-   },
-   {
-      title: 'Portfolio', type: 'sub', link: '/#Proyectos', children: [
-         { path: '/#Proyectos', title: 'Desarrollo Web', type: 'link' },
-         { path: '/#Proyectos', title: 'Diseño Web', type: 'link' },
-         { path: '/#Proyectos', title: 'Diseño Gráfico', type: 'link' },
-         { path: '/#Proyectos', title: 'Administración Servidores', type: 'link' },
+         { path: '/#Servicios', title: 'Copywriting', type: 'link' },
+         { path: '/#Servicios', title: 'E-commerces', type: 'link' },
+         { path: '/#Servicios', title: 'Landing Pages', type: 'link' },
+         { path: '/#Servicios', title: 'Mantenimiento', type: 'link' },
+         { path: '/#Servicios', title: 'Dominios y SSL', type: 'link' },
+         { path: '/#Servicios', title: 'Hosting y DNS', type: 'link' },
       ],
    },
    {
       title: 'Contacto', type: 'sub', link: '/#Contacto', children: [
-         { path: '/#Contacto', title: 'iniciar Chat', type: 'link' },
-         { path: '/#Contacto', title: 'Contacto', type: 'link' }
+         { path: '/#Contacto', title: 'Iniciar Chat', type: 'link' },
+         { path: '/#Contacto', title: 'Contactar', type: 'link' }
       ],
    },
 ]

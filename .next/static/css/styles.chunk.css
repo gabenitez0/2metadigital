@@ -13856,8 +13856,6 @@ yoga-theme css end
     margin-bottom: 60px; }
     .agency .icon-collection .about-icon:last-child {
       margin-bottom: 0; }
-    .agency .icon-collection .about-icon:hover a img {
-      filter: brightness(0) invert(1); }
 
 .agency.pricing .price-container.shadows {
   box-shadow: 2px 1px 10px 0 rgba(178, 178, 178, 0.5);

@@ -33,17 +33,17 @@ const Footer = () => (
                     </Col>
                     <Col lg="3" md="4" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">Nosotros</h3>
+                            <h3 className="text-white">Inicio</h3>
                         </div>
                         <div className="footer-contant">
-                            <h5 className="footer-headings">Nosotros</h5>
+                            <h5 className="footer-headings">Inicio</h5>
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="#Nosotros">Meta</a>
+                                        <a href="#">Potencia tu Negocio</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Servicios</a>
+                                        <a href="#Servicios">Qué Hacemos</a>
                                     </li>
                                     <li>
                                         <a href="#Proyectos">Proyectos</a>
@@ -58,7 +58,7 @@ const Footer = () => (
                             </div>
                         </div>
                     </Col>
-                    <Col lg="4" md="4" sm="12">
+                    <Col lg="3" md="4" sm="12">
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">Servicios</h3>
                         </div>
@@ -70,16 +70,40 @@ const Footer = () => (
                                         <a href="#Servicios">Desarrollo Web Profesional</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Diseño Web Profesional</a>
-                                    </li>
-                                    <li>
                                         <a href="#Servicios">Diseño Gráfico Profesional</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Administación de Servidores</a>
+                                        <a href="#Servicios">E-Commerces: Tiendas Online</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Copywriting (Redacción)</a>
+                                        <a href="#Servicios">Copywriting: Redacción Ventas</a>
+                                    </li>
+                                    <li>
+                                        <a href="#Servicios">Landing Pages: Página Ventas</a>
+                                    </li>
+                                    <li>
+                                        <a href="#Servicios">Administración y Mantenimiento</a>
+                                    </li>
+                                    <li>
+                                        <a href="#Servicios">Hosting, Dominios, SSL y DNS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg="2" md="4" sm="12">
+                        <div className="footer-title mobile-title">
+                            <h3 className="text-white">Contacto</h3>
+                        </div>
+                        <div className="footer-contant">
+                            <h5 className="footer-headings">Contacto</h5>
+                            <div>
+                                <ul className="footer-lists op-text">
+                                    <li>
+                                        <a href="#Contacto">Contactar</a>
+                                    </li>
+                                    <li>
+                                        <a href="#Contacto">Iniciar Chat</a>
                                     </li>
                                 </ul>
                             </div>

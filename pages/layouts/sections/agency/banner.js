@@ -10,15 +10,15 @@ const Banner = () => (
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
-                                    <h1 className="text-uppercase"><span className="bold-text">Potenciemos <br/>Tu Proyecto <br/>Ahora!</span></h1>
+                                    <h1 className="text-uppercase"><span className="bold-text">Potenciemos <br/>Tu Negocio <br/>Digital!</span></h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p>Somos una Agencia Digital que brinda Servicios Profesionales, Diseños Increíbles y Atención al Cliente Personalizada!</p>
+                                    <p>Te ayudamos a mejorar la imagen de tu negocio y posicionarte en el mercado digital de forma profesional para optimizar el proceso de venta.</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-gradient text-white active" href="#Nosotros">Saber más</a>
+                                            <a className="btn btn-default btn-gradient text-white active" href="#Servicios">Qué hacemos</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -30,7 +30,7 @@ const Banner = () => (
         </div>
         <div className="set-abs abs-horizon-center girl-boy">
             <Tilt perspective="20000" transitionSpeed="3000">
-                <img alt="" className="img-fluid" src="/assets/images/agency/slider/img.png" />
+                <img alt="" className="img-fluid" src="/assets/images/agency/slider/img3.png" />
             </Tilt>
             <div className="plus-container plus-container6">
                 <div className="plus white">
