@@ -17,21 +17,18 @@ const Footer = () => (
                                     <h6 className="text-white para-address">Buenos Aires, Argentina</h6>
                                     <h6 className="text-white para-address">2MetaDigital</h6>
                                 </div>
-                                {/*<ul className="d-d-flex footer-social social">
+                                <ul className="d-d-flex footer-social social">
                                     <li className="footer-social-list">
-                                        <a href="#"><i aria-hidden="true" className="fa fa-instagram"></i></a>
+                                        <a href="https://www.instagram.com/2metadigital/" target="_blank"><i aria-hidden="true" className="fa fa-instagram"></i></a>
                                     </li>
                                     <li className="footer-social-list">
-                                        <a href="#"><i aria-hidden="true" className="fa fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/2metadigital/" target="_blank"><i aria-hidden="true" className="fa fa-facebook"></i></a>
                                     </li>
-                                    <li className="footer-social-list">
-                                        <a href="#"><i aria-hidden="true" className="fa fa-google"></i></a>
-                                    </li>
-                                </ul>*/}
+                                </ul>
                             </div>
                         </div>
                     </Col>
-                    <Col lg="3" md="4" sm="12">
+                    <Col lg="2" md="4" sm="12">
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">Inicio</h3>
                         </div>
@@ -91,19 +88,19 @@ const Footer = () => (
                             </div>
                         </div>
                     </Col>
-                    <Col lg="2" md="4" sm="12">
+                    <Col lg="3" md="4" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">Contacto</h3>
+                            <h3 className="text-white">Afiliados</h3>
                         </div>
                         <div className="footer-contant">
-                            <h5 className="footer-headings">Contacto</h5>
+                            <h5 className="footer-headings">Afiliados</h5>
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="#Contacto">Contactar</a>
+                                        <a href="/afiliados">Programa de Afiliados</a>
                                     </li>
                                     <li>
-                                        <a href="#Contacto">Iniciar Chat</a>
+                                        <a href="/afiliados">Trabaja con Nosotros</a>
                                     </li>
                                 </ul>
                             </div>

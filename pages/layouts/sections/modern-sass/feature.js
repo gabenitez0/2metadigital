@@ -11,15 +11,12 @@ const Feature = () => (
                             <img alt="title-logo" className="img-fluid" src="/assets/images/saas1/title-logo.png" />
                             <div className="main-title">
                                 <h2>
-                                    <span className="theme-color">A</span>wesome <span className="theme-color">F</span>eatures
+                                    Pero, qué soluciona <span className="theme-color">2MetaDigital</span>?
                                 </h2>
                             </div>
                             <hr />
                             <div className="sub-title">
-                                <p className="p-padding">We believe we have created the most efficient SaaS landing page for
-                                    your
-                                    users. Landing page with features that will convince you to use it for your SaaS
-                                business.</p>
+                                <p className="p-padding">2MetaDigital fue creada para resolver la integración de los negocios al mercado digital, si bien existen diversas plataformas que pueden hacer esto, no son gratis y también demandan tiempo. Nuestros servicios tampoco son gratis, pero sí <span className="theme-color">conseguimos Ahorrarle todo ese Tiempo a nuestros clientes con trabajos de Alta Calidad</span>, para que ellos se ocupen de lo que realmente les importa: su negocio, sus productos y sus clientes.</p>
                             </div>
                         </div>
                     </Col>
@@ -33,7 +30,8 @@ const Feature = () => (
                                             <h4 className="service-heading"> {item.heading} <span className="theme-color">{item.layout}</span>
                                             </h4>
                                             <hr />
-                                            <p>{item.desc}</p>
+                                            <p className="mb-2">{item.desc}</p>
+                                            <a href={item.link} target="_blank"><span className="theme-color">{item.button}</span></a>
                                         </div>
                                     </div>
                                 </Col>

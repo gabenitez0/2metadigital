@@ -42,6 +42,10 @@ var settings = {
     ]
 };
 
+var prices = {
+    marginLeft: 0,
+    textDecoration: 'initial'
+}
 
 const Price = () => {
     const [active, setActive] = useState(true);
@@ -56,24 +60,12 @@ const Price = () => {
                         <img alt="title-logo" className="img-fluid" src="/assets/images/saas1/title-logo.png" />
                         <div className="main-title">
                             <h2 className="text-white">
-                                <span className="theme-color">O</span>ur <span className="theme-color">P</span>lan
+                                <span className="theme-color">P</span>recios <span className="theme-color">Ú</span>nicos
                         </h2>
                         </div>
                         <hr />
                         <div className="sub-title">
-                            <p className="p-padding text-white">Guide to setup and configuration. You can present below a guide and
-                            a description of how your system configuration works and add some animated screens.</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col lg="12" md="12" sm="12" xs="12"  className="text-center p-0">
-                    <div className="pricing ">
-                        <div className="pricing__switcher switcher">
-                            <div className="switcher__buttons" onClick={toggleClick}>
-                                <div className={`switcher__button monthly ${active ? 'switcher__button--enabled' : ''}`}>Monthly</div>
-                                <div className={`switcher__button yearly ${active ? '' : 'switcher__button--enabled'}`}>Yearly <span>20% <sup>off</sup></span></div>
-                                <div className="switcher__border"></div>
-                            </div>
+                            <p className="p-padding text-white">Estos precios son para latinoamérica, para clientes de otras regiones como USA o Europa, estos precios pueden aumentar entre un 50% a 100%.</p>
                         </div>
                     </div>
                 </Col>
@@ -85,128 +77,86 @@ const Price = () => {
                             <Slider className="owl-carousel owl-theme pricing-slider plan-box" {...settings}>
                                 <div className="item">
                                     <div className="price-box">
-                                        <h3 className="price-heading">free</h3>
+                                        <h3 className="price-heading">Landing Page</h3>
                                         <img alt="pan-line" src="/assets/images/saas1/plan-box.png" />
-                                        <h4 className="no-weight">$<span>0</span>/Month</h4>
+                                        <h4 className="no-weight">$<span>150</span></h4>
                                         <ul>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span>
-                                                User
-                                                Account
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>10</span>
-                                                Team
-                                                Members
-                                </li>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                Emails Accounts
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Set And Manage
-                                </li>
-                                            <li>API & extension support</li>
-                                            <li>Developer support</li>
-                                            <li>A/B Testing</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
                                         </ul>
-                                        <a className="btn btn-default btn-white">Sign up</a>
+                                        <a className="btn btn-default btn-white">Comisión de $60</a>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="price-box active">
-                                        <h3 className="price-heading">pro</h3>
+                                        <h3 className="price-heading">Embudo Ventas</h3>
                                         <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
-                                        <h4 className="no-weight">$<span>49</span>/Month</h4>
+                                        <h4 className="no-weight">$<span>200</span></h4>
                                         <ul>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>50</span>
-                                                User
-                                                Account
-                                </li>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>500</span> Team
-                                           Member
-                                </li>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                Emails Accounts
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Set And Manage
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />API & extension
-                                                support
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Devloper
-                                                support
-                                </li>
-                                            <li>A/B Testing</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
                                         </ul>
-                                        <a className="btn btn-default btn-white">Sign up</a>
+                                        <a className="btn btn-default btn-white">Comisión de $80</a>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="price-box">
-                                        <h3 className="price-heading">ultra</h3>
+                                        <h3 className="price-heading">E-commerce</h3>
                                         <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
-                                        <h4 className="no-weight">$<span>99</span>/Month</h4>
+                                        <h4 className="no-weight">$<span>200</span></h4>
                                         <ul>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                User
-                                                Account
-                                </li>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                Team
-                                                Member
-                                </li>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                Emails Accounts
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Set And Manage
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />API & extension
-                                                support
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Developer
-                                                support
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />A / B Testing
-                                </li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
                                         </ul>
-                                        <a className="btn btn-default btn-white">Sign up</a>
+                                        <a className="btn btn-default btn-white">Comisión de $80</a>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="price-box">
-                                        <h3 className="price-heading">ultra</h3>
+                                        <h3 className="price-heading">Blog / Noticias</h3>
                                         <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
-                                        <h4 className="no-weight">$<span>99</span>/Month</h4>
+                                        <h4 className="no-weight">$<span>300</span></h4>
                                         <ul>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                User
-                                                Account
-                                </li>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                Team
-                                                Member
-                                </li>
-                                            <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>Unlimited</span>
-                                                Emails Accounts
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Set And Manage
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />API & extension
-                                                support
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Developer
-                                                support
-                                </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />A / B Testing
-                                </li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
                                         </ul>
-                                        <a className="btn btn-default btn-white">Sign up</a>
+                                        <a className="btn btn-default btn-white">Comisión de $120</a>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <div className="price-box">
+                                        <h3 className="price-heading">Institucional</h3>
+                                        <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
+                                        <h4 className="no-weight">$<span>400</span></h4>
+                                        <ul>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
+                                        </ul>
+                                        <a className="btn btn-default btn-white">Comisión de $160</a>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <div className="price-box">
+                                        <h3 className="price-heading">Institucional +</h3>
+                                        <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
+                                        <h4 className="no-weight">$<span>625</span></h4>
+                                        <ul>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
+                                        </ul>
+                                        <a className="btn btn-default btn-white">Comisión de $250</a>
                                     </div>
                                 </div>
                             </Slider>

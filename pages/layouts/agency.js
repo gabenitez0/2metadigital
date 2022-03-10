@@ -22,11 +22,6 @@ const Agency = () => {
 
   return (
     <div className="theme-color" >
-        <Head>
-            <title>Meta Digital - Potenciemos Tu Proyecto Ahora! - Agencia Digital</title>
-            <meta description='Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresión, una imagen profesional y textos precisos.' content='' />
-            <meta name='Meta Digital - Potenciemos Tu Proyecto Ahora! - Agencia Digital' content='' />
-        </Head>
 
         <Header className="agency" />
 

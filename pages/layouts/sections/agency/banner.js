@@ -10,7 +10,7 @@ const Banner = () => (
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
-                                    <h1 className="text-uppercase"><span className="bold-text">Potenciemos <br/>Tu Negocio <br/>Digital!</span></h1>
+                                    <h1 className="text-uppercase"><span className="bold-text">Enfocados<br/><strong>En La Meta</strong></span></h1>
                                 </div>
                                 <div className="header-sub-text">
                                     <p>Te ayudamos a mejorar la imagen de tu negocio y posicionarte en el mercado digital de forma profesional para optimizar el proceso de venta.</p>

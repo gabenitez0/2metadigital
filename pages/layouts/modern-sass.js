@@ -13,7 +13,6 @@ import SubscribeSection from '../layouts/sections/modern-sass/subscribe'
 import FaqSection from '../layouts/sections/modern-sass/faq'
 import ClientSection from '../layouts/sections/modern-sass/client'
 import FooterSection from '../layouts/sections/modern-sass/footer'
-import Copyright from './sections/modern-sass/copyright'
 
 const ModernSass = () => {
 
@@ -26,33 +25,24 @@ const ModernSass = () => {
 
     return (
         <div>
-            <Head>
-                <title>Modern Sass Layout </title>
-            </Head>
 
             <Header className="saas1"  />
 
             <BannerSection />
-
-            <FeatureSection />
+            
+            <WorkSection />
 
             <BuildSection />
 
-            <WorkSection />
+            <FeatureSection />
 
             <PriceSection />
-
-            <TestimonialSection />
-
-            <SubscribeSection />
 
             <FaqSection />
 
             <ClientSection />
 
             <FooterSection />
-
-            <Copyright />
         </div>
     )
 }

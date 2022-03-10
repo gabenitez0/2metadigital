@@ -42,7 +42,7 @@ const Header = props => {
                                                     <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
                                                     :
                                                     props.className == 'saas1' ?
-                                                        <img alt="" className="img-fluid" src="/assets/images/logo/3.png" />
+                                                        <img alt="" className="img-fluid" src="/assets/images/logo/logo4neg.png" />
 
                                                         : <img alt="" className="img-fluid" src="/assets/images/logo/1.png" />
                                 }

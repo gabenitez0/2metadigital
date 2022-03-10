@@ -1,6 +1,6 @@
 export const MENUITEMS = [
    {
-      title: 'Inicio', type: 'sub', link: '/#', children: [
+      title: 'Inicio', type: 'sub', link: '#', children: [
          { path: '/', title: 'Inicio', type: 'link' },
          { path: '/#Servicios', title: 'Qué hacemos', type: 'link' },
          { path: '/#Proyectos', title: 'Proyectos', type: 'link' },
@@ -9,7 +9,7 @@ export const MENUITEMS = [
       ],
    },
    {
-      title: 'Servicios Profesionales', type: 'sub', link: '/#Servicios', children: [
+      title: 'Servicios Profesionales', type: 'sub', link: '#', children: [
          { path: '/#Servicios', title: 'Desarrollo Web', type: 'link' },
          { path: '/#Servicios', title: 'Diseño Gráfico', type: 'link' },
          { path: '/#Servicios', title: 'Copywriting', type: 'link' },
@@ -21,9 +21,15 @@ export const MENUITEMS = [
       ],
    },
    {
-      title: 'Contacto', type: 'sub', link: '/#Contacto', children: [
+      title: 'Contacto', type: 'sub', link: '#', children: [
          { path: '/#Contacto', title: 'Iniciar Chat', type: 'link' },
          { path: '/#Contacto', title: 'Contactar', type: 'link' }
+      ],
+   },
+   {
+      title: 'Afiliados', type: 'sub', link: '#', children: [
+         { path: '/afiliados', title: 'Programa de Afiliados', type: 'link' },
+         { path: '/afiliados', title: 'Trabaja con nosotros', type: 'link' }
       ],
    },
 ]
