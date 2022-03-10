@@ -97,8 +97,9 @@ const Price = () => {
                                         <ul>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
-                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>3</span> Páginas de Aterrizaje</li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />E-mail <span>Marketing</span></li>
                                         </ul>
                                         <a className="btn btn-default btn-white">Comisión de $80</a>
                                     </div>
@@ -112,7 +113,10 @@ const Price = () => {
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
-                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />E-mail <span>Marketing</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Sección de <span>Usuarios</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Panel de <span>Administración</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>Infinitos</span> Productos, Categorías, etc.</li>
                                         </ul>
                                         <a className="btn btn-default btn-white">Comisión de $80</a>
                                     </div>
@@ -126,7 +130,10 @@ const Price = () => {
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
-                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />E-mail <span>Marketing</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Sección de <span>Usuarios</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Panel de <span>Administración</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>Infinitos</span> Posts, Páginas, etc.</li>
                                         </ul>
                                         <a className="btn btn-default btn-white">Comisión de $120</a>
                                     </div>
@@ -139,8 +146,10 @@ const Price = () => {
                                         <ul>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
-                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
-                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>2</span> Páginas de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>2</span> Llamadas a la Acción</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>Varias</span> Secciones</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />E-mail <span>Marketing</span></li>
                                         </ul>
                                         <a className="btn btn-default btn-white">Comisión de $160</a>
                                     </div>
@@ -153,8 +162,12 @@ const Price = () => {
                                         <ul>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Diseño <span>Profesional</span></li>
                                             <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Contenido <span>Copywriting</span></li>
-                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Página de Aterrizaje</li>
-                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1</span> Llamada a la Acción</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>2</span> Páginas de Aterrizaje</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>2</span> Llamadas a la Acción</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>Varias</span> Secciones</li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />E-mail <span>Marketing</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Panel de <span>Administración</span></li>
+                                            <li style={prices}><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Incluye <span>Blog y eCommerce</span></li>
                                         </ul>
                                         <a className="btn btn-default btn-white">Comisión de $250</a>
                                     </div>

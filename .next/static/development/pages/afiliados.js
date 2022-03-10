@@ -1197,9 +1197,7 @@ module.exports = {
     img: '/assets/images/saas1/feature/6.png',
     heading: 'Diseño de',
     layout: 'Redes Sociales',
-    desc: 'Diseñamos recursos gráficos para redes sociales y también nos encargamos de generar el contenido de manera regular. Mantenemos activas tus redes sociales y generamos publicidad orgánica.',
-    link: '#',
-    button: 'Ver Ejemplo →'
+    desc: 'Diseñamos recursos gráficos para redes sociales y también nos encargamos de generar el contenido de manera regular. Mantenemos activas tus redes sociales y generamos publicidad orgánica.'
   }, {
     img: '/assets/images/saas1/feature/1.png',
     heading: 'Gestión de',
@@ -1247,7 +1245,7 @@ module.exports = {
     desc: 'Debes concretar la venta',
     details: 'Utilizando la Información para Afiliados de nuestros productos y servicios con sus correspondientes precios, debes cerrar la venta con el cliente, incluyendo el pago que debe llegar a la cuenta de Paypal de 2metadigital. Luego le debes informar al desarrollador para que pueda iniciar el trabajo y enviarte tu comisión.',
     button: 'Información para Afiliados',
-    link: '#!'
+    link: 'https://docs.google.com/spreadsheets/d/1jcna069GqOFbU6M46GzCaaC5maObVANFr7ZO6NlGPeA/edit?usp=sharing'
   }, {
     img: '/assets/images/saas1/tab/Security.png',
     title: '4. Reclamar Comisión',
@@ -34021,7 +34019,7 @@ var Home = function Home() {
       columnNumber: 11
     }
   }, "2MetaDigital - Programa de Afiliados"), __jsx("meta", {
-    description: "Programa de Afiliados. Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresi\xF3n, una imagen profesional y textos precisos. Desarrollo Web, Copywriting, Marketing, Dise\xF1o Gr\xE1fico, Administraci\xF3n de Servidores.",
+    description: "Buscamos personas que se encarguen de vender nuestros productos y servicios de manera independiente, desde la generaci\xF3n del lead hasta el cierre de la venta a cambio de un rentable beneficio.",
     content: "",
     __self: _this,
     __source: {
@@ -34047,11 +34045,20 @@ var Home = function Home() {
       lineNumber: 15,
       columnNumber: 11
     }
+  }), __jsx("meta", {
+    property: "og:description",
+    content: "Buscamos personas que se encarguen de vender nuestros productos y servicios de manera independiente, desde la generaci\xF3n del lead hasta el cierre de la venta a cambio de un rentable beneficio.",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
   })), __jsx(_layouts_modern_sass__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 7
     }
   }));
@@ -35120,7 +35127,46 @@ var Faq = function Faq() {
         lineNumber: 13,
         columnNumber: 13
       }
-    }, "Para pagos internacionales, por el momento solo cuento con PayPal y USDT (criptomonedas). Para pagos nacionales utilizo preferentemente transferencia bancaria."));
+    }, "Para pagos internacionales, por el momento solo contamos con PayPal y USDT (criptomonedas). Para pagos nacionales se utiliza preferentemente transferencia bancaria."));
+  };
+
+  var DummyContent3 = function DummyContent3() {
+    return __jsx("div", {
+      className: "collapse show",
+      id: "collapseicon1",
+      "aria-labelledby": "collapseicon1",
+      "data-parent": "#accordionoc",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 9
+      }
+    }, __jsx("div", {
+      className: "card-body",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 13
+      }
+    }, "V\xE9 a ", __jsx("a", {
+      href: "#como-funciona",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 45
+      }
+    }, __jsx("span", {
+      className: "theme-color",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 70
+      }
+    }, "C\xF3mo Funciona \u2192")), " y haz clic en los pasos (1, 2, 3, 4), ahi recibir\xE1s toda la informaci\xF3n necesaria. Una vez que completes la inscripci\xF3n, av\xEDsame por WhatsApp y puedes empezar inmediatamente con tu proceso de ventas."));
   };
 
   return __jsx("section", {
@@ -35129,21 +35175,21 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 22,
       columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 23,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 24,
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -35151,7 +35197,7 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 25,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -35159,14 +35205,14 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 26,
       columnNumber: 25
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 27,
       columnNumber: 29
     }
   }, __jsx("h3", {
@@ -35174,14 +35220,14 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 28,
       columnNumber: 33
     }
   }, "Hola, soy Gabriel"), __jsx("h6", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 29,
       columnNumber: 33
     }
   }, "A lo largo de mi carrera como emprendedor aprend\xED que el contacto humano, el trabajo en equipo y la comunicaci\xF3n transparente es muy importante para el crecimiento en cualquier \xE1rea de la vida, incluyendo los negocios, es por eso que quiero que trabajemos de la mejor forma y alcancemos nuestras METAS juntos!"), __jsx(react_light_accordion__WEBPACK_IMPORTED_MODULE_1__["Accordion"], {
@@ -35190,7 +35236,7 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 30,
       columnNumber: 33
     }
   }, __jsx(react_light_accordion__WEBPACK_IMPORTED_MODULE_1__["AccordionItem"], {
@@ -35199,7 +35245,7 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 31,
       columnNumber: 37
     }
   }, __jsx(DummyContent1, {
@@ -35207,23 +35253,39 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 32,
       columnNumber: 41
     }
   })), __jsx(react_light_accordion__WEBPACK_IMPORTED_MODULE_1__["AccordionItem"], {
     className: "card-header bg-primary",
-    title: "Qu\xE9 medios de pago utilizo?",
+    title: "Qu\xE9 medios de pago se permiten?",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 34,
       columnNumber: 37
     }
   }, __jsx(DummyContent2, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 35,
+      columnNumber: 41
+    }
+  })), __jsx(react_light_accordion__WEBPACK_IMPORTED_MODULE_1__["AccordionItem"], {
+    className: "card-header bg-primary",
+    title: "C\xF3mo empezar?",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 37
+    }
+  }, __jsx(DummyContent3, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
       columnNumber: 41
     }
   }))), __jsx("a", {
@@ -35233,7 +35295,7 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 41,
       columnNumber: 33
     }
   }, "Contactame por WhatsApp")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -35241,7 +35303,7 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 45,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -35249,7 +35311,7 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 46,
       columnNumber: 25
     }
   }, __jsx("img", {
@@ -35259,7 +35321,7 @@ var Faq = function Faq() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 47,
       columnNumber: 29
     }
   }))))));
@@ -36635,7 +36697,7 @@ var Price = function Price() {
       lineNumber: 100,
       columnNumber: 129
     }
-  }, "1"), " P\xE1gina de Aterrizaje"), __jsx("li", {
+  }, "3"), " P\xE1ginas de Aterrizaje"), __jsx("li", {
     style: prices,
     __self: _this,
     __source: {
@@ -36659,12 +36721,36 @@ var Price = function Price() {
       lineNumber: 101,
       columnNumber: 129
     }
-  }, "1"), " Llamada a la Acci\xF3n")), __jsx("a", {
+  }, "1"), " Llamada a la Acci\xF3n"), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102,
+      columnNumber: 64
+    }
+  }), "E-mail ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102,
+      columnNumber: 136
+    }
+  }, "Marketing"))), __jsx("a", {
     className: "btn btn-default btn-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 104,
       columnNumber: 41
     }
   }, "Comisi\xF3n de $80"))), __jsx("div", {
@@ -36672,7 +36758,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 107,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -36680,7 +36766,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 108,
       columnNumber: 37
     }
   }, __jsx("h3", {
@@ -36688,7 +36774,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 109,
       columnNumber: 41
     }
   }, "E-commerce"), __jsx("img", {
@@ -36697,7 +36783,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 41
     }
   }), __jsx("h4", {
@@ -36705,21 +36791,21 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 111,
       columnNumber: 41
     }
   }, "$", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 111,
       columnNumber: 68
     }
   }, "200")), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 112,
       columnNumber: 41
     }
   }, __jsx("li", {
@@ -36727,7 +36813,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 113,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36736,14 +36822,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 113,
       columnNumber: 64
     }
   }), "Dise\xF1o ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 113,
       columnNumber: 136
     }
   }, "Profesional")), __jsx("li", {
@@ -36751,7 +36837,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 114,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36760,14 +36846,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 114,
       columnNumber: 64
     }
   }), "Contenido ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 114,
       columnNumber: 139
     }
   }, "Copywriting")), __jsx("li", {
@@ -36775,7 +36861,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36784,14 +36870,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 129
     }
   }, "1"), " P\xE1gina de Aterrizaje"), __jsx("li", {
@@ -36799,7 +36885,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 116,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36808,22 +36894,94 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 116,
+      columnNumber: 64
+    }
+  }), "E-mail ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116,
+      columnNumber: 136
+    }
+  }, "Marketing")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 64
+    }
+  }), "Secci\xF3n de ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 140
+    }
+  }, "Usuarios")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118,
+      columnNumber: 64
+    }
+  }), "Panel de ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118,
+      columnNumber: 138
+    }
+  }, "Administraci\xF3n")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 119,
       columnNumber: 129
     }
-  }, "1"), " Llamada a la Acci\xF3n")), __jsx("a", {
+  }, "Infinitos"), " Productos, Categor\xEDas, etc.")), __jsx("a", {
     className: "btn btn-default btn-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 121,
       columnNumber: 41
     }
   }, "Comisi\xF3n de $80"))), __jsx("div", {
@@ -36831,7 +36989,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 124,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -36839,7 +36997,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 125,
       columnNumber: 37
     }
   }, __jsx("h3", {
@@ -36847,7 +37005,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 126,
       columnNumber: 41
     }
   }, "Blog / Noticias"), __jsx("img", {
@@ -36856,7 +37014,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 127,
       columnNumber: 41
     }
   }), __jsx("h4", {
@@ -36864,21 +37022,21 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 128,
       columnNumber: 41
     }
   }, "$", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 128,
       columnNumber: 68
     }
   }, "300")), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 129,
       columnNumber: 41
     }
   }, __jsx("li", {
@@ -36886,7 +37044,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 130,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36895,14 +37053,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 130,
       columnNumber: 64
     }
   }), "Dise\xF1o ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 130,
       columnNumber: 136
     }
   }, "Profesional")), __jsx("li", {
@@ -36910,7 +37068,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 131,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36919,14 +37077,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 131,
       columnNumber: 64
     }
   }), "Contenido ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 131,
       columnNumber: 139
     }
   }, "Copywriting")), __jsx("li", {
@@ -36934,7 +37092,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 132,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36943,14 +37101,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 132,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 132,
       columnNumber: 129
     }
   }, "1"), " P\xE1gina de Aterrizaje"), __jsx("li", {
@@ -36958,7 +37116,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 133,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -36967,22 +37125,94 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 133,
+      columnNumber: 64
+    }
+  }), "E-mail ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133,
+      columnNumber: 136
+    }
+  }, "Marketing")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134,
+      columnNumber: 64
+    }
+  }), "Secci\xF3n de ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134,
+      columnNumber: 140
+    }
+  }, "Usuarios")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 64
+    }
+  }), "Panel de ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 138
+    }
+  }, "Administraci\xF3n")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 136,
       columnNumber: 129
     }
-  }, "1"), " Llamada a la Acci\xF3n")), __jsx("a", {
+  }, "Infinitos"), " Posts, P\xE1ginas, etc.")), __jsx("a", {
     className: "btn btn-default btn-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 138,
       columnNumber: 41
     }
   }, "Comisi\xF3n de $120"))), __jsx("div", {
@@ -36990,7 +37220,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 141,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -36998,7 +37228,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 142,
       columnNumber: 37
     }
   }, __jsx("h3", {
@@ -37006,7 +37236,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 143,
       columnNumber: 41
     }
   }, "Institucional"), __jsx("img", {
@@ -37015,7 +37245,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 144,
       columnNumber: 41
     }
   }), __jsx("h4", {
@@ -37023,21 +37253,21 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 145,
       columnNumber: 41
     }
   }, "$", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 145,
       columnNumber: 68
     }
   }, "400")), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 146,
       columnNumber: 41
     }
   }, __jsx("li", {
@@ -37045,7 +37275,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 147,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37054,14 +37284,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 147,
       columnNumber: 64
     }
   }), "Dise\xF1o ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 147,
       columnNumber: 136
     }
   }, "Profesional")), __jsx("li", {
@@ -37069,7 +37299,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 148,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37078,14 +37308,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 148,
       columnNumber: 64
     }
   }), "Contenido ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 148,
       columnNumber: 139
     }
   }, "Copywriting")), __jsx("li", {
@@ -37093,7 +37323,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 149,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37102,22 +37332,22 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 149,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 149,
       columnNumber: 129
     }
-  }, "1"), " P\xE1gina de Aterrizaje"), __jsx("li", {
+  }, "2"), " P\xE1ginas de Aterrizaje"), __jsx("li", {
     style: prices,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 150,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37126,22 +37356,70 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 150,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 150,
       columnNumber: 129
     }
-  }, "1"), " Llamada a la Acci\xF3n")), __jsx("a", {
+  }, "2"), " Llamadas a la Acci\xF3n"), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151,
+      columnNumber: 64
+    }
+  }), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151,
+      columnNumber: 129
+    }
+  }, "Varias"), " Secciones"), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152,
+      columnNumber: 64
+    }
+  }), "E-mail ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152,
+      columnNumber: 136
+    }
+  }, "Marketing"))), __jsx("a", {
     className: "btn btn-default btn-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 154,
       columnNumber: 41
     }
   }, "Comisi\xF3n de $160"))), __jsx("div", {
@@ -37149,7 +37427,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 157,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -37157,7 +37435,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 158,
       columnNumber: 37
     }
   }, __jsx("h3", {
@@ -37165,7 +37443,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 159,
       columnNumber: 41
     }
   }, "Institucional +"), __jsx("img", {
@@ -37174,7 +37452,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 160,
       columnNumber: 41
     }
   }), __jsx("h4", {
@@ -37182,21 +37460,21 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 161,
       columnNumber: 41
     }
   }, "$", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 161,
       columnNumber: 68
     }
   }, "625")), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 162,
       columnNumber: 41
     }
   }, __jsx("li", {
@@ -37204,7 +37482,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 163,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37213,14 +37491,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 163,
       columnNumber: 64
     }
   }), "Dise\xF1o ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 163,
       columnNumber: 136
     }
   }, "Profesional")), __jsx("li", {
@@ -37228,7 +37506,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 164,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37237,14 +37515,14 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 164,
       columnNumber: 64
     }
   }), "Contenido ", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 164,
       columnNumber: 139
     }
   }, "Copywriting")), __jsx("li", {
@@ -37252,7 +37530,7 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 165,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37261,22 +37539,22 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 165,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 165,
       columnNumber: 129
     }
-  }, "1"), " P\xE1gina de Aterrizaje"), __jsx("li", {
+  }, "2"), " P\xE1ginas de Aterrizaje"), __jsx("li", {
     style: prices,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 166,
       columnNumber: 45
     }
   }, __jsx("img", {
@@ -37285,22 +37563,118 @@ var Price = function Price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 166,
       columnNumber: 64
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 166,
       columnNumber: 129
     }
-  }, "1"), " Llamada a la Acci\xF3n")), __jsx("a", {
+  }, "2"), " Llamadas a la Acci\xF3n"), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167,
+      columnNumber: 64
+    }
+  }), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167,
+      columnNumber: 129
+    }
+  }, "Varias"), " Secciones"), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168,
+      columnNumber: 64
+    }
+  }), "E-mail ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168,
+      columnNumber: 136
+    }
+  }, "Marketing")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169,
+      columnNumber: 64
+    }
+  }), "Panel de ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169,
+      columnNumber: 138
+    }
+  }, "Administraci\xF3n")), __jsx("li", {
+    style: prices,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170,
+      columnNumber: 45
+    }
+  }, __jsx("img", {
+    alt: "plan-icon",
+    src: "/assets/images/saas1/plan-round.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170,
+      columnNumber: 64
+    }
+  }), "Incluye ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170,
+      columnNumber: 137
+    }
+  }, "Blog y eCommerce"))), __jsx("a", {
     className: "btn btn-default btn-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 172,
       columnNumber: 41
     }
   }, "Comisi\xF3n de $250")))))))));
@@ -38283,6 +38657,7 @@ var Work = function Work() {
     }, item.details), item.button && item.button.length > 0 && __jsx("a", {
       className: "btn btn-default primary-btn",
       href: item.link,
+      target: "_blank",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -38297,7 +38672,7 @@ var Work = function Work() {
 
 /***/ }),
 
-/***/ 10:
+/***/ 7:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fafiliados&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cafiliados.js ***!
   \********************************************************************************************************************************************/
@@ -38320,5 +38695,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=afiliados.js.map
