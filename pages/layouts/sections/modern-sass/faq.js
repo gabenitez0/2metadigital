@@ -10,7 +10,12 @@ const Faq = () => {
     );
     const DummyContent2 = () => (
         <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
-            <div className="card-body">Para pagos internacionales, por el momento solo cuento con PayPal y USDT (criptomonedas). Para pagos nacionales utilizo preferentemente transferencia bancaria.</div>
+            <div className="card-body">Para pagos internacionales, por el momento solo contamos con PayPal y USDT (criptomonedas). Para pagos nacionales se utiliza preferentemente transferencia bancaria.</div>
+        </div>
+    );
+    const DummyContent3 = () => (
+        <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
+            <div className="card-body">Vé a <a href="#como-funciona">Cómo Funciona →</a> y haz clic en los pasos (1, 2, 3, 4), ahi recibirás toda la información necesaria. Una vez que completes la inscripción, avísame por WhatsApp y puedes empezar inmediatamente con tu proceso de ventas.</div>
         </div>
     );
     return (
@@ -26,8 +31,11 @@ const Faq = () => {
                                     <AccordionItem className="card-header bg-primary" title="Más información personal">
                                         <DummyContent1 className="active" />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Qué medios de pago utilizo?">
+                                    <AccordionItem className="card-header bg-primary" title="Qué medios de pago se permiten?">
                                         <DummyContent2 />
+                                    </AccordionItem>
+                                    <AccordionItem className="card-header bg-primary" title="Cómo empezar?">
+                                        <DummyContent3 />
                                     </AccordionItem>
                                 </Accordion>
                                 <a className="btn btn-default primary-btn mt-4" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactame por WhatsApp</a>
