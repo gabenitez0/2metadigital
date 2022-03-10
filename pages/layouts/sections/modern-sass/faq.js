@@ -15,7 +15,7 @@ const Faq = () => {
     );
     const DummyContent3 = () => (
         <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
-            <div className="card-body">Vé a <a href="#como-funciona">Cómo Funciona →</a> y haz clic en los pasos (1, 2, 3, 4), ahi recibirás toda la información necesaria. Una vez que completes la inscripción, avísame por WhatsApp y puedes empezar inmediatamente con tu proceso de ventas.</div>
+            <div className="card-body">Vé a <a href="#como-funciona"><span className="theme-color">Cómo Funciona →</span></a> y haz clic en los pasos (1, 2, 3, 4), ahi recibirás toda la información necesaria. Una vez que completes la inscripción, avísame por WhatsApp y puedes empezar inmediatamente con tu proceso de ventas.</div>
         </div>
     );
     return (
