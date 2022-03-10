@@ -10,9 +10,10 @@ const Home = () => {
     <Fragment>
       <Head>
           <title>2MetaDigital - Programa de Afiliados</title>
-          <meta description='Programa de Afiliados. Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresión, una imagen profesional y textos precisos. Desarrollo Web, Copywriting, Marketing, Diseño Gráfico, Administración de Servidores.' content='' />
+          <meta description='Buscamos personas que se encarguen de vender nuestros productos y servicios de manera independiente, desde la generación del lead hasta el cierre de la venta a cambio de un rentable beneficio.' content='' />
           <meta name='2MetaDigital - Programa de Afiliados' content='' />
           <meta property="og:image" content="/assets/images/logo/meta.png" />
+          <meta property="og:description" content="Buscamos personas que se encarguen de vender nuestros productos y servicios de manera independiente, desde la generación del lead hasta el cierre de la venta a cambio de un rentable beneficio." />
       </Head>
 
       <Afiliados />
