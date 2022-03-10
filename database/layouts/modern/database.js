@@ -45,8 +45,6 @@ module.exports = {
             heading: 'Diseño de',
             layout: 'Redes Sociales',
             desc: 'Diseñamos recursos gráficos para redes sociales y también nos encargamos de generar el contenido de manera regular. Mantenemos activas tus redes sociales y generamos publicidad orgánica.',
-            link: '#',
-            button: 'Ver Ejemplo →'
         },
         {
             img: '/assets/images/saas1/feature/1.png',
