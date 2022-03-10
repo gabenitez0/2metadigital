@@ -51,7 +51,7 @@ const Work = () => {
                             <div className={`tab-pane fade ${item.title === nav ? 'show active' : ''}`} role="tabpanel" key={i}>
                             <h3 className="mb-3 p-padding">{item.desc}</h3>
                             <p className="mb-4 p-padding">{item.details}</p>
-                            {item.button && item.button.length > 0 && <a className="btn btn-default primary-btn" href={item.link}>{item.button}</a>}
+                            {item.button && item.button.length > 0 && <a className="btn btn-default primary-btn" href={item.link} target="_blank">{item.button}</a>}
                             
                             </div>
                         )

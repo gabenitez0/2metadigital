@@ -106,7 +106,7 @@ module.exports = {
             desc: 'Debes concretar la venta',
             details: 'Utilizando la Información para Afiliados de nuestros productos y servicios con sus correspondientes precios, debes cerrar la venta con el cliente, incluyendo el pago que debe llegar a la cuenta de Paypal de 2metadigital. Luego le debes informar al desarrollador para que pueda iniciar el trabajo y enviarte tu comisión.',
             button: 'Información para Afiliados',
-            link: '#!'
+            link: 'https://docs.google.com/spreadsheets/d/1jcna069GqOFbU6M46GzCaaC5maObVANFr7ZO6NlGPeA/edit?usp=sharing'
         },
         {
             img: '/assets/images/saas1/tab/Security.png',
