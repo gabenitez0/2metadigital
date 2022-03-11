@@ -68,7 +68,7 @@ function MyFunctionComponent({ children }) {
     import('react-facebook-pixel')
       .then((x) => x.default)
       .then((ReactPixel) => {
-        ReactPixel.init('1198768203665510') // facebookPixelId
+        ReactPixel.init('1038198026550249') // facebookPixelId
         ReactPixel.pageView()
 
         router.events.on('routeChangeComplete', () => {
@@ -76,6 +76,7 @@ function MyFunctionComponent({ children }) {
         })
       })
   }, [router.events])
+  
 
   return (
     <>
