@@ -91,8 +91,8 @@ module.exports = {
             title: '1. Inscripción',
             desc: 'Primero debes inscribirte desde nuestro formulario',
             details: 'De esta forma podemos estar en contacto directo para coordinar todo lo que sea necesario.',
-            button: 'Formulario de Inscripción',
-            link: '#!'
+            button: 'Formulario de Afiliación',
+            link: 'https://share.hsforms.com/1Q2EFNU_YQIyWQVbcFSMi2wcqfyd'
         },
         {
             img: '/assets/images/saas1/tab/Add-instant.png',
@@ -114,7 +114,7 @@ module.exports = {
             desc: 'Recibirás tus comisiones automáticamente!',
             details: 'Cuando le avises al desarrollador que concretaste una venta para que inicie con su parte del trabajo, éste te enviará tu comisión automáticamente. Las comisiones van desde $60 USD hasta $250 USD por Cada Venta dependiendo del producto que el cliente compre, incluso puedes ganar más de $250 USD si el cliente compra varios productos. Esto corresponde al más del 40% del valor total de la compra! Generemos trabajo e ingresos juntos!',
             button: 'Inscríbete Ahora',
-            link: '#!'
+            link: 'https://share.hsforms.com/1Q2EFNU_YQIyWQVbcFSMi2wcqfyd'
         }
     ]
 }
