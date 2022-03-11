@@ -14191,6 +14191,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
+
  //import Customizer from '../containers/customizer';
 
 var _ref = next_config__WEBPACK_IMPORTED_MODULE_5___default()() || {},
@@ -14250,18 +14251,31 @@ function MyFunctionComponent(_ref2) {
     });
   };
 
+  var router = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])();
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.t.bind(null, /*! react-facebook-pixel */ "./node_modules/react-facebook-pixel/dist/fb-pixel.js", 7)).then(function (x) {
+      return x["default"];
+    }).then(function (ReactPixel) {
+      ReactPixel.init('1038198026550249'); // facebookPixelId
+
+      ReactPixel.pageView();
+      router.events.on('routeChangeComplete', function () {
+        ReactPixel.pageView();
+      });
+    });
+  }, [router.events]);
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 82,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 83,
       columnNumber: 9
     }
   }, "Unice")), loader && __jsx("div", {
@@ -14269,7 +14283,7 @@ function MyFunctionComponent(_ref2) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 86,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -14277,70 +14291,70 @@ function MyFunctionComponent(_ref2) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 87,
       columnNumber: 11
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 88,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 89,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 90,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 91,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 92,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 93,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 94,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 95,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 96,
       columnNumber: 13
     }
   }))), __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, children));
@@ -14354,28 +14368,28 @@ function MyApp(_ref3) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 106,
       columnNumber: 5
     }
   }, __jsx(MyFunctionComponent, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 107,
       columnNumber: 7
     }
   }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 108,
       columnNumber: 9
     }
   }))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_6__["ToastContainer"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 111,
       columnNumber: 7
     }
   }));
