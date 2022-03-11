@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/router'
 import Router from 'next/router';
 import Head from 'next/head';
 import NProgress from 'nprogress';
@@ -62,20 +61,10 @@ function MyFunctionComponent({ children }) {
     });
   }
 
-  const router = useRouter()
-
   useEffect(() => {
-    import('react-facebook-pixel')
-      .then((x) => x.default)
-      .then((ReactPixel) => {
-        ReactPixel.init('1038198026550249') // facebookPixelId
-        ReactPixel.pageView()
-
-        router.events.on('routeChangeComplete', () => {
-          ReactPixel.pageView()
-        })
-      })
-  }, [router.events])
+    const ReactPixel =  require('react-facebook-pixel');
+    ReactPixel.default.init('1038198026550249');
+  }, [])
 
   return (
     <>
