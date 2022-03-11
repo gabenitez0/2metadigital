@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Router from 'next/router';
-import { useRouter } from 'next/router'
 import Head from 'next/head';
 import NProgress from 'nprogress';
 import getConfig from 'next/config'
 import { ToastContainer } from 'react-toastify';
+import ReactPixel from 'react-facebook-pixel';
 
 import 'bootstrap-scss';
 import '../public/assets/scss/flaticon.scss';
@@ -64,18 +64,19 @@ function MyFunctionComponent({ children }) {
 
   const router = useRouter()
 
-  useEffect(() => {
-    import('react-facebook-pixel')
-      .then((x) => x.default)
-      .then((ReactPixel) => {
-        ReactPixel.init('1038198026550249') // facebookPixelId
-        ReactPixel.pageView()
 
-        router.events.on('routeChangeComplete', () => {
-          ReactPixel.pageView()
-        })
-      })
-  }, [router.events])
+  const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+  const options = {
+    autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
+    debug: false, // enable logs
+  };
+  ReactPixel.init('yourPixelIdGoesHere', advancedMatching, options);
+
+  ReactPixel.pageView(); // For tracking page view
+  ReactPixel.track(event, data); // For tracking default events. More info about standard events: https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#standard-events
+  ReactPixel.trackSingle('PixelId', event, data); // For tracking default events.
+  ReactPixel.trackCustom(event, data); // For tracking custom events. More info about custom events: https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking#custom-events
+  ReactPixel.trackSingleCustom('PixelId', event, data); // For tracking custom events.
   
 
   return (
