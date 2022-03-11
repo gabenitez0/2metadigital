@@ -61,10 +61,15 @@ function MyFunctionComponent({ children }) {
     });
   }
 
-  useEffect(() => {
-    const ReactPixel =  require('react-facebook-pixel');
-    ReactPixel.default.init('1038198026550249');
-  }, [])
+  useEffect(async () => {
+    const { default: ReactPixel } = await import('react-facebook-pixel');
+    ReactPixel.init(1038198026550249, null, {
+        autoConfig: true,
+        debug: true,
+      });
+    ReactPixel.pageView();
+    ReactPixel.track("ViewContent")
+  }, []);
 
   return (
     <>
