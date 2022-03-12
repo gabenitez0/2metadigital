@@ -6494,7 +6494,7 @@ const Price = () => {
       lineNumber: 68,
       columnNumber: 29
     }
-  }, "Estos precios son para latinoam\xE9rica, para clientes de otras regiones como USA o Europa, estos precios pueden aumentar entre un 50% a 100%."))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+  }, "Estos precios son para Latinoam\xE9rica, para clientes de USA y Europa estos precios aumentan un 50%"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

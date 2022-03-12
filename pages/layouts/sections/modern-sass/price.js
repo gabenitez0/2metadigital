@@ -65,7 +65,7 @@ const Price = () => {
                         </div>
                         <hr />
                         <div className="sub-title">
-                            <p className="p-padding text-white">Estos precios son para latinoamérica, para clientes de otras regiones como USA o Europa, estos precios pueden aumentar entre un 50% a 100%.</p>
+                            <p className="p-padding text-white">Estos precios son para Latinoamérica, para clientes de Norteamérica y Europa estos precios aumentan un 50%</p>
                         </div>
                     </div>
                 </Col>

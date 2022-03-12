@@ -1,9 +1,9 @@
 webpackHotUpdate("styles",{
 
-/***/ "./node_modules/react-light-accordion/demo/css/index.css":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-light-accordion/demo/css/index.css ***!
-  \***************************************************************/
+/***/ "./node_modules/aos/dist/aos.css":
+/*!***************************************!*\
+  !*** ./node_modules/aos/dist/aos.css ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29,7 +29,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1647092113877");
+            injectCss(link, link.href.split("?")[0] + "?unix=1647094018272");
           });
       }
     }
@@ -38,4 +38,4 @@ webpackHotUpdate("styles",{
 /***/ })
 
 })
-//# sourceMappingURL=styles.a2f60e0bc3b34f4ac5b1.hot-update.js.map
+//# sourceMappingURL=styles.87a4ad1739177f1cdf57.hot-update.js.map
