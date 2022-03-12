@@ -1,58 +1,42 @@
 webpackHotUpdate("static\\development\\pages\\_app.js",{
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/react-ga/dist/esm/components/OutboundLink.js":
+false,
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
-/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+/***/ "./node_modules/react-ga/dist/esm/core.js":
+false,
 
+/***/ "./node_modules/react-ga/dist/esm/index.js":
+false,
 
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
-  try {
-    var info = gen[key](arg);
-    var value = info.value;
-  } catch (error) {
-    reject(error);
-    return;
-  }
+/***/ "./node_modules/react-ga/dist/esm/utils/console/log.js":
+false,
 
-  if (info.done) {
-    resolve(value);
-  } else {
-    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
-  }
-}
+/***/ "./node_modules/react-ga/dist/esm/utils/console/warn.js":
+false,
 
-function _asyncToGenerator(fn) {
-  return function () {
-    var self = this,
-        args = arguments;
-    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
-      var gen = fn.apply(self, args);
+/***/ "./node_modules/react-ga/dist/esm/utils/format.js":
+false,
 
-      function _next(value) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
-      }
+/***/ "./node_modules/react-ga/dist/esm/utils/loadGA.js":
+false,
 
-      function _throw(err) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
-      }
+/***/ "./node_modules/react-ga/dist/esm/utils/mightBeEmail.js":
+false,
 
-      _next(undefined);
-    });
-  };
-}
+/***/ "./node_modules/react-ga/dist/esm/utils/redactEmail.js":
+false,
 
-/***/ }),
+/***/ "./node_modules/react-ga/dist/esm/utils/removeLeadingSlash.js":
+false,
 
-/***/ "./node_modules/react-facebook-pixel/dist/fb-pixel.js":
+/***/ "./node_modules/react-ga/dist/esm/utils/testModeAPI.js":
+false,
+
+/***/ "./node_modules/react-ga/dist/esm/utils/toTitleCase.js":
+false,
+
+/***/ "./node_modules/react-ga/dist/esm/utils/trim.js":
 false,
 
 /***/ "./pages/_app.js":
@@ -183,7 +167,7 @@ function MyFunctionComponent(_ref2) {
           case 2:
             _yield$import = _context.sent;
             ReactPixel = _yield$import["default"];
-            ReactPixel.init(FB_PIXEL, null, {
+            ReactPixel.init(1038198026550249, null, {
               autoConfig: true,
               debug: true
             });
@@ -196,7 +180,7 @@ function MyFunctionComponent(_ref2) {
         }
       }
     }, _callee);
-  })));
+  })), []);
   return __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __self: this,
     __source: {
@@ -331,4 +315,4 @@ function MyApp(_ref4) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.d29802ba993c5a204908.hot-update.js.map
+//# sourceMappingURL=_app.js.1cc54e9782fe4477fc73.hot-update.js.map

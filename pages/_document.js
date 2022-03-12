@@ -1,4 +1,5 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Head, Main, NextScript } from 'next/document';
+import ReactGA from 'react-ga';
 
 const BaseCSS = ({ css }) =>
   <style
@@ -12,6 +13,13 @@ BaseCSS.defaultProps = {
 }
 
 export default class MyDocument extends Document {
+  setGA = () => {
+    ReactGA.initialize('G-2LCKTCVVTK');
+    ReactGA.pageview('Init page view');
+  };
+  componentDidMount(){
+    this.setGA();
+  }
   render() {
     return (
       <html>
