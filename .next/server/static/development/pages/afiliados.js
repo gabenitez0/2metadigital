@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -123,45 +123,49 @@ const MENUITEMS = [{
     path: '/#Calificaciones',
     title: 'Calificaciones',
     type: 'link'
-  }, {
-    path: '/#Contacto',
-    title: 'Contacto',
-    type: 'link'
   }]
 }, {
-  title: 'Servicios Profesionales',
+  title: 'Servicios',
   type: 'sub',
   link: '#',
   children: [{
-    path: '/#Servicios',
-    title: 'Desarrollo Web',
-    type: 'link'
-  }, {
-    path: '/#Servicios',
-    title: 'Diseño Gráfico',
-    type: 'link'
-  }, {
-    path: '/#Servicios',
-    title: 'Copywriting',
-    type: 'link'
-  }, {
-    path: '/#Servicios',
+    path: '/ecommerce',
     title: 'E-commerces',
     type: 'link'
   }, {
-    path: '/#Servicios',
+    path: '#',
     title: 'Landing Pages',
     type: 'link'
   }, {
-    path: '/#Servicios',
+    path: '#',
+    title: 'Institucionales',
+    type: 'link'
+  }, {
+    path: '#',
+    title: 'Funnels de Venta',
+    type: 'link'
+  }, {
+    path: '#',
+    title: 'Diseño Web',
+    type: 'link'
+  }, {
+    path: '#',
+    title: 'Diseño Gráfico',
+    type: 'link'
+  }, {
+    path: '#',
+    title: 'Copywriting',
+    type: 'link'
+  }, {
+    path: '#',
     title: 'Mantenimiento',
     type: 'link'
   }, {
-    path: '/#Servicios',
+    path: '#',
     title: 'Dominios y SSL',
     type: 'link'
   }, {
-    path: '/#Servicios',
+    path: '#',
     title: 'Hosting y DNS',
     type: 'link'
   }]
@@ -170,11 +174,11 @@ const MENUITEMS = [{
   type: 'sub',
   link: '#',
   children: [{
-    path: '/#Contacto',
+    path: '#contacto',
     title: 'Iniciar Chat',
     type: 'link'
   }, {
-    path: '/#Contacto',
+    path: '#contacto',
     title: 'Contactar',
     type: 'link'
   }]
@@ -354,7 +358,7 @@ const Header = props => {
   }) : __jsx("img", {
     alt: "",
     className: "img-fluid",
-    src: "/assets/images/logo/1.png",
+    src: "/assets/images/logo/logo4neg.png",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -4172,7 +4176,7 @@ const Home = () => {
       lineNumber: 12,
       columnNumber: 11
     }
-  }, "2MetaDigital - Programa de Afiliados"), __jsx("meta", {
+  }, "Genera Ingresos Extra Hoy - Programa de Afiliados de 2MetaDigital"), __jsx("meta", {
     description: "Buscamos personas que se encarguen de vender nuestros productos y servicios de manera independiente, desde la generaci\xF3n del lead hasta el cierre de la venta a cambio de un rentable beneficio.",
     content: "",
     __self: undefined,
@@ -4182,7 +4186,7 @@ const Home = () => {
       columnNumber: 11
     }
   }), __jsx("meta", {
-    name: "2MetaDigital - Programa de Afiliados",
+    name: "Genera Ingresos Extra Hoy - Programa de Afiliados de 2MetaDigital",
     content: "",
     __self: undefined,
     __source: {
@@ -5305,7 +5309,7 @@ const Faq = () => {
 
   return __jsx("section", {
     className: "saas1 faq",
-    id: "faq",
+    id: "contacto",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -5806,7 +5810,7 @@ const Footer = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment
     lineNumber: 16,
     columnNumber: 37
   }
-}, "Somos Emprendedores que buscan complementarse y mejorar junto a otros emprendedores."), __jsx("h6", {
+}, "Somos emprendedores que se potencian junto a otros emprendedores para alcanzar todas las Metas trabajando en equipo."), __jsx("h6", {
   className: "text-white para-address",
   __self: undefined,
   __source: {
@@ -6494,7 +6498,7 @@ const Price = () => {
       lineNumber: 68,
       columnNumber: 29
     }
-  }, "Estos precios son para Latinoam\xE9rica, para clientes de USA y Europa estos precios aumentan un 50%"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+  }, "Estos precios son para Latinoam\xE9rica, para clientes de Norteam\xE9rica y Europa estos precios aumentan un 50%"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -8793,7 +8797,7 @@ const Work = () => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!**********************************!*\
   !*** multi ./pages/afiliados.js ***!
   \**********************************/

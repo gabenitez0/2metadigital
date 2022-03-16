@@ -17,14 +17,14 @@ const Format = () => {
                         <div className="abouts center-text">
                             <div>
                                 <div className="format-head-text">
-                                    <h3 className="about-font-header font-secondary">High Quality Functions</h3>
+                                    <h3 className="about-font-header font-secondary">Tienda Online de Alta Calidad enfocada a cada producto particular</h3>
                                 </div>
                                 <div className="format-sub-text">
-                                    <p className="about-para">You can now use all Social Network from this Lunatic app also. Writers
-                                        and stars of Veep
-                                        have responded incredulous to the news an Australian politician required stitches after
-                                        knocking himself unconscious while laughing.</p>
+                                    <p className="about-para">Hacemos por vos una Tienda Online no solo de calidad profesional en cuanto al desarrollo y diseño, sino que también nos adaptamos perfectamente y de forma particular a tu producto y necesidades de tu negocio.</p>
+                                    <p className="about-para">Generamos impacto a nuestros clientes y también a los tuyos. Trabajamos rápido, tendrémos tu tienda online lista para empezar a vender en pocos días y sin que pierdas tiempo!</p>
+                                    <p className="about-para"><b>Si no te consideras un especialista en eCommerces, te costará mucho tiempo y trabajo hacer algo que realmente sea profesional y escalable (como aparecer en motores de búsqueda) para tu negocio.</b></p>
                                 </div>
+                                {/*
                                 <ul className="icon-collection">
                                     <li className="about-icon">
                                         <a className="center-content" href="#">
@@ -38,14 +38,14 @@ const Format = () => {
                                             <h6 className="users">download</h6>
                                         </a>
                                     </li>
-                                </ul>
-                                <a className="btn btn-default btn-gradient m-t-45">learn more</a>
+                                </ul>*/}
+                                <a className="btn btn-default btn-gradient m-t-45" href="#proyectos">Ver ejemplos</a>
                             </div>
                         </div>
                     </Col>
                     <Col sm="6"  className="counters set-height overflow-hide">
                         <img alt="" className="img-fluid mobile2" data-aos="fade-left"
-                            src="/assets/images/app_landing2/l-2.png" />
+                            src="/assets/images/app_landing2/calidad.png" />
                     </Col>
                 </Row>
             </Container>

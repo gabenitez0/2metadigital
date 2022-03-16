@@ -688,8 +688,7 @@
       .set-height {
         min-height: 592px;
         .mobile2 {
-          width: 430px;
-          top: -29px;
+          width: 100%;
         }
       }
     }
@@ -3556,9 +3555,7 @@
         min-height: unset;
         .mobile1,
         .mobile2 {
-          width: auto;
-          top: -23px;
-          height: 350px;
+          width: 100%;
         }
       }
     }

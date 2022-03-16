@@ -25,7 +25,7 @@ const Video = () => {
                                                 <h6 className="video-text text-white text-center pb-3">Contanos qué querés lograr</h6>
                                                 <h6 className="video-text text-white text-center pb-3">También qué dudas tenes</h6>
                                                 <h6 className="video-text text-white text-center pb-4">Te proponemos soluciones</h6>
-                                                <a className="btn btn-default primary-btn" onClick={() => window.HubSpotConversations.widget.open()} href="#!">Iniciar Chat</a>
+                                                <a className="btn btn-default primary-btn" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar ahora</a>
                                             </div>
                                         </div>
                                     </div>

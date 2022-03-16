@@ -9,25 +9,20 @@ const Banner = () => (
                     <Col xl="7" lg="6" md="8">
                         <div className="center-text">
                             <div>
-                                <h6 className="header-top-line"># app landing page</h6>
+                                <h6 className="header-top-line">Creamos tu tienda online profesional</h6>
                                 <div className="header-text">
-                                    <h1>the best <span className="bold-text">landing page</span> for your app</h1>
+                                    <h1><span className="bold-text">Empezá a vender en línea de manera profesional ahora</span></h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p className="text-white">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever
-                                        since the 1500s.</p>
+                                    <p className="text-white">8 de cada 10 argentinos realizan al menos una compra online al año. Hacemos tu tienda online profesional por vos para que empieces a vender en línea ahora.</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-white">get app
-                                                now</a>
+                                            <a className="btn btn-default btn-white" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar ahora</a>
                                         </li>
                                         <li>
-                                            <a className="btn btn-default primary-btn transparent">discover
-                                                more</a>
+                                            <a className="btn btn-default primary-btn transparent" href="#beneficios">más info</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -35,11 +30,11 @@ const Banner = () => (
                         </div>
                     </Col>
                     <Col xl="5" lg="6" md="4">
-                        <div className="img-mobile set-abs">
-                            <img alt="" className="headaer-image" src="/assets/images/app_landing2/h2-mobile.png" />
-
+                        <div className="img-mobile set-abs" style={{bottom:0, zIndex:0, position:'absolute', left:'20vw'}}>
+                            <img alt="" className="headaer-image" src="/assets/images/app_landing2/header.png"
+                            style={{width:'90vh', height:'auto'}}
+                            />
                         </div>
-                        <div className="wave-orange"></div>
                     </Col>
                 </Row>
             </Container>

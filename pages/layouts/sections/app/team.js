@@ -26,15 +26,15 @@ var settings = {
 };
 
 const Team = () => (
-    <section className="app2 team p-t-0">
+    <section className="app2 team p-t-0" id="feedback">
         <Container>
             <Row>
                 <Col md="10" className="offset-md-1">
                     <div className="title title2">
-                        <img alt="" className="img-fluid title-img" src="/assets/images/logo/2.png" />
-                        <h6 className="font-primary borders main-text"><span>Client Review</span></h6>
+                        <img alt="" className="img-fluid title-img" src="/assets/images/app_landing2/service/feedback1.png"/>
+                        <h6 className="font-primary borders main-text"><span>Feedback / Calificaciones</span></h6>
                         <div className="sub-title">
-                            <h2 className="title-text text-capitalize text-center">Our Clients Love Us</h2>
+                            <h2 className="title-text text-capitalize text-center">Opiniones de nuestros clientes</h2>
                         </div>
                     </div>
                 </Col>
@@ -44,11 +44,9 @@ const Team = () => (
                             <div className="team-container">
                                 <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/1.png" />
                                 <div className="text-center">
-                                    <h5 className="name">Ashekur Rahman</h5>
-                                    <h6 className="post">Art Dirrector</h6>
-                                    <p className="team-para">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                        Lorem Ipsum has been the</p>
+                                    <h5 className="name">Steven Bno</h5>
+                                    <h6 className="post">CEO InfriaMC</h6>
+                                    <p className="team-para">10/10 profesional y rápido.</p>
                                 </div>
                             </div>
                         </div>
@@ -56,35 +54,19 @@ const Team = () => (
                             <div className="team-container">
                                 <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/2.png" />
                                 <div className="text-center">
-                                    <h5 className="name">Ashekur Rahman</h5>
-                                    <h6 className="post">Art Dirrector</h6>
-                                    <p className="team-para">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                        Lorem Ipsum has been the</p>
+                                    <h5 className="name">Claudio De Rito</h5>
+                                    <h6 className="post">CEO Latitud34Desarrollos</h6>
+                                    <p className="team-para">Un espectáculo. Muy buen laburo.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="item">
                             <div className="team-container">
-                                <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/3.png" />
+                                <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/3.jpg" />
                                 <div className="text-center">
-                                    <h5 className="name">Ashekur Rahman</h5>
-                                    <h6 className="post">Art Dirrector</h6>
-                                    <p className="team-para">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                        Lorem Ipsum has been the</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="team-container">
-                                <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/3.png" />
-                                <div className="text-center">
-                                    <h5 className="name">Ashekur Rahman</h5>
-                                    <h6 className="post">Art Dirrector</h6>
-                                    <p className="team-para">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                        Lorem Ipsum has been the</p>
+                                    <h5 className="name">Manuel Guzman</h5>
+                                    <h6 className="post">CEO Dallas Showroom</h6>
+                                    <p className="team-para">Excelente trabajo me gustó el diseño.</p>
                                 </div>
                             </div>
                         </div>

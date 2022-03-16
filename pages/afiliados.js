@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-          <title>2MetaDigital - Programa de Afiliados</title>
+          <title>Genera Ingresos Extra Hoy - Programa de Afiliados de 2MetaDigital</title>
           <meta description='Buscamos personas que se encarguen de vender nuestros productos y servicios de manera independiente, desde la generación del lead hasta el cierre de la venta a cambio de un rentable beneficio.' content='' />
-          <meta name='2MetaDigital - Programa de Afiliados' content='' />
+          <meta name='Genera Ingresos Extra Hoy - Programa de Afiliados de 2MetaDigital' content='' />
           <meta property="og:image" content="/assets/images/logo/meta.png" />
           <meta property="og:description" content="Buscamos personas que se encarguen de vender nuestros productos y servicios de manera independiente, desde la generación del lead hasta el cierre de la venta a cambio de un rentable beneficio." />
       </Head>

@@ -3,16 +3,16 @@ import {Container,Row,Col} from 'reactstrap'
 import {FeaturesData} from '../../../../database/layouts/app/database'
 
 const Features = () => (
-    <section className="app2 services p-t-0" id="services">
+    <section className="app2 services p-t-0" id="caracteristicas">
         <div className="animated-bg"><i></i><i></i><i></i></div>
             <Container>
                 <Row>
                     <Col md="10" className="offset-md-1">
                         <div className="title title2">
-                            <img alt="" className="img-fluid title-img" src="/assets/images/logo/2.png" />
-                            <h6 className="font-primary borders main-text text-uppercase"><span>feature</span></h6>
+                            <img alt="" className="img-fluid title-img" src="/assets/images/app_landing2/service/crown.png" />
+                            <h6 className="font-primary borders main-text text-uppercase"><span>Características únicas ecommerce</span></h6>
                             <div className="sub-title">
-                                <h2 className="title-text text-capitalize text-center">Powerful Features </h2>
+                                <h2 className="title-text text-capitalize text-center">Todo lo que tu negocio necesita para vender</h2>
                             </div>
                         </div>
                     </Col>

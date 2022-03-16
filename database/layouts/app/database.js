@@ -26,34 +26,34 @@ module.exports = {
 
     FeaturesData: [
         {
-            icon: '/assets/images/app_landing2/service/2-1.png',
-            title: 'Fast and optimized',
-            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.',
+            icon: '/assets/images/app_landing2/service/vende2.png',
+            title: 'Ventas en Automático',
+            details: 'Permite a tus clientes ver todo tu catálogo de productos y comprar las 24 horas.',
         },
         {
-            icon: '/assets/images/app_landing2/service/2-2.png',
-            title: 'Well Documented',
-            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.',
+            icon: '/assets/images/app_landing2/service/board.png',
+            title: 'Gestión centralizada',
+            details: 'Todo en un solo lugar: tus productos, stock, talles, tamaños, colores, ofertas, etc.',
         },
         {
-            icon: '/assets/images/app_landing2/service/2-3.png',
-            title: 'Easy Integration',
-            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.',
+            icon: '/assets/images/app_landing2/service/notif.png',
+            title: 'Notificación por pedido',
+            details: 'Recibirás notificaciones cuando tus clientes realicen compras en tu tienda.',
         },
         {
-            icon: '/assets/images/app_landing2/service/2-4.png',
-            title: 'Team Collaboration',
-            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.',
+            icon: '/assets/images/app_landing2/service/pago.png',
+            title: 'Todos los medios de pago',
+            details: 'Podes utilizar MercadoPago, transferencia bancaria, o el medio de tu preferencia.',
         },
         {
-            icon: '/assets/images/app_landing2/service/2-5.png',
-            title: 'User Permissions',
-            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.',
+            icon: '/assets/images/app_landing2/service/envio2.png',
+            title: 'Todas las Formas de envío',
+            details: 'Podes utilizar OCA, Correo Argentino, contrareembolso, o el que quieras.',
         },
         {
-            icon: '/assets/images/app_landing2/service/2-6.png',
-            title: 'Unlimited Storage',
-            details: 'Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.',
+            icon: '/assets/images/app_landing2/service/social.png',
+            title: 'Integrá tus redes sociales',
+            details: 'Podes conectar tus redes sociales con tu tienda y potenciar el impacto.',
         },
     ],
 

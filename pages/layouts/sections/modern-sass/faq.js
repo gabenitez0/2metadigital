@@ -19,7 +19,7 @@ const Faq = () => {
         </div>
     );
     return (
-        <section className="saas1 faq" id="faq">
+        <section className="saas1 faq" id="contacto">
             <Container>
                 <Row>
                     <Col md="8">

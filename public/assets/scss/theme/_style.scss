@@ -737,7 +737,7 @@ section {
   .main-title {
     margin-bottom: 25px;
     h2 {
-      line-height: 0.8;
+      line-height: unset;
     }
   }
   .sub-title {
@@ -3613,7 +3613,7 @@ booking section end
   h3 {
     font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1920 - 300)));
     margin-top: 0;
-    line-height: 0.8;
+    line-height: unset;
   }
   h4 {
     letter-spacing: 2px;
@@ -3656,8 +3656,8 @@ booking section end
       min-height: 632px;
       .mobile1 {
         position: absolute;
-        width: 355px;
-        right: 0;
+        width: 100%;
+        left: 0;
       }
       .j-img {
         position: absolute;
@@ -3673,8 +3673,8 @@ booking section end
       min-height: 627px;
       .mobile2 {
         position: absolute;
-        width: 460px;
-        top: -36px;
+        width: 100%;
+        top: 0;
       }
     }
   }
@@ -3726,9 +3726,9 @@ booking section end
       margin-bottom: 0;
     }
     .screenshot-slider {
-      margin-top: -32px;
+      margin-top: 0;
       .slick-dots {
-        bottom: -10px;
+        
         li {
           height: 5px;
           width: 16px;
@@ -8040,7 +8040,6 @@ header {
   }
   &.app2 {
     nav {
-      padding: 0;
     }
   }
 }
@@ -16329,7 +16328,7 @@ footer {
   .title-inner {
     .main-title {
       h2 {
-        line-height: 0.8;
+        line-height: unset;
       }
     }
   }

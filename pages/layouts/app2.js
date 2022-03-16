@@ -26,9 +26,6 @@ const App2 = () => {
 
   return (
       <div className="theme-color" >
-        <Head>
-          <title>App Layout</title>
-        </Head>
 
         <Header />
 
@@ -40,13 +37,9 @@ const App2 = () => {
 
         <FormatSection />
 
-        <TeamSection /> 
-
         <ScreenshotSection />
 
-        <MemberSection />
-
-        <PricingSection />
+        <TeamSection /> 
       
         <ClientSection />
 

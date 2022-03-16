@@ -3,7 +3,7 @@ import {Container,Row,Col,FormGroup,Input} from 'reactstrap'
 const Footer = () => (
 
     <footer className="app2 bg footer2 p-0">
-        <div className="subscribe subscribe-2">
+        {/*<div className="subscribe subscribe-2">
             <Container>
                 <Row>
                     <Col lg="8"  md="10"  className="offset-lg-2 offset-md-1">
@@ -27,67 +27,26 @@ const Footer = () => (
                     </Col>
                 </Row>
             </Container>
-        </div>
-        <section>
+        </div>*/}
+        <section style={{paddingTop:125}}>
             <Container>
                 <Row>
                     <Col lg="3" md="6" sm="12">
                         <div className="logo-sec">
                             <div className="footer-title mobile-title p-t-0">
-                                <h3 className="text-white">About Us</h3>
+                                <h3 className="text-white">Sobre nosotros</h3>
                             </div>
                             <div className="footer-contant">
-                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/1.png" />
+                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo4neg.png" />
                                 <div className="footer-para">
-                                    <p className="text-white">Lorem ipsum dolor sit consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim lorem
-                                        sed do </p>
+                                    <p className="text-white">Somos emprendedores que se potencian junto a otros emprendedores para alcanzar todas las Metas trabajando en equipo.</p>
                                 </div>
                                 <ul className="d-flex footer-social social">
                                     <li className="footer-social-list">
-                                        <a href="#"><i aria-hidden="true" className="fa fa-facebook"></i></a>
+                                        <a href="https://www.facebook.com/2metadigital/" target="_blank"><i aria-hidden="true" className="fa fa-facebook"></i></a>
                                     </li>
                                     <li className="footer-social-list">
-                                        <a href="#"><i aria-hidden="true" className="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li className="footer-social-list">
-                                        <a href="#"><i aria-hidden="true" className="fa fa-google"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg="3" md="6" sm="12">
-                        <div className="footer-title mobile-title">
-                            <h3 className="text-white">Post Tags</h3>
-                        </div>
-                        <div className="footer-contant">
-                            <h5 className="footer-headings">Post Tags</h5>
-                            <div className="link-btns">
-                                <ul>
-                                    <li className="buttons">
-                                        <a href="#">app</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">business</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">corporation</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">creative</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">design</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">fashion</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">food</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">mobile</a>
+                                        <a href="https://www.instagram.com/2metadigital/" target="_blank"><i aria-hidden="true" className="fa fa-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -95,26 +54,62 @@ const Footer = () => (
                     </Col>
                     <Col lg="2" md="6" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">blog categories</h3>
+                            <h3 className="text-white">Navegación</h3>
                         </div>
                         <div className="footer-contant">
-                            <h5 className="footer-headings">Blog Categories</h5>
+                            <h5 className="footer-headings">Navegación</h5>
                             <div>
                                 <ul className="footer-lists">
                                     <li>
-                                        <a href="#">App Review</a>
+                                        <a href="#">Inicio</a>
                                     </li>
                                     <li>
-                                        <a href="#">Audio Post</a>
+                                        <a href="#beneficios">Beneficios</a>
                                     </li>
                                     <li>
-                                        <a href="#">Default Post</a>
+                                        <a href="#caracteristicas">Características</a>
                                     </li>
                                     <li>
-                                        <a href="#">Uncategorized</a>
+                                        <a href="#proyectos">Proyectos</a>
                                     </li>
                                     <li>
-                                        <a href="#">Video Post</a>
+                                        <a href="#feedback">Feedback</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contacto">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg="3" md="6" sm="12">
+                        <div className="footer-title mobile-title">
+                            <h3 className="text-white">Servicios</h3>
+                        </div>
+                        <div className="footer-contant">
+                            <h5 className="footer-headings">Servicios</h5>
+                            <div>
+                                <ul className="footer-lists">
+                                    <li>
+                                        <a href="#!">Desarrollo Web Profesional</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Diseño Gráfico Profesional</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">E-Commerces: Tiendas Online</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Copywriting: Redacción Ventas</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Landing Pages: Página Ventas</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Administración y Mantenimiento</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Hosting, Dominios, SSL y DNS</a>
                                     </li>
                                 </ul>
                             </div>
@@ -122,20 +117,20 @@ const Footer = () => (
                     </Col>
                     <Col lg="4" md="6" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">Contact Info</h3>
+                            <h3 className="text-white">Información</h3>
                         </div>
                         <div className="footer-contant">
-                            <h5 className="footer-headings">Contact Info</h5>
+                            <h5 className="footer-headings">Información</h5>
                             <div>
                                 <ul className="footer-lists contacts">
                                     <li>
                                         <i aria-hidden="true" className="fa fa-map-marker"></i>
-                                        Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod
+                                        Saenz Peña, Buenos Aires, Argentina
                                     </li>
                                     <li>
-                                        <i aria-hidden="true" className="fa fa-phone m-r-15"></i>(+066) 518 - 457 - 5181
+                                        <i aria-hidden="true" className="fa fa-phone m-r-15"></i>(+54) 1133226655
                                     </li>
-                                    <li><i aria-hidden="true" className="fa fa-envelope m-r-15"></i>contact@gmail.com
+                                    <li><i aria-hidden="true" className="fa fa-envelope m-r-15"></i>gabriel@2meta.digital
                                     </li>
 
                                 </ul>

@@ -17,7 +17,6 @@ const Home = () => {
       </Head>
 
       <Agency />
-      <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21389125.js"></script>
     </Fragment>
   )
 }
