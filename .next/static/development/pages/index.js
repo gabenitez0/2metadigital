@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\ecommerce.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./constant/menu.js":
 /*!**************************!*\
@@ -1147,74 +1147,327 @@ var Nav = function Nav() {
 
 /***/ }),
 
-/***/ "./database/layouts/app/database.js":
-/*!******************************************!*\
-  !*** ./database/layouts/app/database.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./containers/portfolio/basic.js":
+/*!***************************************!*\
+  !*** ./containers/portfolio/basic.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = {
-  PricingData: [{
-    title: 'Free',
-    features: ['Easy Installations', 'Unlimited support', 'Free Forever'],
-    price: 0
-  }, {
-    title: 'Medium',
-    features: ['Easy Installations', 'Unlimited support', 'Free Forever'],
-    price: 99
-  }, {
-    title: 'Business',
-    features: ['Easy Installations', 'Unlimited support', 'Free Forever'],
-    price: 999
-  }, {
-    title: 'Medium',
-    features: ['Easy Installations', 'Unlimited support', 'Free Forever'],
-    price: 99
-  }],
-  FeaturesData: [{
-    icon: '/assets/images/app_landing2/service/vende2.png',
-    title: 'Ventas en Automático',
-    details: 'Permite a tus clientes ver todo tu catálogo de productos y comprar las 24 horas.'
-  }, {
-    icon: '/assets/images/app_landing2/service/board.png',
-    title: 'Gestión centralizada',
-    details: 'Todo en un solo lugar: tus productos, stock, talles, tamaños, colores, ofertas, etc.'
-  }, {
-    icon: '/assets/images/app_landing2/service/notif.png',
-    title: 'Notificación por pedido',
-    details: 'Recibirás notificaciones cuando tus clientes realicen compras en tu tienda.'
-  }, {
-    icon: '/assets/images/app_landing2/service/pago.png',
-    title: 'Todos los medios de pago',
-    details: 'Podes utilizar MercadoPago, transferencia bancaria, o el medio de tu preferencia.'
-  }, {
-    icon: '/assets/images/app_landing2/service/envio2.png',
-    title: 'Todas las Formas de envío',
-    details: 'Podes utilizar OCA, Correo Argentino, contrareembolso, o el que quieras.'
-  }, {
-    icon: '/assets/images/app_landing2/service/social.png',
-    title: 'Integrá tus redes sociales',
-    details: 'Podes conectar tus redes sociales con tu tienda y potenciar el impacto.'
-  }],
-  MemberData: [{
-    img: '/assets/images/app_landing2/team/1.png',
-    name: 'ken pitersan',
-    role: 'Seniour UI/Xi Designer'
-  }, {
-    img: '/assets/images/app_landing2/team/2.png',
-    name: 'ken pitersan',
-    role: 'Seniour UI/Xi Designer'
-  }, {
-    img: '/assets/images/app_landing2/team/3.png',
-    name: 'ken pitersan',
-    role: 'Seniour UI/Xi Designer'
-  }, {
-    img: '/assets/images/app_landing2/team/4.png',
-    name: 'ken pitersan',
-    role: 'Seniour UI/Xi Designer'
-  }]
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-properties */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptors */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+
+
+
+
+
+
+
+
+
+
+var _this = undefined,
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\containers\\portfolio\\basic.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
+
+function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(target, key, source[key]); }) : _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a ? _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)) : ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } return target; }
+
+
+
+var feshion = [__webpack_require__(/*! ../../public/assets/images/portfolio/1.jpg */ "./public/assets/images/portfolio/1.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/2.jpg */ "./public/assets/images/portfolio/2.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/3.jpg */ "./public/assets/images/portfolio/3.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/4.jpg */ "./public/assets/images/portfolio/4.jpg")];
+var bags = [__webpack_require__(/*! ../../public/assets/images/portfolio/5.jpg */ "./public/assets/images/portfolio/5.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/6.jpg */ "./public/assets/images/portfolio/6.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/7.jpg */ "./public/assets/images/portfolio/7.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/8.png */ "./public/assets/images/portfolio/8.png")];
+var watches = [__webpack_require__(/*! ../../public/assets/images/portfolio/11.jpg */ "./public/assets/images/portfolio/11.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/10.jpg */ "./public/assets/images/portfolio/10.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/12.png */ "./public/assets/images/portfolio/12.png")];
+var shoes = [__webpack_require__(/*! ../../public/assets/images/portfolio/9.jpg */ "./public/assets/images/portfolio/9.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/10.jpg */ "./public/assets/images/portfolio/10.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/12.png */ "./public/assets/images/portfolio/12.png"), __webpack_require__(/*! ../../public/assets/images/portfolio/8.png */ "./public/assets/images/portfolio/8.png")];
+
+var Basic = function Basic(_ref) {
+  var className = _ref.className,
+      title = _ref.title,
+      subTitle = _ref.subTitle,
+      fluid = _ref.fluid;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])([]),
+      portfolioData = _useState[0],
+      setPortfolioData = _useState[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_9__["useEffect"])(function () {
+    function PortfolioData() {
+      return _PortfolioData.apply(this, arguments);
+    }
+
+    function _PortfolioData() {
+      _PortfolioData = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_7___default.a.mark(function _callee() {
+        var res, data;
+        return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_7___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return fetch('https://api.2meta.digital//api/portfolios?populate=%2A');
+
+              case 2:
+                res = _context.sent;
+                _context.next = 5;
+                return res.json();
+
+              case 5:
+                data = _context.sent;
+                setPortfolioData(data.data);
+
+              case 7:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }));
+      return _PortfolioData.apply(this, arguments);
+    }
+
+    PortfolioData();
+  }, []);
+  var imgUrl = "https://api.2meta.digital/";
+  var initilindex = {
+    index: 0
+  };
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])(initilindex),
+      photoIndex = _useState2[0],
+      setPhotoIndex = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])('1'),
+      activeTab = _useState3[0],
+      setActiveTab = _useState3[1];
+
+  var AllImg = portfolioData.map(function (a) {
+    return imgUrl + a.attributes.principal.data.attributes.url;
+  }); //const AllImg = item.attributes.gallery.data
+  //console.log(AllImg);
+  //console.log(portfolioData[photoIndex.index] && portfolioData[photoIndex.index].attributes.gallery.data.map(a => imgUrl+a.attributes.url));
+  //console.log(portfolioData.map(a => imgUrl+a.attributes.principal.data.attributes.url));
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_9__["Fragment"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 9
+    }
+  }, __jsx("section", {
+    className: "portfolio-section fullwidth-portfolio masonray-sec zoom-gallery titles",
+    id: "Proyectos",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
+    md: "8",
+    className: "offset-md-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "title title2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 25
+    }
+  }, __jsx("h6", {
+    className: "font-primary borders main-text text-uppercase",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 29
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 91
+    }
+  }, "Portfolio")), __jsx("div", {
+    className: "sub-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 29
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 33
+    }
+  }, __jsx("h2", {
+    className: "title-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 37
+    }
+  }, "Proyectos recientes")))))), __jsx("div", {
+    className: fluid || 'container',
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 17
+    }
+  }, portfolioData.map(function (item, i) {
+    return __jsx("div", {
+      className: className,
+      key: i,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71,
+        columnNumber: 29
+      }
+    }, __jsx("div", {
+      className: "overlay",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 33
+      }
+    }, __jsx("div", {
+      className: "border-portfolio",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 37
+      }
+    }, __jsx("a", {
+      href: item.attributes.link,
+      target: "_blank",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74,
+        columnNumber: 41
+      }
+    }, __jsx("div", {
+      className: "zoom_gallery",
+      title: "",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75,
+        columnNumber: 41
+      }
+    }, __jsx("div", {
+      className: "overlay-background",
+      onClick: function onClick() {
+        return setPhotoIndex(_objectSpread({}, photoIndex, {
+          index: i,
+          isOpen: true
+        }));
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 45
+      }
+    }, __jsx("i", {
+      "aria-hidden": "true",
+      className: "fa fa-plus",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 80,
+        columnNumber: 49
+      }
+    })), __jsx("img", {
+      alt: "",
+      className: "img-fluid blur-up lazyload",
+      src: imgUrl + item.attributes.principal.data.attributes.url,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 82,
+        columnNumber: 45
+      }
+    }))))), item && __jsx("div", {
+      className: "portfolio-text",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 37
+      }
+    }, __jsx("a", {
+      href: item.attributes.link,
+      target: "_blank",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91,
+        columnNumber: 41
+      }
+    }, __jsx("h3", {
+      className: "head-text",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91,
+        columnNumber: 88
+      }
+    }, item.attributes.title)), __jsx("h6", {
+      className: "head-sub-text",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 93,
+        columnNumber: 41
+      }
+    }, item.attributes.category)));
+  }))));
 };
+
+/* harmony default export */ __webpack_exports__["default"] = (Basic);
 
 /***/ }),
 
@@ -1295,6 +1548,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "./
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/define-properties */ "./node_modules/core-js/library/fn/object/define-properties.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
 /*!*******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
@@ -1314,6 +1578,28 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptors */ "./node_modules/core-js/library/fn/object/get-own-property-descriptors.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-symbols */ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js");
 
 /***/ }),
 
@@ -1613,6 +1899,88 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+
+  if (info.done) {
+    resolve(value);
+  } else {
+    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
+  }
+}
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+
+      _next(undefined);
+    });
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
 
 /***/ }),
 
@@ -2840,6 +3208,22 @@ module.exports = function create(P, D) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/object/define-properties.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/define-properties.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.define-properties */ "./node_modules/core-js/library/modules/es6.object.define-properties.js");
+var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
+module.exports = function defineProperties(T, D) {
+  return $Object.defineProperties(T, D);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/object/define-property.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/core-js/library/fn/object/define-property.js ***!
@@ -2868,6 +3252,32 @@ var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/cor
 module.exports = function getOwnPropertyDescriptor(it, key) {
   return $Object.getOwnPropertyDescriptor(it, key);
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-descriptors.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-descriptors.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es7.object.get-own-property-descriptors */ "./node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getOwnPropertyDescriptors;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-symbols.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.symbol */ "./node_modules/core-js/library/modules/es6.symbol.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getOwnPropertySymbols;
 
 
 /***/ }),
@@ -4818,6 +5228,27 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_own-keys.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_own-keys.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// all object keys, includes non-enumerable and symbols
+var gOPN = __webpack_require__(/*! ./_object-gopn */ "./node_modules/core-js/library/modules/_object-gopn.js");
+var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var Reflect = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").Reflect;
+module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
+  var keys = gOPN.f(anObject(it));
+  var getSymbols = gOPS.f;
+  return getSymbols ? keys.concat(getSymbols(it)) : keys;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_perform.js":
 /*!**********************************************************!*\
   !*** ./node_modules/core-js/library/modules/_perform.js ***!
@@ -5667,6 +6098,20 @@ $export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_ob
 var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 $export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js") });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.define-properties.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.define-properties.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+// 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
+$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperties: __webpack_require__(/*! ./_object-dps */ "./node_modules/core-js/library/modules/_object-dps.js") });
 
 
 /***/ }),
@@ -6548,6 +6993,39 @@ __webpack_require__(/*! ./_set-collection-of */ "./node_modules/core-js/library/
 var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
 
 $export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_collection-to-json */ "./node_modules/core-js/library/modules/_collection-to-json.js")('Map') });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/tc39/proposal-object-getownpropertydescriptors
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var ownKeys = __webpack_require__(/*! ./_own-keys */ "./node_modules/core-js/library/modules/_own-keys.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var gOPD = __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js");
+var createProperty = __webpack_require__(/*! ./_create-property */ "./node_modules/core-js/library/modules/_create-property.js");
+
+$export($export.S, 'Object', {
+  getOwnPropertyDescriptors: function getOwnPropertyDescriptors(object) {
+    var O = toIObject(object);
+    var getDesc = gOPD.f;
+    var keys = ownKeys(O);
+    var result = {};
+    var i = 0;
+    var key, desc;
+    while (keys.length > i) {
+      desc = getDesc(O, key = keys[i++]);
+      if (desc !== undefined) createProperty(result, key, desc);
+    }
+    return result;
+  }
+});
 
 
 /***/ }),
@@ -8522,21 +9000,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fecommerce&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cecommerce.js!./":
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fecommerce&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cecommerce.js ***!
-  \****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js!./":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/ecommerce", function() {
-      var mod = __webpack_require__(/*! ./pages/ecommerce.js */ "./pages/ecommerce.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/ecommerce.js */ "./pages/ecommerce.js", function() {
-          if(!next.router.components["/ecommerce"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/ecommerce.js */ "./pages/ecommerce.js")
-          next.router.update("/ecommerce", updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -16790,6 +17268,24 @@ function polyfill(Component) {
 }
 
 
+
+
+/***/ }),
+
+/***/ "./node_modules/react-parallax-tilt/dist/index.esm.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-parallax-tilt/dist/index.esm.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return u; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var n=function(e,t){return n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)Object.prototype.hasOwnProperty.call(t,n)&&(e[n]=t[n])},n(e,t)};var i=function(){return i=Object.assign||function(e){for(var t,n=1,i=arguments.length;n<i;n++)for(var r in t=arguments[n])Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r]);return e},i.apply(this,arguments)};function r(e,t,n,i){return new(n||(n=Promise))((function(r,a){function o(e){try{s(i.next(e))}catch(e){a(e)}}function l(e){try{s(i.throw(e))}catch(e){a(e)}}function s(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(o,l)}s((i=i.apply(e,t||[])).next())}))}function a(e,t){var n,i,r,a,o={label:0,sent:function(){if(1&r[0])throw r[1];return r[1]},trys:[],ops:[]};return a={next:l(0),throw:l(1),return:l(2)},"function"==typeof Symbol&&(a[Symbol.iterator]=function(){return this}),a;function l(a){return function(l){return function(a){if(n)throw new TypeError("Generator is already executing.");for(;o;)try{if(n=1,i&&(r=2&a[0]?i.return:a[0]?i.throw||((r=i.return)&&r.call(i),0):i.next)&&!(r=r.call(i,a[1])).done)return r;switch(i=0,r&&(a=[2&a[0],r.value]),a[0]){case 0:case 1:r=a;break;case 4:return o.label++,{value:a[1],done:!1};case 5:o.label++,i=a[1],a=[0];continue;case 7:a=o.ops.pop(),o.trys.pop();continue;default:if(!(r=o.trys,(r=r.length>0&&r[r.length-1])||6!==a[0]&&2!==a[0])){o=0;continue}if(3===a[0]&&(!r||a[1]>r[0]&&a[1]<r[3])){o.label=a[1];break}if(6===a[0]&&o.label<r[1]){o.label=r[1],r=a;break}if(r&&o.label<r[2]){o.label=r[2],o.ops.push(a);break}r[2]&&o.ops.pop(),o.trys.pop();continue}a=t.call(e,o)}catch(e){a=[6,e],i=0}finally{n=r=0}if(5&a[0])throw a[1];return{value:a[0]?a[1]:void 0,done:!0}}([a,l])}}}function o(e,t,n,i){e.style.transition="".concat(t," ").concat(n,"ms ").concat(i)}function l(e,t,n){return Math.min(Math.max(e,t),n)}var s=function(e,t){var n=this;this.glareAngle=0,this.glareOpacity=0,this.calculateGlareSize=function(e){var t=e.height,n=Math.sqrt(Math.pow(e.width,2)+Math.pow(t,2));return{width:n,height:n}},this.setSize=function(e){var t=n.calculateGlareSize(e);n.glareEl.style.width="".concat(t.width,"px"),n.glareEl.style.height="".concat(t.height,"px")},this.update=function(e,t,i,r){n.updateAngle(e,t.glareReverse),n.updateOpacity(e,t,i,r)},this.updateAngle=function(e,t){var i=e.xPercentage,r=180/Math.PI,a=i?Math.atan2(e.yPercentage,-i)*r:0;n.glareAngle=a-(t?180:0)},this.updateOpacity=function(e,t,i,r){var a,o=e.xPercentage,s=e.yPercentage,p=t.glareMaxOpacity,c=i?-1:1,u=r?-1:1,g=t.glareReverse?-1:1;switch(t.glarePosition){case"top":a=-o*c*g;break;case"right":a=s*u*g;break;case"bottom":default:a=o*c*g;break;case"left":a=-s*u*g;break;case"all":a=Math.hypot(o,s)}var h=l(a,0,100);n.glareOpacity=h*p/100},this.render=function(e){var t=e.glareColor;n.glareEl.style.transform="rotate(".concat(n.glareAngle,"deg) translate(-50%, -50%)"),n.glareEl.style.opacity=n.glareOpacity.toString(),n.glareEl.style.background="linear-gradient(0deg, rgba(255,255,255,0) 0%, ".concat(t," 100%)")},this.glareWrapperEl=document.createElement("div"),this.glareEl=document.createElement("div"),this.glareWrapperEl.appendChild(this.glareEl),this.glareWrapperEl.className="glare-wrapper",this.glareEl.className="glare";var i={position:"absolute",top:"0",left:"0",width:"100%",height:"100%",overflow:"hidden",borderRadius:t,WebkitMaskImage:"-webkit-radial-gradient(white, black)"},r=this.calculateGlareSize(e),a={position:"absolute",top:"50%",left:"50%",transformOrigin:"0% 0%",pointerEvents:"none",width:"".concat(r.width,"px"),height:"".concat(r.height,"px")};Object.assign(this.glareWrapperEl.style,i),Object.assign(this.glareEl.style,a)},p=function(){var e=this;this.glareAngle=0,this.glareOpacity=0,this.tiltAngleX=0,this.tiltAngleY=0,this.tiltAngleXPercentage=0,this.tiltAngleYPercentage=0,this.update=function(t,n){e.updateTilt(t,n),e.updateTiltManualInput(t,n),e.updateTiltReverse(n),e.updateTiltLimits(n)},this.updateTilt=function(t,n){var i=t.yPercentage,r=n.tiltMaxAngleY;e.tiltAngleX=t.xPercentage*n.tiltMaxAngleX/100,e.tiltAngleY=i*r/100*-1},this.updateTiltManualInput=function(t,n){var i=n.tiltAngleXManual,r=n.tiltAngleYManual,a=n.tiltMaxAngleX,o=n.tiltMaxAngleY;(null!==i||null!==r)&&(e.tiltAngleX=null!==i?i:0,e.tiltAngleY=null!==r?r:0,t.xPercentage=100*e.tiltAngleX/a,t.yPercentage=100*e.tiltAngleY/o)},this.updateTiltReverse=function(t){var n=t.tiltReverse?-1:1;e.tiltAngleX=n*e.tiltAngleX,e.tiltAngleY=n*e.tiltAngleY},this.updateTiltLimits=function(t){var n=t.tiltAxis;e.tiltAngleX=l(e.tiltAngleX,-90,90),e.tiltAngleY=l(e.tiltAngleY,-90,90),n&&(e.tiltAngleX="x"===n?e.tiltAngleX:0,e.tiltAngleY="y"===n?e.tiltAngleY:0)},this.updateTiltAnglesPercentage=function(t){var n=t.tiltMaxAngleY;e.tiltAngleXPercentage=e.tiltAngleX/t.tiltMaxAngleX*100,e.tiltAngleYPercentage=e.tiltAngleY/n*100},this.render=function(t){t.style.transform+="rotateX(".concat(e.tiltAngleX,"deg) rotateY(").concat(e.tiltAngleY,"deg) ")}},c=i(i({scale:1,perspective:1e3,flipVertically:!1,flipHorizontally:!1,reset:!0,transitionEasing:"cubic-bezier(.03,.98,.52,.99)",transitionSpeed:400,trackOnWindow:!1,gyroscope:!1},{tiltEnable:!0,tiltReverse:!1,tiltAngleXInitial:0,tiltAngleYInitial:0,tiltMaxAngleX:20,tiltMaxAngleY:20,tiltAxis:null,tiltAngleXManual:null,tiltAngleYManual:null}),{glareEnable:!1,glareMaxOpacity:.7,glareColor:"#ffffff",glarePosition:"bottom",glareReverse:!1,glareBorderRadius:"0"}),u=function(t){function i(){var e=null!==t&&t.apply(this,arguments)||this;return e.wrapperEl={node:null,size:{width:0,height:0,left:0,top:0},clientPosition:{x:null,y:null,xPercentage:0,yPercentage:0},updateAnimationId:null,scale:1},e.tilt=null,e.glare=null,e.addDeviceOrientationEventListener=function(){return r(e,void 0,void 0,(function(){var e;return a(this,(function(t){switch(t.label){case 0:if(!window.DeviceOrientationEvent&&"development"==="development")return console.warn("Browser doesn't support Device Orientation."),[2];if(!("function"==typeof DeviceOrientationEvent.requestPermission))return[3,4];t.label=1;case 1:return t.trys.push([1,3,,4]),[4,DeviceOrientationEvent.requestPermission()];case 2:return"granted"===t.sent()&&window.addEventListener("deviceorientation",this.onMove),[2];case 3:return e=t.sent(),console.error(e),[2];case 4:return window.addEventListener("deviceorientation",this.onMove),[2]}}))}))},e.setSize=function(){e.setWrapperElSize(),e.glare&&e.glare.setSize(e.wrapperEl.size)},e.mainLoop=function(t){null!==e.wrapperEl.updateAnimationId&&cancelAnimationFrame(e.wrapperEl.updateAnimationId),e.processInput(t),e.update(t.type),e.wrapperEl.updateAnimationId=requestAnimationFrame(e.renderFrame)},e.onEnter=function(t){var n=e.props.onEnter;e.setSize(),e.wrapperEl.node.style.willChange="transform",e.setTransitions(),n&&n(t.type)},e.onMove=function(t){e.mainLoop(t),e.emitOnMove(t)},e.onLeave=function(t){var n=e.props.onLeave;if(e.setTransitions(),n&&n(t.type),e.props.reset){var i=new CustomEvent("autoreset");e.onMove(i)}},e.processInput=function(t){var n=e.props.scale;switch(t.type){case"mousemove":e.wrapperEl.clientPosition.x=t.pageX,e.wrapperEl.clientPosition.y=t.pageY,e.wrapperEl.scale=n;break;case"touchmove":e.wrapperEl.clientPosition.x=t.touches[0].pageX,e.wrapperEl.clientPosition.y=t.touches[0].pageY,e.wrapperEl.scale=n;break;case"deviceorientation":e.processInputDeviceOrientation(t),e.wrapperEl.scale=n;break;case"autoreset":var i=e.props,r=i.tiltAngleYInitial/i.tiltMaxAngleY*100;e.wrapperEl.clientPosition.xPercentage=l(i.tiltAngleXInitial/i.tiltMaxAngleX*100,-100,100),e.wrapperEl.clientPosition.yPercentage=l(r,-100,100),e.wrapperEl.scale=1}},e.processInputDeviceOrientation=function(t){if(t.gamma&&t.beta&&e.props.gyroscope){var n=e.props,i=n.tiltMaxAngleY,r=t.gamma;e.wrapperEl.clientPosition.xPercentage=t.beta/n.tiltMaxAngleX*100,e.wrapperEl.clientPosition.yPercentage=r/i*100,e.wrapperEl.clientPosition.xPercentage=l(e.wrapperEl.clientPosition.xPercentage,-100,100),e.wrapperEl.clientPosition.yPercentage=l(e.wrapperEl.clientPosition.yPercentage,-100,100)}},e.update=function(t){var n=e.props,i=n.tiltEnable,r=n.flipVertically,a=n.flipHorizontally;"autoreset"!==t&&"deviceorientation"!==t&&"propChanged"!==t&&e.updateClientInput(),i&&e.tilt.update(e.wrapperEl.clientPosition,e.props),e.updateFlip(),e.tilt.updateTiltAnglesPercentage(e.props),e.glare&&e.glare.update(e.wrapperEl.clientPosition,e.props,r,a)},e.updateClientInput=function(){var t,n;if(e.props.trackOnWindow){var i=e.wrapperEl.clientPosition,r=i.x;t=i.y/window.innerHeight*200-100,n=r/window.innerWidth*200-100}else{var a=e.wrapperEl,o=a.size,s=a.clientPosition;t=(s.y-o.top)/o.height*200-100,n=((r=s.x)-o.left)/o.width*200-100}e.wrapperEl.clientPosition.xPercentage=l(t,-100,100),e.wrapperEl.clientPosition.yPercentage=l(n,-100,100)},e.updateFlip=function(){var t=e.props,n=t.flipHorizontally;t.flipVertically&&(e.tilt.tiltAngleX+=180,e.tilt.tiltAngleY*=-1),n&&(e.tilt.tiltAngleY+=180)},e.renderFrame=function(){e.resetWrapperElTransform(),e.renderPerspective(),e.tilt.render(e.wrapperEl.node),e.renderScale(),e.glare&&e.glare.render(e.props)},e}return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Class extends value "+String(t)+" is not a constructor or null");function i(){this.constructor=e}n(e,t),e.prototype=null===t?Object.create(t):(i.prototype=t.prototype,new i)}(i,t),i.prototype.componentDidMount=function(){this.tilt=new p,this.initGlare(),this.addEventListeners();var e=new CustomEvent("autoreset");this.mainLoop(e);var t=new CustomEvent("initial");this.emitOnMove(t)},i.prototype.componentWillUnmount=function(){null!==this.wrapperEl.updateAnimationId&&cancelAnimationFrame(this.wrapperEl.updateAnimationId),this.removeEventListeners()},i.prototype.componentDidUpdate=function(){var e=new CustomEvent("propChanged");this.mainLoop(e)},i.prototype.addEventListeners=function(){var e=this.props,t=e.trackOnWindow,n=e.gyroscope;window.addEventListener("resize",this.setSize),t&&(window.addEventListener("mouseenter",this.onEnter),window.addEventListener("mousemove",this.onMove),window.addEventListener("mouseout",this.onLeave),window.addEventListener("touchstart",this.onEnter),window.addEventListener("touchmove",this.onMove),window.addEventListener("touchend",this.onLeave)),n&&this.addDeviceOrientationEventListener()},i.prototype.removeEventListeners=function(){var e=this.props,t=e.trackOnWindow,n=e.gyroscope;window.removeEventListener("resize",this.setSize),t&&(window.removeEventListener("mouseenter",this.onEnter),window.removeEventListener("mousemove",this.onMove),window.removeEventListener("mouseout",this.onLeave),window.removeEventListener("touchstart",this.onEnter),window.removeEventListener("touchmove",this.onMove),window.removeEventListener("touchend",this.onLeave)),n&&window.DeviceOrientationEvent&&window.removeEventListener("deviceorientation",this.onMove)},i.prototype.setWrapperElSize=function(){var e=this.wrapperEl.node.getBoundingClientRect();this.wrapperEl.size.width=this.wrapperEl.node.offsetWidth,this.wrapperEl.size.height=this.wrapperEl.node.offsetHeight,this.wrapperEl.size.left=e.left+window.scrollX,this.wrapperEl.size.top=e.top+window.scrollY},i.prototype.initGlare=function(){var e=this.props;e.glareEnable&&(this.glare=new s(this.wrapperEl.size,e.glareBorderRadius),this.wrapperEl.node.appendChild(this.glare.glareWrapperEl))},i.prototype.emitOnMove=function(e){var t=this.props.onMove;if(t){var n=0,i=0;this.glare&&(n=this.glare.glareAngle,i=this.glare.glareOpacity),t(this.tilt.tiltAngleX,this.tilt.tiltAngleY,this.tilt.tiltAngleXPercentage,this.tilt.tiltAngleYPercentage,n,i,e.type)}},i.prototype.resetWrapperElTransform=function(){this.wrapperEl.node.style.transform=""},i.prototype.renderPerspective=function(){this.wrapperEl.node.style.transform+="perspective(".concat(this.props.perspective,"px) ")},i.prototype.renderScale=function(){var e=this.wrapperEl.scale;this.wrapperEl.node.style.transform+="scale3d(".concat(e,",").concat(e,",").concat(e,")")},i.prototype.setTransitions=function(){var e=this.props,t=e.transitionSpeed,n=e.transitionEasing;o(this.wrapperEl.node,"all",t,n),this.glare&&o(this.glare.glareEl,"opacity",t,n)},i.prototype.render=function(){var t=this,n=this.props;return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div",{ref:function(e){return t.wrapperEl.node=e},onMouseEnter:this.onEnter,onMouseMove:this.onMove,onMouseLeave:this.onLeave,onTouchStart:this.onEnter,onTouchMove:this.onMove,onTouchEnd:this.onLeave,className:n.className,style:n.style},n.children)},i.defaultProps=c,i}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
+//# sourceMappingURL=index.esm.js.map
 
 
 /***/ }),
@@ -33931,10 +34427,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/ecommerce.js":
-/*!****************************!*\
-  !*** ./pages/ecommerce.js ***!
-  \****************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -33944,9 +34440,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _layouts_app2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layouts/app2 */ "./pages/layouts/app2.js");
+/* harmony import */ var _pages_layouts_agency__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/layouts/agency */ "./pages/layouts/agency.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\ecommerce.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -33977,8 +34473,8 @@ var Home = function Home() {
       lineNumber: 12,
       columnNumber: 11
     }
-  }, "Vende en l\xEDnea con los E-Commerces de 2MetaDigital"), __jsx("meta", {
-    description: "8 de cada 10 argentinos realizan al menos una compra online al a\xF1o, hacemos tu tienda online por vos para que empieces a vender en l\xEDnea.",
+  }, "2MetaDigital - Enfocados en la Meta"), __jsx("meta", {
+    description: "Agencia Digital. Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresi\xF3n, una imagen profesional y textos precisos. Desarrollo Web, Copywriting, Marketing, Dise\xF1o Gr\xE1fico, Administraci\xF3n de Servidores.",
     content: "",
     __self: _this,
     __source: {
@@ -33987,12 +34483,21 @@ var Home = function Home() {
       columnNumber: 11
     }
   }), __jsx("meta", {
-    name: "Vende Online con los E-Commerces de 2MetaDigital",
-    content: "",
+    property: "og:description",
+    content: "Agencia Digital. Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresi\xF3n, una imagen profesional y textos precisos. Desarrollo Web, Copywriting, Marketing, Dise\xF1o Gr\xE1fico, Administraci\xF3n de Servidores.",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
+      columnNumber: 11
+    }
+  }), __jsx("meta", {
+    name: "2MetaDigital - Enfocados en la Meta",
+    content: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
       columnNumber: 11
     }
   }), __jsx("meta", {
@@ -34001,19 +34506,10 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 11
-    }
-  }), __jsx("meta", {
-    property: "og:description",
-    content: "8 de cada 10 argentinos realizan al menos una compra online al a\xF1o, hacemos tu tienda online por vos para que empieces a vender en l\xEDnea",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 11
     }
-  })), __jsx(_layouts_app2__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  })), __jsx(_pages_layouts_agency__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34027,10 +34523,10 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ "./pages/layouts/app2.js":
-/*!*******************************!*\
-  !*** ./pages/layouts/app2.js ***!
-  \*******************************/
+/***/ "./pages/layouts/agency.js":
+/*!*********************************!*\
+  !*** ./pages/layouts/agency.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -34041,19 +34537,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _containers_common_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../containers/common/header */ "./containers/common/header.js");
-/* harmony import */ var _sections_app_banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/app/banner */ "./pages/layouts/sections/app/banner.js");
-/* harmony import */ var _sections_app_about__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sections/app/about */ "./pages/layouts/sections/app/about.js");
-/* harmony import */ var _sections_app_services__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sections/app/services */ "./pages/layouts/sections/app/services.js");
-/* harmony import */ var _sections_app_format__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sections/app/format */ "./pages/layouts/sections/app/format.js");
-/* harmony import */ var _sections_app_team__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sections/app/team */ "./pages/layouts/sections/app/team.js");
-/* harmony import */ var _sections_app_screenshot__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/app/screenshot */ "./pages/layouts/sections/app/screenshot.js");
-/* harmony import */ var _sections_app_member__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sections/app/member */ "./pages/layouts/sections/app/member.js");
-/* harmony import */ var _sections_app_pricing__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sections/app/pricing */ "./pages/layouts/sections/app/pricing.js");
-/* harmony import */ var _sections_app_client__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sections/app/client */ "./pages/layouts/sections/app/client.js");
-/* harmony import */ var _sections_app_footer__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./sections/app/footer */ "./pages/layouts/sections/app/footer.js");
-/* harmony import */ var _sections_app_copyright__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./sections/app/copyright */ "./pages/layouts/sections/app/copyright.js");
+/* harmony import */ var _sections_agency_banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/agency/banner */ "./pages/layouts/sections/agency/banner.js");
+/* harmony import */ var _sections_agency_about__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sections/agency/about */ "./pages/layouts/sections/agency/about.js");
+/* harmony import */ var _sections_agency_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sections/agency/service */ "./pages/layouts/sections/agency/service.js");
+/* harmony import */ var _pages_portfolio_portfolio_title_3_col__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../pages/portfolio/portfolio-title-3-col */ "./pages/portfolio/portfolio-title-3-col.js");
+/* harmony import */ var _sections_agency_testimonial__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sections/agency/testimonial */ "./pages/layouts/sections/agency/testimonial.js");
+/* harmony import */ var _sections_agency_cta2__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/agency/cta2 */ "./pages/layouts/sections/agency/cta2.js");
+/* harmony import */ var _sections_agency_footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sections/agency/footer */ "./pages/layouts/sections/agency/footer.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\app2.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\agency.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -34068,129 +34560,89 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-
-
-var App2 = function App2() {
+var Agency = function Agency() {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    document.body.style.setProperty('--primary', '#fd6d64');
-    document.body.style.setProperty('--secondary', '#434345');
-    document.body.style.setProperty('--light', '#F66E54');
-    document.body.style.setProperty('--dark', '#FF534B');
+    document.body.style.setProperty('--primary', '#10266b');
+    document.body.style.setProperty('--secondary', '#464545');
+    document.body.style.setProperty('--light', '#1F357D');
+    document.body.style.setProperty('--dark', '#04185B');
   });
   return __jsx("div", {
     className: "theme-color",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 7
+      lineNumber: 24,
+      columnNumber: 5
     }
   }, __jsx(_containers_common_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: "agency",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 9
+    }
+  }), __jsx(_sections_agency_banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }), __jsx(_sections_agency_about__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), __jsx(_sections_agency_service__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_about__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), __jsx(_pages_portfolio_portfolio_title_3_col__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_services__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx(_sections_agency_testimonial__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_format__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }), __jsx(_sections_agency_cta2__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_screenshot__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }), __jsx(_sections_agency_footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_team__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 9
-    }
-  }), __jsx(_sections_app_client__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 9
-    }
-  }), __jsx(_sections_app_footer__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 9
-    }
-  }), __jsx(_sections_app_copyright__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 9
-    }
-  }), __jsx("div", {
-    className: "tap-top",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 13
-    }
-  }, __jsx("i", {
-    className: "fa fa-angle-double-up",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 18
-    }
-  }))));
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (App2);
+/* harmony default export */ __webpack_exports__["default"] = (Agency);
 
 /***/ }),
 
-/***/ "./pages/layouts/sections/app/about.js":
-/*!*********************************************!*\
-  !*** ./pages/layouts/sections/app/about.js ***!
-  \*********************************************/
+/***/ "./pages/layouts/sections/agency/about.js":
+/*!************************************************!*\
+  !*** ./pages/layouts/sections/agency/about.js ***!
+  \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -34198,208 +34650,203 @@ var App2 = function App2() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos/dist/aos.css */ "./node_modules/aos/dist/aos.css");
+/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\about.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+
 var About = function About() {
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    aos__WEBPACK_IMPORTED_MODULE_1___default.a.init({
+      duration: 2000
+    });
+  }, []);
   return __jsx("section", {
-    className: "app2 about format",
-    id: "beneficios",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "animated-bg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
-    }
-  }, __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 34
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 41
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 48
-    }
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    sm: "6",
-    className: "counters set-height",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 17
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid mobile1",
-    "data-aos": "fade-right",
-    src: "/assets/images/app_landing2/beneficios.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 21
-    }
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    sm: "6",
-    className: "counters",
+    className: "agency agency-content about-bg",
+    id: "Nosotros",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 17
+      columnNumber: 9
     }
-  }, __jsx("div", {
-    className: "abouts center-text",
+  }, __jsx("h3", {
+    className: "text-as-shadow",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 21
+      columnNumber: 13
     }
-  }, __jsx("div", {
+  }, "About ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 50
+    }
+  }), " us"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 25
+      columnNumber: 13
     }
-  }, __jsx("div", {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 29
+      columnNumber: 17
     }
-  }, __jsx("h6", {
-    className: "font-primary m-b-25 text-uppercase",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+    xl: "9",
+    md: "9",
+    className: "offset-xl-3 offset-md-3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
-      columnNumber: 33
+      columnNumber: 21
     }
-  }, __jsx("span", {
+  }, __jsx("div", {
+    className: "agency-header-center-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 84
+      lineNumber: 17,
+      columnNumber: 25
     }
-  }, "Beneficios \xFAnicos ecommerce"))), __jsx("div", {
-    className: "format-head-text",
+  }, __jsx("div", {
+    className: "borders",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 29
     }
-  }, __jsx("h3", {
-    className: "about-font-header font-secondary",
+  }), __jsx("div", {
+    className: "agency-head",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 33
-    }
-  }, "Ahorr\xE1 toneladas de tiempo!")), __jsx("div", {
-    className: "format-sub-text",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
       columnNumber: 29
     }
-  }, __jsx("p", {
-    className: "about-para",
+  }, __jsx("h3", {
+    className: "agency-head-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 20,
       columnNumber: 33
     }
-  }, "Tener una tienda online te puede ahorrar mucho tiempo, ya que \xE9sta plataforma te permite automatizar la mayor\xEDa de los procesos de venta y dar un salto de calidad y accesibilidad para tu negocio y tus clientes."), __jsx("p", {
-    className: "about-para",
+  }, "De Emprendedores para Emprendedores ", __jsx("span", {
+    className: "block-span",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 33
+      lineNumber: 20,
+      columnNumber: 102
     }
-  }, __jsx("b", {
+  }, "Que quieren dar un salto de calidad"))))))), __jsx("div", {
+    className: "side-img  set-abs left-0 top-0",
+    "data-aos": "fade-right",
+    "data-aos-duration": "4500",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 59
+      lineNumber: 26,
+      columnNumber: 13
     }
-  }, "Es como tener un robot vendedor que puede vender las 24 horas y brindar a tus clientes toda la informaci\xF3n que necesitan para comprar: Stock, Precio, Colores, Talles, Medios de Pago, Cat\xE1logos, etc. y adem\xE1s, la tecnolog\xEDa de Carrito y Pasarelas de Pago para que puedan Concretar la Compra SIN intervenci\xF3n humana en cualquier momento.")), __jsx("p", {
-    className: "about-para",
+  }, __jsx("div", {
+    className: "plus-container plus-container9",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 33
+      lineNumber: 28,
+      columnNumber: 17
     }
-  }, "Pero no pierdas tiempo, somos especialistas, lo hacemos por vos considerando cada detalle, de calidad profesional y escalable.")), __jsx("a", {
-    className: "btn btn-default btn-gradient m-t-50",
-    href: "#caracteristicas",
+  }, __jsx("div", {
+    className: "plus white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 29
+      lineNumber: 29,
+      columnNumber: 21
     }
-  }, "caracter\xEDsticas")))))));
+  })), __jsx("div", {
+    className: "plus-container plus-container10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "plus plus-medium white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 21
+    }
+  })), __jsx("div", {
+    className: "plus-container plus-container11",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "plus plus plus-small white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 21
+    }
+  })), __jsx("img", {
+    alt: "",
+    className: "img-fluid about-img",
+    src: "/assets/images/agency/about-us/image.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 17
+    }
+  })), __jsx("img", {
+    alt: "",
+    className: "img-fluid blue-img",
+    src: "/assets/images/agency/agency-abs-img.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 13
+    }
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ "./pages/layouts/sections/app/banner.js":
-/*!**********************************************!*\
-  !*** ./pages/layouts/sections/app/banner.js ***!
-  \**********************************************/
+/***/ "./pages/layouts/sections/agency/banner.js":
+/*!*************************************************!*\
+  !*** ./pages/layouts/sections/agency/banner.js ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -34407,79 +34854,50 @@ var About = function About() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var react_parallax_tilt__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-parallax-tilt */ "./node_modules/react-parallax-tilt/dist/index.esm.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\banner.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\banner.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 var Banner = function Banner() {
   return __jsx("section", {
-    className: "app2 header overflow-unset app2-animation",
-    id: "home",
+    className: "agency header",
+    id: "header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 5,
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "animated-bg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 9
-    }
-  }, __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 38
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 45
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 52
-    }
-  })), __jsx("div", {
-    className: "app2-header bg",
+    className: "agency bg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 9
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    xl: "7",
-    lg: "6",
-    md: "8",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    md: "6",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34501,27 +34919,20 @@ var Banner = function Banner() {
       lineNumber: 11,
       columnNumber: 29
     }
-  }, __jsx("h6", {
-    className: "header-top-line",
+  }, __jsx("div", {
+    className: "header-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
       columnNumber: 33
     }
-  }, "Creamos tu tienda online profesional"), __jsx("div", {
-    className: "header-text",
+  }, __jsx("h1", {
+    className: "text-uppercase",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 33
-    }
-  }, __jsx("h1", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
       columnNumber: 37
     }
   }, __jsx("span", {
@@ -34529,117 +34940,254 @@ var Banner = function Banner() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 41
+      lineNumber: 13,
+      columnNumber: 68
     }
-  }, "Empez\xE1 a vender en l\xEDnea de manera profesional ahora"))), __jsx("div", {
+  }, "Enfocados", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 105
+    }
+  }), __jsx("strong", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 110
+    }
+  }, "En La Meta")))), __jsx("div", {
     className: "header-sub-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 33
     }
   }, __jsx("p", {
-    className: "text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 37
     }
-  }, "8 de cada 10 argentinos realizan al menos una compra online al a\xF1o. Hacemos tu tienda online profesional por vos para que empieces a vender en l\xEDnea ahora.")), __jsx("div", {
+  }, "Te ayudamos a mejorar la imagen de tu negocio y posicionarte en el mercado digital de forma profesional para optimizar el proceso de venta.")), __jsx("div", {
     className: "link-horizontal",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 18,
       columnNumber: 33
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 37
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 41
+    }
+  }, __jsx("a", {
+    className: "btn btn-default btn-gradient text-white active",
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 41
-    }
-  }, __jsx("a", {
-    className: "btn btn-default btn-white",
-    href: "https://web.whatsapp.com/send?phone=541165003611",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
       columnNumber: 45
     }
-  }, "Contactar ahora")), __jsx("li", {
+  }, "Qu\xE9 hacemos")))))))))), __jsx("div", {
+    className: "set-abs abs-horizon-center girl-boy",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 41
+      lineNumber: 31,
+      columnNumber: 9
     }
-  }, __jsx("a", {
-    className: "btn btn-default primary-btn transparent",
-    href: "#beneficios",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 45
-    }
-  }, "m\xE1s info"))))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    xl: "5",
-    lg: "6",
-    md: "4",
+  }, __jsx(react_parallax_tilt__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    perspective: "20000",
+    transitionSpeed: "3000",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32,
-      columnNumber: 21
+      columnNumber: 13
     }
-  }, __jsx("div", {
-    className: "img-mobile set-abs",
-    style: {
-      bottom: 0,
-      zIndex: 0,
-      position: 'absolute',
-      left: '20vw'
-    },
+  }, __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/agency/slider/img3.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 25
+      columnNumber: 17
     }
-  }, __jsx("img", {
-    alt: "",
-    className: "headaer-image",
-    src: "/assets/images/app_landing2/header.png",
-    style: {
-      width: '90vh',
-      height: 'auto'
-    },
+  })), __jsx("div", {
+    className: "plus-container plus-container6",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 29
+      lineNumber: 35,
+      columnNumber: 13
     }
-  }))))), __jsx("div", {
-    className: "wave",
+  }, __jsx("div", {
+    className: "plus white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 36,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "plus-container plus-container7",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "plus white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "plus-container plus-container8",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "plus white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "circle-container",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "gradient-circle-big",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 17
+    }
+  })), __jsx("div", {
+    className: "circle-container small",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "gradient-circle-small",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 17
+    }
+  }))), __jsx("div", {
+    className: "plus-container",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "plus",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "plus-container plus-container2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "plus plus-medium",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "plus-container plus-container3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "plus plus-small",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "plus-container plus-container4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "plus plus-small",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+    className: "plus-container plus-container5",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "plus plus-medium",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
       columnNumber: 13
     }
   })));
@@ -34649,10 +35197,10 @@ var Banner = function Banner() {
 
 /***/ }),
 
-/***/ "./pages/layouts/sections/app/client.js":
-/*!**********************************************!*\
-  !*** ./pages/layouts/sections/app/client.js ***!
-  \**********************************************/
+/***/ "./pages/layouts/sections/agency/cta2.js":
+/*!***********************************************!*\
+  !*** ./pages/layouts/sections/agency/cta2.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -34662,121 +35210,183 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\client.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\cta2.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var Client = function Client() {
+var Video = function Video() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
+      modal = _useState[0],
+      setModal = _useState[1];
+
+  var toggle = function toggle() {
+    setModal(!modal);
+  };
+
   return __jsx("section", {
-    className: "app2 brand-sliders p-t-0",
-    id: "contacto",
+    className: "agency video video-bg",
+    id: "Contacto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
+      lineNumber: 9,
+      columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
+      lineNumber: 10,
+      columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "10",
-    className: "offset-md-1",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 11,
       columnNumber: 17
     }
-  }, __jsx("div", {
-    className: "title title2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 21
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid title-img",
-    src: "/assets/images/app_landing2/service/contact.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 25
-    }
-  }), __jsx("h6", {
-    className: "font-primary borders main-text",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 25
-    }
-  }, __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 72
-    }
-  }, "Empieza la aventura de tu negocio")), __jsx("div", {
-    className: "sub-title",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    xs: "12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 25
+      columnNumber: 21
     }
-  }, __jsx("h2", {
-    className: "title-text text-capitalize text-center mb-4",
+  }, __jsx("div", {
+    className: "text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "d-inline-block",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
       columnNumber: 29
     }
-  }, "Tu negocio vendiendo en l\xEDnea sin perder tiempo")), __jsx("p", {
+  }, __jsx("img", {
+    alt: "",
+    className: "img-fluid bg-video",
+    src: "/assets/images/agency/videos/bg.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 25
+      columnNumber: 33
     }
-  }, "Te asesoramos sin compromiso: te ayudamos a decidir si nuestros servicios son para vos o no, te cotizamos y hacemos crecer tus proyectos."), __jsx("a", {
-    className: "btn btn-default btn-gradient mt-5",
+  }), __jsx("div", {
+    className: "abs-center",
+    style: {
+      left: '49.5%'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 37
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 41
+    }
+  }, __jsx("img", {
+    alt: "",
+    className: "img-fluid m-b-20",
+    src: "/assets/images/agency/cta/cta4.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 45
+    }
+  }), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 45
+    }
+  }, __jsx("h3", {
+    className: "video-heading text-white text-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 49
+    }
+  }, "\xBFTenes ideas para tu proyecto?")), __jsx("div", {
+    style: {
+      margin: '0 0 0',
+      textAlign: 'center'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 45
+    }
+  }, __jsx("h6", {
+    className: "video-text text-white text-center pb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 49
+    }
+  }, "Contanos qu\xE9 quer\xE9s lograr"), __jsx("h6", {
+    className: "video-text text-white text-center pb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 49
+    }
+  }, "Tambi\xE9n qu\xE9 dudas tenes"), __jsx("h6", {
+    className: "video-text text-white text-center pb-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 49
+    }
+  }, "Te proponemos soluciones"), __jsx("a", {
+    className: "btn btn-default primary-btn",
     href: "https://web.whatsapp.com/send?phone=541165003611",
     target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 25
+      lineNumber: 28,
+      columnNumber: 49
     }
-  }, "Contactar ahora"))))));
+  }, "Contactar ahora")))))))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Client);
+/* harmony default export */ __webpack_exports__["default"] = (Video);
 
 /***/ }),
 
-/***/ "./pages/layouts/sections/app/copyright.js":
+/***/ "./pages/layouts/sections/agency/footer.js":
 /*!*************************************************!*\
-  !*** ./pages/layouts/sections/app/copyright.js ***!
+  !*** ./pages/layouts/sections/agency/footer.js ***!
   \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -34787,15 +35397,652 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\copyright.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var Copyright = function Copyright() {
-  return __jsx("div", {
-    className: "app2 copyright",
+var Footer = function Footer() {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 5
+    }
+  }, __jsx("footer", {
+    className: "agency footer2 p-b-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    lg: "4",
+    md: "4",
+    sm: "12",
+    className: "set-first",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "logo-sec",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "footer-title mobile-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    className: "text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 33
+    }
+  }, "Nosotros")), __jsx("div", {
+    className: "footer-contant",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    alt: "",
+    className: "img-fluid footer-logo",
+    src: "/assets/images/logo/logo4neg.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 33
+    }
+  }), __jsx("div", {
+    className: "footer-para",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 33
+    }
+  }, __jsx("h6", {
+    className: "text-white para-address",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 37
+    }
+  }, "Somos Emprendedores que buscan complementarse y mejorar junto a otros emprendedores."), __jsx("h6", {
+    className: "text-white para-address",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 37
+    }
+  }, "Buenos Aires, Argentina"), __jsx("h6", {
+    className: "text-white para-address",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 37
+    }
+  }, "2MetaDigital")), __jsx("ul", {
+    className: "d-d-flex footer-social social",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 33
+    }
+  }, __jsx("li", {
+    className: "footer-social-list",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "https://www.instagram.com/2metadigital/",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 41
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-instagram",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 107
+    }
+  }))), __jsx("li", {
+    className: "footer-social-list",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "https://www.facebook.com/2metadigital/",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 41
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-facebook",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 106
+    }
+  }))))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    lg: "2",
+    md: "4",
+    sm: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "footer-title mobile-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 25
+    }
+  }, __jsx("h3", {
+    className: "text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 29
+    }
+  }, "Inicio")), __jsx("div", {
+    className: "footer-contant",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 25
+    }
+  }, __jsx("h5", {
+    className: "footer-headings",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 29
+    }
+  }, "Inicio"), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 29
+    }
+  }, __jsx("ul", {
+    className: "footer-lists op-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 33
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 41
+    }
+  }, "Potencia tu Negocio")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 41
+    }
+  }, "Qu\xE9 Hacemos")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Proyectos",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 41
+    }
+  }, "Proyectos")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Calificaciones",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 41
+    }
+  }, "Calificaciones")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Contacto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 41
+    }
+  }, "Contacto")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    lg: "3",
+    md: "4",
+    sm: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "footer-title mobile-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 25
+    }
+  }, __jsx("h3", {
+    className: "text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 29
+    }
+  }, "Servicios")), __jsx("div", {
+    className: "footer-contant",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 25
+    }
+  }, __jsx("h5", {
+    className: "footer-headings",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 29
+    }
+  }, "Servicios"), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 29
+    }
+  }, __jsx("ul", {
+    className: "footer-lists op-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 33
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 41
+    }
+  }, "Desarrollo Web Profesional")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 41
+    }
+  }, "Dise\xF1o Gr\xE1fico Profesional")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 41
+    }
+  }, "E-Commerces: Tiendas Online")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 41
+    }
+  }, "Copywriting: Redacci\xF3n Ventas")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 41
+    }
+  }, "Landing Pages: P\xE1gina Ventas")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 41
+    }
+  }, "Administraci\xF3n y Mantenimiento")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 41
+    }
+  }, "Hosting, Dominios, SSL y DNS")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    lg: "3",
+    md: "4",
+    sm: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "footer-title mobile-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 25
+    }
+  }, __jsx("h3", {
+    className: "text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 29
+    }
+  }, "Afiliados")), __jsx("div", {
+    className: "footer-contant",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 25
+    }
+  }, __jsx("h5", {
+    className: "footer-headings",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 29
+    }
+  }, "Afiliados"), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97,
+      columnNumber: 29
+    }
+  }, __jsx("ul", {
+    className: "footer-lists op-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 33
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "/afiliados",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 41
+    }
+  }, "Programa de Afiliados")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "/afiliados",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103,
+      columnNumber: 41
+    }
+  }, "Trabaja con Nosotros"))))))))), __jsx("div", {
+    className: "agency copyright pt-5",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    md: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116,
+      columnNumber: 25
+    }
+  }, __jsx("h6", {
+    className: "copyright-text text-white text-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 29
+    }
+  }, "Copyright \xA9 2022 Todos los derechos reservados por ", __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-heart",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 134
+    }
+  }), " 2Meta.Digital")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./pages/layouts/sections/agency/service.js":
+/*!**************************************************!*\
+  !*** ./pages/layouts/sections/agency/service.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _this = undefined,
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\service.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Service = function Service() {
+  return __jsx("section", {
+    className: "agency format service-bg",
+    id: "Servicios",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34817,7 +36064,8 @@ var Copyright = function Copyright() {
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    xs: "12",
+    md: "4",
+    className: "offset-lg-1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34825,7 +36073,7 @@ var Copyright = function Copyright() {
       columnNumber: 17
     }
   }, __jsx("div", {
-    className: "center-content",
+    className: "center-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34833,6 +36081,7 @@ var Copyright = function Copyright() {
       columnNumber: 21
     }
   }, __jsx("div", {
+    className: "format-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34840,2114 +36089,401 @@ var Copyright = function Copyright() {
       columnNumber: 25
     }
   }, __jsx("h6", {
-    className: "copyright-text text-white",
+    className: "borders-before text-uppercase",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
       columnNumber: 29
     }
-  }, "Copyright \xA9 2022 Todos Los Derechos Reservados Por 2Meta.Digital")))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Copyright);
-
-/***/ }),
-
-/***/ "./pages/layouts/sections/app/footer.js":
-/*!**********************************************!*\
-  !*** ./pages/layouts/sections/app/footer.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\footer.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var Footer = function Footer() {
-  return __jsx("footer", {
-    className: "app2 bg footer2 p-0",
+  }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
-    }
-  }, __jsx("section", {
-    style: {
-      paddingTop: 125
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 9
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 17
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    lg: "3",
-    md: "6",
-    sm: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "logo-sec",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "footer-title mobile-title p-t-0",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 29
-    }
-  }, __jsx("h3", {
-    className: "text-white",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 11,
       columnNumber: 33
     }
-  }, "Sobre nosotros")), __jsx("div", {
-    className: "footer-contant",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 29
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid footer-logo",
-    src: "/assets/images/logo/logo4neg.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 33
-    }
-  }), __jsx("div", {
-    className: "footer-para",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 33
-    }
-  }, __jsx("p", {
-    className: "text-white",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 37
-    }
-  }, "Somos emprendedores que se potencian junto a otros emprendedores para alcanzar todas las Metas trabajando en equipo.")), __jsx("ul", {
-    className: "d-flex footer-social social",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 33
-    }
-  }, __jsx("li", {
-    className: "footer-social-list",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "https://www.facebook.com/2metadigital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 41
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-facebook",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 106
-    }
-  }))), __jsx("li", {
-    className: "footer-social-list",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "https://www.instagram.com/2metadigital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 41
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-instagram",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 107
-    }
-  }))))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    lg: "2",
-    md: "6",
-    sm: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "footer-title mobile-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 25
-    }
-  }, __jsx("h3", {
-    className: "text-white",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 29
-    }
-  }, "Navegaci\xF3n")), __jsx("div", {
-    className: "footer-contant",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 25
-    }
-  }, __jsx("h5", {
-    className: "footer-headings",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 29
-    }
-  }, "Navegaci\xF3n"), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 29
-    }
-  }, __jsx("ul", {
-    className: "footer-lists",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 33
-    }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 41
-    }
-  }, "Inicio")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#beneficios",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 41
-    }
-  }, "Beneficios")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#caracteristicas",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 41
-    }
-  }, "Caracter\xEDsticas")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#proyectos",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 41
-    }
-  }, "Proyectos")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#feedback",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 41
-    }
-  }, "Feedback")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#contacto",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 41
-    }
-  }, "Contacto")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    lg: "3",
-    md: "6",
-    sm: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "footer-title mobile-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 25
-    }
-  }, __jsx("h3", {
-    className: "text-white",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 29
-    }
-  }, "Servicios")), __jsx("div", {
-    className: "footer-contant",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 25
-    }
-  }, __jsx("h5", {
-    className: "footer-headings",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90,
-      columnNumber: 29
-    }
-  }, "Servicios"), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 29
-    }
-  }, __jsx("ul", {
-    className: "footer-lists",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 33
-    }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 41
-    }
-  }, "Desarrollo Web Profesional")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 41
-    }
-  }, "Dise\xF1o Gr\xE1fico Profesional")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 41
-    }
-  }, "E-Commerces: Tiendas Online")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 41
-    }
-  }, "Copywriting: Redacci\xF3n Ventas")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 105,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106,
-      columnNumber: 41
-    }
-  }, "Landing Pages: P\xE1gina Ventas")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 108,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109,
-      columnNumber: 41
-    }
-  }, "Administraci\xF3n y Mantenimiento")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112,
-      columnNumber: 41
-    }
-  }, "Hosting, Dominios, SSL y DNS")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    lg: "4",
-    md: "6",
-    sm: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "footer-title mobile-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 119,
-      columnNumber: 25
-    }
-  }, __jsx("h3", {
-    className: "text-white",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 120,
-      columnNumber: 29
-    }
-  }, "Informaci\xF3n")), __jsx("div", {
-    className: "footer-contant",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122,
-      columnNumber: 25
-    }
-  }, __jsx("h5", {
-    className: "footer-headings",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123,
-      columnNumber: 29
-    }
-  }, "Informaci\xF3n"), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124,
-      columnNumber: 29
-    }
-  }, __jsx("ul", {
-    className: "footer-lists contacts",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125,
-      columnNumber: 33
-    }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126,
-      columnNumber: 37
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-map-marker",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127,
-      columnNumber: 41
-    }
-  }), "Saenz Pe\xF1a, Buenos Aires, Argentina"), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130,
-      columnNumber: 37
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-phone m-r-15",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131,
-      columnNumber: 41
-    }
-  }), "(+54) 1133226655"), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 133,
-      columnNumber: 37
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-envelope m-r-15",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 133,
-      columnNumber: 41
-    }
-  }), "gabriel@2meta.digital")))))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./pages/layouts/sections/app/format.js":
-/*!**********************************************!*\
-  !*** ./pages/layouts/sections/app/format.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.js");
-/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos/dist/aos.css */ "./node_modules/aos/dist/aos.css");
-/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\format.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-var Format = function Format() {
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    aos__WEBPACK_IMPORTED_MODULE_1___default.a.init({
-      duration: 1500
-    });
-  }, []);
-  return __jsx("section", {
-    className: "app2 format quality p-t-0",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "animated-bg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
-    }
-  }, __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 42
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 49
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 56
-    }
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    sm: "6",
-    className: "counters set-order-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "abouts center-text",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 29
-    }
-  }, __jsx("div", {
+  }, "Nuestros Servicios")), __jsx("div", {
     className: "format-head-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 33
+      lineNumber: 13,
+      columnNumber: 29
     }
-  }, __jsx("h3", {
-    className: "about-font-header font-secondary",
+  }, __jsx("h2", {
+    className: "about-font-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 37
+      lineNumber: 14,
+      columnNumber: 33
     }
-  }, "Tienda Online de Alta Calidad enfocada a cada producto particular")), __jsx("div", {
+  }, "\xBFC\xF3mo Te Ayudamos ", __jsx("span", {
+    className: "block-span",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 85
+    }
+  }, "A Mejorar Tu Negocio?"))), __jsx("div", {
     className: "format-sub-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 33
+      lineNumber: 17,
+      columnNumber: 29
     }
   }, __jsx("p", {
     className: "about-para",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 37
+      lineNumber: 18,
+      columnNumber: 33
     }
-  }, "Hacemos por vos una Tienda Online no solo de calidad profesional en cuanto al desarrollo y dise\xF1o, sino que tambi\xE9n nos adaptamos perfectamente y de forma particular a tu producto y necesidades de tu negocio."), __jsx("p", {
-    className: "about-para",
+  }, "Optimizamos el proceso de venta mediante servicios que mejoran la imagen de tu marca y accesibilidad en internet.")), __jsx("a", {
+    className: " btn btn-default btn-gradient",
+    href: "/#Proyectos",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 29
+    }
+  }, "Ver Ejemplos")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    lg: "7",
+    md: "8",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 37
-    }
-  }, "Generamos impacto a nuestros clientes y tambi\xE9n a los tuyos. Trabajamos r\xE1pido, tendr\xE9mos tu tienda online lista para empezar a vender en pocos d\xEDas y sin que pierdas tiempo!"), __jsx("p", {
-    className: "about-para",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 37
-    }
-  }, __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 63
-    }
-  }, "Si no te consideras un especialista en eCommerces, te costar\xE1 mucho tiempo y trabajo hacer algo que realmente sea profesional y escalable (como aparecer en motores de b\xFAsqueda) para tu negocio."))), __jsx("a", {
-    className: "btn btn-default btn-gradient m-t-45",
-    href: "#proyectos",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 33
-    }
-  }, "Ver ejemplos")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    sm: "6",
-    className: "counters set-height overflow-hide",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 21
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid mobile2",
-    "data-aos": "fade-left",
-    src: "/assets/images/app_landing2/calidad.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 25
-    }
-  })))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Format);
-
-/***/ }),
-
-/***/ "./pages/layouts/sections/app/member.js":
-/*!**********************************************!*\
-  !*** ./pages/layouts/sections/app/member.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../database/layouts/app/database */ "./database/layouts/app/database.js");
-/* harmony import */ var _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_database_layouts_app_database__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\member.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-var Member = function Member() {
-  return __jsx("section", {
-    className: "app2 team-section p-t-0",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
-    md: "10",
-    className: "offset-md-1",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
       columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "title title2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 21
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid title-img",
-    src: "/assets/images/logo/2.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 25
-    }
-  }), __jsx("h6", {
-    className: "font-primary borders main-text",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 25
-    }
-  }, __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 72
-    }
-  }, "our team")), __jsx("div", {
-    className: "sub-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 25
-    }
-  }, __jsx("h2", {
-    className: "title-text text-capitalize text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 29
-    }
-  }, "our team member")))), _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_1__["MemberData"].map(function (data, i) {
-    return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
-      md: "3",
-      sm: "6",
-      className: "teams",
-      key: "members-".concat(i),
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19,
-        columnNumber: 25
-      }
-    }, __jsx("div", {
-      className: "our-team",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20,
-        columnNumber: 29
-      }
-    }, __jsx("div", {
-      className: "set-relative",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 33
-      }
-    }, __jsx("div", {
-      className: "border-around overflow-hide m-auto",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 37
-      }
-    }, __jsx("div", {
-      className: "set-relative overflow-hide",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 41
-      }
-    }, __jsx("img", {
-      alt: "",
-      className: "img-fluid team",
-      src: data.img,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 45
-      }
-    }), __jsx("div", {
-      className: "overlay-team set-abs",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25,
-        columnNumber: 45
-      }
-    }, __jsx("img", {
-      alt: "",
-      className: "img-fluid wave",
-      src: "/assets/images/app_landing2/team/hover-wave.png",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 26,
-        columnNumber: 49
-      }
-    }))))), __jsx("div", {
-      className: "set-relative set-border",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 33
-      }
-    }, __jsx("div", {
-      className: "set-abs top-0 borders",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33,
-        columnNumber: 37
-      }
-    })), __jsx("div", {
-      className: "employee",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 33
-      }
-    }, __jsx("h4", {
-      className: "e-name",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 36,
-        columnNumber: 37
-      }
-    }, data.name), __jsx("h6", {
-      className: "post",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37,
-        columnNumber: 37
-      }
-    }, data.role))));
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Member);
-
-/***/ }),
-
-/***/ "./pages/layouts/sections/app/pricing.js":
-/*!***********************************************!*\
-  !*** ./pages/layouts/sections/app/pricing.js ***!
-  \***********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../database/layouts/app/database */ "./database/layouts/app/database.js");
-/* harmony import */ var _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_database_layouts_app_database__WEBPACK_IMPORTED_MODULE_4__);
-
-
-var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\pricing.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-
-var settings = {
-  dots: false,
-  infinite: true,
-  arrows: false,
-  autoplay: true,
-  swipeToSlide: true,
-  speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [{
-    breakpoint: 575,
-    settings: {
-      slidesToShow: 1
-    }
-  }, {
-    breakpoint: 992,
-    settings: {
-      slidesToShow: 2
-    }
-  }]
-};
-
-var Pricing = function Pricing() {
-  return __jsx("section", {
-    className: "app2 pricing p-t-0",
-    id: "plan",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "animated-bg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 9
-    }
-  }, __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 38
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 45
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 52
-    }
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 17
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    md: "10",
-    className: "offset-md-1",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "title title2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid title-img",
-    src: "/assets/images/logo/2.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 29
-    }
-  }), __jsx("h6", {
-    className: "font-primary borders main-text",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 29
-    }
-  }, __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 76
-    }
-  }, "pricing")), __jsx("div", {
-    className: "sub-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 29
-    }
-  }, __jsx("h2", {
-    className: "title-text text-capitalize text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 33
-    }
-  }, "our plan")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    xs: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 21
-    }
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: "owl-carousel owl-theme pricing-slider price-margin"
-  }, settings, {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 25
-    }
-  }), _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_4__["PricingData"].length > 0 ? _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_4__["PricingData"].map(function (item, index) {
-    return __jsx("div", {
-      className: "item",
-      key: "pricing-table-".concat(index),
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 37
-      }
-    }, __jsx("div", {
-      className: "price-container shadows text-center",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48,
-        columnNumber: 41
-      }
-    }, __jsx("div", {
-      className: "service-feature ",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 45
-      }
-    }, __jsx("div", {
-      className: "feature-text",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 49
-      }
-    }, __jsx("span", {
-      className: "flaticon-rocket-ship feature-icon ",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 53
-      }
-    }), __jsx("h3", {
-      className: "text-white",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 53
-      }
-    }, item.title))), __jsx("div", {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 45
-      }
-    }, __jsx("div", {
-      className: "price-feature-container ",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56,
-        columnNumber: 49
-      }
-    }, __jsx("div", {
-      className: "price-features",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 57,
-        columnNumber: 53
-      }
-    }, item.features.map(function (feature, i) {
-      return __jsx("h5", {
-        key: "price-features-".concat(i),
-        className: "price-feature",
-        __self: _this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 61
-        }
-      }, feature);
-    })), __jsx("div", {
-      className: "price-value",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 62,
-        columnNumber: 53
-      }
-    }, __jsx("h6", {
-      className: "price",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 63,
-        columnNumber: 57
-      }
-    }, "$", __jsx("span", {
-      className: "large",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 63,
-        columnNumber: 80
-      }
-    }, item.price), "/month")), __jsx("a", {
-      className: "btn btn-default btn-white",
-      href: "#",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 53
-      }
-    }, "purchase")))));
-  }) : 'Pricing Data Not Found')))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Pricing);
-
-/***/ }),
-
-/***/ "./pages/layouts/sections/app/screenshot.js":
-/*!**************************************************!*\
-  !*** ./pages/layouts/sections/app/screenshot.js ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-
-
-var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\screenshot.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-var settings = {
-  dots: true,
-  arrows: false,
-  autoplay: true,
-  infinite: true,
-  swipeToSlide: true,
-  speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [{
-    breakpoint: 359,
-    settings: {
-      slidesToShow: 1
-    }
-  }, {
-    breakpoint: 479,
-    settings: {
-      slidesToShow: 2
-    }
-  }, {
-    breakpoint: 1024,
-    settings: {
-      slidesToShow: 3
-    }
-  }]
-};
-
-var Screenshot = function Screenshot() {
-  return __jsx("section", {
-    className: "app2 screenshot p-t-0",
-    id: "proyectos",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "animated-bg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 9
-    }
-  }, __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 38
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 45
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 52
-    }
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    md: "10",
-    className: "offset-md-1",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "title title2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 21
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid title-img",
-    src: "/assets/images/app_landing2/service/proyectos.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 25
-    }
-  }), __jsx("h6", {
-    className: "font-primary borders main-text",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 25
-    }
-  }, __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 72
-    }
-  }, "Proyectos ecommerce")), __jsx("div", {
-    className: "sub-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 25
-    }
-  }, __jsx("h2", {
-    className: "title-text text-capitalize text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 29
-    }
-  }, "Los Mejores Dise\xF1os de Tienda Online"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
-    className: "set-relative",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    xs: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 17
-    }
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: "screenshot-slider",
-    style: {
-      marginTop: 0
-    }
-  }, settings, {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 21
-    }
-  }), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://electro.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 29
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/1.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 85
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://ropa.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/2.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 78
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://muebles.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/3.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 81
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://cosmeticos.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/4.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 84
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://mascotas.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/5.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 82
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://simple.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/6.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 80
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://deportes.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/7.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 82
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://farma.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/8.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 79
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://joyeria.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/9.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 81
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://fitness.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/10.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 81
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://mecanica.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/11.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 82
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://ni\xF1os.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/12.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 79
-    }
-  }))), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "http://libros.2meta.digital/",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 25
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "/assets/images/app_landing2/screenshot/13.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 80
-    }
-  }))))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Screenshot);
-
-/***/ }),
-
-/***/ "./pages/layouts/sections/app/services.js":
-/*!************************************************!*\
-  !*** ./pages/layouts/sections/app/services.js ***!
-  \************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../database/layouts/app/database */ "./database/layouts/app/database.js");
-/* harmony import */ var _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__);
-var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\services.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-var Features = function Features() {
-  return __jsx("section", {
-    className: "app2 services p-t-0",
-    id: "caracteristicas",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "animated-bg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 38
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 45
-    }
-  }), __jsx("i", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 52
-    }
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 17
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "10",
-    className: "offset-md-1",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 25,
       columnNumber: 21
     }
-  }, __jsx("div", {
-    className: "title title2",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: "4",
+    className: "center-content unset-height",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 26,
       columnNumber: 25
+    }
+  }, __jsx("ul", {
+    className: "icon-collection",
+    "data-aos": "fade-left",
+    "data-aos-duration": "500",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 29
+    }
+  }, __jsx("li", {
+    className: "about-icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "center-content",
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 37
     }
   }, __jsx("img", {
     alt: "",
-    className: "img-fluid title-img",
-    src: "/assets/images/app_landing2/service/crown.png",
+    src: "/assets/images/agency/service/web-development2.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 30,
+      columnNumber: 41
+    }
+  }), __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 41
+    }
+  }, "Desarrollo Web Profesional"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: "4",
+    className: "center-content unset-height",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 25
+    }
+  }, __jsx("ul", {
+    className: "icon-collection",
+    "data-aos": "fade-left",
+    "data-aos-duration": "2000",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
       columnNumber: 29
     }
-  }), __jsx("h6", {
-    className: "font-primary borders main-text text-uppercase",
+  }, __jsx("li", {
+    className: "about-icon",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 29
-    }
-  }, __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 91
-    }
-  }, "Caracter\xEDsticas \xFAnicas ecommerce")), __jsx("div", {
-    className: "sub-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 29
-    }
-  }, __jsx("h2", {
-    className: "title-text text-capitalize text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 38,
       columnNumber: 33
     }
-  }, "Todo lo que tu negocio necesita para vender")))), _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__["FeaturesData"].length > 0 ? _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__["FeaturesData"].map(function (item, index) {
-    return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-      lg: "4",
-      md: "6",
-      className: "service-container",
-      key: "features-".concat(index),
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 29
-      }
-    }, __jsx("div", {
-      className: "service",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 33
-      }
-    }, __jsx("div", {
-      className: "img-block",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 37
-      }
-    }, __jsx("img", {
-      alt: "",
-      className: "service-img img-fluid",
-      src: item.icon,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 41
-      }
-    })), __jsx("div", {
-      className: "service-feature",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27,
-        columnNumber: 37
-      }
-    }, __jsx("h4", {
-      className: "feature-text",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28,
-        columnNumber: 41
-      }
-    }, item.title), __jsx("p", {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29,
-        columnNumber: 41
-      }
-    }, item.details))));
-  }) : 'Features Data Not Found')));
+  }, __jsx("a", {
+    className: "center-content",
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 37
+    }
+  }, __jsx("img", {
+    alt: "",
+    src: "/assets/images/agency/service/graphic-design.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 41
+    }
+  }), __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 41
+    }
+  }, "Dise\xF1o Gr\xE1fico Profesional"))), __jsx("li", {
+    className: "about-icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "center-content",
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 37
+    }
+  }, __jsx("img", {
+    alt: "",
+    src: "/assets/images/agency/service/ventas3.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 41
+    }
+  }), __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 41
+    }
+  }, "Copywriting:", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 57
+    }
+  }), "Enfocado en Ventas"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: "4",
+    className: "center-content unset-height",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 25
+    }
+  }, __jsx("ul", {
+    className: "icon-collection",
+    "data-aos": "fade-left",
+    "data-aos-duration": "3000",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 29
+    }
+  }, __jsx("li", {
+    className: "about-icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "center-content",
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 37
+    }
+  }, __jsx("img", {
+    alt: "",
+    src: "/assets/images/agency/service/ecommerce2.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 41
+    }
+  }), __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 41
+    }
+  }, "E-Commerce", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 55
+    }
+  }), "Tienda Online"))), __jsx("li", {
+    className: "about-icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "center-content",
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 37
+    }
+  }, __jsx("img", {
+    alt: "",
+    src: "/assets/images/agency/service/landing.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 41
+    }
+  }), __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 41
+    }
+  }, "Landing Page", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 57
+    }
+  }), " P\xE1gina Simple", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 76
+    }
+  }), "con Acci\xF3n"))), __jsx("li", {
+    className: "about-icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "center-content",
+    href: "#Servicios",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 37
+    }
+  }, __jsx("img", {
+    alt: "",
+    src: "/assets/images/agency/service/server.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 41
+    }
+  }), __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 41
+    }
+  }, "Gesti\xF3n Hosting, Dominios, SSL y DNS."))))))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Features);
+/* harmony default export */ __webpack_exports__["default"] = (Service);
 
 /***/ }),
 
-/***/ "./pages/layouts/sections/app/team.js":
-/*!********************************************!*\
-  !*** ./pages/layouts/sections/app/team.js ***!
-  \********************************************/
+/***/ "./pages/layouts/sections/agency/testimonial.js":
+/*!******************************************************!*\
+  !*** ./pages/layouts/sections/agency/testimonial.js ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+
+
 
 
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\app\\team.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\agency\\testimonial.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
@@ -36955,316 +36491,437 @@ var settings = {
   dots: false,
   infinite: true,
   speed: 500,
-  arrows: false,
-  swipeToSlide: true,
+  arrows: true,
   slidesToShow: 3,
   slidesToScroll: 1,
+  autoplay: true,
   responsive: [{
     breakpoint: 575,
     settings: {
-      slidesToShow: 1
+      slidesToShow: 1,
+      arrows: false
     }
   }, {
-    breakpoint: 768,
+    breakpoint: 992,
     settings: {
-      slidesToShow: 2
-    }
-  }, {
-    breakpoint: 1024,
-    settings: {
-      slidesToShow: 3
+      slidesToShow: 2,
+      arrows: false
     }
   }]
 };
 
-var Team = function Team() {
+var Testimonial = function Testimonial() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])([]),
+      testimonialData = _useState[0],
+      setTestimonialData = _useState[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
+    function TestimonialData() {
+      return _TestimonialData.apply(this, arguments);
+    }
+
+    function _TestimonialData() {
+      _TestimonialData = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee() {
+        var res, data;
+        return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return fetch('https://api.2meta.digital/api/testimonios?populate=%2A');
+
+              case 2:
+                res = _context.sent;
+                _context.next = 5;
+                return res.json();
+
+              case 5:
+                data = _context.sent;
+                setTestimonialData(data.data);
+
+              case 7:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }));
+      return _TestimonialData.apply(this, arguments);
+    }
+
+    TestimonialData();
+  }, []);
+  var imgUrl = "https://api.2meta.digital"; //console.log(imgUrl+item.attributes.photo.data.attributes.url)
+
   return __jsx("section", {
-    className: "app2 team p-t-0",
-    id: "feedback",
+    className: "agency testimonial format testimonial-bg",
+    id: "Calificaciones",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 45,
       columnNumber: 5
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 46,
       columnNumber: 9
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 47,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    md: "10",
-    className: "offset-md-1",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    md: "5",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 48,
       columnNumber: 17
     }
   }, __jsx("div", {
-    className: "title title2",
+    className: "format-container m-b-50",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 49,
       columnNumber: 21
     }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid title-img",
-    src: "/assets/images/app_landing2/service/feedback1.png",
+  }, __jsx("h6", {
+    className: "borders-before",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 25
-    }
-  }), __jsx("h6", {
-    className: "font-primary borders main-text",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 50,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 72
-    }
-  }, "Feedback / Calificaciones")), __jsx("div", {
-    className: "sub-title",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 25
-    }
-  }, __jsx("h2", {
-    className: "title-text text-capitalize text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 51,
       columnNumber: 29
     }
-  }, "Opiniones de nuestros clientes")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    xs: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 17
-    }
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: "owl-carousel owl-theme team-slider"
-  }, settings, {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 21
-    }
-  }), __jsx("div", {
-    className: "item",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "team-container",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 29
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid members",
-    src: "/assets/images/app_landing2/team/1.png",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 33
-    }
-  }), __jsx("div", {
-    className: "text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 33
-    }
-  }, __jsx("h5", {
-    className: "name",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 37
-    }
-  }, "Steven Bno"), __jsx("h6", {
-    className: "post",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 37
-    }
-  }, "CEO InfriaMC"), __jsx("p", {
-    className: "team-para",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 37
-    }
-  }, "10/10 profesional y r\xE1pido.")))), __jsx("div", {
-    className: "item",
+  }, "Testimonios")), __jsx("div", {
+    className: "format-head-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53,
       columnNumber: 25
     }
-  }, __jsx("div", {
-    className: "team-container",
+  }, __jsx("h2", {
+    className: " text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54,
       columnNumber: 29
     }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid members",
-    src: "/assets/images/app_landing2/team/2.png",
+  }, "Calificaciones de", __jsx("span", {
+    className: "block-span",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 33
+      lineNumber: 54,
+      columnNumber: 74
     }
-  }), __jsx("div", {
-    className: "text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 33
-    }
-  }, __jsx("h5", {
-    className: "name",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 37
-    }
-  }, "Claudio De Rito"), __jsx("h6", {
-    className: "post",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 37
-    }
-  }, "CEO Latitud34Desarrollos"), __jsx("p", {
-    className: "team-para",
+  }, "Nuestros Clientes")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59,
-      columnNumber: 37
+      columnNumber: 13
     }
-  }, "Un espect\xE1culo. Muy buen laburo.")))), __jsx("div", {
-    className: "item",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    xs: "12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 25
+      lineNumber: 60,
+      columnNumber: 17
     }
-  }, __jsx("div", {
-    className: "team-container",
+  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_4___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    className: "owl-carousel owl-theme testimonial-slider"
+  }, settings, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 29
+      lineNumber: 61,
+      columnNumber: 21
     }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid members",
-    src: "/assets/images/app_landing2/team/3.jpg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 33
-    }
-  }), __jsx("div", {
-    className: "text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 33
-    }
-  }, __jsx("h5", {
-    className: "name",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 37
-    }
-  }, "Manuel Guzman"), __jsx("h6", {
-    className: "post",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 37
-    }
-  }, "CEO Dallas Showroom"), __jsx("p", {
-    className: "team-para",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 37
-    }
-  }, "Excelente trabajo me gust\xF3 el dise\xF1o.")))))))));
+  }), testimonialData.map(function (item, index) {
+    return __jsx("div", {
+      className: "item",
+      key: "testimonial-".concat(index),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 29
+      }
+    }, __jsx("div", {
+      className: "testimonial-container testimonial-container2 m-0",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 33
+      }
+    }, __jsx("div", {
+      className: "d-flex",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 37
+      }
+    }, __jsx("img", {
+      alt: "",
+      className: "img-fluid m-r-25",
+      src: imgUrl + item.attributes.photo.data.attributes.url,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 41
+      }
+    }), __jsx("div", {
+      className: "center-content",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 41
+      }
+    }, __jsx("h6", {
+      className: "name",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68,
+        columnNumber: 45
+      }
+    }, item.attributes.name), __jsx("h6", {
+      className: "post font-primary",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69,
+        columnNumber: 45
+      }
+    }, item.attributes.role))), __jsx("div", {
+      className: "testimonial-info",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 37
+      }
+    }, __jsx("p", {
+      className: "m-b-20 para2",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 41
+      }
+    }, item.attributes.testimonial), __jsx("div", {
+      className: "primary-border",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76,
+        columnNumber: 41
+      }
+    }))));
+  }))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Team);
+/* harmony default export */ __webpack_exports__["default"] = (Testimonial);
 
 /***/ }),
 
-/***/ 9:
-/*!********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fecommerce&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cecommerce.js ***!
-  \********************************************************************************************************************************************/
+/***/ "./pages/portfolio/portfolio-title-3-col.js":
+/*!**************************************************!*\
+  !*** ./pages/portfolio/portfolio-title-3-col.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _containers_portfolio_basic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../containers/portfolio/basic */ "./containers/portfolio/basic.js");
+var _this = undefined,
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\portfolio\\portfolio-title-3-col.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var PortfolioTitle3Col = function PortfolioTitle3Col() {
+  return __jsx(_containers_portfolio_basic__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "col-md-4 col-sm-6 isotopeSelector",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 5
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PortfolioTitle3Col);
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/1.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/1.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/1-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/10.jpg":
+/*!***********************************************!*\
+  !*** ./public/assets/images/portfolio/10.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/10-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/11.jpg":
+/*!***********************************************!*\
+  !*** ./public/assets/images/portfolio/11.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/11-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/12.png":
+/*!***********************************************!*\
+  !*** ./public/assets/images/portfolio/12.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/2.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/2.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/2-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/3.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/3.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/3-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/4.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/4.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/4-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/5.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/5.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/5-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/6.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/6.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/6-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/7.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/7.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/7-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/8.png":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/8.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ "./public/assets/images/portfolio/9.jpg":
+/*!**********************************************!*\
+  !*** ./public/assets/images/portfolio/9.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/9-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
+
+/***/ }),
+
+/***/ 7:
+/*!*******************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fecommerce&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cecommerce.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fecommerce&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cecommerce.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -37280,5 +36937,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=ecommerce.js.map
+},[[7,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=index.js.map

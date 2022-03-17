@@ -25,7 +25,7 @@ const Header = props => {
                 <Row>
                     <Col>
                         <nav style={{alignItems: 'baseline'}}>
-                            <a className="m-r-auto" href="/">
+                            <a className="m-r-auto" href="#">
                                 {props.className == 'agency' ?
                                     <img alt="" style={logo} className="img-fluid" src="/assets/images/logo/logo4.png" />
                                     :
@@ -52,7 +52,7 @@ const Header = props => {
                                     <i aria-hidden="true" className="fa fa-bars text-white"></i>
                                 </a>
                             </div>
-                            <Nav />
+                            {/*<Nav />*/}
                             {props.shop &&
                                 <div className="top-header-right">
                                     <ul>
