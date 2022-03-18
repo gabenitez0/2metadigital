@@ -2,7 +2,7 @@ import React from 'react';
 import { ServiceData } from '../../../../database/layouts/enterprice/database';
 import {Container,Row,Col} from 'reactstrap'
 const Service = () => (
-    <section className="saas2 services">
+    <section className="saas2 services" id="funciones">
         <Container className="saas2-services">
             <Row>
 

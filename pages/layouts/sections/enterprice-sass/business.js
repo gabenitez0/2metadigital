@@ -2,7 +2,7 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import {Container,Row,Col} from 'reactstrap'
 const Business = () => (
-    <section className="saas2 bg-gradient quick-sol">
+    <section className="saas2 bg-gradient quick-sol" id="beneficios">
         <Container className="set-center-div">
             <Row>
                 <Col lg="6">

@@ -34,7 +34,7 @@ const Footer = () => (
                     <Col lg="3" md="6" sm="12">
                         <div className="logo-sec">
                             <div className="footer-title mobile-title p-t-0">
-                                <h3 className="text-white">Sobre nosotros</h3>
+                                <h3 className="text-white">Nosotros</h3>
                             </div>
                             <div className="footer-contant">
                                 <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo4neg.png" />

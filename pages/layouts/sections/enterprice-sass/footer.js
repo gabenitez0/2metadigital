@@ -7,53 +7,22 @@ const Footer = () => (
                 <Col lg="4" md="6" sm="12">
                     <div className="logo-sec">
                         <div className="footer-title mobile-title p-t-0">
-                            <h3 className="text-white">About Us</h3>
+                            <h3 className="text-white">Nosotros</h3>
                         </div>
                         <div className="footer-contant">
-                            <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/1.png" />
+                            <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo4neg.png" />
                             <div className="footer-para">
-                                <h6 className="text-white para-address">Unice</h6>
-                                <h6 className="text-white para-address">324 Madison Street New york City, </h6>
-                                <h6 className="text-white para-address">NY 10001.</h6>
+                                <h6 className="text-white para-address">Somos emprendedores que se potencian junto a otros emprendedores para alcanzar todas las Metas trabajando en equipo.</h6>
+                                <h6 className="text-white para-address">Buenos Aires, Argentina</h6>
+                                <h6 className="text-white para-address">2MetaDigital</h6>
                             </div>
                             <ul className="d-d-flex footer-social social">
-                                <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-facebook"></i></a>
-                                </li>
-                                <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-twitter"></i></a>
-                                </li>
-                                <li className="footer-social-list">
-                                    <a href="#"><i aria-hidden="true" className="fa fa-google"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </Col>
-
-                <Col lg="3" md="6" sm="12">
-                    <div className="footer-title mobile-title">
-                        <h3 className="text-white">Product</h3>
-                    </div>
-                    <div className="footer-contant">
-                        <h5 className="footer-headings">Product</h5>
-                        <div>
-                            <ul className="footer-lists">
-                                <li>
-                                    <a href="#">Discover features</a>
-                                </li>
-                                <li>
-                                    <a href="#">CMS integration</a>
-                                </li>
-                                <li>
-                                    <a href="#">Customers</a>
-                                </li>
-                                <li>
-                                    <a href="#">Free trials and demo</a>
-                                </li>
-                                <li>
-                                    <a href="#">What Next ?</a>
-                                </li>
+                                    <li className="footer-social-list">
+                                        <a href="https://www.instagram.com/2metadigital/" target="_blank"><i aria-hidden="true" className="fa fa-instagram"></i></a>
+                                    </li>
+                                    <li className="footer-social-list">
+                                        <a href="https://www.facebook.com/2metadigital/" target="_blank"><i aria-hidden="true" className="fa fa-facebook"></i></a>
+                                    </li>
                             </ul>
                         </div>
                     </div>
@@ -61,26 +30,66 @@ const Footer = () => (
 
                 <Col lg="2" md="6" sm="12">
                     <div className="footer-title mobile-title">
-                        <h3 className="text-white">Company</h3>
+                        <h3 className="text-white">Navegación</h3>
                     </div>
                     <div className="footer-contant">
-                        <h5 className="footer-headings">Company</h5>
+                        <h5 className="footer-headings">Navegación</h5>
                         <div>
                             <ul className="footer-lists">
                                 <li>
-                                    <a href="#">About us</a>
+                                    <a href="#">Inicio</a>
                                 </li>
                                 <li>
-                                    <a href="#">About security</a>
+                                    <a href="#calidad">Alta Calidad</a>
                                 </li>
                                 <li>
-                                    <a href="#">User guide</a>
+                                    <a href="#beneficios">Beneficios</a>
                                 </li>
                                 <li>
-                                    <a href="#">Terms of srvices</a>
+                                    <a href="#funciones">Funciones extra</a>
                                 </li>
                                 <li>
-                                    <a href="#">Privact policy</a>
+                                    <a href="#proyectos">Nuestros Diseños</a>
+                                </li>
+                                <li>
+                                    <a href="#tiempo">No pierdas tiempo</a>
+                                </li>
+                                <li>
+                                    <a href="#contacto">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </Col>
+
+                <Col lg="3" md="6" sm="12">
+                    <div className="footer-title mobile-title">
+                        <h3 className="text-white">Servicios</h3>
+                    </div>
+                    <div className="footer-contant">
+                        <h5 className="footer-headings">Servicios</h5>
+                        <div>
+                            <ul className="footer-lists">
+                                <li>
+                                    <a href="#!">Desarrollo Web Profesional</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Diseño Gráfico Profesional</a>
+                                </li>
+                                <li>
+                                    <a href="#!">E-Commerces: Tiendas Online</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Copywriting: Redacción Ventas</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Landing Pages: Página Ventas</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Administración y Mantenimiento</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Hosting, Dominios, SSL y DNS</a>
                                 </li>
                             </ul>
                         </div>
@@ -88,17 +97,23 @@ const Footer = () => (
                 </Col>
                 <Col lg="3" md="6" sm="12">
                     <div className="footer-title mobile-title">
-                        <h3 className="text-white">Subscribe our newsletter</h3>
+                        <h3 className="text-white">Información</h3>
                     </div>
                     <div className="footer-contant">
-                        <h5 className="footer-headings">Subscribe our newsletter</h5>
-                        <FormGroup>
-                            <Input className="form-control" id="usr" placeholder="email address" type="text" />
-                            <a href=""><i aria-hidden="true" className="fa fa-paper-plane"></i></a>
-                        </FormGroup>
+                        <h5 className="footer-headings">Información</h5>
                         <div>
-                            <h4 className="text-white Unice-text">Unice</h4>
-                            <h6 className="text-white Unice-copyright-text">© 2020_Unice</h6>
+                            <ul className="footer-lists contacts">
+                                <li>
+                                    <i aria-hidden="true" className="fa fa-map-marker"></i>
+                                    Saenz Peña, Buenos Aires, Argentina
+                                </li>
+                                <li>
+                                    <i aria-hidden="true" className="fa fa-phone m-r-15"></i>(+54) 1133226655
+                                </li>
+                                <li><i aria-hidden="true" className="fa fa-envelope m-r-15"></i>gabriel@2meta.digital
+                                </li>
+
+                            </ul>
                         </div>
                     </div>
                 </Col>

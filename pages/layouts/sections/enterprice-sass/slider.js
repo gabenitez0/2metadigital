@@ -27,7 +27,7 @@ var settings = {
   };
 
 const SliderSection = () => (
-    <section className="saas2 laptop-slider bg-gradient" id="screenshot">
+    <section className="saas2 laptop-slider bg-gradient" id="proyectos">
         <Container>
             <Row>
                 <Col md="10" className="offset-md-1">
