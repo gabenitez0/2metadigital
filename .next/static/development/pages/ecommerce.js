@@ -33952,8 +33952,8 @@ var Home = function Home() {
       lineNumber: 12,
       columnNumber: 11
     }
-  }, "Hacemos E-Commerces Profesionales para Vender En L\xEDnea - 2MetaDigital"), __jsx("meta", {
-    name: "Hacemos E-Commerces Profesionales para Vender En L\xEDnea - 2MetaDigital",
+  }, "Vend\xE9 a todos los clientes de internet con una Tienda Online Profesional - 2MetaDigital"), __jsx("meta", {
+    name: "Vend\xE9 a todos los clientes de internet con una Tienda Online Profesional - 2MetaDigital",
     content: "",
     __self: _this,
     __source: {
@@ -33962,7 +33962,7 @@ var Home = function Home() {
       columnNumber: 11
     }
   }), __jsx("meta", {
-    description: "8 de cada 10 argentinos realizan al menos una compra online al a\xF1o, hacemos tu tienda online por vos para que empieces a vender en l\xEDnea.",
+    description: "Creamos tu Tienda Online Profesional por vos para que no pierdas tiempo y empieces a vender en l\xEDnea y llegar a la mayor cantidad de clientes posibles.",
     content: "",
     __self: _this,
     __source: {
@@ -33972,7 +33972,7 @@ var Home = function Home() {
     }
   }), __jsx("meta", {
     property: "og:description",
-    content: "8 de cada 10 argentinos realizan al menos una compra online al a\xF1o, hacemos tu tienda online por vos para que empieces a vender en l\xEDnea.",
+    content: "Creamos tu Tienda Online Profesional por vos para que no pierdas tiempo y empieces a vender en l\xEDnea y llegar a la mayor cantidad de clientes posibles.",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34284,7 +34284,7 @@ var About = function About() {
     alt: "",
     className: "img-fluid mobile1",
     "data-aos": "fade-right",
-    src: "/assets/images/app_landing2/header2.png",
+    src: "/assets/images/app_landing2/beneficios2.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35700,7 +35700,7 @@ var Format = function Format() {
     alt: "",
     className: "img-fluid mobile2",
     "data-aos": "fade-left",
-    src: "/assets/images/app_landing2/calidad.png",
+    src: "/assets/images/app_landing2/calidad2.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -37385,7 +37385,7 @@ var Format = function Format() {
     alt: "",
     className: "img-fluid mobile2",
     "data-aos": "fade-right",
-    src: "/assets/images/app_landing2/tiempo.png",
+    src: "/assets/images/app_landing2/tiempo2.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,

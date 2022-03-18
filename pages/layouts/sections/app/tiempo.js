@@ -14,7 +14,7 @@ const Format = () => {
                 <Row>
                     <Col sm="6"  className="counters set-height overflow-hide">
                         <img alt="" className="img-fluid mobile2" data-aos="fade-right"
-                            src="/assets/images/app_landing2/tiempo.png" />
+                            src="/assets/images/app_landing2/tiempo2.svg" />
                     </Col>
                     <Col sm="6"  className="counters set-order-2">
                         <div className="abouts center-text">
