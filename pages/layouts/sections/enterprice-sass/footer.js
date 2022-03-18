@@ -112,7 +112,6 @@ const Footer = () => (
                                 </li>
                                 <li><i aria-hidden="true" className="fa fa-envelope m-r-15"></i>gabriel@2meta.digital
                                 </li>
-
                             </ul>
                         </div>
                     </div>
