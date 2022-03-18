@@ -14,7 +14,7 @@ const Banner = () => (
                                     <h1><span className="bold-text">Empezá a vender en línea de manera profesional ahora</span></h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p className="text-white">8 de cada 10 argentinos realizan al menos una compra online al año. Hacemos tu tienda online profesional por vos para que empieces a vender en línea ahora.</p>
+                                    <p className="text-white">8 de cada 10 argentinos ya realizan compras en internet a través de tiendas online. Hacemos tu tienda online profesional por vos para que empieces a vender en línea ahora.</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
