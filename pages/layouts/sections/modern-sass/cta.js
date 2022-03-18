@@ -20,7 +20,7 @@ const Price = () => {
                         <img alt="title-logo" className="img-fluid" src="/assets/images/saas1/title-logo.png" />
                         <div className="main-title">
                             <h2 className="text-white">
-                                <span className="theme-color">E</span>mpieza a <span className="theme-color">G</span>enerar <span className="theme-color">I</span>ngresos <span className="theme-color">E</span>xtra con <span className="theme-color">N</span>osotros <span className="theme-color">A</span>hora
+                                Empieza a Generar de <span className="theme-color">$60</span> a <span className="theme-color">$375 USD</span> por cada venta Ahora
                         </h2>
                         </div>
                         <hr />

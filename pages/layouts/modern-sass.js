@@ -10,6 +10,7 @@ import PriceSection from '../layouts/sections/modern-sass/price'
 import FaqSection from '../layouts/sections/modern-sass/faq'
 import CtaSection from '../layouts/sections/modern-sass/cta'
 import ClientSection from '../layouts/sections/modern-sass/client'
+import CopyrightSection from './sections/modern-sass/copyright'
 
 const ModernSass = () => {
 
@@ -40,6 +41,8 @@ const ModernSass = () => {
             <CtaSection />
 
             <ClientSection />
+
+            <CopyrightSection />
         </div>
     )
 }

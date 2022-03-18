@@ -31,17 +31,17 @@ module.exports = {
             details: 'Permite a tus clientes ver todo tu catálogo de productos y comprar las 24 horas.',
         },
         {
-            icon: '/assets/images/app_landing2/service/board.png',
+            icon: '/assets/images/app_landing2/service/board2.png',
             title: 'Gestión centralizada',
             details: 'Todo en un solo lugar: tus productos, stock, talles, tamaños, colores, ofertas, etc.',
         },
         {
-            icon: '/assets/images/app_landing2/service/notif.png',
+            icon: '/assets/images/app_landing2/service/notif2.png',
             title: 'Notificación por pedido',
             details: 'Recibirás notificaciones cuando tus clientes realicen compras en tu tienda.',
         },
         {
-            icon: '/assets/images/app_landing2/service/pago.png',
+            icon: '/assets/images/app_landing2/service/pago2.png',
             title: 'Todos los medios de pago',
             details: 'Podes utilizar MercadoPago, transferencia bancaria, o el medio de tu preferencia.',
         },
@@ -51,7 +51,7 @@ module.exports = {
             details: 'Podes utilizar OCA, Correo Argentino, contrareembolso, o el que quieras.',
         },
         {
-            icon: '/assets/images/app_landing2/service/social.png',
+            icon: '/assets/images/app_landing2/service/social2.png',
             title: 'Integrá tus redes sociales',
             details: 'Podes conectar tus redes sociales con tu tienda y potenciar el impacto.',
         },

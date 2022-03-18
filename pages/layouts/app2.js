@@ -3,16 +3,17 @@ import Head from 'next/head'
 // import Custom Components
 import Header from '../../containers/common/header'
 import BannerSection from './sections/app/banner'
-import AboutSection from './sections/app/about'
-import ServicesSection from './sections/app/services'
-import FormatSection from './sections/app/format'
+import Beneficios from './sections/app/about'
+import Caracteristicas from './sections/app/services'
+import Calidad from './sections/app/format'
 import TeamSection from './sections/app/team'
-import ScreenshotSection from './sections/app/screenshot'
+import Proyectos from './sections/app/screenshot'
 import MemberSection from './sections/app/member'
 import PricingSection from './sections/app/pricing'
-import ClientSection from './sections/app/client'
+import Tiempo from './sections/app/tiempo'
+import CTA from './sections/app/client'
 import FooterSection from './sections/app/footer'
-import CopyrightSection from './sections/app/copyright'
+import Copyright from './sections/app/copyright'
 
 
 const App2 = () => {
@@ -31,21 +32,23 @@ const App2 = () => {
 
         <BannerSection />
 
-        <AboutSection />
+        <Beneficios />
 
-        <ServicesSection />
+        <Caracteristicas />
 
-        <FormatSection />
+        <Calidad />
 
-        <ScreenshotSection />
+        <Proyectos />
 
         <TeamSection /> 
       
-        <ClientSection />
+        <CTA />
+        
+        <Tiempo />
 
         <FooterSection />
 
-        <CopyrightSection />
+        <Copyright />
 
         {/* Tap on Top */}
         <div className="tap-top">

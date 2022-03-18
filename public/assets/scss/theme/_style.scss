@@ -2565,9 +2565,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 100vh;
-    min-height: calc(100vh + 40px);
-    padding-top: 50px;
+    padding-bottom: 50px;
     &.app1-header {
       background-image: url("/assets/images/app_landing1/header-1-bg.png");
       overflow: hidden;

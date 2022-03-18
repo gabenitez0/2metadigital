@@ -9,12 +9,12 @@ const Banner = () => (
                     <Col xl="7" lg="6" md="8">
                         <div className="center-text">
                             <div>
-                                <h6 className="header-top-line">Creamos tu tienda online profesional</h6>
+                                <h6 className="header-top-line">8 de cada 10 argentinos ya realizan compras en internet a través de tiendas online</h6>
                                 <div className="header-text">
-                                    <h1><span className="bold-text">Empezá a vender en línea de manera profesional ahora</span></h1>
+                                    <h1><span className="bold-text">Empezá a venderle a todos los clientes de internet con una tienda online profesional</span></h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p className="text-white">8 de cada 10 argentinos ya realizan compras en internet a través de tiendas online. Hacemos tu tienda online profesional por vos para que empieces a vender en línea ahora.</p>
+                                    <p className="text-white">Creamos tu Tienda Online Profesional por vos para que no pierdas tiempo y empieces a vender en línea y llegar a la mayor cantidad de clientes posibles.</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>

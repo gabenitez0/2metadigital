@@ -44,7 +44,7 @@ const Team = () => (
                             <div className="team-container">
                                 <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/1.png" />
                                 <div className="text-center">
-                                    <h5 className="name">Steven Bno</h5>
+                                    <h5 className="name">Steven</h5>
                                     <h6 className="post">CEO InfriaMC</h6>
                                     <p className="team-para">10/10 profesional y rápido.</p>
                                 </div>
@@ -54,8 +54,8 @@ const Team = () => (
                             <div className="team-container">
                                 <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/2.png" />
                                 <div className="text-center">
-                                    <h5 className="name">Claudio De Rito</h5>
-                                    <h6 className="post">CEO Latitud34Desarrollos</h6>
+                                    <h5 className="name">Claudio</h5>
+                                    <h6 className="post">CEO Latitud34 Desarrollos</h6>
                                     <p className="team-para">Un espectáculo. Muy buen laburo.</p>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ const Team = () => (
                             <div className="team-container">
                                 <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/3.jpg" />
                                 <div className="text-center">
-                                    <h5 className="name">Manuel Guzman</h5>
+                                    <h5 className="name">Manuel</h5>
                                     <h6 className="post">CEO Dallas Showroom</h6>
                                     <p className="team-para">Excelente trabajo me gustó el diseño.</p>
                                 </div>

@@ -8,19 +8,16 @@ const Copyright = () => (
                     <div className="link-horizontal center-text">
                         <ul>
                             <li>
-                                <a className="copyright-text op-text" href="#">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a className="copyright-text op-text" href="#">Terms &amp; Conditions</a>
+                                <a className="copyright-text op-text" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar Ahora</a>
                             </li>
                         </ul>
                     </div>
                 </Col>
                 <Col sm="6">
                     <div>
-                        <h6 className="copyright-text text-white text-right op-text">Copyright © 2020 Unice by <i
+                        <h6 className="copyright-text text-white text-right op-text">Copyright © 2022 Programa de Afiliados <i
                             aria-hidden="true" className="fa fa-heart mx-1"></i>
-                            pixelstrap</h6>
+                            2MetaDigital</h6>
                     </div>
                 </Col>
             </Row>
