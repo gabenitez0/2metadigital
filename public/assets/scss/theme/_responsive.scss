@@ -558,9 +558,9 @@
     }
     &.agency {
       .girl-boy {
-        right: 10%;
+        right: 5%;
         img {
-          width: 440px;
+          width: 611px;
         }
       }
     }
@@ -3339,7 +3339,9 @@
     }
     &.saas1 {
       .bg {
-        height: 500px;
+        min-height: 600px;
+        height: 100vh;
+        padding-top: 60px;
       }
       .center-text {
         height: calc(500px - 63px);
@@ -3401,6 +3403,9 @@
         position: relative;
         text-align: right;
         margin-right: -50px;
+        left: 50%;
+        bottom: -17%;
+        transform: translate(-50%, 0);
         .headaer-image {
           width: unset;
           height: 500px;

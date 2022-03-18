@@ -36,7 +36,7 @@ const Banner = () => (
                     </Col>
                     <div>
                         <div className="center-text slider-banner">
-                            <img alt="slid-banner" src="/assets/images/saas1/slider-laptop2.png" className="img-fluid"/>
+                            <img alt="slid-banner" src="/assets/images/saas1/header.png" className="img-fluid"/>
                         </div>
                     </div>
                 </Row>

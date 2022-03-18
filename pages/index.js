@@ -9,11 +9,17 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-          <title>2MetaDigital - Enfocados en la Meta</title>
-          <meta description='Agencia Digital. Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresión, una imagen profesional y textos precisos. Desarrollo Web, Copywriting, Marketing, Diseño Gráfico, Administración de Servidores.' content='' />
-          <meta property="og:description" content="Agencia Digital. Podemos Ayudarte A Mejorar Tu Proyecto. Potenciemos tu negocio dando una excelente impresión, una imagen profesional y textos precisos. Desarrollo Web, Copywriting, Marketing, Diseño Gráfico, Administración de Servidores." />
-          <meta name='2MetaDigital - Enfocados en la Meta' content='' />
-          <meta property="og:image" content="/assets/images/logo/meta.png" />
+          <title>Soluciones tecnológicas para tu Negocio Digital - 2MetaDigital</title>
+          <meta name='Soluciones tecnológicas para tu Negocio Digital - 2MetaDigital' content='' />
+
+          <meta description='Potenciemos tu negocio generando impacto con una imagen digital profesional y textos persuasivos precisos. Soluciones de Diseño Web, Copywriting, Diseño Gráfico, Administración y Mantenimiento.' content='' />
+          <meta property="og:description" content="Potenciemos tu negocio generando impacto con una imagen digital profesional y textos persuasivos precisos. Soluciones de Diseño Web, Copywriting, Diseño Gráfico, Administración y Mantenimiento." />
+          
+          <link rel="icon" type="image/png" href="/fav1.png" />
+          <meta property="og:image" content="/meta1.png" />
+          <meta name="keywords" content="agencia digital, programación, diseño web, diseño gráfico, desarrollo web, copywriting, marketing, agencia, ecommerce, e-commerce, tienda online, landing page, página de aterrizaje, tienda digital, tiendanube, shopify, wix"/>
+
+          <meta name="robots" content="index"/>
       </Head>
 
       <Agency />

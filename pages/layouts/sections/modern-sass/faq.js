@@ -3,19 +3,25 @@ import { Accordion, AccordionItem } from 'react-light-accordion';
 import 'react-light-accordion/demo/css/index.css';
 import { Container, Row, Col } from 'reactstrap'
 const Faq = () => {
-    const DummyContent1 = () => (
+    const Personal = () => (
         <div className="collapse show" id="collapseicon" aria-labelledby="collapseicon" data-parent="#accordionoc">
-            <div className="card-body">Nací y vivo en Buenos Aires, Argentina. Tengo 24 años y soy emprendedor desde hace casi 10 años (desde mis 15 años). Actualmente estoy enfocado principalmente en este proyecto llamado 2metadigital, el cual inicié hace alrededor de 2 años y estoy llevando a cabo nuevas estrategias de crecimiento en equipo.</div>
+            <div className="card-body">Me llamo Gabriel, nací y vivo en Buenos Aires, Argentina. Tengo 24 años y soy emprendedor desde hace casi 10 años (desde mis 15 años). <br/><br/>Actualmente estoy enfocado principalmente en este proyecto llamado 2metadigital, el cual inicié hace 2 años aproximadamente y en ese tiempo desarrolle formas de trabajo muy eficientes y de excelente calidad.</div>
         </div>
     );
-    const DummyContent2 = () => (
+    const Proyecto = () => (
         <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
-            <div className="card-body">Para pagos internacionales, por el momento solo contamos con PayPal y USDT (criptomonedas). Para pagos nacionales se utiliza preferentemente transferencia bancaria.</div>
+            <div className="card-body">2MetaDigital empezó hace 2 años con otro nombre y solo se enfocaba en eCommerces, en todo este tiempo conseguimos ampliar la gama de soluciones y perfeccionar nuestros productos y servicios no solo hacia el cliente sino en cuanto a los costos de tiempo por trabajo: es decir, podemos entregar productos terminados en pocas horas/días. <br/><br/>Actualmente estamos llevando a cabo nuevas estrategias de marketing de crecimiento en equipo.</div>
         </div>
     );
-    const DummyContent3 = () => (
+    const Mercado = () => (
         <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
-            <div className="card-body">Vé a <a href="#como-funciona"><span className="theme-color">Cómo Funciona →</span></a> y haz clic en los pasos (1, 2, 3, 4), ahi recibirás toda la información necesaria. Una vez que completes la inscripción, avísame por WhatsApp y puedes empezar inmediatamente con tu proceso de ventas.</div>
+            <div className="card-body">Nuestros productos se pueden enfocar a diversos mercados y públicos específicos. Lo mejor es dirigirse específicamente a un tipo de público o problema. <br/><br/>Nosotros les proporcionamos una serie de herramientas (lading pages) a nuestros afiliados para que puedan promocionar y vender nuestros productos y servicios más facilmente. <br/><br/>Si ya eres un experimentado en el tema, puedes utilizar tus propios recursos publicitarios que mejor te funcionen. Está prohibido utilizar mentiras o engaños como forma de vender.</div>
+        </div>
+    );
+    const Contacto = () => (
+        <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
+            <div className="card-body">Puedes contactarte conmigo cuando quieras! utilizo preferentemente WhatsApp. Si gustas podemos acordar una reunión por Zoom para conocernos mejor y despejar cualquier duda.</div>
+            <a className="btn btn-default primary-btn mt-4" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactame por WhatsApp</a>
         </div>
     );
     return (
@@ -25,20 +31,22 @@ const Faq = () => {
                     <Col md="8">
                         <div className="faq-block">
                             <div>
-                                <h3 className="frequent-text">Hola, soy Gabriel</h3>
-                                <h6>A lo largo de mi carrera como emprendedor aprendí que el contacto humano, el trabajo en equipo y la comunicación transparente es muy importante para el crecimiento en cualquier área de la vida, incluyendo los negocios, es por eso que quiero que trabajemos de la mejor forma y alcancemos nuestras METAS juntos!</h6>
+                                <h3 className="frequent-text">Hola, soy el creador de 2MetaDigital!</h3>
+                                <h6 style={{textTransform:'none'}}>A lo largo de mi carrera como emprendedor aprendí que el contacto humano, el trabajo en equipo y la comunicación transparente es muy importante para el crecimiento en cualquier área de la vida, incluyendo los negocios, es por eso que quiero que trabajemos de la mejor forma y alcancemos nuestras METAS juntos!</h6>
                                 <Accordion atomic={true} className="mb-3">
-                                    <AccordionItem className="card-header bg-primary" title="Más información personal">
-                                        <DummyContent1 className="active" />
+                                    <AccordionItem className="card-header bg-primary" title="Más Información Personal">
+                                        <Personal className="active" />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Qué medios de pago se permiten?">
-                                        <DummyContent2 />
+                                    <AccordionItem className="card-header bg-primary" title="Sobre el Proyecto 2MetaDigital">
+                                        <Proyecto />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="Cómo empezar?">
-                                        <DummyContent3 />
+                                    <AccordionItem className="card-header bg-primary" title="Mercado de Nuestros Productos y Servicios">
+                                        <Mercado />
+                                    </AccordionItem>
+                                    <AccordionItem className="card-header bg-primary" title="Cómo Contactarme?">
+                                        <Contacto />
                                     </AccordionItem>
                                 </Accordion>
-                                <a className="btn btn-default primary-btn mt-4" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactame por WhatsApp</a>
                             </div>
                         </div>
                     </Col>

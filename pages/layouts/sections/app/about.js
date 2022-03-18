@@ -7,7 +7,7 @@ const About = () => (
         <Container>
             <Row>
                 <Col sm="6" className="counters set-height">
-                    <img alt="" className="img-fluid mobile1" data-aos="fade-right" src="/assets/images/app_landing2/beneficios.png" />
+                    <img alt="" className="img-fluid mobile1" data-aos="fade-right" src="/assets/images/app_landing2/tiempo.png" />
                 </Col>
                 <Col sm="6" className="counters">
                     <div className="abouts center-text">

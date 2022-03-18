@@ -13,7 +13,7 @@ const Footer = () => (
                             <div className="footer-contant">
                                 <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo4neg.png" />
                                 <div className="footer-para">
-                                    <h6 className="text-white para-address">Somos Emprendedores que buscan complementarse y mejorar junto a otros emprendedores.</h6>
+                                    <h6 className="text-white para-address">Somos Emprendedores Que Se Potencian Junto A Otros Emprendedores Para Alcanzar Todas Nuestras Metas Trabajando En Equipo.</h6>
                                     <h6 className="text-white para-address">Buenos Aires, Argentina</h6>
                                     <h6 className="text-white para-address">2MetaDigital</h6>
                                 </div>
@@ -64,22 +64,22 @@ const Footer = () => (
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="#Servicios">Desarrollo Web Profesional</a>
+                                        <a href="/web">Desarrollo Web Profesional</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Diseño Gráfico Profesional</a>
+                                        <a href="/grafico">Diseño Gráfico Profesional</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">E-Commerces: Tiendas Online</a>
+                                        <a href="/ecommerce">E-Commerces: Tiendas Online</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Copywriting: Redacción Ventas</a>
+                                        <a href="/web">Copywriting: Redacción Ventas</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Landing Pages: Página Ventas</a>
+                                        <a href="/landing">Landing Pages: Página Ventas</a>
                                     </li>
                                     <li>
-                                        <a href="#Servicios">Administración y Mantenimiento</a>
+                                        <a href="/web">Administración y Mantenimiento</a>
                                     </li>
                                     <li>
                                         <a href="#Servicios">Hosting, Dominios, SSL y DNS</a>

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Head from 'next/head'
 
 // import Custom Components
 import Header from '../../containers/common/header'
@@ -8,11 +7,9 @@ import FeatureSection from '../layouts/sections/modern-sass/feature'
 import BuildSection from '../layouts/sections/modern-sass/build'
 import WorkSection from '../layouts/sections/modern-sass/work'
 import PriceSection from '../layouts/sections/modern-sass/price'
-import TestimonialSection from '../layouts/sections/modern-sass/testimonial'
-import SubscribeSection from '../layouts/sections/modern-sass/subscribe'
 import FaqSection from '../layouts/sections/modern-sass/faq'
+import CtaSection from '../layouts/sections/modern-sass/cta'
 import ClientSection from '../layouts/sections/modern-sass/client'
-import FooterSection from '../layouts/sections/modern-sass/footer'
 
 const ModernSass = () => {
 
@@ -40,9 +37,9 @@ const ModernSass = () => {
 
             <FaqSection />
 
-            <ClientSection />
+            <CtaSection />
 
-            <FooterSection />
+            <ClientSection />
         </div>
     )
 }

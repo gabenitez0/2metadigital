@@ -7,7 +7,7 @@ import FeatureSection from '../layouts/sections/enterprice-sass/feature'
 import BusinessSection from '../layouts/sections/enterprice-sass/business'
 import ServiceSection from '../layouts/sections/enterprice-sass/service'
 import SliderSection from '../layouts/sections/enterprice-sass/slider'
-import PricingSection from '../layouts/sections/enterprice-sass/pricing'
+import Tiempo from './sections/enterprice-sass/tiempo'
 import TestimonialSection from '../layouts/sections/enterprice-sass/testimonial'
 import BrandSection from '../layouts/sections/enterprice-sass/brand'
 import FooterSection from '../layouts/sections/enterprice-sass/footer'
@@ -24,19 +24,20 @@ const EnterpriceSass = () => {
 
     return (
         <div>
-            <Head>
-                <title>Capital Digital - Servicios Digitales para Tu Proyecto</title>
-            </Head>
 
             <Header className="saas2"/>
 
             <BannerSection />
 
-            <ServiceSection />
+            <FeatureSection />
 
             <BusinessSection />
 
-            <PricingSection />
+            <ServiceSection />
+
+            <SliderSection />
+
+            <Tiempo />
 
             <TestimonialSection />
 

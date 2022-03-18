@@ -74,7 +74,6 @@ function MyFunctionComponent({ children }) {
   return (
     <>
       <Head>
-        <title>Unice</title>
       </Head>
       {loader &&
         <div className="loader-wrapper">

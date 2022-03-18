@@ -19,13 +19,11 @@ const Video = () => {
                                             <img alt="" className="img-fluid m-b-20"
                                                 src="/assets/images/agency/cta/cta4.png" />
                                             <div>
-                                                <h3 className="video-heading text-white text-center">¿Tenes ideas para tu proyecto?</h3>
+                                                <h3 className="video-heading text-white text-center">Empecemos a potenciar tu negocio</h3>
                                             </div>
                                             <div style={{margin: '0 0 0', textAlign: 'center'}}>
-                                                <h6 className="video-text text-white text-center pb-3">Contanos qué querés lograr</h6>
-                                                <h6 className="video-text text-white text-center pb-3">También qué dudas tenes</h6>
-                                                <h6 className="video-text text-white text-center pb-4">Te proponemos soluciones</h6>
-                                                <a className="btn btn-default primary-btn" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar ahora</a>
+                                                <h6 className="video-text text-white text-center pb-3">Contanos qué querés lograr y qué dudas tenes: te proponemos soluciones que no requieran de tu tiempo!</h6>
+                                                <a className="btn btn-default primary-btn mt-4" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar ahora</a>
                                             </div>
                                         </div>
                                     </div>

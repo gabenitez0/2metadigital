@@ -24,7 +24,7 @@ const Header = props => {
             <Container>
                 <Row>
                     <Col>
-                        <nav style={{alignItems: 'baseline'}}>
+                        <nav style={{alignItems: 'baseline', padding:'1rem 0'}}>
                             <a className="m-r-auto" href="#">
                                 {props.className == 'agency' ?
                                     <img alt="" style={logo} className="img-fluid" src="/assets/images/logo/logo4.png" />
@@ -47,11 +47,11 @@ const Header = props => {
                                                         : <img alt="" className="img-fluid" src="/assets/images/logo/logo4neg.png" />
                                 }
                             </a>
-                            <div className="responsive-btn">
+                            {/*<div className="responsive-btn">
                                 <a className="toggle-nav" onClick={clickSidebar} >
                                     <i aria-hidden="true" className="fa fa-bars text-white"></i>
                                 </a>
-                            </div>
+                            </div>*/}
                             {/*<Nav />*/}
                             {props.shop &&
                                 <div className="top-header-right">

@@ -62,33 +62,33 @@ module.exports = {
     ServiceData:[
         {
             img:'/assets/images/saas2/our-feature/1.png',
-            title:'Content Management',
-            desc:'There are many variations of passages of Lorem Ipsum available, but the ma- jority have suffered.'
+            title:'Gestión de contenido',
+            desc:'Gestionamos y diseñamos tu contenido para redes sociales y páginas.'
         },
         {
             img:'/assets/images/saas2/our-feature/2.png',
-            title:'Project Analysis',
-            desc:'There are many variations of passages of Lorem Ipsum available, but the ma- jority have suffered.'
+            title:'Analíticas y Estadísticas',
+            desc:'Recopila datos de tus clientes automáticamente para perfeccionar tu producto y brindar la mejor oferta.'
         },
         {
             img:'/assets/images/saas2/our-feature/3.png',
-            title:'Support & Service',
-            desc:'There are many variations of passages of Lorem Ipsum available, but the ma- jority have suffered.'
+            title:'Soporte personalizado',
+            desc:'Te brindamos soporte técnico y asesoramiento de valor enfocado a tu producto y negocio específico.'
         },
         {
             img:'/assets/images/saas2/our-feature/4.png',
-            title:'Project Management',
-            desc:'There are many variations of passages of Lorem Ipsum available, but the ma- jority have suffered.'
-        },
-        {
-            img:'/assets/images/saas2/our-feature/5.png',
-            title:'Get Free Update',
-            desc:'There are many variations of passages of Lorem Ipsum available, but the ma- jority have suffered.'
+            title:'Mantenimiento',
+            desc:'Estamos pendientes de que tu página funcione perfectamente siempre y solucionamos cualquier error.'
         },
         {
             img:'/assets/images/saas2/our-feature/6.png',
-            title:'Smart Performance',
-            desc:'There are many variations of passages of Lorem Ipsum available, but the ma- jority have suffered.'
+            title:'Alto Rendimiento',
+            desc:'Los sitios están desarrollados de forma específica para reducir los tiempos de carga a 500ms.'
+        },
+        {
+            img:'/assets/images/saas2/our-feature/5.png',
+            title:'Administración',
+            desc:'Nunca más te preocupes por todo el tema de dominios, dns y web hosting, lo hacemos al instante.'
         },
     ]
 }

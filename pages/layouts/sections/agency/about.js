@@ -17,7 +17,7 @@ const About = () => {
                         <div className="agency-header-center-container">
                             <div className="borders"></div>
                             <div className="agency-head">
-                                <h3 className="agency-head-text">De Emprendedores para Emprendedores <span className="block-span">Que quieren dar un salto de calidad</span></h3>
+                                <h3 className="agency-head-text">Somos emprendedores que se potencian junto a otros emprendedores para alcanzar todas nuestras Metas trabajando en equipo.</h3>
                             </div>
                         </div>
                     </Col>
@@ -37,7 +37,7 @@ const About = () => {
                     <div className="plus plus plus-small white">
                     </div>
                 </div>
-                <img alt="" className="img-fluid about-img" src="/assets/images/agency/about-us/image.png" />
+                <img alt="" className="img-fluid about-img" src="/assets/images/agency/about-us/image2.png" />
             </div>
             <img alt="" className="img-fluid blue-img" src="/assets/images/agency/agency-abs-img.png" />
         </section>

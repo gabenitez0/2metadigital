@@ -30,8 +30,8 @@ const Banner = () => (
                         </div>
                     </Col>
                     <Col xl="5" lg="6" md="4">
-                        <div className="img-mobile set-abs" style={{bottom:0, zIndex:0, position:'absolute', left:'20vw'}}>
-                            <img alt="" className="headaer-image" src="/assets/images/app_landing2/header.png"
+                        <div className="img-mobile set-abs">
+                            <img alt="" className="headaer-image" src="/assets/images/saas1/slider-laptop2.png"
                             style={{width:'90vh', height:'auto'}}
                             />
                         </div>
