@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "prod:build": "next build"
+    "prod:build": "next build",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",

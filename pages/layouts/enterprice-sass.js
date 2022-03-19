@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Head from 'next/head'
 // import Custom Components
 import Header from '../../containers/common/header'
 import BannerSection from '../layouts/sections/enterprice-sass/banner'

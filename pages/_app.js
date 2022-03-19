@@ -38,7 +38,7 @@ function MyFunctionComponent({ children }) {
     // Page Loader
     setTimeout(() => {
       setLoader(false)
-    }, 1000)
+    }, 500)
 
     // Tap to Top Scroll 
     const handleScroll = () => {
@@ -72,9 +72,6 @@ function MyFunctionComponent({ children }) {
 
   return (
     <> {children}
-    {/*
-      <Head>
-      </Head>
       {loader &&
         <div className="loader-wrapper">
           <div className="loader">
@@ -89,7 +86,7 @@ function MyFunctionComponent({ children }) {
             <div></div>
           </div>
         </div>}
-      <></>*/}
+      <></>
     </>
   )
 }

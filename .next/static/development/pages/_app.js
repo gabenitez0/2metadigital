@@ -13348,7 +13348,7 @@ function MyFunctionComponent(_ref2) {
     // Page Loader
     setTimeout(function () {
       setLoader(false);
-    }, 1000); // Tap to Top Scroll 
+    }, 500); // Tap to Top Scroll 
 
     var handleScroll = function handleScroll() {
       var currentScrollY = window.scrollY;
@@ -13397,7 +13397,86 @@ function MyFunctionComponent(_ref2) {
       }
     }, _callee);
   })), []);
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, " ", children);
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, " ", children, loader && __jsx("div", {
+    className: "loader-wrapper",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "loader",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 13
+    }
+  }))), __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null));
 }
 
 function MyApp(_ref4) {
@@ -13408,28 +13487,28 @@ function MyApp(_ref4) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 96,
       columnNumber: 5
     }
   }, __jsx(MyFunctionComponent, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 97,
       columnNumber: 7
     }
   }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 98,
       columnNumber: 9
     }
   }))), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_7__["ToastContainer"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 101,
       columnNumber: 7
     }
   }));

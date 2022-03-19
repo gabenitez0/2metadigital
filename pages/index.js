@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
-// import Custom Components
-//import EnterpriseSass from '../pages/layouts/enterprice-sass'
 import WebUpgrade from './layouts/enterprice-sass'
 
 const Home = () => {

@@ -42,7 +42,7 @@ const Team = () => (
                     <Slider className="owl-carousel owl-theme team-slider"  {...settings}>
                         <div className="item">
                             <div className="team-container">
-                                <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/1.png" />
+                                <img alt="" className="img-fluid members" loading="lazy" src="/assets/images/app_landing2/team/1.png" />
                                 <div className="text-center">
                                     <h5 className="name">Steven</h5>
                                     <h6 className="post">CEO InfriaMC</h6>
@@ -52,7 +52,7 @@ const Team = () => (
                         </div>
                         <div className="item">
                             <div className="team-container">
-                                <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/2.png" />
+                                <img alt="" className="img-fluid members" loading="lazy" src="/assets/images/app_landing2/team/2.png" />
                                 <div className="text-center">
                                     <h5 className="name">Claudio</h5>
                                     <h6 className="post">CEO Latitud34 Desarrollos</h6>
@@ -62,7 +62,7 @@ const Team = () => (
                         </div>
                         <div className="item">
                             <div className="team-container">
-                                <img alt="" className="img-fluid members" src="/assets/images/app_landing2/team/3.jpg" />
+                                <img alt="" className="img-fluid members" loading="lazy" src="/assets/images/app_landing2/team/3.jpg" />
                                 <div className="text-center">
                                     <h5 className="name">Manuel</h5>
                                     <h6 className="post">CEO Dallas Showroom</h6>
