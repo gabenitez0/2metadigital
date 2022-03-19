@@ -42,7 +42,7 @@ const Banner = () => {
                 </Container>
 
                 <img alt="" className="img-fluid set-abs background-animate"
-                    src="/assets/images/saas1/background2.png" />
+                    src="/assets/images/saas1/background22.webp" />
                 <img alt="" className="img-fluid set-abs img1 move-up-down"
                     src="/assets/images/saas2/header-icon/3.png" />
                 <img alt="" className="img-fluid set-abs img2 move-right-left"
