@@ -5985,6 +5985,9 @@ const Business = () => __jsx("section", {
   }
 }, "Adem\xE1s de todo lo anterior, todos nuestros sitios est\xE1n optimizados para redes sociales y motores de b\xFAsqueda.")))))), __jsx("div", {
   className: "center-text side-img",
+  style: {
+    width: 'auto'
+  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
