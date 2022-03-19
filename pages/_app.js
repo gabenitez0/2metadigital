@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Router from 'next/router';
-import Head from 'next/head';
 import NProgress from 'nprogress';
 import getConfig from 'next/config'
 import { ToastContainer } from 'react-toastify';
@@ -72,7 +71,8 @@ function MyFunctionComponent({ children }) {
   }, []);
 
   return (
-    <>
+    <> {children}
+    {/*
       <Head>
       </Head>
       {loader &&
@@ -89,7 +89,7 @@ function MyFunctionComponent({ children }) {
             <div></div>
           </div>
         </div>}
-      <>{children}</>
+      <></>*/}
     </>
   )
 }

@@ -2644,7 +2644,7 @@ header {
       background-image: url("/assets/images/saas1/slider-banner.jpg");
     }
     &.saas2-bg {
-      background-image: url("/assets/images/saas2/slider.png");
+      background-image: url("/assets/images/saas2/slider.png"), linear-gradient(0deg, #02002400 25%, #5e57ea 25%, #9547db 100%);
     }
     &.yogas {
       background-image: url("/assets/images/yoga-img/Layer-8.png");

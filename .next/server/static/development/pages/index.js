@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -5985,9 +5985,6 @@ const Business = () => __jsx("section", {
   }
 }, "Adem\xE1s de todo lo anterior, todos nuestros sitios est\xE1n optimizados para redes sociales y motores de b\xFAsqueda.")))))), __jsx("div", {
   className: "center-text side-img",
-  style: {
-    width: 'auto'
-  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -6006,7 +6003,6 @@ const Business = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
-  loading: "lazy",
   src: "/assets/images/saas2/we-offer/img.png",
   __self: undefined,
   __source: {
@@ -8254,7 +8250,7 @@ const Pricing = () => __jsx("section", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

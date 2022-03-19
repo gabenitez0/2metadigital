@@ -35964,9 +35964,6 @@ var Business = function Business() {
     }
   }, "Adem\xE1s de todo lo anterior, todos nuestros sitios est\xE1n optimizados para redes sociales y motores de b\xFAsqueda.")))))), __jsx("div", {
     className: "center-text side-img",
-    style: {
-      width: 'auto'
-    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35985,7 +35982,6 @@ var Business = function Business() {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid",
-    loading: "lazy",
     src: "/assets/images/saas2/we-offer/img.png",
     __self: _this,
     __source: {
@@ -38269,7 +38265,7 @@ var Pricing = function Pricing() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
   \*******************************************************************************************************************************/
@@ -38292,5 +38288,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[8,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
