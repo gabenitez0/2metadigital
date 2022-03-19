@@ -41,7 +41,7 @@ const Business = () => (
                 </Col>
                 <div className="center-text side-img">
                     <Tilt perspective="20000" transitionSpeed="3000">
-                        <img alt="" className="img-fluid" src="/assets/images/saas2/we-offer/img.png" />
+                        <img alt="" className="img-fluid" loading="lazy" src="/assets/images/saas2/we-offer/img.png" />
                     </Tilt>
                 </div>
             </Row>

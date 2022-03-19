@@ -10,7 +10,7 @@ const Footer = () => (
                             <h3 className="text-white">Nosotros</h3>
                         </div>
                         <div className="footer-contant">
-                            <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo4neg.png" />
+                            <img alt="" className="img-fluid footer-logo" loading="lazy" src="/assets/images/logo/logo4neg.png" />
                             <div className="footer-para">
                                 <h6 className="text-white para-address">Somos emprendedores que se potencian junto a otros emprendedores para alcanzar todas las Metas trabajando en equipo.</h6>
                                 <h6 className="text-white para-address">Buenos Aires, Argentina</h6>

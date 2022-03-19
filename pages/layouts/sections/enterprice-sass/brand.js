@@ -63,7 +63,7 @@ const Brand = () => (
                                 <Row>
                                     <Col sm="3">
                                         <div className="testimonial-msg set-relative">
-                                            <img alt="" className="img-fluid" src="/assets/images/app_landing2/team/2.png" />
+                                            <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/team/2.png" />
                                         </div>
                                     </Col>
                                     <Col sm="9">
@@ -99,7 +99,7 @@ const Brand = () => (
                                 <Row>
                                     <Col sm="3">
                                         <div className=" testimonial-msg set-relative">
-                                            <img alt="" className="img-fluid" src="/assets/images/app_landing2/team/1.png" />
+                                            <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/team/1.png" />
                                         </div>
                                     </Col>
                                     <Col sm="9">
@@ -137,7 +137,7 @@ const Brand = () => (
                                 <Row>
                                     <Col sm="2">
                                         <div className=" testimonial-msg set-relative">
-                                            <img alt="" className="img-fluid" src="/assets/images/app_landing2/team/3.jpg" />
+                                            <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/team/3.jpg" />
                                         </div>
                                     </Col>
                                     <Col sm="9">
@@ -175,7 +175,7 @@ const Brand = () => (
                                 <Row>
                                     <Col sm="3">
                                         <div className=" testimonial-msg set-relative">
-                                            <img alt="" className="img-fluid" src="/assets/images/app_landing2/team/4.png" />
+                                            <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/team/4.png" />
                                         </div>
                                     </Col>
                                     <Col sm="9">

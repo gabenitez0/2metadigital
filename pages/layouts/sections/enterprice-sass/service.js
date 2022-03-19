@@ -21,7 +21,7 @@ const Service = () => (
                         <Col lg="4" md="6" className="service-container" key={i}>
                             <div className="service text-center">
                                 <div className="img-block">
-                                    <img alt="" className="service-img img-fluid" src={item.img} />
+                                    <img alt="" className="service-img img-fluid" loading="lazy" src={item.img} />
                                 </div>
                                 <div className="service-feature">
                                     <h4 className="feature-text text-center">{item.title}</h4>

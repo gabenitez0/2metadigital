@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -4557,6 +4557,7 @@ const Banner = () => {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid img-dextop",
+    loading: "lazy",
     src: "/assets/images/saas2/dextop2.png",
     __self: undefined,
     __source: {
@@ -4567,6 +4568,7 @@ const Banner = () => {
   })))), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs background-animate",
+    loading: "lazy",
     src: "/assets/images/saas1/background22.webp",
     __self: undefined,
     __source: {
@@ -4577,6 +4579,7 @@ const Banner = () => {
   }), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs img1 move-up-down",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/3.png",
     __self: undefined,
     __source: {
@@ -4587,6 +4590,7 @@ const Banner = () => {
   }), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs img2 move-right-left",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/2.png",
     __self: undefined,
     __source: {
@@ -4597,6 +4601,7 @@ const Banner = () => {
   }), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs img3 move-up-down",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/4.png",
     __self: undefined,
     __source: {
@@ -4607,6 +4612,7 @@ const Banner = () => {
   }), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs img4 move-up-down",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/5.png",
     __self: undefined,
     __source: {
@@ -4617,6 +4623,7 @@ const Banner = () => {
   }), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs img5 move-right-left",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/7.png",
     __self: undefined,
     __source: {
@@ -4627,6 +4634,7 @@ const Banner = () => {
   }), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs img6 move-up-down",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/9.png",
     __self: undefined,
     __source: {
@@ -4637,6 +4645,7 @@ const Banner = () => {
   }), __jsx("img", {
     alt: "",
     className: "img-fluid set-abs img7 move-up-down",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/6.png",
     __self: undefined,
     __source: {
@@ -4655,6 +4664,7 @@ const Banner = () => {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid img8",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/10.png",
     __self: undefined,
     __source: {
@@ -4673,6 +4683,7 @@ const Banner = () => {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid img9",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/8.png",
     __self: undefined,
     __source: {
@@ -4708,6 +4719,7 @@ const Banner = () => {
   }, __jsx("img", {
     alt: "",
     className: "img-fluid",
+    loading: "lazy",
     src: "/assets/images/saas2/header-icon/down.png",
     __self: undefined,
     __source: {
@@ -5015,6 +5027,7 @@ const Brand = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/team/2.png",
   __self: undefined,
   __source: {
@@ -5202,6 +5215,7 @@ const Brand = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/team/1.png",
   __self: undefined,
   __source: {
@@ -5389,6 +5403,7 @@ const Brand = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/team/3.jpg",
   __self: undefined,
   __source: {
@@ -5576,6 +5591,7 @@ const Brand = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/team/4.png",
   __self: undefined,
   __source: {
@@ -5987,6 +6003,7 @@ const Business = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/saas2/we-offer/img.png",
   __self: undefined,
   __source: {
@@ -6181,8 +6198,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _icons_pro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icons/pro */ "./pages/layouts/sections/enterprice-sass/icons/pro.js");
 /* harmony import */ var _icons_ventas__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons/ventas */ "./pages/layouts/sections/enterprice-sass/icons/ventas.js");
-/* harmony import */ var _icons_producto__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/producto */ "./pages/layouts/sections/enterprice-sass/icons/producto.js");
-/* harmony import */ var _icons_copy__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/copy */ "./pages/layouts/sections/enterprice-sass/icons/copy.js");
+/* harmony import */ var _icons_producto__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/producto */ "./pages/layouts/sections/enterprice-sass/icons/producto.js");
+/* harmony import */ var _icons_copy__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/copy */ "./pages/layouts/sections/enterprice-sass/icons/copy.js");
 var _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\enterprice-sass\\feature.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -6292,6 +6309,7 @@ const Feature = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid advance-feature-img",
+  loading: "lazy",
   src: "/assets/images/saas2/advance-feature/01.png",
   __self: undefined,
   __source: {
@@ -6415,7 +6433,7 @@ const Feature = () => __jsx("section", {
     lineNumber: 50,
     columnNumber: 25
   }
-}, __jsx(_icons_producto__WEBPACK_IMPORTED_MODULE_5__["default"], {
+}, __jsx(_icons_producto__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -6461,7 +6479,7 @@ const Feature = () => __jsx("section", {
     lineNumber: 59,
     columnNumber: 25
   }
-}, __jsx(_icons_copy__WEBPACK_IMPORTED_MODULE_6__["default"], {
+}, __jsx(_icons_copy__WEBPACK_IMPORTED_MODULE_5__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -6585,6 +6603,7 @@ const Footer = () => __jsx("footer", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid footer-logo",
+  loading: "lazy",
   src: "/assets/images/logo/logo4neg.png",
   __self: undefined,
   __source: {
@@ -7359,6 +7378,7 @@ const Service = () => __jsx("section", {
   }, __jsx("img", {
     alt: "",
     className: "service-img img-fluid",
+    loading: "lazy",
     src: item.img,
     __self: undefined,
     __source: {
@@ -7562,6 +7582,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/1.jpg",
   __self: undefined,
   __source: {
@@ -7589,6 +7610,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/2.jpg",
   __self: undefined,
   __source: {
@@ -7616,6 +7638,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/3.jpg",
   __self: undefined,
   __source: {
@@ -7643,6 +7666,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/4.jpg",
   __self: undefined,
   __source: {
@@ -7670,6 +7694,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/5.jpg",
   __self: undefined,
   __source: {
@@ -7697,6 +7722,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/6.jpg",
   __self: undefined,
   __source: {
@@ -7724,6 +7750,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/7.jpg",
   __self: undefined,
   __source: {
@@ -7751,6 +7778,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/8.jpg",
   __self: undefined,
   __source: {
@@ -7778,6 +7806,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/9.jpg",
   __self: undefined,
   __source: {
@@ -7805,6 +7834,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/10.jpg",
   __self: undefined,
   __source: {
@@ -7832,6 +7862,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/11.jpg",
   __self: undefined,
   __source: {
@@ -7859,6 +7890,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/12.jpg",
   __self: undefined,
   __source: {
@@ -7886,6 +7918,7 @@ const SliderSection = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "img-fluid",
+  loading: "lazy",
   src: "/assets/images/app_landing2/screenshot/13.jpg",
   __self: undefined,
   __source: {
@@ -8218,7 +8251,7 @@ const Pricing = () => __jsx("section", {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

@@ -46,43 +46,43 @@ const SliderSection = () => (
             <div className="slider-container">
                     <Slider className="screenshot-slider" {...settings}>
                         <div className="item">
-                            <a href="http://electro.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/1.jpg" /></a>
+                            <a href="http://electro.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/1.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://ropa.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/2.jpg" /></a>
+                        <a href="http://ropa.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/2.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://muebles.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/3.jpg" /></a>
+                        <a href="http://muebles.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/3.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://cosmeticos.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/4.jpg" /></a>
+                        <a href="http://cosmeticos.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/4.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://mascotas.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/5.jpg" /></a>
+                        <a href="http://mascotas.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/5.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://simple.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/6.jpg" /></a>
+                        <a href="http://simple.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/6.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://deportes.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/7.jpg" /></a>
+                        <a href="http://deportes.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/7.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://farma.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/8.jpg" /></a>
+                        <a href="http://farma.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/8.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://joyeria.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/9.jpg" /></a>
+                        <a href="http://joyeria.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/9.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://fitness.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/10.jpg" /></a>
+                        <a href="http://fitness.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/10.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://mecanica.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/11.jpg" /></a>
+                        <a href="http://mecanica.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/11.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://niños.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/12.jpg" /></a>
+                        <a href="http://niños.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/12.jpg" /></a>
                         </div>
                         <div className="item">
-                        <a href="http://libros.2meta.digital/" target="_blank"><img alt="" className="img-fluid" src="/assets/images/app_landing2/screenshot/13.jpg" /></a>
+                        <a href="http://libros.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/13.jpg" /></a>
                         </div>
                     </Slider>
             </div>
