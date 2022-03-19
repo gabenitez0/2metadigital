@@ -72,7 +72,7 @@ function MyFunctionComponent({ children }) {
 
   return (
     <> {children}
-      {loader &&
+      {/*loader &&
         <div className="loader-wrapper">
           <div className="loader">
             <div></div>
@@ -85,7 +85,7 @@ function MyFunctionComponent({ children }) {
             <div></div>
             <div></div>
           </div>
-        </div>}
+  </div>*/}
       <></>
     </>
   )
