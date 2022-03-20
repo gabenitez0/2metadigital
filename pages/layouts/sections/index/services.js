@@ -7,11 +7,10 @@ const Services = () => (
                 <Col lg="6" md="8"  className="offset-lg-3 offset-md-2">
                     <div className="title">
                         <div className="main-title">
-                            <h2>Advance Services</h2>
+                            <h2>¿Cómo una web de alto impacto puede mejorar tu negocio?</h2>
                         </div>
                         <div className="sub-title">
-                            <p className="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been</p>
+                            <p className="para">La imagen en internet es muy importante y tu negocio no es la excepción, si tu web no transmite profesionalidad no genera confianza y perdes ventas.</p>
                         </div>
                     </div>
                 </Col>
@@ -21,9 +20,8 @@ const Services = () => (
                             <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-1.png" />
                         </div>
                         <div className="service-feature">
-                            <h4 className="feature-text">Powerful System</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the ma- jority have
-                                suffered.</p>
+                            <h4 className="feature-text">Más Tráfico</h4>
+                            <p>Un diseño profesional genera mayor atención</p>
 
                         </div>
                     </div>
@@ -34,7 +32,7 @@ const Services = () => (
                             <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-2.png" />
                         </div>
                         <div className="service-feature">
-                            <h4 className="feature-text">Personalization</h4>
+                            <h4 className="feature-text">Más Ventas</h4>
                             <p>There are many variations of passages of Lorem Ipsum available, but the ma- jority have
                                 suffered.</p>
                         </div>
@@ -46,7 +44,7 @@ const Services = () => (
                             <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-3.png" />
                         </div>
                         <div className="service-feature">
-                            <h4 className="feature-text">Ease Of Access</h4>
+                            <h4 className="feature-text">Más tiempo</h4>
                             <p>There are many variations of passages of Lorem Ipsum available, but the ma- jority have
                                 suffered.</p>
                         </div>

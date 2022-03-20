@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Head from 'next/head'
 // import Custom Components
 import Header from '../../containers/common/header'
 import BannerSection from './sections/index/banner'
@@ -23,10 +22,6 @@ const App1 = () => {
 
   return (
     <div>
-      <Head>
-        <title>Unice</title>
-      </Head>
-
       <Header className="app1" />
 
       <BannerSection />

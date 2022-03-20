@@ -39,11 +39,13 @@ const Business = () => (
                         </div>
                     </div>
                 </Col>
-                <div className="center-text side-img">
+                <Col lg="6" sm="6" className='m-auto'>
+                <div>
                     <Tilt perspective="20000" transitionSpeed="3000">
-                        <img alt="" className="img-fluid" src="/assets/images/saas2/we-offer/img.png" />
+                        <img alt="" className="img-fluid" style={{maxHeight:'90vh', minHeight:'85vh'}} src="/assets/images/saas2/header.svg" />
                     </Tilt>
                 </div>
+                </Col>
             </Row>
         </Container>
     </section>

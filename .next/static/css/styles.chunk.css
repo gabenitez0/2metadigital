@@ -9606,7 +9606,7 @@ body {
 
 h1,
 h2 {
-  font-family: "Capriola", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize; }
 
 h4,
@@ -11391,7 +11391,8 @@ header.saas1 nav .main-menu li > a > span {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    padding-top: 50px; }
     .header .bg.app1-header {
       background-image: url("/assets/images/app_landing1/header-1-bg.png");
       overflow: hidden; }
@@ -11518,8 +11519,9 @@ header.saas1 nav .main-menu li > a > span {
       background-size: contain;
       opacity: 0.4; }
   .header .img-mobile {
-    bottom: 20%;
-    left: 5vw;
+    bottom: -17%;
+    left: 50%;
+    transform: translate(-50%, 0);
     z-index: 2; }
   .header .wave-orange {
     position: absolute;
@@ -22285,8 +22287,6 @@ footer.saas1 h5 {
     bottom: -50%; }
   .header .saas2-content .set-abs .img-dextop {
     height: 720px; }
-  .header.app1 h1 {
-    line-height: 56px; }
   .header .event-content .counter-container h2 {
     margin-top: -10px; }
   .header.saas2 h1 {

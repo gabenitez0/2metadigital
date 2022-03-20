@@ -10,38 +10,30 @@ const Banner = () => (
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
-                                    <h1>Showcase your app with Unice</h1>
+                                    <h1><b>Vendé tus servicios en internet con una Web de Alto Impacto</b></h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p className="text-white p-light">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
-                                        industry. Lorem Ipsum has been</p>
+                                    <p className="text-white p-light">Permití a tus potenciales clientes conocer mejor tu producto o servicio con una web de alta calidad y textos persuasivos para ayudarlos a tomar la decisión de compra e <b style={{fontWeight:600}}>incrementar tus ventas</b>.</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="icon-btn">
-                                                <i aria-hidden="true" className="fa fa-android center-content"></i>
-                                                <h6 className="text-center text-white">android</h6>
-                                            </a>
+                                            <a className="btn btn-default btn-white" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar ahora</a>
                                         </li>
-                                        <li className="borders-right p-0"></li>
                                         <li>
-                                            <a className="icon-btn">
-                                                <i aria-hidden="true" className="fa fa-apple center-content"></i>
-                                                <h6 className="text-center text-white">ios</h6>
-                                            </a>
+                                            <a className="btn btn-default primary-btn transparent" href="#beneficios">más info</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </Col>
-                    <div className="rotate">
-                        <Tilt perspective="20000" transitionSpeed="3000">
-                            <img alt="" className="img-fluid" src="/assets/images/app_landing1/preview_movie.png" />
-                        </Tilt>
-                    </div>
+                    <Col xl="5" lg="6" md="4">
+                        <div className="img-mobile set-abs">
+                            <img alt="" className="headaer-image" src="/assets/images/app_landing1/header.png"
+                            />
+                        </div>
+                    </Col>
                     <div className="squares">
                         <img alt="" className="img-fluid img-1 set-abs" src="/assets/images/app_landing1/Ellipse.png" />
                         <img alt="" className="img-fluid img-2 set-abs" src="/assets/images/app_landing1/Ellipse.png" />

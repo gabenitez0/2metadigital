@@ -20,7 +20,7 @@ const Banner = () => {
                                         <h3 className="saas2-sub-text">Los clientes se sienten más seguros </h3>
                                     </div>*/}
                                     <div className="header-sub-text">
-                                        <p className="sub-para text-white">Si ya tenés una página web pero querés mejorarla para que tus clientes perciban el profesionalismo de tu negocio y también generar mayor confianza, atención y ventas, estás en el lugar indicado.</p>
+                                        <p className="sub-para text-white">Si ya tenés una página web pero querés mejorarla para que tus clientes perciban el profesionalismo de tu negocio y también generar mayor atención, confianza y ventas, estás en el lugar indicado.</p>
                                     </div>
                                     <div className="link-horizontal">
                                         <ul>
@@ -36,7 +36,7 @@ const Banner = () => {
                             </div>
                         </Col>
                         <div className="center-text set-abs">
-                            <img alt="" className="img-fluid img-dextop" loading="lazy" src="/assets/images/saas2/dextop2.png" />
+                            <img alt="" className="img-fluid img-dextop" style={{maxHeight:'90vh', minHeight:'85vh'}} loading="lazy" src="/assets/images/saas2/space.svg" />
                         </div>
                     </Row>
                 </Container>

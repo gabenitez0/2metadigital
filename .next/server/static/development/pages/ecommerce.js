@@ -4424,7 +4424,7 @@ const About = () => __jsx("section", {
   }
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   sm: "6",
-  className: "counters set-height",
+  className: "counters",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -4505,7 +4505,7 @@ const About = () => __jsx("section", {
     lineNumber: 19,
     columnNumber: 33
   }
-}, "Vend\xE9 a todos los clientes de internet en argentina con una tienda online Profesional!")), __jsx("div", {
+}, "Aument\xE1 tu alcance y potenci\xE1 tus ventas con una tienda online de alto impacto!")), __jsx("div", {
   className: "format-sub-text",
   __self: undefined,
   __source: {
@@ -4521,7 +4521,14 @@ const About = () => __jsx("section", {
     lineNumber: 22,
     columnNumber: 33
   }
-}, "Millones de personas en argentina y en todos los pa\xEDses realizan compras regularmente en sitios de internet y tiendas online."), __jsx("p", {
+}, __jsx("b", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 59
+  }
+}, "Millones de personas en argentina y en todos los pa\xEDses realizan compras regularmente en sitios de internet y tiendas online.")), __jsx("p", {
   className: "about-para",
   __self: undefined,
   __source: {
@@ -4537,7 +4544,14 @@ const About = () => __jsx("section", {
     lineNumber: 24,
     columnNumber: 33
   }
-}, "No te quedes afuera!."))))))));
+}, __jsx("b", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 59
+  }
+}, "No te quedes afuera de la revoluci\xF3n digital!")))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
@@ -4762,11 +4776,7 @@ const Banner = () => __jsx("section", {
 }, __jsx("img", {
   alt: "",
   className: "headaer-image",
-  src: "/assets/images/saas1/slider-laptop2.png",
-  style: {
-    width: '90vh',
-    height: 'auto'
-  },
+  src: "/assets/images/app_landing2/header.webp",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -4778,7 +4788,7 @@ const Banner = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41,
+    lineNumber: 40,
     columnNumber: 13
   }
 })));
@@ -5777,7 +5787,7 @@ const Format = () => {
       lineNumber: 20,
       columnNumber: 37
     }
-  }, "Tienda Online de Alta Calidad enfocada a cada producto particular")), __jsx("div", {
+  }, "No pierdas m\xE1s ventas por dise\xF1os poco confiables, poco congruentes con tu producto o fallas t\xE9cnicas")), __jsx("div", {
     className: "format-sub-text",
     __self: undefined,
     __source: {
@@ -5793,7 +5803,14 @@ const Format = () => {
       lineNumber: 23,
       columnNumber: 37
     }
-  }, "Hacemos por vos una Tienda Online no solo de calidad profesional en cuanto al desarrollo y dise\xF1o, sino que tambi\xE9n nos adaptamos perfectamente y de forma particular a tu producto y necesidades de tu negocio."), __jsx("p", {
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 63
+    }
+  }, "Hacemos por vos una Tienda Online no solo de calidad profesional en cuanto al desarrollo y dise\xF1o, sino que tambi\xE9n nos adaptamos de forma exclusiva a tu producto y necesidades de tu negocio.")), __jsx("p", {
     className: "about-para",
     __self: undefined,
     __source: {
@@ -5816,34 +5833,25 @@ const Format = () => {
       lineNumber: 25,
       columnNumber: 63
     }
-  }, "Si no te consideras un especialista en eCommerces, te costar\xE1 mucho tiempo y trabajo hacer algo que realmente sea profesional y escalable (como aparecer en motores de b\xFAsqueda) para tu negocio."))), __jsx("a", {
-    className: "btn btn-default btn-gradient m-t-45",
-    href: "#proyectos",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 33
-    }
-  }, "Ver ejemplos")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  }, "Si no sos un especialista en eCommerces, te costar\xE1 mucho tiempo y ser\xE1 muy dificil obtener un resultado profesional y escalable para tu negocio.")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
     sm: "6",
     className: "counters set-height overflow-hide",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 45,
       columnNumber: 21
     }
   }, __jsx("img", {
     alt: "",
-    className: "img-fluid mobile2",
+    className: "img-fluid",
     loading: "lazy",
     "data-aos": "fade-left",
-    src: "/assets/images/app_landing2/calidad2.svg",
+    src: "/assets/images/app_landing2/calidad2.webp",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 46,
       columnNumber: 25
     }
   })))));
@@ -7515,7 +7523,7 @@ const Format = () => {
     }
   }, __jsx("img", {
     alt: "",
-    className: "img-fluid mobile2",
+    className: "img-fluid",
     "data-aos": "fade-right",
     src: "/assets/images/app_landing2/tiempo2.svg",
     __self: undefined,
@@ -7595,22 +7603,14 @@ const Format = () => {
       lineNumber: 27,
       columnNumber: 59
     }
-  }, "Es como tener un robot vendedor que puede vender las 24 horas y brindar a tus clientes toda la informaci\xF3n que necesitan para comprar: Stock, Precio, Colores, Talles, Medios de Pago, Cat\xE1logos, etc. y adem\xE1s, la tecnolog\xEDa de Carrito y Pasarelas de Pago para que puedan Concretar la Compra SIN intervenci\xF3n humana en cualquier momento.")), __jsx("p", {
-    className: "about-para",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 33
-    }
-  }, "Pero no pierdas tiempo, somos especialistas, lo hacemos por vos considerando cada detalle, de calidad profesional y escalable.")), __jsx("a", {
-    className: "btn btn-default btn-gradient m-t-50",
+  }, "Es como tener un robot vendedor que puede vender las 24 horas y brindar a tus clientes toda la informaci\xF3n que necesitan para comprar: Stock, Precio, Colores, Talles, Medios de Pago, Cat\xE1logos, etc. y adem\xE1s, la tecnolog\xEDa de Carrito y Pasarelas de Pago para que puedan Concretar la Compra SIN intervenci\xF3n humana en cualquier momento."))), __jsx("a", {
+    className: "btn btn-default btn-gradient",
     href: "https://web.whatsapp.com/send?phone=541165003611",
     target: "_blank",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 29,
       columnNumber: 33
     }
   }, "Empezar Ahora")))))));
