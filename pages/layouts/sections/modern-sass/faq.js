@@ -21,7 +21,7 @@ const Faq = () => {
     const Contacto = () => (
         <div className="collapse show" id="collapseicon1" aria-labelledby="collapseicon1" data-parent="#accordionoc">
             <div className="card-body">Puedes contactarte conmigo cuando quieras! utilizo preferentemente WhatsApp. Si gustas podemos acordar una reunión por Zoom para conocernos mejor y despejar cualquier duda.</div>
-            <a className="btn btn-default primary-btn mt-4" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactame por WhatsApp</a>
+            <a className="btn btn-default primary-btn mt-4" href="https://wa.me/541122505698" target="_blank">Contactame por WhatsApp</a>
         </div>
     );
     return (

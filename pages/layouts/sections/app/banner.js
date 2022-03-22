@@ -19,7 +19,7 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-white" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar ahora</a>
+                                            <a className="btn btn-default btn-white" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio." target="_blank">Contactar ahora</a>
                                         </li>
                                         <li>
                                             <a className="btn btn-default primary-btn transparent" href="#beneficios">más info</a>

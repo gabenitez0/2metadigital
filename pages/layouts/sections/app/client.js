@@ -29,12 +29,12 @@ const Client = () => (
                             <h2 className="title-text text-capitalize text-center mb-4" style={{lineHeight:'1.5'}}>Empezá a venderles a Todos los Clientes de Internet Ahora con precios desde los $18000 ARS!</h2>
                         </div>
                         <p>Te asesoramos sin compromiso: te ayudamos a decidir si nuestros servicios son para vos o no, te cotizamos y hacemos crecer tus proyectos.</p>
-                        <a className="btn btn-default btn-gradient mt-5" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
+                        <a className="btn btn-default btn-gradient mt-5" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio." target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                     </div>
                 </Col>
             </Row>
         </Container>
-        <a style={wpp} href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">
+        <a style={wpp} href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio." target="_blank">
             <i aria-hidden="true" className="fa fa-whatsapp p-10"></i>
         </a>
     </section>

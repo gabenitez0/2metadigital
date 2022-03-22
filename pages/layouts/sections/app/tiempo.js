@@ -26,7 +26,7 @@ const Format = () => {
                                 <p className="about-para">Tener una tienda online te puede ahorrar mucho tiempo, ya que ésta plataforma te permite automatizar la mayoría de los procesos de venta y dar un salto de calidad y accesibilidad para tu negocio y tus clientes.</p>
                                 <p className="about-para"><b>Es como tener un robot vendedor que puede vender las 24 horas y brindar a tus clientes toda la información que necesitan para comprar: Stock, Precio, Colores, Talles, Medios de Pago, Catálogos, etc. y además, la tecnología de Carrito y Pasarelas de Pago para que puedan Concretar la Compra SIN intervención humana en cualquier momento.</b></p>
                                 </div>
-                                <a className="btn btn-default btn-gradient" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Empezar Ahora</a>
+                                <a className="btn btn-default btn-gradient" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio." target="_blank">Empezar Ahora</a>
                             </div>
                         </div>
                     </Col>

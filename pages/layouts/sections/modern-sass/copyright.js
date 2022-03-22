@@ -8,7 +8,7 @@ const Copyright = () => (
                     <div className="link-horizontal center-text">
                         <ul>
                             <li>
-                                <a className="copyright-text op-text" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar Ahora</a>
+                                <a className="copyright-text op-text" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20asociarme%20con%202metadigital%20para%20promocionar%20y%2Fo%20vender%20sus%20servicios." target="_blank">Contactar Ahora</a>
                             </li>
                         </ul>
                     </div>

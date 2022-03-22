@@ -27,7 +27,7 @@ const Price = () => {
                         <div className="sub-title">
                             <p className="p-padding text-white">Ponte en contacto conmigo, sacate todas las dudas y empecemos a generar ingresos juntos!</p>
                         </div>
-                        <a className="btn btn-default primary-btn mt-4" href="https://web.whatsapp.com/send?phone=541165003611" target="_blank">Contactar Ahora</a>
+                        <a className="btn btn-default primary-btn mt-4" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20asociarme%20con%202metadigital%20para%20promocionar%20y%2Fo%20vender%20sus%20servicios." target="_blank">Contactar Ahora</a>
                     </div>
                 </Col>
             </Container>
