@@ -10,8 +10,8 @@ const Home = () => {
           <title>El Siguiente Paso para Tu Negocio es de Calidad e Impacto - 2MetaDigital</title>
           <meta name='El Siguiente Paso para Tu Negocio es de Calidad e Impacto' content='' />
 
-          <meta description='Si ya tenés una página web pero querés mejorarla para que tus clientes perciban el profesionalismo de tu negocio y también generar mayor confianza, atención y ventas, estás en el lugar indicado.' content='' />
-          <meta property="og:description" content="Si ya tenés una página web pero querés mejorarla para que tus clientes perciban el profesionalismo de tu negocio y también generar mayor confianza, atención y ventas, estás en el lugar indicado." />
+          <meta description='El salto de calidad y profesional que necesita tu negocio, lo conseguimos con diseños de alto impacto y redacciones persuasivas que transmiten el valor de tu producto o servicio.' content='' />
+          <meta property="og:description" content="El salto de calidad y profesional que necesita tu negocio, lo conseguimos con diseños de alto impacto y redacciones persuasivas que transmiten el valor de tu producto o servicio." />
 
           <link rel="icon" type="image/png" href="/fav3.png" />
           <meta property="og:image" content="/meta3.png" />

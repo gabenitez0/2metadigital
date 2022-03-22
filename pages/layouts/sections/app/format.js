@@ -45,7 +45,7 @@ const Format = () => {
                                     <p className="about-para"><i style={icon1}>3.</i> <b>Nuestros servicios incluyen Soporte Técnico y Asesoramiento de Valor</b> para solucionar cualquier falla y resolver cualquier duda.</p>
                                 </div>
                                 <div>
-                                    <h6 className="font-primary m-b-25 text-uppercase"><span><b>PLUS! ► No pierdas dinero:</b> <br/>tus ventas tienen 0% de comisiones!</span></h6>
+                                    <h6 className="font-primary m-b-25 text-uppercase"><span><b>PLUS! ► No pierdas dinero:</b> <br/><u>tus ventas tienen 0% de comisiones!</u></span></h6>
                                 </div>
                                 <a className="btn btn-default btn-gradient mt-4" href="#contacto">Me interesa</a>
                                 {/*

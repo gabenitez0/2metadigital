@@ -34,7 +34,7 @@ const About = () => (
                                 <p className="about-para"><i>Fuente: Estadísticas de Comercio Electrónico en Argentina 2022</i></p>
                             </div>
                             <div>
-                                <h6 className="font-primary m-b-25 text-uppercase"><span>No te quedes afuera!</span></h6>
+                                <h6 className="font-primary m-b-25 text-uppercase"><span><u>No te quedes afuera!</u></span></h6>
                             </div>
                         </div>
                     </div>

@@ -9,11 +9,11 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-          <title>Vendé a todos los clientes de internet con una Tienda Online Profesional - 2MetaDigital</title>
-          <meta name='Vendé a todos los clientes de internet con una Tienda Online Profesional - 2MetaDigital' content='' />
+          <title>Aumentá El Alcance Y Potenciá Tus Ventas Con Una Tienda Online Profesional - 2MetaDigital</title>
+          <meta name='Aumentá El Alcance Y Potenciá Tus Ventas Con Una Tienda Online Profesional - 2MetaDigital' content='' />
 
-          <meta description='Creamos tu Tienda Online Profesional por vos para que no pierdas tiempo y empieces a vender en línea y llegar a la mayor cantidad de clientes posibles.' content='' />
-          <meta property="og:description" content="Creamos tu Tienda Online Profesional por vos para que no pierdas tiempo y empieces a vender en línea y llegar a la mayor cantidad de clientes posibles." />
+          <meta description='Millones de personas en Argentina y en todo el mundo ya realizan compras directamente en Tiendas Online. Creamos tu Tienda Online Profesional por vos para que no pierdas tiempo y empieces a vender en línea y llegar a la mayor cantidad de clientes posibles.' content='' />
+          <meta property="og:description" content="Millones de personas en Argentina y en todo el mundo ya realizan compras directamente en Tiendas Online. Creamos tu Tienda Online Profesional por vos para que no pierdas tiempo y empieces a vender en línea y llegar a la mayor cantidad de clientes posibles." />
           
           <link rel="icon" type="image/png" href="/fav2.png" />
           <meta property="og:image" content="/meta2.png" />

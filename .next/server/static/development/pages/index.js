@@ -4179,7 +4179,7 @@ const Home = () => {
       columnNumber: 11
     }
   }), __jsx("meta", {
-    description: "Si ya ten\xE9s una p\xE1gina web pero quer\xE9s mejorarla para que tus clientes perciban el profesionalismo de tu negocio y tambi\xE9n generar mayor confianza, atenci\xF3n y ventas, est\xE1s en el lugar indicado.",
+    description: "El salto de calidad y profesional que necesita tu negocio, lo conseguimos con dise\xF1os de alto impacto y redacciones persuasivas que transmiten el valor de tu producto o servicio.",
     content: "",
     __self: undefined,
     __source: {
@@ -4189,7 +4189,7 @@ const Home = () => {
     }
   }), __jsx("meta", {
     property: "og:description",
-    content: "Si ya ten\xE9s una p\xE1gina web pero quer\xE9s mejorarla para que tus clientes perciban el profesionalismo de tu negocio y tambi\xE9n generar mayor confianza, atenci\xF3n y ventas, est\xE1s en el lugar indicado.",
+    content: "El salto de calidad y profesional que necesita tu negocio, lo conseguimos con dise\xF1os de alto impacto y redacciones persuasivas que transmiten el valor de tu producto o servicio.",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
