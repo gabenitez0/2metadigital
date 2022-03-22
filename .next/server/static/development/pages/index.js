@@ -4471,13 +4471,23 @@ const Banner = () => {
       columnNumber: 37
     }
   }, __jsx("h1", {
+    style: {
+      lineHeight: 1.2
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
       columnNumber: 41
     }
-  }, "El siguiente paso para tu negocio es de calidad e impacto")), __jsx("div", {
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 70
+    }
+  }, "El siguiente paso para tu negocio: impacto y profesionalismo"))), __jsx("div", {
     className: "header-sub-text",
     __self: undefined,
     __source: {
@@ -4493,7 +4503,7 @@ const Banner = () => {
       lineNumber: 23,
       columnNumber: 41
     }
-  }, "Si ya ten\xE9s una p\xE1gina web pero quer\xE9s mejorarla para que tus clientes perciban el profesionalismo de tu negocio y tambi\xE9n generar mayor atenci\xF3n, confianza y ventas, est\xE1s en el lugar indicado.")), __jsx("div", {
+  }, "El salto de calidad y profesional que necesita tu negocio, lo conseguimos con dise\xF1os de alto impacto y redacciones persuasivas que transmiten el valor de tu producto o servicio.")), __jsx("div", {
     className: "link-horizontal",
     __self: undefined,
     __source: {
@@ -5813,7 +5823,14 @@ const Business = () => __jsx("section", {
     lineNumber: 10,
     columnNumber: 25
   }
-}, "Beneficios de una p\xE1gina de alta calidad para tu negocio"), __jsx("div", {
+}, __jsx("b", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 71
+  }
+}, "\xBFC\xF3mo tu negocio se potencia con una web profesional de alta calidad?")), __jsx("div", {
   className: "bottom-border",
   __self: undefined,
   __source: {
@@ -5868,7 +5885,14 @@ const Business = () => __jsx("section", {
     lineNumber: 17,
     columnNumber: 80
   }
-}, "Genera Mayor confianza y m\xE1s ventas")), __jsx("p", {
+}, __jsx("u", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 83
+  }
+}, "Transmite confianza y seguridad"))), __jsx("p", {
   className: "offer-sub-text text-white",
   __self: undefined,
   __source: {
@@ -5876,7 +5900,7 @@ const Business = () => __jsx("section", {
     lineNumber: 18,
     columnNumber: 37
   }
-}, "La calidad transmite seguridad, y un cliente potencial que no conf\xEDa en una p\xE1gina simplemente se va a buscar otra.")))), __jsx("div", {
+}, "La calidad transmite confianza y profesionalismo, y un cliente potencial que no conf\xEDa en una p\xE1gina es un cliente perdido y simplemente se va a buscar otra opci\xF3n de la competencia.")))), __jsx("div", {
   className: "offers-content",
   __self: undefined,
   __source: {
@@ -5923,7 +5947,14 @@ const Business = () => __jsx("section", {
     lineNumber: 26,
     columnNumber: 80
   }
-}, "Genera mayor Impacto y m\xE1s atenci\xF3n")), __jsx("p", {
+}, __jsx("u", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 83
+  }
+}, "Incrementa y Consolida tus clientes"))), __jsx("p", {
   className: "offer-sub-text text-white",
   __self: undefined,
   __source: {
@@ -5931,7 +5962,7 @@ const Business = () => __jsx("section", {
     lineNumber: 27,
     columnNumber: 37
   }
-}, "Una p\xE1gina con un dise\xF1o atractivo y textos precisos llaman mucho m\xE1s la atenci\xF3n, y por lo tanto venden m\xE1s.")))), __jsx("div", {
+}, "Una p\xE1gina web con un dise\xF1o profesional llama mucho m\xE1s la atenci\xF3n, y sumado a textos persuasivos precisos consigue que realmente seas una competencia y te tomen en cuenta.")))), __jsx("div", {
   className: "offers-content",
   __self: undefined,
   __source: {
@@ -5978,7 +6009,14 @@ const Business = () => __jsx("section", {
     lineNumber: 35,
     columnNumber: 80
   }
-}, "Genera mayor tr\xE1fico y m\xE1s retenci\xF3n")), __jsx("p", {
+}, __jsx("u", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 83
+  }
+}, "Transmite el valor real de tu producto"))), __jsx("p", {
   className: "offer-sub-text text-white",
   __self: undefined,
   __source: {
@@ -5986,7 +6024,7 @@ const Business = () => __jsx("section", {
     lineNumber: 36,
     columnNumber: 37
   }
-}, "Adem\xE1s de todo lo anterior, todos nuestros sitios est\xE1n optimizados para redes sociales y motores de b\xFAsqueda.")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+}, "Hacemos las p\xE1ginas web enfocadas a demostrar el valor de tu producto o servicio para que tus potenciales clientes te elijan.")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
   lg: "6",
   sm: "6",
   className: "m-auto",
@@ -6112,7 +6150,14 @@ const Cta = () => __jsx("section", {
     lineNumber: 24,
     columnNumber: 83
   }
-}, "El salto de calidad de tu negocio est\xE1 muy cerca!"), " precios desde $18000 ARS")), __jsx("div", {
+}, "El salto profesional de tu negocio est\xE1 muy cerca!", __jsx("br", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 136
+  }
+})), " precios desde $18000 ARS")), __jsx("div", {
   className: "sub-title",
   __self: undefined,
   __source: {
@@ -6265,13 +6310,16 @@ const Feature = () => __jsx("section", {
     columnNumber: 25
   }
 }, __jsx("h2", {
+  style: {
+    lineHeight: 1.5
+  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15,
     columnNumber: 29
   }
-}, "Dise\xF1os de Alta Calidad y Alto Impacto")), __jsx("div", {
+}, "Dise\xF1o Web de Alto Impacto + Redacci\xF3n Publicitaria: La combinaci\xF3n exacta!")), __jsx("div", {
   className: "sub-title",
   __self: undefined,
   __source: {
@@ -6287,7 +6335,7 @@ const Feature = () => __jsx("section", {
     lineNumber: 18,
     columnNumber: 29
   }
-}, "Permitimos que tus clientes perciban el valor de tus productos y servicios a simple vista con dise\xF1os de alta calidad y redacciones profesionales.")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+}, "Permitimos que tus clientes perciban el valor de tus productos y servicios a simple vista con dise\xF1os de alta calidad y redacciones profesionales enfocadas a ventas.")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
   xl: "8",
   md: "7",
   __self: undefined,
@@ -7337,7 +7385,14 @@ const Service = () => __jsx("section", {
     lineNumber: 12,
     columnNumber: 29
   }
-}, "\xA1Atenci\xF3n! Esto no es solo un \"dise\xF1o bonito\"")), __jsx("div", {
+}, __jsx("u", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 33
+  }
+}, "\xA1Atenci\xF3n! Esto no es solo un \"dise\xF1o bonito\""))), __jsx("div", {
   className: "sub-title",
   __self: undefined,
   __source: {
@@ -8016,13 +8071,30 @@ const Pricing = () => __jsx("section", {
     columnNumber: 29
   }
 }, __jsx("h2", {
+  style: {
+    lineHeight: 1.2
+  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11,
     columnNumber: 33
   }
-}, "No te vuelvas loco haci\xE9ndolo vos!")), __jsx("div", {
+}, __jsx("b", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 62
+  }
+}, __jsx("u", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 65
+  }
+}, "Imagin\xE1 los beneficios de este salto de calidad para tu negocio...")))), __jsx("div", {
   className: "sub-title",
   __self: undefined,
   __source: {
@@ -8030,7 +8102,7 @@ const Pricing = () => __jsx("section", {
     lineNumber: 13,
     columnNumber: 29
   }
-}, __jsx("p", {
+}, __jsx("ul", {
   className: "sub-title-para",
   __self: undefined,
   __source: {
@@ -8038,50 +8110,11 @@ const Pricing = () => __jsx("section", {
     lineNumber: 14,
     columnNumber: 33
   }
-}, "Como emprendedores entendemos perfectamente lo que es que a veces nos tengamos que ocupar de todas las cosas al mismo tiempo. \xA1Que \xE9sta sea tu excepci\xF3n! Te proponemos ahorrarte dolores de cabeza y tiempo: lo hacemos por vos, en pocos d\xEDas, de calidad profesional y optimizado para motores de b\xFAsqueda."))), __jsx("div", {
-  className: "title",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17,
-    columnNumber: 25
-  }
-}, __jsx("div", {
-  className: "main-title",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18,
-    columnNumber: 29
-  }
-}, __jsx("h2", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19,
-    columnNumber: 33
-  }
-}, "Imagin\xE1 c\xF3mo ser\xEDa trabajar con nosotros...")), __jsx("div", {
-  className: "sub-title",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 21,
-    columnNumber: 29
-  }
-}, __jsx("ul", {
-  className: "sub-title-para",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 22,
-    columnNumber: 33
-  }
 }, __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23,
+    lineNumber: 15,
     columnNumber: 37
   }
 }, __jsx("p", {
@@ -8089,7 +8122,7 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23,
+    lineNumber: 15,
     columnNumber: 41
   }
 }, __jsx("i", {
@@ -8101,14 +8134,21 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23,
+    lineNumber: 15,
     columnNumber: 76
   }
-}), " ... como va a impactar en tus clientes una web profesional.")), __jsx("li", {
+}), " ", __jsx("b", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24,
+    lineNumber: 15,
+    columnNumber: 172
+  }
+}, "... tus potenciales clientes ahora te van a tomar en serio."))), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
     columnNumber: 37
   }
 }, __jsx("p", {
@@ -8116,7 +8156,7 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24,
+    lineNumber: 16,
     columnNumber: 41
   }
 }, __jsx("i", {
@@ -8128,14 +8168,21 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24,
+    lineNumber: 16,
     columnNumber: 76
   }
-}), " ... las facilidades y accesibilidad que les podr\xE1s brindar a tus clientes.")), __jsx("li", {
+}), " ", __jsx("b", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25,
+    lineNumber: 16,
+    columnNumber: 172
+  }
+}, "... podr\xE1s realmente transmitir el valor de tu producto o servicio."))), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17,
     columnNumber: 37
   }
 }, __jsx("p", {
@@ -8143,7 +8190,7 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25,
+    lineNumber: 17,
     columnNumber: 41
   }
 }, __jsx("i", {
@@ -8155,14 +8202,21 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25,
+    lineNumber: 17,
     columnNumber: 76
   }
-}), " ... la cantidad de tiempo que vas a ahorrar si dejas que hagamos todo por vos.")), __jsx("li", {
+}), " ", __jsx("b", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26,
+    lineNumber: 17,
+    columnNumber: 172
+  }
+}, "... una nueva imagen profesional y de alto valor."))), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
     columnNumber: 37
   }
 }, __jsx("p", {
@@ -8170,7 +8224,7 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26,
+    lineNumber: 18,
     columnNumber: 41
   }
 }, __jsx("i", {
@@ -8182,14 +8236,68 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26,
+    lineNumber: 18,
+    columnNumber: 76
+  }
+}), " ... la accesibilidad que les podr\xE1s brindar a tu tr\xE1fico.")), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 37
+  }
+}, __jsx("p", {
+  className: "sub-title-para pb-1",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 41
+  }
+}, __jsx("i", {
+  "aria-hidden": "true",
+  className: "fa fa-check-circle mr-1",
+  style: {
+    color: 'var(--primary)'
+  },
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19,
+    columnNumber: 76
+  }
+}), " ... la cantidad de tiempo que vas a ahorrar de tareas repetitivas.")), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20,
+    columnNumber: 37
+  }
+}, __jsx("p", {
+  className: "sub-title-para pb-1",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20,
+    columnNumber: 41
+  }
+}, __jsx("i", {
+  "aria-hidden": "true",
+  className: "fa fa-check-circle mr-1",
+  style: {
+    color: 'var(--primary)'
+  },
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20,
     columnNumber: 76
   }
 }), " ... c\xF3mo vas a poder mejorar tu producto y tu negocio con estad\xEDsticas.")), __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27,
+    lineNumber: 21,
     columnNumber: 37
   }
 }, __jsx("p", {
@@ -8197,7 +8305,7 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27,
+    lineNumber: 21,
     columnNumber: 41
   }
 }, __jsx("i", {
@@ -8209,15 +8317,15 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27,
+    lineNumber: 21,
     columnNumber: 71
   }
-}), " ... que ni siquiera te tengas que ocupar de la generaci\xF3n de contenido (opcional)."))))), __jsx("div", {
+}), " ... que ni siquiera te tengas que ocupar de la generaci\xF3n de contenido."))))), __jsx("div", {
   className: "title",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31,
+    lineNumber: 25,
     columnNumber: 25
   }
 }, __jsx("div", {
@@ -8225,22 +8333,36 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
+    lineNumber: 26,
     columnNumber: 29
   }
 }, __jsx("h2", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33,
+    lineNumber: 27,
     columnNumber: 33
   }
-}, "Tu sitio listo en tiempo record! (3 d\xEDas)")), __jsx("div", {
+}, __jsx("b", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 37
+  }
+}, __jsx("u", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27,
+    columnNumber: 40
+  }
+}, "Tu proyecto nos importa:")))), __jsx("div", {
   className: "sub-title",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35,
+    lineNumber: 29,
     columnNumber: 29
   }
 }, __jsx("p", {
@@ -8248,10 +8370,17 @@ const Pricing = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
+    lineNumber: 30,
     columnNumber: 33
   }
-}, "Sabemos lo que hacemos y por eso generamos formas de trabajo super eficientes que nos permiten ofrecer este tipo de tiempos record de trabajo en algunos de nuestros servicios y precios exclusivos."))))))));
+}, __jsx("b", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30,
+    columnNumber: 63
+  }
+}, "Para conseguir los resultados que ofrecemos en esta p\xE1gina, hacemos una investigaci\xF3n de mercado de tu proyecto y an\xE1lisis de tu producto o servicio, de esa manera nosotros podemos entender el valor y factor diferencial del mismo y ofrecerlo de la mejor forma!")))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Pricing);
 

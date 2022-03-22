@@ -12,10 +12,10 @@ const Feature = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title">
                         <div className="main-title">
-                            <h2>Diseños de Alta Calidad y Alto Impacto</h2>
+                            <h2 style={{lineHeight:1.5}}>Diseño Web de Alto Impacto + Redacción Publicitaria: La combinación exacta!</h2>
                         </div>
                         <div className="sub-title">
-                            <p className="sub-title-para">Permitimos que tus clientes perciban el valor de tus productos y servicios a simple vista con diseños de alta calidad y redacciones profesionales.</p>
+                            <p className="sub-title-para">Permitimos que tus clientes perciban el valor de tus productos y servicios a simple vista con diseños de alta calidad y redacciones profesionales enfocadas a ventas.</p>
                         </div>
                     </div>
                 </Col>

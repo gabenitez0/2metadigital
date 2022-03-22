@@ -14,13 +14,13 @@ const Banner = () => {
                             <div className="center-text">
                                 <div>
                                     <div className="header-text">
-                                        <h1>El siguiente paso para tu negocio es de calidad e impacto</h1>
+                                        <h1 style={{lineHeight:1.2}}><b>El siguiente paso para tu negocio: impacto y profesionalismo</b></h1>
                                     </div>
                                     {/*<div className="header-sub-text">
                                         <h3 className="saas2-sub-text">Los clientes se sienten más seguros </h3>
                                     </div>*/}
                                     <div className="header-sub-text">
-                                        <p className="sub-para text-white">Si ya tenés una página web pero querés mejorarla para que tus clientes perciban el profesionalismo de tu negocio y también generar mayor atención, confianza y ventas, estás en el lugar indicado.</p>
+                                        <p className="sub-para text-white">El salto de calidad y profesional que necesita tu negocio, lo conseguimos con diseños de alto impacto y redacciones persuasivas que transmiten el valor de tu producto o servicio.</p>
                                     </div>
                                     <div className="link-horizontal">
                                         <ul>

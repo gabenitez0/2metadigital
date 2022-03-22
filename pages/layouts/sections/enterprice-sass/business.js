@@ -7,15 +7,15 @@ const Business = () => (
             <Row className="align-items-center">
                 <Col lg="6">
                     <div className="offers-container">
-                        <h3 className="text-white offer-heading-text">Beneficios de una página de alta calidad para tu negocio</h3>
+                        <h3 className="text-white offer-heading-text"><b>¿Cómo tu negocio se potencia con una web profesional de alta calidad?</b></h3>
                         <div className="bottom-border">
                         </div>
                         <div className="offers-content">
                             <div className="d-flex">
                                 <i aria-hidden="true" className="fa fa-check-circle"></i>
                                 <div>
-                                    <h4 className="offer-main-text text-white"><b>Genera Mayor confianza y más ventas</b></h4>
-                                    <p className="offer-sub-text text-white">La calidad transmite seguridad, y un cliente potencial que no confía en una página simplemente se va a buscar otra.</p>
+                                    <h4 className="offer-main-text text-white"><b><u>Transmite confianza y seguridad</u></b></h4>
+                                    <p className="offer-sub-text text-white">La calidad transmite confianza y profesionalismo, y un cliente potencial que no confía en una página es un cliente perdido y simplemente se va a buscar otra opción de la competencia.</p>
                                 </div>
                             </div>
                         </div>
@@ -23,8 +23,8 @@ const Business = () => (
                             <div className="d-flex">
                                 <i aria-hidden="true" className="fa fa-check-circle"></i>
                                 <div>
-                                    <h4 className="offer-main-text text-white"><b>Genera mayor Impacto y más atención</b></h4>
-                                    <p className="offer-sub-text text-white">Una página con un diseño atractivo y textos precisos llaman mucho más la atención, y por lo tanto venden más.</p>
+                                    <h4 className="offer-main-text text-white"><b><u>Incrementa y Consolida tus clientes</u></b></h4>
+                                    <p className="offer-sub-text text-white">Una página web con un diseño profesional llama mucho más la atención, y sumado a textos persuasivos precisos consigue que realmente seas una competencia y te tomen en cuenta.</p>
                                 </div>
                             </div>
                         </div>
@@ -32,8 +32,8 @@ const Business = () => (
                             <div className="d-flex">
                                 <i aria-hidden="true" className="fa fa-check-circle"></i>
                                 <div>
-                                    <h4 className="offer-main-text text-white"><b>Genera mayor tráfico y más retención</b></h4>
-                                    <p className="offer-sub-text text-white">Además de todo lo anterior, todos nuestros sitios están optimizados para redes sociales y motores de búsqueda.</p>
+                                    <h4 className="offer-main-text text-white"><b><u>Transmite el valor real de tu producto</u></b></h4>
+                                    <p className="offer-sub-text text-white">Hacemos las páginas web enfocadas a demostrar el valor de tu producto o servicio para que tus potenciales clientes te elijan.</p>
                                 </div>
                             </div>
                         </div>

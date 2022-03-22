@@ -9,7 +9,7 @@ const Service = () => (
                 <Col md="10"  className="offset-md-1">
                     <div className="title">
                         <div className="main-title">
-                            <h2>¡Atención! Esto no es solo un "diseño bonito"</h2>
+                            <h2><u>¡Atención! Esto no es solo un "diseño bonito"</u></h2>
                         </div>
                         <div className="sub-title">
                             <p className="sub-title-para">No solo brindamos diseños de alta calidad con todos los beneficios que eso trae consigo, también brindamos servicios y herramientas de trabajo que te permitirán organizarte mejor y ahorrar mucho tiempo de tareas repetitivas!</p>
