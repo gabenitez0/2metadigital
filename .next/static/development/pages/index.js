@@ -35858,6 +35858,9 @@ var Business = function Business() {
       columnNumber: 37
     }
   }, __jsx("b", {
+    style: {
+      fontWeight: 600
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35869,7 +35872,7 @@ var Business = function Business() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
-      columnNumber: 83
+      columnNumber: 108
     }
   }, "Transmite confianza y seguridad"))), __jsx("p", {
     className: "offer-sub-text text-white",
@@ -35920,6 +35923,9 @@ var Business = function Business() {
       columnNumber: 37
     }
   }, __jsx("b", {
+    style: {
+      fontWeight: 600
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35931,7 +35937,7 @@ var Business = function Business() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 83
+      columnNumber: 108
     }
   }, "Incrementa y Consolida tus clientes"))), __jsx("p", {
     className: "offer-sub-text text-white",
@@ -35982,6 +35988,9 @@ var Business = function Business() {
       columnNumber: 37
     }
   }, __jsx("b", {
+    style: {
+      fontWeight: 600
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35993,7 +36002,7 @@ var Business = function Business() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
-      columnNumber: 83
+      columnNumber: 108
     }
   }, "Transmite el valor real de tu producto"))), __jsx("p", {
     className: "offer-sub-text text-white",
@@ -38401,7 +38410,7 @@ var Pricing = function Pricing() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
   \*******************************************************************************************************************************/
@@ -38424,5 +38433,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[8,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

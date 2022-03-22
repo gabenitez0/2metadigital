@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -5879,6 +5879,9 @@ const Business = () => __jsx("section", {
     columnNumber: 37
   }
 }, __jsx("b", {
+  style: {
+    fontWeight: 600
+  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -5890,7 +5893,7 @@ const Business = () => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17,
-    columnNumber: 83
+    columnNumber: 108
   }
 }, "Transmite confianza y seguridad"))), __jsx("p", {
   className: "offer-sub-text text-white",
@@ -5941,6 +5944,9 @@ const Business = () => __jsx("section", {
     columnNumber: 37
   }
 }, __jsx("b", {
+  style: {
+    fontWeight: 600
+  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -5952,7 +5958,7 @@ const Business = () => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26,
-    columnNumber: 83
+    columnNumber: 108
   }
 }, "Incrementa y Consolida tus clientes"))), __jsx("p", {
   className: "offer-sub-text text-white",
@@ -6003,6 +6009,9 @@ const Business = () => __jsx("section", {
     columnNumber: 37
   }
 }, __jsx("b", {
+  style: {
+    fontWeight: 600
+  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -6014,7 +6023,7 @@ const Business = () => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35,
-    columnNumber: 83
+    columnNumber: 108
   }
 }, "Transmite el valor real de tu producto"))), __jsx("p", {
   className: "offer-sub-text text-white",
@@ -8386,7 +8395,7 @@ const Pricing = () => __jsx("section", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

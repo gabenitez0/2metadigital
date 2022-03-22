@@ -8095,7 +8095,7 @@ saas1 css end
     font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
     margin-top: 0;
     margin-bottom: -3px;
-    color: $gray14;
+    color: var(--secondary);
   }
   &.header {
     .center-text {
