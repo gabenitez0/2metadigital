@@ -4,7 +4,7 @@ import {Container,Row,Col} from 'reactstrap'
 const Business = () => (
     <section className="saas2 bg-gradient quick-sol" id="beneficios">
         <Container className="set-center-div">
-            <Row>
+            <Row className="align-items-center">
                 <Col lg="6">
                     <div className="offers-container">
                         <h3 className="text-white offer-heading-text">Beneficios de una página de alta calidad para tu negocio</h3>
@@ -40,11 +40,7 @@ const Business = () => (
                     </div>
                 </Col>
                 <Col lg="6" sm="6" className='m-auto'>
-                <div>
-                    <Tilt perspective="20000" transitionSpeed="3000">
-                        <img alt="" className="img-fluid" style={{maxHeight:'90vh', minHeight:'85vh'}} src="/assets/images/saas2/header.svg" />
-                    </Tilt>
-                </div>
+                    <img alt="" className="img-fluid m-t-20" style={{maxHeight:700}} loading="lazy" src="/assets/images/saas2/beneficios2.webp" />
                 </Col>
             </Row>
         </Container>

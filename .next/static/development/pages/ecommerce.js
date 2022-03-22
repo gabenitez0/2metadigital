@@ -34217,6 +34217,16 @@ var _this = undefined,
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+var icon1 = {
+  background: 'var(--primary)',
+  color: 'white',
+  padding: 3,
+  fontWeight: 600,
+  display: 'inline-block',
+  width: 20,
+  height: 27,
+  textAlign: 'center'
+};
 
 var About = function About() {
   return __jsx("section", {
@@ -34225,7 +34235,7 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 17,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -34233,51 +34243,52 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 18,
       columnNumber: 34
     }
   }), __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 18,
       columnNumber: 41
     }
   }), __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 18,
       columnNumber: 48
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 19,
       columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 20,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    sm: "6",
-    className: "counters",
+    sm: "8",
+    md: "6",
+    className: "counters m-auto m-b-20 m-t-20",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 21,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -34289,16 +34300,16 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 22,
       columnNumber: 21
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    sm: "6",
+    md: "6",
     className: "counters",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 24,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -34306,44 +34317,22 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 25,
       columnNumber: 21
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 26,
       columnNumber: 25
     }
   }, __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 29
-    }
-  }, __jsx("h6", {
-    className: "font-primary m-b-25 text-uppercase",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 33
-    }
-  }, __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 84
-    }
-  }, "Beneficios \xFAnicos ecommerce"))), __jsx("div", {
     className: "format-head-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 27,
       columnNumber: 29
     }
   }, __jsx("h3", {
@@ -34351,15 +34340,15 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 28,
       columnNumber: 33
     }
-  }, "Aument\xE1 tu alcance y potenci\xE1 tus ventas con una tienda online de alto impacto!")), __jsx("div", {
+  }, "Aument\xE1 el alcance y potenci\xE1 tus ventas con una tienda online profesional")), __jsx("div", {
     className: "format-sub-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 30,
       columnNumber: 29
     }
   }, __jsx("p", {
@@ -34367,40 +34356,122 @@ var About = function About() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 31,
       columnNumber: 33
     }
-  }, __jsx("b", {
+  }, __jsx("i", {
+    style: icon1,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 31,
       columnNumber: 59
     }
-  }, "Millones de personas en argentina y en todos los pa\xEDses realizan compras regularmente en sitios de internet y tiendas online.")), __jsx("p", {
+  }, "1."), " ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 83
+    }
+  }, "Millones de personas"), " en Argentina y en todo el mundo ya realizan compras directamente en Tiendas Online."), __jsx("p", {
     className: "about-para",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 32,
       columnNumber: 33
     }
-  }, "Los rubros m\xE1s importantes son Belleza y Moda (Ropa, Zapatillas), Productos Electr\xF3nicos, Juguetes y Hobbies, Muebles y Decoraciones, Comida y Cuidado Personal, Videojuegos, M\xFAsica Digital, Viajes y Turismo, entre otros!"), __jsx("p", {
+  }, __jsx("i", {
+    style: icon1,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 59
+    }
+  }, "2."), " ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 83
+    }
+  }, "Muchos clientes quieren comprar un producto inmediatamente"), ", ", __jsx("u", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 150
+    }
+  }, "y no esperar a que alguien les responda el chat y env\xEDe links de pago.")), __jsx("p", {
     className: "about-para",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 33,
       columnNumber: 33
     }
-  }, __jsx("b", {
+  }, __jsx("i", {
+    style: icon1,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 33,
       columnNumber: 59
     }
-  }, "No te quedes afuera de la revoluci\xF3n digital!")))))))));
+  }, "3."), " ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 83
+    }
+  }, "Los rubros de:"), " Moda, Electr\xF3nica, Juguetes, Muebles, Videojuegos, M\xFAsica, Viajes y Turismo ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 181
+    }
+  }, "mueven $1,5 billones en Tiendas Online!")), __jsx("p", {
+    className: "about-para",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 33
+    }
+  }, __jsx("i", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 59
+    }
+  }, "Fuente: Estad\xEDsticas de Comercio Electr\xF3nico en Argentina 2022"))), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 29
+    }
+  }, __jsx("h6", {
+    className: "font-primary m-b-25 text-uppercase",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 33
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 84
+    }
+  }, "No te quedes afuera!")))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -34520,7 +34591,7 @@ var Banner = function Banner() {
       lineNumber: 12,
       columnNumber: 33
     }
-  }, "8 de cada 10 argentinos ya realizan compras en internet a trav\xE9s de tiendas online"), __jsx("div", {
+  }, "Millones de personas en Argentina y en todo el mundo ya realizan compras directamente en Tiendas Online"), __jsx("div", {
     className: "header-text",
     __self: _this,
     __source: {
@@ -34543,7 +34614,7 @@ var Banner = function Banner() {
       lineNumber: 14,
       columnNumber: 41
     }
-  }, "Empez\xE1 a venderle a todos los clientes de internet con una tienda online profesional"))), __jsx("div", {
+  }, "Dej\xE1 de perder clientes y Empez\xE1 a vender con una tienda online profesional"))), __jsx("div", {
     className: "header-sub-text",
     __self: _this,
     __source: {
@@ -34583,7 +34654,7 @@ var Banner = function Banner() {
     }
   }, __jsx("a", {
     className: "btn btn-default btn-white",
-    href: "https://web.whatsapp.com/send?phone=541165003611",
+    href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio.",
     target: "_blank",
     __self: _this,
     __source: {
@@ -34776,7 +34847,7 @@ var Client = function Client() {
       lineNumber: 27,
       columnNumber: 72
     }
-  }, "Empieza la aventura de tu negocio")), __jsx("div", {
+  }, "EMPIEZA LA NUEVA ETAPA DE TU NEGOCIO")), __jsx("div", {
     className: "sub-title",
     __self: _this,
     __source: {
@@ -34795,7 +34866,14 @@ var Client = function Client() {
       lineNumber: 29,
       columnNumber: 29
     }
-  }, "Empez\xE1 a venderles a Todos los Clientes de Internet Ahora con precios desde los $18000 ARS!")), __jsx("p", {
+  }, __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 116
+    }
+  }, "Vend\xE9 a Todos los Clientes de Internet con una tienda online profesional Ahora!"), " Precios desde $18000 ARS!")), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34804,7 +34882,7 @@ var Client = function Client() {
     }
   }, "Te asesoramos sin compromiso: te ayudamos a decidir si nuestros servicios son para vos o no, te cotizamos y hacemos crecer tus proyectos."), __jsx("a", {
     className: "btn btn-default btn-gradient mt-5",
-    href: "https://web.whatsapp.com/send?phone=541165003611",
+    href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio.",
     target: "_blank",
     __self: _this,
     __source: {
@@ -34819,11 +34897,11 @@ var Client = function Client() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32,
-      columnNumber: 162
+      columnNumber: 216
     }
   })))))), __jsx("a", {
     style: wpp,
-    href: "https://web.whatsapp.com/send?phone=541165003611",
+    href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio.",
     target: "_blank",
     __self: _this,
     __source: {
@@ -35552,6 +35630,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+var icon1 = {
+  background: 'var(--primary)',
+  color: 'white',
+  padding: 3,
+  fontWeight: 600,
+  display: 'inline-block',
+  width: 20,
+  height: 27,
+  textAlign: 'center'
+};
+var link = {
+  color: 'var(--primary)',
+  display: 'block',
+  marginTop: 6
+};
 
 var Format = function Format() {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
@@ -35564,7 +35657,7 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 32,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -35572,51 +35665,51 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 33,
       columnNumber: 13
     }
   }, __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 33,
       columnNumber: 42
     }
   }), __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 33,
       columnNumber: 49
     }
   }), __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 33,
       columnNumber: 56
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 34,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 35,
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    sm: "6",
+    md: "6",
     className: "counters set-order-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 36,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -35624,14 +35717,14 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 37,
       columnNumber: 25
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 38,
       columnNumber: 29
     }
   }, __jsx("div", {
@@ -35639,7 +35732,7 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 39,
       columnNumber: 33
     }
   }, __jsx("h3", {
@@ -35647,15 +35740,15 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 40,
       columnNumber: 37
     }
-  }, "No pierdas m\xE1s ventas por dise\xF1os poco confiables, poco congruentes con tu producto o fallas t\xE9cnicas")), __jsx("div", {
+  }, "No pierdas m\xE1s ventas por dise\xF1os poco confiables, poco acordes con tu producto o fallas t\xE9cnicas")), __jsx("div", {
     className: "format-sub-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 42,
       columnNumber: 33
     }
   }, __jsx("p", {
@@ -35663,46 +35756,139 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 43,
       columnNumber: 37
     }
-  }, __jsx("b", {
+  }, __jsx("i", {
+    style: icon1,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 43,
       columnNumber: 63
     }
-  }, "Hacemos por vos una Tienda Online no solo de calidad profesional en cuanto al desarrollo y dise\xF1o, sino que tambi\xE9n nos adaptamos de forma exclusiva a tu producto y necesidades de tu negocio.")), __jsx("p", {
+  }, "1."), " ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 87
+    }
+  }, "Todos nuestros dise\xF1os son de Calidad Profesional y Alto Impacto"), ": ", __jsx("u", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 160
+    }
+  }, "lo que genera mayor Atenci\xF3n, mayor Confianza y mayor Conversi\xF3n."), " ", __jsx("a", {
+    href: "#proyectos",
+    style: link,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 233
+    }
+  }, "Ver Dise\xF1os \u2192")), __jsx("p", {
     className: "about-para",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 44,
       columnNumber: 37
     }
-  }, "Generamos impacto a nuestros clientes y tambi\xE9n a los tuyos. Trabajamos r\xE1pido, tendr\xE9mos tu tienda online lista para empezar a vender en pocos d\xEDas y sin que pierdas tiempo!"), __jsx("p", {
-    className: "about-para",
+  }, __jsx("i", {
+    style: icon1,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 37
-    }
-  }, __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 44,
       columnNumber: 63
     }
-  }, "Si no sos un especialista en eCommerces, te costar\xE1 mucho tiempo y ser\xE1 muy dificil obtener un resultado profesional y escalable para tu negocio.")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    sm: "6",
-    className: "counters set-height overflow-hide",
+  }, "2."), " ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 87
+    }
+  }, "Seleccionamos un dise\xF1o exclusivo"), " 100% adaptado a tu producto espec\xEDfico."), __jsx("p", {
+    className: "about-para",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    style: icon1,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 63
+    }
+  }, "3."), " ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 87
+    }
+  }, "Nuestros servicios incluyen Soporte T\xE9cnico y Asesoramiento de Valor"), " para solucionar cualquier falla y resolver cualquier duda.")), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 33
+    }
+  }, __jsx("h6", {
+    className: "font-primary m-b-25 text-uppercase",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 37
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 88
+    }
+  }, __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 94
+    }
+  }, "PLUS! \u25BA No pierdas dinero:"), " ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 128
+    }
+  }), "tus ventas tienen 0% de comisiones!"))), __jsx("a", {
+    className: "btn btn-default btn-gradient mt-4",
+    href: "#contacto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 33
+    }
+  }, "Me interesa")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+    sm: "6",
+    md: "6",
+    className: "counters set-height overflow-hide m-auto m-b-20 m-t-20",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
       columnNumber: 21
     }
   }, __jsx("img", {
@@ -35714,7 +35900,7 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 70,
       columnNumber: 25
     }
   })))));
@@ -36288,7 +36474,7 @@ var settings = {
       slidesToShow: 1
     }
   }, {
-    breakpoint: 479,
+    breakpoint: 768,
     settings: {
       slidesToShow: 2
     }
@@ -36395,7 +36581,7 @@ var Screenshot = function Screenshot() {
       lineNumber: 38,
       columnNumber: 72
     }
-  }, "Proyectos ecommerce")), __jsx("div", {
+  }, "DISE\xD1OS DE ALTA CALIDAD Y ALTO IMPACTO")), __jsx("div", {
     className: "sub-title",
     __self: _this,
     __source: {
@@ -36411,7 +36597,7 @@ var Screenshot = function Screenshot() {
       lineNumber: 40,
       columnNumber: 29
     }
-  }, "Los Mejores Dise\xF1os de Tienda Online"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  }, "El Dise\xF1o de Tienda Online que tu negocio necesita"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     className: "set-relative",
     __self: _this,
     __source: {
@@ -36928,7 +37114,7 @@ var Features = function Features() {
       lineNumber: 13,
       columnNumber: 91
     }
-  }, "Caracter\xEDsticas \xFAnicas ecommerce")), __jsx("div", {
+  }, "Beneficios \xFAnicos de una tienda online")), __jsx("div", {
     className: "sub-title",
     __self: _this,
     __source: {
@@ -36944,7 +37130,7 @@ var Features = function Features() {
       lineNumber: 15,
       columnNumber: 33
     }
-  }, "Todo lo que tu negocio necesita para vender")))), _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__["FeaturesData"].length > 0 ? _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__["FeaturesData"].map(function (item, index) {
+  }, "Todo lo que tu negocio necesita para vender en l\xEDnea")))), _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__["FeaturesData"].length > 0 ? _database_layouts_app_database__WEBPACK_IMPORTED_MODULE_2__["FeaturesData"].map(function (item, index) {
     return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
       lg: "4",
       md: "6",
@@ -37371,6 +37557,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+var icon1 = {
+  background: 'var(--primary)',
+  color: 'white',
+  padding: 3,
+  fontWeight: 600,
+  display: 'inline-block',
+  width: 20,
+  height: 27,
+  textAlign: 'center'
+};
 
 var Format = function Format() {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
@@ -37383,50 +37579,54 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 26,
       columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 27,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 28,
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
     sm: "6",
-    className: "counters set-height overflow-hide",
+    md: "5",
+    lg: "6",
+    className: "counters set-height overflow-hide m-auto m-b-20 m-t-20",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 29,
       columnNumber: 21
     }
   }, __jsx("img", {
     alt: "",
     className: "img-fluid",
+    loading: "lazy",
     "data-aos": "fade-right",
-    src: "/assets/images/app_landing2/tiempo2.svg",
+    src: "/assets/images/app_landing2/tiempo.webp",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 30,
       columnNumber: 25
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-    sm: "6",
+    md: "7",
+    lg: "6",
     className: "counters set-order-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 33,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -37434,14 +37634,14 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 34,
       columnNumber: 25
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 35,
       columnNumber: 29
     }
   }, __jsx("div", {
@@ -37449,7 +37649,7 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 36,
       columnNumber: 33
     }
   }, __jsx("h3", {
@@ -37457,7 +37657,7 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 37,
       columnNumber: 37
     }
   }, "Imagin\xE1 como ser\xEDa potenciar el alcance, las ventas y ahorrar toneladas de tiempo!")), __jsx("div", {
@@ -37465,7 +37665,7 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 39,
       columnNumber: 33
     }
   }, __jsx("p", {
@@ -37473,42 +37673,93 @@ var Format = function Format() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 40,
       columnNumber: 33
     }
-  }, "Tener una tienda online te puede ahorrar mucho tiempo, ya que \xE9sta plataforma te permite automatizar la mayor\xEDa de los procesos de venta y dar un salto de calidad y accesibilidad para tu negocio y tus clientes."), __jsx("p", {
+  }, __jsx("i", {
+    style: icon1,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 59
+    }
+  }, "1."), " ", __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 83
+    }
+  }, "Muchos potenciales clientes est\xE1n esperando para comprar inmediatamente desde tu Tienda Online"), ", ", __jsx("u", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 186
+    }
+  }, "no quieren estar pidiendo informaci\xF3n por cada producto que les interesa"), "."), __jsx("p", {
     className: "about-para",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 41,
       columnNumber: 33
     }
-  }, __jsx("b", {
+  }, __jsx("i", {
+    style: icon1,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 41,
       columnNumber: 59
     }
-  }, "Es como tener un robot vendedor que puede vender las 24 horas y brindar a tus clientes toda la informaci\xF3n que necesitan para comprar: Stock, Precio, Colores, Talles, Medios de Pago, Cat\xE1logos, etc. y adem\xE1s, la tecnolog\xEDa de Carrito y Pasarelas de Pago para que puedan Concretar la Compra SIN intervenci\xF3n humana en cualquier momento."))), __jsx("a", {
-    className: "btn btn-default btn-gradient",
-    href: "https://web.whatsapp.com/send?phone=541165003611",
-    target: "_blank",
+  }, "2."), " ", __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 41,
+      columnNumber: 83
+    }
+  }, "Una Tienda Online te ahorra mucho tiempo"), ", \xE9sta plataforma te permite automatizar la mayor\xEDa de los procesos de venta y dar un salto de calidad y accesibilidad para tu negocio y tus clientes."), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
       columnNumber: 33
     }
-  }, "Empezar Ahora")))))));
+  }, __jsx("h6", {
+    className: "font-primary m-b-25 text-uppercase",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 37
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 88
+    }
+  }, "Es como tener un robot vendedor que puede vender las 24 horas y brindar a tus clientes toda la informaci\xF3n y medios que necesitan para comprar SIN intervenci\xF3n humana en cualquier momento"))), __jsx("a", {
+    className: "btn btn-default btn-gradient mt-4",
+    href: "#contacto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 33
+    }
+  }, "Empezar Ahora"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Format);
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fecommerce&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cecommerce.js ***!
   \********************************************************************************************************************************************/
@@ -37531,5 +37782,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=ecommerce.js.map

@@ -16,7 +16,7 @@ var settings = {
             settings: { slidesToShow: 1 } 
         }, 
         { 
-            breakpoint: 479, 
+            breakpoint: 768, 
             settings: { slidesToShow: 2 } 
         }, 
         { 
@@ -35,9 +35,9 @@ const Screenshot = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title2">
                         <img alt="" className="img-fluid title-img" src="/assets/images/app_landing2/service/proyectos.png" />
-                        <h6 className="font-primary borders main-text"><span>Proyectos ecommerce</span></h6>
+                        <h6 className="font-primary borders main-text"><span>DISEÑOS DE ALTA CALIDAD Y ALTO IMPACTO</span></h6>
                         <div className="sub-title">
-                            <h2 className="title-text text-capitalize text-center">Los Mejores Diseños de Tienda Online</h2>
+                            <h2 className="title-text text-capitalize text-center">El Diseño de Tienda Online que tu negocio necesita</h2>
                         </div>
                     </div>
                 </Col>

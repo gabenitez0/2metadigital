@@ -34493,7 +34493,7 @@ var Banner = function Banner() {
     }
   }, __jsx("a", {
     className: "btn btn-default btn-white",
-    href: "https://web.whatsapp.com/send?phone=541165003611",
+    href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20mejorar%20la%20p%C3%A1gina%20web%20de%20mi%20negocio.",
     target: "_blank",
     __self: _this,
     __source: {
@@ -34519,6 +34519,10 @@ var Banner = function Banner() {
     }
   }, "m\xE1s info"))))))), __jsx("div", {
     className: "center-text set-abs",
+    style: {
+      right: '-6%',
+      zIndex: 1
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -34532,8 +34536,7 @@ var Banner = function Banner() {
       maxHeight: '90vh',
       minHeight: '85vh'
     },
-    loading: "lazy",
-    src: "/assets/images/saas2/space.svg",
+    src: "/assets/images/saas2/header.webp",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35758,6 +35761,7 @@ var Business = function Business() {
       columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    className: "align-items-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35971,37 +35975,21 @@ var Business = function Business() {
       lineNumber: 42,
       columnNumber: 17
     }
-  }, __jsx("div", {
+  }, __jsx("img", {
+    alt: "",
+    className: "img-fluid m-t-20",
+    style: {
+      maxHeight: 700
+    },
+    loading: "lazy",
+    src: "/assets/images/saas2/beneficios2.webp",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
-      columnNumber: 17
-    }
-  }, __jsx(react_parallax_tilt__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    perspective: "20000",
-    transitionSpeed: "3000",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
       columnNumber: 21
     }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    style: {
-      maxHeight: '90vh',
-      minHeight: '85vh'
-    },
-    src: "/assets/images/saas2/header.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 25
-    }
-  })))))));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Business);
@@ -36099,7 +36087,14 @@ var Cta = function Cta() {
       lineNumber: 24,
       columnNumber: 29
     }
-  }, "El salto de calidad de tu negocio est\xE1 muy cerca! precios desde $18000 ARS")), __jsx("div", {
+  }, __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 83
+    }
+  }, "El salto de calidad de tu negocio est\xE1 muy cerca!"), " precios desde $18000 ARS")), __jsx("div", {
     className: "sub-title",
     __self: _this,
     __source: {
@@ -36134,7 +36129,7 @@ var Cta = function Cta() {
     }
   }, __jsx("a", {
     className: "btn btn-default btn-white",
-    href: "https://web.whatsapp.com/send?phone=541165003611",
+    href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20mejorar%20la%20p%C3%A1gina%20web%20de%20mi%20negocio.",
     target: "_blank",
     __self: _this,
     __source: {
@@ -36149,11 +36144,11 @@ var Cta = function Cta() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 150
+      columnNumber: 213
     }
   }))))), __jsx("a", {
     style: wpp,
-    href: "https://web.whatsapp.com/send?phone=541165003611",
+    href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20mejorar%20la%20p%C3%A1gina%20web%20de%20mi%20negocio.",
     target: "_blank",
     __self: _this,
     __source: {
@@ -37474,7 +37469,7 @@ var settings = {
       slidesToShow: 1
     }
   }, {
-    breakpoint: 479,
+    breakpoint: 768,
     settings: {
       slidesToShow: 2
     }
@@ -38277,7 +38272,7 @@ var Pricing = function Pricing() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 7:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
   \*******************************************************************************************************************************/
@@ -38300,5 +38295,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]);
+},[[7,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

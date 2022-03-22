@@ -10,9 +10,9 @@ const Features = () => (
                     <Col md="10" className="offset-md-1">
                         <div className="title title2">
                             <img alt="" className="img-fluid title-img" loading="lazy" src="/assets/images/app_landing2/service/crown.png" />
-                            <h6 className="font-primary borders main-text text-uppercase"><span>Características únicas ecommerce</span></h6>
+                            <h6 className="font-primary borders main-text text-uppercase"><span>Beneficios únicos de una tienda online</span></h6>
                             <div className="sub-title">
-                                <h2 className="title-text text-capitalize text-center">Todo lo que tu negocio necesita para vender</h2>
+                                <h2 className="title-text text-capitalize text-center">Todo lo que tu negocio necesita para vender en línea</h2>
                             </div>
                         </div>
                     </Col>

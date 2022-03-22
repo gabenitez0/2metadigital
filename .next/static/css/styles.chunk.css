@@ -11799,7 +11799,7 @@ footer {
       letter-spacing: 0; }
     footer .logo-sec .footer-para .para-address {
       margin-bottom: 10px;
-      font-weight: 200; }
+      font-weight: 300; }
     footer .logo-sec .footer-para.op-text .para-address {
       opacity: 0.8; }
   footer .logo-sec .footer-social {
@@ -11911,7 +11911,8 @@ footer {
   footer .footer-lists.contacts li {
     margin-bottom: 35px;
     display: flex;
-    line-height: 1.2; }
+    line-height: 1.2;
+    font-weight: 300; }
     footer .footer-lists.contacts li i {
       margin-right: 18px;
       margin-top: 2px; }
@@ -12150,7 +12151,7 @@ booking section end
     letter-spacing: 1px; }
   .app2 p {
     margin-bottom: -3px;
-    color: #949494; }
+    color: var(--secondary); }
   .app2 .title .title-img {
     height: 50px; }
   .app2.header .img-mobile .headaer-image {
@@ -15580,9 +15581,6 @@ saas1 css end
 
 .saas2.footer2 h5 {
   color: #fff; }
-
-.saas2.footer2 .footer-lists li a {
-  font-weight: 200; }
 
 .saas2.pricing H6 {
   margin-bottom: 8px; }

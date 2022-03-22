@@ -10,7 +10,7 @@ const Services = () => (
                             <h2>¿Cómo una web de alto impacto puede mejorar tu negocio?</h2>
                         </div>
                         <div className="sub-title">
-                            <p className="para">La imagen en internet es muy importante y tu negocio no es la excepción, si tu web no transmite profesionalidad no genera confianza y perdes ventas.</p>
+                            <p className="para">La imagen en internet es muy importante y tu negocio no es la excepción, si tu web no transmite profesionalidad, no genera confianza y perdes ventas.</p>
                         </div>
                     </div>
                 </Col>
@@ -21,20 +21,8 @@ const Services = () => (
                         </div>
                         <div className="service-feature">
                             <h4 className="feature-text">Más Tráfico</h4>
-                            <p>Un diseño profesional genera mayor atención</p>
+                            <p>Una Web De Alto Impacto se diferencia del resto, llama más la atención, por lo tanto consigue más tráfico y más potenciales clientes.</p>
 
-                        </div>
-                    </div>
-                </Col>
-                <Col md="4">
-                    <div className="service service-overlay">
-                        <div className="img-block">
-                            <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-2.png" />
-                        </div>
-                        <div className="service-feature">
-                            <h4 className="feature-text">Más Ventas</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the ma- jority have
-                                suffered.</p>
                         </div>
                     </div>
                 </Col>
@@ -44,9 +32,19 @@ const Services = () => (
                             <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-3.png" />
                         </div>
                         <div className="service-feature">
+                            <h4 className="feature-text">Más Ventas</h4>
+                            <p>Una Web Profesional también genera más confianza, porque se nota la calidad, y junto a textos persuasivos se traduce en nuevos clientes.</p>
+                        </div>
+                    </div>
+                </Col>
+                <Col md="4">
+                    <div className="service service-overlay">
+                        <div className="img-block">
+                            <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-2.png" />
+                        </div>
+                        <div className="service-feature">
                             <h4 className="feature-text">Más tiempo</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the ma- jority have
-                                suffered.</p>
+                            <p>Una web también es una herramienta que te puede ayudar a automatizar muchos procesos de venta y ahorrarte mucho tiempo de tareas repetitivas.</p>
                         </div>
                     </div>
                 </Col>

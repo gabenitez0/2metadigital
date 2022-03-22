@@ -35,8 +35,8 @@ const Banner = () => {
                                 </div>
                             </div>
                         </Col>
-                        <div className="center-text set-abs">
-                            <img alt="" className="img-fluid img-dextop" style={{maxHeight:'90vh', minHeight:'85vh'}} loading="lazy" src="/assets/images/saas2/space.svg" />
+                        <div className="center-text set-abs" style={{right:'-6%', zIndex: 1}}>
+                            <img alt="" className="img-fluid img-dextop" style={{maxHeight:'90vh', minHeight:'85vh'}} src="/assets/images/saas2/header.webp" />
                         </div>
                     </Row>
                 </Container>

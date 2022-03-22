@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Head from 'next/head'
 // import Custom Components
 //import EnterpriseSass from '../pages/layouts/enterprice-sass'
-import Landing from './layouts/app1'
+import Servicios from './layouts/app1'
 
 const Home = () => {
 
@@ -22,7 +22,7 @@ const Home = () => {
           <meta name="robots" content="index"/>
       </Head>
 
-      <Landing />
+      <Servicios />
     </Fragment>
   )
 }
