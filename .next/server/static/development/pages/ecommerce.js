@@ -4198,21 +4198,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _containers_common_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../containers/common/header */ "./containers/common/header.js");
-/* harmony import */ var _sections_app_banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/app/banner */ "./pages/layouts/sections/app/banner.js");
-/* harmony import */ var _sections_app_about__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sections/app/about */ "./pages/layouts/sections/app/about.js");
-/* harmony import */ var _sections_app_services__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sections/app/services */ "./pages/layouts/sections/app/services.js");
-/* harmony import */ var _sections_app_format__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sections/app/format */ "./pages/layouts/sections/app/format.js");
-/* harmony import */ var _sections_app_team__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sections/app/team */ "./pages/layouts/sections/app/team.js");
-/* harmony import */ var _sections_app_screenshot__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/app/screenshot */ "./pages/layouts/sections/app/screenshot.js");
-/* harmony import */ var _sections_app_member__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sections/app/member */ "./pages/layouts/sections/app/member.js");
-/* harmony import */ var _sections_app_pricing__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sections/app/pricing */ "./pages/layouts/sections/app/pricing.js");
-/* harmony import */ var _sections_app_tiempo__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sections/app/tiempo */ "./pages/layouts/sections/app/tiempo.js");
-/* harmony import */ var _sections_app_client__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./sections/app/client */ "./pages/layouts/sections/app/client.js");
-/* harmony import */ var _sections_app_footer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./sections/app/footer */ "./pages/layouts/sections/app/footer.js");
-/* harmony import */ var _sections_app_copyright__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./sections/app/copyright */ "./pages/layouts/sections/app/copyright.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _containers_common_header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../containers/common/header */ "./containers/common/header.js");
+/* harmony import */ var _sections_app_banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sections/app/banner */ "./pages/layouts/sections/app/banner.js");
+/* harmony import */ var _sections_app_about__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sections/app/about */ "./pages/layouts/sections/app/about.js");
+/* harmony import */ var _sections_app_services__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sections/app/services */ "./pages/layouts/sections/app/services.js");
+/* harmony import */ var _sections_app_format__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sections/app/format */ "./pages/layouts/sections/app/format.js");
+/* harmony import */ var _sections_app_team__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/app/team */ "./pages/layouts/sections/app/team.js");
+/* harmony import */ var _sections_app_screenshot__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sections/app/screenshot */ "./pages/layouts/sections/app/screenshot.js");
+/* harmony import */ var _sections_app_member__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sections/app/member */ "./pages/layouts/sections/app/member.js");
+/* harmony import */ var _sections_app_pricing__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sections/app/pricing */ "./pages/layouts/sections/app/pricing.js");
+/* harmony import */ var _sections_app_tiempo__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./sections/app/tiempo */ "./pages/layouts/sections/app/tiempo.js");
+/* harmony import */ var _sections_app_client__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./sections/app/client */ "./pages/layouts/sections/app/client.js");
+/* harmony import */ var _sections_app_footer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./sections/app/footer */ "./pages/layouts/sections/app/footer.js");
+/* harmony import */ var _sections_app_copyright__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./sections/app/copyright */ "./pages/layouts/sections/app/copyright.js");
 var _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\app2.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
  // import Custom Components
 
@@ -4231,6 +4234,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const App2 = () => {
+  const router = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])();
+  const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "541122505698";
+  const link = `https://wa.me/${ref}?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20profesional%20para%20mi%20negocio`;
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     document.body.style.setProperty('--primary', '#fd6d64');
     document.body.style.setProperty('--secondary', '#434345');
@@ -4242,84 +4248,86 @@ const App2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 33,
       columnNumber: 7
     }
-  }, __jsx(_containers_common_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 9
-    }
-  }), __jsx(_sections_app_banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
-    }
-  }), __jsx(_sections_app_about__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx(_containers_common_header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_services__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), __jsx(_sections_app_banner__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    link: link,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_format__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }), __jsx(_sections_app_about__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_screenshot__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }), __jsx(_sections_app_services__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_team__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }), __jsx(_sections_app_format__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_client__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }), __jsx(_sections_app_screenshot__WEBPACK_IMPORTED_MODULE_9__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_tiempo__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }), __jsx(_sections_app_team__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_footer__WEBPACK_IMPORTED_MODULE_13__["default"], {
+  }), __jsx(_sections_app_client__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    link: link,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49,
       columnNumber: 9
     }
-  }), __jsx(_sections_app_copyright__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_sections_app_tiempo__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51,
+      columnNumber: 9
+    }
+  }), __jsx(_sections_app_footer__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 9
+    }
+  }), __jsx(_sections_app_copyright__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
       columnNumber: 9
     }
   }), __jsx("div", {
@@ -4327,14 +4335,14 @@ const App2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 58,
       columnNumber: 9
     }
   }, __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 59,
       columnNumber: 13
     }
   }, __jsx("i", {
@@ -4342,7 +4350,7 @@ const App2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 59,
       columnNumber: 18
     }
   }))));
@@ -4653,7 +4661,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Banner = () => __jsx("section", {
+const Banner = ({
+  link
+}) => __jsx("section", {
   className: "app2 header overflow-unset app2-animation",
   id: "home",
   __self: undefined,
@@ -4809,7 +4819,7 @@ const Banner = () => __jsx("section", {
   }
 }, __jsx("a", {
   className: "btn btn-default btn-white",
-  href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio.",
+  href: link,
   target: "_blank",
   __self: undefined,
   __source: {
@@ -4905,7 +4915,9 @@ const wpp = {
   zIndex: 10
 };
 
-const Client = () => __jsx("section", {
+const Client = ({
+  link
+}) => __jsx("section", {
   className: "app2 brand-sliders p-t-0",
   id: "contacto",
   __self: undefined,
@@ -5041,7 +5053,7 @@ const Client = () => __jsx("section", {
   }
 }, "Te asesoramos sin compromiso: te ayudamos a decidir si nuestros servicios son para vos o no, te cotizamos y hacemos crecer tus proyectos."), __jsx("a", {
   className: "btn btn-default btn-gradient mt-5",
-  href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio.",
+  href: link,
   target: "_blank",
   __self: undefined,
   __source: {
@@ -5056,11 +5068,11 @@ const Client = () => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32,
-    columnNumber: 216
+    columnNumber: 118
   }
 })))))), __jsx("a", {
   style: wpp,
-  href: "https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio.",
+  href: link,
   target: "_blank",
   __self: undefined,
   __source: {
@@ -8038,6 +8050,17 @@ module.exports = require("core-js/library/fn/weak-map");
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 

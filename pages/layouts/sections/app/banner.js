@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,Row,Col} from 'reactstrap'
-const Banner = () => (
+const Banner = ({link}) => (
     <section className="app2 header overflow-unset app2-animation" id="home">
         <div className="animated-bg"><i></i><i></i><i></i></div>
         <div className="app2-header bg">
@@ -19,7 +19,7 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-white" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio." target="_blank">Contactar ahora</a>
+                                            <a className="btn btn-default btn-white" href={link} target="_blank">Contactar ahora</a>
                                         </li>
                                         <li>
                                             <a className="btn btn-default primary-btn transparent" href="#beneficios">más info</a>

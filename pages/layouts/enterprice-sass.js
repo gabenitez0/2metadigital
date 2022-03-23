@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { useRouter } from 'next/router'
 // import Custom Components
 import Header from '../../containers/common/header'
 import BannerSection from '../layouts/sections/enterprice-sass/banner'
@@ -13,6 +14,9 @@ import FooterSection from '../layouts/sections/enterprice-sass/footer'
 
 
 const EnterpriceSass = () => {
+    const router = useRouter();
+    const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "541122505698";
+    const link = `https://wa.me/${ref}?text=Hola%2C%20me%20interesa%20mejorar%20la%20página%20web%20de%20mi%20negocio`
 
     useEffect(() => {
         document.body.style.setProperty('--primary', '#844adb')
@@ -26,7 +30,7 @@ const EnterpriceSass = () => {
 
             <Header className="saas2"/>
 
-            <BannerSection />
+            <BannerSection link={link}/>
 
             <FeatureSection />
 
@@ -38,7 +42,7 @@ const EnterpriceSass = () => {
 
             <Tiempo />
 
-            <Cta />
+            <Cta link={link}/>
 
             <BrandSection />
 

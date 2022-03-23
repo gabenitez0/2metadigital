@@ -14,7 +14,7 @@ const wpp = {
     zIndex: 10,
 }
 
-const Cta = () => (
+const Cta = ({link}) => (
     <section className="saas2 testimonial bg-gradient" id="contacto">
         <Container>
             <Row>
@@ -30,11 +30,11 @@ const Cta = () => (
                     </div>
                 </Col>
                 <Col md="10" className="offset-md-1 text-center">
-                    <a className="btn btn-default btn-white" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20mejorar%20la%20p%C3%A1gina%20web%20de%20mi%20negocio." target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
+                    <a className="btn btn-default btn-white" href={link} target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                 </Col>
             </Row>
         </Container>
-        <a style={wpp} href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20mejorar%20la%20p%C3%A1gina%20web%20de%20mi%20negocio." target="_blank">
+        <a style={wpp} href={link} target="_blank">
             <i aria-hidden="true" className="fa fa-whatsapp p-10"></i>
         </a>
     </section>

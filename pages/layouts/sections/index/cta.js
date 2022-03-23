@@ -14,7 +14,7 @@ const wpp = {
     zIndex: 10,
 }
 
-const Video = () => {
+const CTA = ({link}) => {
     const [modal, setModal] = useState();
     const toggle = () => {
         setModal(!modal)
@@ -36,11 +36,11 @@ const Video = () => {
                     </div>
                 </Col>
                 <Col md="10" className="offset-md-1 text-center">
-                    <a className="btn btn-default btn-white" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20página%20web%20profesional%20para%20mi%20negocio%0A" target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
+                    <a className="btn btn-default btn-white" href={link} target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                 </Col>
             </Row>
         </Container>
-        <a style={wpp} href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20página%20web%20profesional%20para%20mi%20negocio%0A" target="_blank">
+        <a style={wpp} href={link} target="_blank">
             <i aria-hidden="true" className="fa fa-whatsapp p-10"></i>
         </a>
         </section>
@@ -49,4 +49,4 @@ const Video = () => {
 
 
 
-export default Video;
+export default CTA;

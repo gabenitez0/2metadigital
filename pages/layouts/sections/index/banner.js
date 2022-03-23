@@ -1,6 +1,10 @@
 import React from 'react'
-import {Container,Row,Col} from 'reactstrap'
-const Banner = () => (
+import {Container,Row,Col} from 'reactstrap';
+
+const Banner = ({link}) => {
+    
+    return (
+
     <section className="app1 header" id="home">
         <div className="app1-header bg">
             <Container>
@@ -17,7 +21,7 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-white" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20página%20web%20profesional%20para%20mi%20negocio%0A" target="_blank">Contactar ahora</a>
+                                            <a className="btn btn-default btn-white" href={link} target="_blank">Contactar ahora</a>
                                         </li>
                                         <li>
                                             <a className="btn btn-default primary-btn transparent" href="#beneficios">más info</a>
@@ -47,6 +51,6 @@ const Banner = () => (
         </div>
     </section>
 )
-
+}
 
 export default Banner;

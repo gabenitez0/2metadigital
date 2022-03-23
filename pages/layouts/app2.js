@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 // import Custom Components
 import Header from '../../containers/common/header'
 import BannerSection from './sections/app/banner'
@@ -17,6 +18,9 @@ import Copyright from './sections/app/copyright'
 
 
 const App2 = () => {
+  const router = useRouter();
+  const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "541122505698";
+  const link = `https://wa.me/${ref}?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20profesional%20para%20mi%20negocio`
 
   useEffect(() => {
     document.body.style.setProperty('--primary', '#fd6d64')
@@ -30,7 +34,7 @@ const App2 = () => {
 
         <Header />
 
-        <BannerSection />
+        <BannerSection link={link}/>
 
         <Beneficios />
 
@@ -42,7 +46,7 @@ const App2 = () => {
 
         <TeamSection /> 
       
-        <CTA />
+        <CTA link={link}/>
         
         <Tiempo />
 
