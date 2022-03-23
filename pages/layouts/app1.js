@@ -7,7 +7,7 @@ import AboutSection from './sections/index/about'
 import DownloadSection from './sections/index/download'
 import ScreenShotsSection from './sections/index/screenshots'
 import PriceSection from './sections/index/price'
-import VideoSection from './sections/index/video'
+import Cta from './sections/index/cta'
 import FooterSection from './sections/index/footer'
 
 
@@ -36,7 +36,7 @@ const App1 = () => {
 
       <PriceSection />
 
-      <VideoSection />
+      <Cta />
 
       <FooterSection />
 

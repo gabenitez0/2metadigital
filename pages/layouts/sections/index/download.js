@@ -3,6 +3,23 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import {Container,Row,Col} from 'reactstrap'
 
+const icon1 = {
+    background: 'var(--primary)',
+    color: 'white',
+    padding: 3,
+    fontWeight: 600,
+    display: 'inline-block',
+    width: 20,
+    height: 27,
+    textAlign: 'center'
+}
+
+const link = {
+    color: 'var(--primary)',
+    display: 'block',
+    marginTop: 6,
+}
+
 const Download = () => {
     useEffect(() => {
         AOS.init({
@@ -16,7 +33,7 @@ const Download = () => {
                 <Row>
                     <Col lg="5" md="6" data-aos="fade-right" data-aos-delay="100">
                         <div className="center-content center-mobile">
-                            <img alt="" className="img-fluid" src="/assets/images/app_landing1/mobile.png" />
+                            <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/tiempo.webp" />
                         </div>
                     </Col>
                     <Col lg="6" md="6" className="offset-lg-1">
@@ -24,43 +41,22 @@ const Download = () => {
                             <div>
                                 <div className="download-img">
                                     <div className="set-relative">
-                                        <img alt="" className="download-icon img-fluid"
-                                            src="/assets/images/app_landing1/download/download.png" />
                                         <div className="set-abs elipse center-abs">
-                                            <img alt="" src="/assets/images/app_landing1/download/Ellipse.png" />
+                                            <img alt="" loading="lazy" src="/assets/images/app_landing1/download/Ellipse.png" />
                                         </div>
                                     </div>
-                                    <div className="center-img-content m-l-15">
-                                        <h3 className="m-b-5">download</h3>
-                                        <p>the Unice</p>
+                                    <div className="center-img-content">
+                                        <h3 className="m-b-40"><b><u>No Pierdas Más Ventas</u> Por Diseños Poco Confiables, Poco Acordes Con Tus Servicios O Fallas Técnicas</b></h3>
                                     </div>
                                 </div>
                                 <div className="information">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                        do eiusmod tempor unt ut labore et
-                                        dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud ercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo
-                                        consequat.Duis aute irure dolor in
-                                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur
-                                        sint
-                                        occaecat cupidatat non proident, sunt in culpa.</p>
+                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>1.</i> <b>Todos nuestros diseños son de Calidad Profesional y Alto Impacto</b>: <u>lo que genera mayor Atención, mayor Confianza y mayor Conversión.</u> <a href="#proyectos" style={link}>Ver Diseños →</a></p>
+                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>2.</i> <b>Seleccionamos un diseño exclusivo</b> 100% adaptado a tu producto o servicio específico.</p>
+                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>3.</i> <b>Nuestros servicios incluyen Soporte Técnico y Asesoramiento de Valor</b> para solucionar cualquier falla y resolver cualquier duda.</p>
+                                <div>
+                                    <h6 className="font-primary m-b-25 text-uppercase"><span><b>PLUS! ► No pierdas tiempo:</b> <br/><u>Hacemos todo esto por vos!</u></span></h6>
                                 </div>
-                                <div className="link-horizontal">
-                                    <ul>
-                                        <li>
-                                            <a className="icon-btn">
-                                                <i aria-hidden="true" className="fa fa-android center-content shadow"></i>
-                                                <h6 className="text-center font-primary">android</h6>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a className="icon-btn">
-                                                <i aria-hidden="true" className="fa fa-apple center-content shadow"></i>
-                                                <h6 className="text-center font-primary">ios</h6>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <a className="btn btn-default btn-gradient mt-4" href="#contacto">Me interesa</a>
                                 </div>
                             </div>
                         </div>

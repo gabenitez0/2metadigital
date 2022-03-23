@@ -11082,7 +11082,7 @@ download section end
     position: relative; }
 
 .subscribe.app1 {
-  background: url("/assets/images/app_landing1/subscribe/subscribe.png"); }
+  background: url("/assets/images/app_landing1/subscribe/subscribe2.webp"); }
   .subscribe.app1 .button-primary {
     right: 4%; }
   .subscribe.app1.bg {
@@ -11394,7 +11394,7 @@ header.saas1 nav .main-menu li > a > span {
     padding-bottom: 50px;
     padding-top: 50px; }
     .header .bg.app1-header {
-      background-image: url("/assets/images/app_landing1/header-1-bg.png");
+      background-image: url("/assets/images/app_landing1/header-1-bg.webp");
       overflow: hidden; }
     .header .bg.app2-header {
       background-image: linear-gradient(var(--dark), var(--light)); }

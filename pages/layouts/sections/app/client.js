@@ -26,7 +26,7 @@ const Client = () => (
                         <img alt="" className="img-fluid title-img" src="/assets/images/app_landing2/service/contact.png" />
                         <h6 className="font-primary borders main-text"><span>EMPIEZA LA NUEVA ETAPA DE TU NEGOCIO</span></h6>
                         <div className="sub-title">
-                            <h2 className="title-text text-capitalize text-center mb-4" style={{lineHeight:'1.5'}}><b>Vendé a Todos los Clientes de Internet con una tienda online profesional Ahora!</b> Precios desde $18000 ARS!</h2>
+                            <h2 className="title-text text-capitalize text-center mb-4" style={{lineHeight:'1.5'}}><b><u>Vendé a Todos los Clientes de Internet con una tienda online profesional Ahora!</u></b> Precios desde $18000 ARS!</h2>
                         </div>
                         <p>Te asesoramos sin compromiso: te ayudamos a decidir si nuestros servicios son para vos o no, te cotizamos y hacemos crecer tus proyectos.</p>
                         <a className="btn btn-default btn-gradient mt-5" href="https://wa.me/541122505698?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20para%20mi%20negocio." target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>

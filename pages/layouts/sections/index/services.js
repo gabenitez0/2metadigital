@@ -4,20 +4,20 @@ const Services = () => (
     <section className="services" id="service">
         <Container>
             <Row>
-                <Col lg="6" md="8"  className="offset-lg-3 offset-md-2">
+                <Col md="8" className="offset-md-2">
                     <div className="title">
                         <div className="main-title">
-                            <h2>¿Cómo una web de alto impacto puede mejorar tu negocio?</h2>
+                            <h2 className='mb-3'>¿Cómo Una Web De Alto Impacto Puede Potenciar Tu Negocio?</h2>
                         </div>
                         <div className="sub-title">
-                            <p className="para">La imagen en internet es muy importante y tu negocio no es la excepción, si tu web no transmite profesionalidad, no genera confianza y perdes ventas.</p>
+                            <p className="para"><b>La imagen en internet es muy importante y tu negocio no es la excepción, si tu web no transmite profesionalidad, no genera confianza y perdes ventas.</b></p>
                         </div>
                     </div>
                 </Col>
                 <Col md="4">
                     <div className="service service-overlay">
                         <div className="img-block">
-                            <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-1.png" />
+                            <img alt="" className="service-img img-fluid" ladoing="lazy" src="/assets/images/app_landing1/icons/1-1.png" />
                         </div>
                         <div className="service-feature">
                             <h4 className="feature-text">Más Tráfico</h4>
@@ -29,7 +29,7 @@ const Services = () => (
                 <Col md="4">
                     <div className="service service-overlay">
                         <div className="img-block">
-                            <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-3.png" />
+                            <img alt="" className="service-img img-fluid" ladoing="lazy" src="/assets/images/app_landing1/icons/1-3.png" />
                         </div>
                         <div className="service-feature">
                             <h4 className="feature-text">Más Ventas</h4>
@@ -40,7 +40,7 @@ const Services = () => (
                 <Col md="4">
                     <div className="service service-overlay">
                         <div className="img-block">
-                            <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-2.png" />
+                            <img alt="" className="service-img img-fluid" ladoing="lazy" src="/assets/images/app_landing1/icons/1-2.png" />
                         </div>
                         <div className="service-feature">
                             <h4 className="feature-text">Más tiempo</h4>

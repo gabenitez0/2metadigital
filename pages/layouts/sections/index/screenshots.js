@@ -7,7 +7,7 @@ var settings = {
     centerPadding: '140px',
     infinite: true,
     autoplay: true,
-    arrows: false,
+    arrows: true,
     swipeToSlide: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -46,60 +46,67 @@ var settings = {
 
 const ScreenShots = () => {
     return (
-        <section className="app1 screenshot bg-theme" id="screenshot">
+        <section className="app1 screenshot bg-theme" id="proyectos">
             <Container>
                 <Row>
-                    <Col lg="6" md="8" className="offset-lg-3 offset-md-2 m-b-10">
+                    <Col md="10" className="offset-md-1 m-b-10">
                         <div className="title title1">
                             <div className="main-title">
-                                <h2 className="text-white">Screen Shot</h2>
+                                <h2 className="text-white">Conocé Algunos De Nuestros Trabajos</h2>
                             </div>
                             <div className="sub-title">
-                                <p className="text-white para">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                    Lorem Ipsum has been</p>
+                                <p className="text-white para">Te invitamos a ver la calidad de nuestros trabajos y lo que podemos hacer por vos.</p>
                             </div>
                         </div>
                     </Col>
                 </Row>
                 <Row className="set-relative">
                     <Col xs="12">
-                        <div className="swiper-container">
-                            <div className="swiper-wrapper">
-                                <Slider className="screenshot-slider"  {...settings}>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/1.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/2.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/3.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/1.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/2.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/3.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
-                                </Slider>
-                            </div>
+                    <div className="swiper-container">
+                        <div className="swiper-wrapper">
+                            <Slider className="screenshot-slider" style={{marginTop:0}} {...settings}>
+                                <div className="item">
+                                <a href="http://electro.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/1.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://ropa.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/2.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://muebles.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/3.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://cosmeticos.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/4.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://mascotas.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/5.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://simple.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/6.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://deportes.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/7.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://farma.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/8.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://joyeria.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/9.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://fitness.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/10.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://mecanica.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/11.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://niños.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/12.jpg" /></a>
+                                </div>
+                                <div className="item">
+                                <a href="http://libros.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/13.jpg" /></a>
+                                </div>
+                            </Slider>
                         </div>
+                    </div>
                     </Col>
                 </Row>
             </Container>

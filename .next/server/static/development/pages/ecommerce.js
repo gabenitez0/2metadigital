@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -5025,7 +5025,14 @@ const Client = () => __jsx("section", {
     lineNumber: 29,
     columnNumber: 116
   }
-}, "Vend\xE9 a Todos los Clientes de Internet con una tienda online profesional Ahora!"), " Precios desde $18000 ARS!")), __jsx("p", {
+}, __jsx("u", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29,
+    columnNumber: 119
+  }
+}, "Vend\xE9 a Todos los Clientes de Internet con una tienda online profesional Ahora!")), " Precios desde $18000 ARS!")), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -6598,28 +6605,39 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 var settings = {
-  dots: true,
-  arrows: false,
-  autoplay: true,
+  centerMode: true,
+  centerPadding: '140px',
   infinite: true,
+  autoplay: true,
+  arrows: true,
   swipeToSlide: true,
-  speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [{
-    breakpoint: 359,
+    breakpoint: 575,
     settings: {
-      slidesToShow: 1
+      slidesToShow: 1,
+      centerPadding: "0",
+      padding: "0",
+      slidesToScroll: 1
     }
   }, {
-    breakpoint: 768,
+    breakpoint: 767,
     settings: {
-      slidesToShow: 2
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true
     }
   }, {
-    breakpoint: 1024,
+    breakpoint: 991,
     settings: {
-      slidesToShow: 3
+      slidesToShow: 1,
+      centerPadding: "160px",
+      padding: "20px",
+      slidesToScroll: 1,
+      centerMode: true,
+      autoplay: true,
+      dots: true
     }
   }]
 };
@@ -6630,7 +6648,7 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31,
+    lineNumber: 48,
     columnNumber: 5
   }
 }, __jsx("div", {
@@ -6638,42 +6656,42 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
+    lineNumber: 49,
     columnNumber: 9
   }
 }, __jsx("i", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
+    lineNumber: 49,
     columnNumber: 38
   }
 }), __jsx("i", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
+    lineNumber: 49,
     columnNumber: 45
   }
 }), __jsx("i", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
+    lineNumber: 49,
     columnNumber: 52
   }
 })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33,
+    lineNumber: 50,
     columnNumber: 9
   }
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34,
+    lineNumber: 51,
     columnNumber: 13
   }
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -6682,7 +6700,7 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35,
+    lineNumber: 52,
     columnNumber: 17
   }
 }, __jsx("div", {
@@ -6690,7 +6708,7 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36,
+    lineNumber: 53,
     columnNumber: 21
   }
 }, __jsx("img", {
@@ -6700,7 +6718,7 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37,
+    lineNumber: 54,
     columnNumber: 25
   }
 }), __jsx("h6", {
@@ -6708,14 +6726,14 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38,
+    lineNumber: 55,
     columnNumber: 25
   }
 }, __jsx("span", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38,
+    lineNumber: 55,
     columnNumber: 72
   }
 }, "DISE\xD1OS DE ALTA CALIDAD Y ALTO IMPACTO")), __jsx("div", {
@@ -6723,7 +6741,7 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39,
+    lineNumber: 56,
     columnNumber: 25
   }
 }, __jsx("h2", {
@@ -6731,7 +6749,7 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 40,
+    lineNumber: 57,
     columnNumber: 29
   }
 }, "El Dise\xF1o de Tienda Online que tu negocio necesita"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
@@ -6739,7 +6757,7 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45,
+    lineNumber: 62,
     columnNumber: 13
   }
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -6747,8 +6765,24 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46,
+    lineNumber: 63,
     columnNumber: 17
+  }
+}, __jsx("div", {
+  className: "swiper-container",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 64,
+    columnNumber: 21
+  }
+}, __jsx("div", {
+  className: "swiper-wrapper",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 65,
+    columnNumber: 25
   }
 }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
   className: "screenshot-slider",
@@ -6759,16 +6793,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47,
-    columnNumber: 21
+    lineNumber: 66,
+    columnNumber: 29
   }
 }), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48,
-    columnNumber: 25
+    lineNumber: 67,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://electro.2meta.digital/",
@@ -6776,8 +6810,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49,
-    columnNumber: 29
+    lineNumber: 68,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6787,16 +6821,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49,
-    columnNumber: 85
+    lineNumber: 68,
+    columnNumber: 89
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 51,
-    columnNumber: 25
+    lineNumber: 70,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://ropa.2meta.digital/",
@@ -6804,8 +6838,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 52,
-    columnNumber: 25
+    lineNumber: 71,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6815,16 +6849,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 52,
-    columnNumber: 78
+    lineNumber: 71,
+    columnNumber: 86
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 54,
-    columnNumber: 25
+    lineNumber: 73,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://muebles.2meta.digital/",
@@ -6832,8 +6866,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 55,
-    columnNumber: 25
+    lineNumber: 74,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6843,16 +6877,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 55,
-    columnNumber: 81
+    lineNumber: 74,
+    columnNumber: 89
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 57,
-    columnNumber: 25
+    lineNumber: 76,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://cosmeticos.2meta.digital/",
@@ -6860,8 +6894,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 58,
-    columnNumber: 25
+    lineNumber: 77,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6871,16 +6905,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 58,
-    columnNumber: 84
+    lineNumber: 77,
+    columnNumber: 92
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 60,
-    columnNumber: 25
+    lineNumber: 79,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://mascotas.2meta.digital/",
@@ -6888,8 +6922,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 61,
-    columnNumber: 25
+    lineNumber: 80,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6899,16 +6933,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 61,
-    columnNumber: 82
+    lineNumber: 80,
+    columnNumber: 90
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63,
-    columnNumber: 25
+    lineNumber: 82,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://simple.2meta.digital/",
@@ -6916,8 +6950,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 64,
-    columnNumber: 25
+    lineNumber: 83,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6927,16 +6961,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 64,
-    columnNumber: 80
+    lineNumber: 83,
+    columnNumber: 88
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 66,
-    columnNumber: 25
+    lineNumber: 85,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://deportes.2meta.digital/",
@@ -6944,8 +6978,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 67,
-    columnNumber: 25
+    lineNumber: 86,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6955,16 +6989,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 67,
-    columnNumber: 82
+    lineNumber: 86,
+    columnNumber: 90
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 69,
-    columnNumber: 25
+    lineNumber: 88,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://farma.2meta.digital/",
@@ -6972,8 +7006,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 70,
-    columnNumber: 25
+    lineNumber: 89,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -6983,16 +7017,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 70,
-    columnNumber: 79
+    lineNumber: 89,
+    columnNumber: 87
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 72,
-    columnNumber: 25
+    lineNumber: 91,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://joyeria.2meta.digital/",
@@ -7000,8 +7034,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 73,
-    columnNumber: 25
+    lineNumber: 92,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -7011,16 +7045,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 73,
-    columnNumber: 81
+    lineNumber: 92,
+    columnNumber: 89
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 75,
-    columnNumber: 25
+    lineNumber: 94,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://fitness.2meta.digital/",
@@ -7028,8 +7062,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 76,
-    columnNumber: 25
+    lineNumber: 95,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -7039,16 +7073,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 76,
-    columnNumber: 81
+    lineNumber: 95,
+    columnNumber: 89
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 78,
-    columnNumber: 25
+    lineNumber: 97,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://mecanica.2meta.digital/",
@@ -7056,8 +7090,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 79,
-    columnNumber: 25
+    lineNumber: 98,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -7067,16 +7101,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 79,
-    columnNumber: 82
+    lineNumber: 98,
+    columnNumber: 90
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 81,
-    columnNumber: 25
+    lineNumber: 100,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://ni\xF1os.2meta.digital/",
@@ -7084,8 +7118,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 82,
-    columnNumber: 25
+    lineNumber: 101,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -7095,16 +7129,16 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 82,
-    columnNumber: 79
+    lineNumber: 101,
+    columnNumber: 87
   }
 }))), __jsx("div", {
   className: "item",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 84,
-    columnNumber: 25
+    lineNumber: 103,
+    columnNumber: 33
   }
 }, __jsx("a", {
   href: "http://libros.2meta.digital/",
@@ -7112,8 +7146,8 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 85,
-    columnNumber: 25
+    lineNumber: 104,
+    columnNumber: 33
   }
 }, __jsx("img", {
   alt: "",
@@ -7123,10 +7157,10 @@ const Screenshot = () => __jsx("section", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 85,
-    columnNumber: 80
+    lineNumber: 104,
+    columnNumber: 88
   }
-}))))))));
+}))))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Screenshot);
 
@@ -7885,7 +7919,7 @@ const Format = () => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!**********************************!*\
   !*** multi ./pages/ecommerce.js ***!
   \**********************************/

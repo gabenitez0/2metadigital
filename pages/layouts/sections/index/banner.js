@@ -6,7 +6,7 @@ const Banner = () => (
             <Container>
                 <Row>
                     <Col lg="6" md="7">
-                        <div className="center-text">
+                        <div className="center-text" style={{marginTop: 50}}>
                             <div>
                                 <div className="header-text">
                                     <h1><b>Vendé tus servicios en internet con una Web de Alto Impacto</b></h1>
@@ -28,8 +28,8 @@ const Banner = () => (
                         </div>
                     </Col>
                     <Col xl="5" lg="6" md="4">
-                        <div className="img-mobile set-abs">
-                            <img alt="" className="headaer-image" src="/assets/images/app_landing1/header.png"
+                        <div className="img-mobile set-abs" style={{bottom: '0'}}>
+                            <img alt="" className="headaer-image" style={{maxHeight: '100vh'}} src="/assets/images/app_landing1/header.webp"
                             />
                         </div>
                     </Col>
