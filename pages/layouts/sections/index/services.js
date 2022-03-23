@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container,Row,Col} from 'reactstrap'
 const Services = () => (
-    <section className="services" id="service">
+    <section className="services" id="beneficios">
         <Container>
             <Row>
                 <Col md="8" className="offset-md-2">
