@@ -21,7 +21,7 @@ const Video = () => {
     }
 
     return (
-        <section className="app1 videos bg-theme">
+        <section className="app1 videos bg-theme" id="contacto">
             <Container>
             <Row>
                 <Col md="10" className="offset-md-1">
