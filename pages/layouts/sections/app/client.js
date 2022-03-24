@@ -10,9 +10,11 @@ const wpp = {
     background: '#25D366',
     border: '2px solid white',
     borderRadius: '50%',
-    padding: '0 10px',
+    width: 45,
+    height: 45,
     color: 'white',
     zIndex: 10,
+    textAlign: 'center'
 }
 
 
