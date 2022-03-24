@@ -32,8 +32,8 @@ const Download = () => {
             <Container>
                 <Row>
                     <Col lg="5" md="6" data-aos="fade-right" data-aos-delay="100">
-                        <div className="center-content center-mobile">
-                            <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/tiempo.webp" />
+                        <div className="center-content">
+                            <img alt="" className="img-fluid m-b-20" loading="lazy" src="/assets/images/app_landing1/tiempo.webp" />
                         </div>
                     </Col>
                     <Col lg="6" md="6" className="offset-lg-1">

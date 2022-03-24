@@ -4,41 +4,39 @@ import { Container, Row, Col } from 'reactstrap'
 
 var settings = {
     centerMode: true,
-    centerPadding: '140px',
+    centerPadding: '10px',
+    padding: "10px",
     infinite: true,
     autoplay: true,
     arrows: true,
     swipeToSlide: true,
     slidesToShow: 3,
     slidesToScroll: 1,
+    dots: true,
     responsive: [
         {
             breakpoint: 575,
             settings: {
                 slidesToShow: 1,
-                centerPadding: "0",
-                padding: "0",
                 slidesToScroll: 1,
+                centerMode: true,
+                arrows: false,
             }
         },
         {
             breakpoint: 767,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 3,
                 slidesToScroll: 1,
-                dots: true
+                centerMode: true,
             }
         },
         {
             breakpoint: 991,
             settings: {
-                slidesToShow: 1,
-                centerPadding: "160px",
-                padding: "20px",
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 centerMode: true,
-                autoplay: true,
-                dots: true
             }
         }
     ]

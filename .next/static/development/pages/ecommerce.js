@@ -36492,38 +36492,36 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var settings = {
   centerMode: true,
-  centerPadding: '140px',
+  centerPadding: '10px',
+  padding: "10px",
   infinite: true,
   autoplay: true,
   arrows: true,
   swipeToSlide: true,
   slidesToShow: 3,
   slidesToScroll: 1,
+  dots: true,
   responsive: [{
     breakpoint: 575,
     settings: {
       slidesToShow: 1,
-      centerPadding: "0",
-      padding: "0",
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      centerMode: true,
+      arrows: false
     }
   }, {
     breakpoint: 767,
     settings: {
-      slidesToShow: 1,
+      slidesToShow: 3,
       slidesToScroll: 1,
-      dots: true
+      centerMode: true
     }
   }, {
     breakpoint: 991,
     settings: {
-      slidesToShow: 1,
-      centerPadding: "160px",
-      padding: "20px",
+      slidesToShow: 3,
       slidesToScroll: 1,
-      centerMode: true,
-      autoplay: true,
-      dots: true
+      centerMode: true
     }
   }]
 };
@@ -36535,7 +36533,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 46,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -36543,42 +36541,42 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 47,
       columnNumber: 9
     }
   }, __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 47,
       columnNumber: 38
     }
   }), __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 47,
       columnNumber: 45
     }
   }), __jsx("i", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 47,
       columnNumber: 52
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 48,
       columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 49,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -36587,7 +36585,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 50,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -36595,7 +36593,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 51,
       columnNumber: 21
     }
   }, __jsx("img", {
@@ -36605,7 +36603,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 52,
       columnNumber: 25
     }
   }), __jsx("h6", {
@@ -36613,14 +36611,14 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 53,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 53,
       columnNumber: 72
     }
   }, "DISE\xD1OS DE ALTA CALIDAD Y ALTO IMPACTO")), __jsx("div", {
@@ -36628,7 +36626,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 54,
       columnNumber: 25
     }
   }, __jsx("h2", {
@@ -36636,7 +36634,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 55,
       columnNumber: 29
     }
   }, "El Dise\xF1o de Tienda Online que tu negocio necesita"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
@@ -36644,7 +36642,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 60,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
@@ -36652,7 +36650,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 61,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -36660,7 +36658,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 62,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -36668,7 +36666,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 63,
       columnNumber: 25
     }
   }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
@@ -36680,7 +36678,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 64,
       columnNumber: 29
     }
   }), __jsx("div", {
@@ -36688,7 +36686,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 65,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36697,7 +36695,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 66,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36708,7 +36706,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 66,
       columnNumber: 89
     }
   }))), __jsx("div", {
@@ -36716,7 +36714,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 68,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36725,7 +36723,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 69,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36736,7 +36734,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 69,
       columnNumber: 86
     }
   }))), __jsx("div", {
@@ -36744,7 +36742,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 71,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36753,7 +36751,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 72,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36764,7 +36762,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 72,
       columnNumber: 89
     }
   }))), __jsx("div", {
@@ -36772,7 +36770,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 74,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36781,7 +36779,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 75,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36792,7 +36790,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 75,
       columnNumber: 92
     }
   }))), __jsx("div", {
@@ -36800,7 +36798,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 77,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36809,7 +36807,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 78,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36820,7 +36818,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 78,
       columnNumber: 90
     }
   }))), __jsx("div", {
@@ -36828,7 +36826,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 80,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36837,7 +36835,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 81,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36848,7 +36846,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 81,
       columnNumber: 88
     }
   }))), __jsx("div", {
@@ -36856,7 +36854,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 83,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36865,7 +36863,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 84,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36876,7 +36874,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 84,
       columnNumber: 90
     }
   }))), __jsx("div", {
@@ -36884,7 +36882,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 86,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36893,7 +36891,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 87,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36904,7 +36902,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 87,
       columnNumber: 87
     }
   }))), __jsx("div", {
@@ -36912,7 +36910,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 89,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36921,7 +36919,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 90,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36932,7 +36930,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 90,
       columnNumber: 89
     }
   }))), __jsx("div", {
@@ -36940,7 +36938,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 92,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36949,7 +36947,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 93,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36960,7 +36958,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 93,
       columnNumber: 89
     }
   }))), __jsx("div", {
@@ -36968,7 +36966,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 95,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -36977,7 +36975,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 96,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -36988,7 +36986,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 96,
       columnNumber: 90
     }
   }))), __jsx("div", {
@@ -36996,7 +36994,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 98,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -37005,7 +37003,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 99,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -37016,7 +37014,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 99,
       columnNumber: 87
     }
   }))), __jsx("div", {
@@ -37024,7 +37022,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 101,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -37033,7 +37031,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 102,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -37044,7 +37042,7 @@ var Screenshot = function Screenshot() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 102,
       columnNumber: 88
     }
   }))))))))));
@@ -37817,7 +37815,7 @@ var Format = function Format() {
 
 /***/ }),
 
-/***/ 10:
+/***/ 9:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fecommerce&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cecommerce.js ***!
   \********************************************************************************************************************************************/
@@ -37840,5 +37838,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=ecommerce.js.map
