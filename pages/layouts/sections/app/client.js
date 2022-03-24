@@ -4,17 +4,19 @@ import {Container,Row,Col} from 'reactstrap';
 
 const wpp = {
     position: 'fixed',
-    bottom: 10,
+    bottom: 20,
     right: 10,
     fontSize: '28px',
     background: '#25D366',
     border: '2px solid white',
     borderRadius: '50%',
-    width: 45,
-    height: 45,
+    width: 50,
+    height: 50,
     color: 'white',
     zIndex: 10,
-    textAlign: 'center'
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
 }
 
 

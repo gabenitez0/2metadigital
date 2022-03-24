@@ -35086,15 +35086,19 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var wpp = {
   position: 'fixed',
-  bottom: 10,
+  bottom: 20,
   right: 10,
   fontSize: '28px',
   background: '#25D366',
   border: '2px solid white',
   borderRadius: '50%',
-  padding: '0 10px',
+  width: 50,
+  height: 50,
   color: 'white',
-  zIndex: 10
+  zIndex: 10,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
 };
 
 var CTA = function CTA(_ref) {
@@ -35114,21 +35118,21 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 28,
       columnNumber: 9
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 29,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 30,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -35137,7 +35141,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 31,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -35145,7 +35149,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 32,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -35153,7 +35157,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 33,
       columnNumber: 25
     }
   }, __jsx("h2", {
@@ -35164,21 +35168,21 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 34,
       columnNumber: 29
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 34,
       columnNumber: 83
     }
   }, __jsx("u", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 34,
       columnNumber: 86
     }
   }, "Vend\xE9 tus productos o servicios con una p\xE1gina web profesional ahora!")), " precios desde $18000 ARS")), __jsx("div", {
@@ -35186,7 +35190,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 36,
       columnNumber: 25
     }
   }, __jsx("p", {
@@ -35194,7 +35198,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 37,
       columnNumber: 29
     }
   }, "Empecemos a generar impacto a tus clientes en tiempo record y sin que malgastes el tuyo."), __jsx("p", {
@@ -35202,7 +35206,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 29
     }
   }, "Podemos hablar por texto o agendar una llamada para sacarte de todo tipo de dudas y ayudarte a tomar la mejor decisi\xF3n.")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -35211,7 +35215,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 42,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -35221,7 +35225,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 43,
       columnNumber: 21
     }
   }, "Contactar ahora ", __jsx("i", {
@@ -35230,7 +35234,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 43,
       columnNumber: 106
     }
   }))))), __jsx("a", {
@@ -35240,7 +35244,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 47,
       columnNumber: 9
     }
   }, __jsx("i", {
@@ -35249,7 +35253,7 @@ var CTA = function CTA(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 48,
       columnNumber: 13
     }
   })));
