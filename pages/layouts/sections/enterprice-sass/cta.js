@@ -18,14 +18,14 @@ const wpp = {
     justifyContent: 'center'
 }
 
-const Cta = ({link}) => (
+const Cta = ({link, mon}) => (
     <section className="saas2 testimonial bg-gradient" id="contacto">
         <Container>
             <Row>
                 <Col md="10" className="offset-md-1">
                     <div className="title">
                         <div className="main-title">
-                            <h2 className="text-white" style={{lineHeight:'1.5'}}><b>El salto profesional de tu negocio está muy cerca!<br/></b> precios desde $18000 ARS</h2>
+                            <h2 className="text-white" style={{lineHeight:'1.5'}}><b>El salto profesional de tu negocio está muy cerca!<br/></b> precios desde {mon}</h2>
                         </div>
                         <div className="sub-title">
                             <p className="sub-title-para text-white">Empecemos a generar impacto a tus clientes en tiempo record y sin que malgastes el tuyo.</p>

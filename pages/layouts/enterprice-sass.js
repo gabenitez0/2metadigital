@@ -18,6 +18,8 @@ const EnterpriceSass = () => {
     const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "541122505698";
     const link = `https://wa.me/${ref}?text=Hola%2C%20me%20interesa%20mejorar%20la%20página%20web%20de%20mi%20negocio`
 
+    const mon = router.query.mon === "usd" ? "$150 USD" : "$18000 ARS";
+
     useEffect(() => {
         document.body.style.setProperty('--primary', '#844adb')
         document.body.style.setProperty('--secondary', '#071828')
@@ -42,7 +44,7 @@ const EnterpriceSass = () => {
 
             <Tiempo />
 
-            <Cta link={link}/>
+            <Cta link={link} mon={mon}/>
 
             <BrandSection />
 

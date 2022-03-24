@@ -18,7 +18,7 @@ const wpp = {
     justifyContent: 'center'
 }
 
-const CTA = ({link}) => {
+const CTA = ({link, mon}) => {
     const [modal, setModal] = useState();
     const toggle = () => {
         setModal(!modal)
@@ -31,7 +31,7 @@ const CTA = ({link}) => {
                 <Col md="10" className="offset-md-1">
                     <div className="title">
                         <div className="main-title">
-                            <h2 className="text-white" style={{lineHeight:'1.5'}}><b><u>Vendé tus productos o servicios con una página web profesional ahora!</u></b> precios desde $18000 ARS</h2>
+                            <h2 className="text-white" style={{lineHeight:'1.5'}}><b><u>Vendé tus productos o servicios con una página web profesional ahora!</u></b> precios desde {mon}</h2>
                         </div>
                         <div className="sub-title">
                             <p className="sub-title-para text-white">Empecemos a generar impacto a tus clientes en tiempo record y sin que malgastes el tuyo.</p>

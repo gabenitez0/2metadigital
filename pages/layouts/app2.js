@@ -22,6 +22,8 @@ const App2 = () => {
   const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "541122505698";
   const link = `https://wa.me/${ref}?text=Hola%2C%20me%20interesa%20una%20tienda%20online%20profesional%20para%20mi%20negocio`
 
+  const mon = router.query.mon === "usd" ? "$150 USD" : "$18000 ARS";
+
   useEffect(() => {
     document.body.style.setProperty('--primary', '#fd6d64')
     document.body.style.setProperty('--secondary', '#434345')
@@ -46,7 +48,7 @@ const App2 = () => {
 
         <TeamSection /> 
       
-        <CTA link={link}/>
+        <CTA link={link} mon={mon}/>
         
         <Tiempo />
 
