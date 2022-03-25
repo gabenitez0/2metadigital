@@ -22,12 +22,16 @@ const Error = ({ statusCode }) => {
                                 <div className="central-body">
                                     <h1 className="text-inner">{statusCode ? statusCode : '404'}</h1>
                                     <h3 className="sub-text text-white">Página no encontrada</h3>
-                                    <p className="text-404 text-white text-center">The Page You Are Attempting To Reach Is Currently Not
-                                        Available. This May Be Because The Page Does Not Exist Or Has Been Moved.</p>
+                                    <p className="text-404 text-white text-center">La página que estás buscando no existe.</p>
                                     <Link href="/" >
-                                        <a className="btn btn-default m-t-20">Ir al Inicio</a>
+                                        <a className="btn btn-default m-t-20">Diseño de Páginas Web</a>
                                     </Link>
-
+                                    <Link href="/ecommerce" >
+                                        <a className="btn btn-default m-t-20">Tu Tienda Online</a>
+                                    </Link>
+                                    <Link href="/impacto" >
+                                        <a className="btn btn-default m-t-20">Mejora tu Web</a>
+                                    </Link>
                                 </div>
                             </Col>
                         </Row>

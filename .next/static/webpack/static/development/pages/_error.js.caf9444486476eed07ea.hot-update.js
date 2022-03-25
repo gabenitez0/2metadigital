@@ -1,0 +1,291 @@
+webpackHotUpdate("static\\development\\pages\\_error.js",{
+
+/***/ "./pages/_error.js":
+/*!*************************!*\
+  !*** ./pages/_error.js ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _this = undefined,
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\_error.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Error = function Error(_ref) {
+  var statusCode = _ref.statusCode;
+  var isErrorPage = true;
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    document.body.style.setProperty('--primary', '#000000');
+    document.body.style.setProperty('--secondary', '#434345');
+    document.body.style.setProperty('--light', '#252525');
+    document.body.style.setProperty('--dark', '#000000');
+  });
+  return __jsx("div", {
+    className: "bg-purple",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "section-404",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "stars",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 21
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 25
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    lg: "8",
+    xs: "12",
+    className: "offset-lg-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 29
+    }
+  }, __jsx("div", {
+    className: "central-body",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 33
+    }
+  }, __jsx("h1", {
+    className: "text-inner",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 37
+    }
+  }, statusCode ? statusCode : '404'), __jsx("h3", {
+    className: "sub-text text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 37
+    }
+  }, "P\xE1gina no encontrada"), __jsx("p", {
+    className: "text-404 text-white text-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 37
+    }
+  }, "La p\xE1gina que est\xE1s buscando no existe."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "btn btn-default m-t-20",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 41
+    }
+  }, "Dise\xF1o de P\xE1ginas Web")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/ecommerce",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "btn btn-default m-t-20",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 41
+    }
+  }, "Tu Tienda Online")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/impacto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "btn btn-default m-t-20",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 41
+    }
+  }, "Mejora tu Web"))))))), __jsx("div", {
+    className: "objects",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    alt: "object_rocket",
+    className: "object_rocket",
+    src: "/assets/images/404/rocket.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "earth-moon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    alt: "object_earth",
+    className: "object_earth",
+    src: "/assets/images/404/earth.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 25
+    }
+  }), __jsx("img", {
+    alt: "object_moon",
+    className: "object_moon",
+    src: "/assets/images/404/moon.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 25
+    }
+  })), __jsx("div", {
+    className: "box_astronaut",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    alt: "object_astronaut",
+    className: "object_astronaut",
+    src: "/assets/images/404/astronaut.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 25
+    }
+  }))), __jsx("div", {
+    className: "glowing_stars",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 21
+    }
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Error);
+
+Error.getInitialProps = function (_ref2) {
+  var res = _ref2.res,
+      err = _ref2.err;
+  var statusCode = res ? res.statusCode : err ? err.statusCode : null;
+  return {
+    statusCode: statusCode
+  };
+};
+
+/***/ })
+
+})
+//# sourceMappingURL=_error.js.caf9444486476eed07ea.hot-update.js.map

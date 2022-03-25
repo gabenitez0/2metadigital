@@ -27415,12 +27415,12 @@ var Error = function Error(_ref) {
       lineNumber: 25,
       columnNumber: 37
     }
-  }, "The Page You Are Attempting To Reach Is Currently Not Available. This May Be Because The Page Does Not Exist Or Has Been Moved."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "La p\xE1gina que est\xE1s buscando no existe."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 26,
       columnNumber: 37
     }
   }, __jsx("a", {
@@ -27428,15 +27428,47 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 27,
       columnNumber: 41
     }
-  }, "Ir al Inicio"))))))), __jsx("div", {
+  }, "Dise\xF1o de P\xE1ginas Web")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/ecommerce",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "btn btn-default m-t-20",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 41
+    }
+  }, "Tu Tienda Online")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/impacto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "btn btn-default m-t-20",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 41
+    }
+  }, "Mejora tu Web"))))))), __jsx("div", {
     className: "objects",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 40,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -27446,7 +27478,7 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 41,
       columnNumber: 21
     }
   }), __jsx("div", {
@@ -27454,7 +27486,7 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 42,
       columnNumber: 21
     }
   }, __jsx("img", {
@@ -27464,7 +27496,7 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 43,
       columnNumber: 25
     }
   }), __jsx("img", {
@@ -27474,7 +27506,7 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 44,
       columnNumber: 25
     }
   })), __jsx("div", {
@@ -27482,7 +27514,7 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 46,
       columnNumber: 21
     }
   }, __jsx("img", {
@@ -27492,7 +27524,7 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 47,
       columnNumber: 25
     }
   }))), __jsx("div", {
@@ -27500,7 +27532,7 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -27508,39 +27540,39 @@ var Error = function Error(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 21
-    }
-  }), __jsx("div", {
-    className: "star",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 21
-    }
-  }), __jsx("div", {
-    className: "star",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 21
-    }
-  }), __jsx("div", {
-    className: "star",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 21
-    }
-  }), __jsx("div", {
-    className: "star",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 51,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "star",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
       columnNumber: 21
     }
   }))));
