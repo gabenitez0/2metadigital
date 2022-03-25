@@ -42,10 +42,10 @@ const Recibo = () => {
   return (
     <Fragment>
       <Head>
-          <title>Presupuesto de Proyecto para {m} - 2MetaDigital</title>
+          <title>Presupuesto de Proyecto - 2MetaDigital</title>
 
-          <meta description='Hacemos páginas web de alto impacto con diseños profesionales redacciones persuasivas enfocadas en ventas que transmiten el valor real de tu producto o servicio.' content='' />
-          <meta property="og:description" content="Hacemos páginas web de alto impacto con diseños profesionales redacciones persuasivas enfocadas en ventas que transmiten el valor real de tu producto o servicio." />
+          <meta description='Accede al presupuesto completo para tu proyecto.' content='' />
+          <meta property="og:description" content="Accede al presupuesto completo para tu proyecto." />
           
           <link rel="icon" type="image/png" href="/fav6.png" />
           <meta property="og:image" content="/meta6.png" />
