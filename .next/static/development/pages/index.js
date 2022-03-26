@@ -1122,122 +1122,6 @@ var Nav = function Nav() {
 
 /***/ }),
 
-/***/ "./database/elements/price/database.js":
-/*!*********************************************!*\
-  !*** ./database/elements/price/database.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = {
-  PricingData: [{
-    title: 'Basic',
-    features: ['Up To 1 Exports', 'Limited Coustomization', '30 day Validity'],
-    price: 10,
-    img: '/assets/images/app_landing1/pricing/11.png'
-  }, {
-    title: 'Advance',
-    features: ['Up To 1 Exports', 'Limited Coustomization', '30 day Validity'],
-    price: 50,
-    img: '/assets/images/app_landing1/pricing/22.png'
-  }, {
-    title: 'Standard',
-    features: ['Up To 1 Exports', 'Limited Coustomization', '30 day Validity'],
-    price: 15,
-    img: '/assets/images/app_landing1/pricing/33.png'
-  }, {
-    title: 'Basic',
-    features: ['Up To 1 Exports', 'Limited Coustomization', '30 day Validity'],
-    price: 10,
-    img: '/assets/images/app_landing1/pricing/11.png'
-  }],
-  PricingResume1: [{
-    title: "Free",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '0'
-  }, {
-    title: "Silver",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '49'
-  }, {
-    title: "Golden",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '99'
-  }, {
-    title: "Free",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '0'
-  }],
-  PricingResume2: [{
-    title: "Free",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '0'
-  }, {
-    title: "Silver",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '50'
-  }, {
-    title: "Golden",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '100'
-  }, {
-    title: "Free",
-    feature1: "Easy Installations",
-    feature2: 'Unlimited support',
-    feature3: 'Free Forever',
-    price: '0'
-  }],
-  Pricing: [{
-    img: '/assets/images/yoga-img/abs-yoga.png',
-    heading: 'free',
-    feature1: '100 MB Disk Space',
-    feature2: '2 Subdomains',
-    feature3: '5 Email Accounts',
-    feature4: 'Webmail Support',
-    price: '0'
-  }, {
-    img: '/assets/images/yoga-img/abs-yoga.png',
-    heading: 'medium',
-    feature1: '100 MB Disk Space',
-    feature2: '2 Subdomains',
-    feature3: '5 Email Accounts',
-    feature4: 'Webmail Support',
-    price: '49'
-  }, {
-    img: '/assets/images/yoga-img/abs-yoga.png',
-    heading: 'business',
-    feature1: '100 MB Disk Space',
-    feature2: '2 Subdomains',
-    feature3: '5 Email Accounts',
-    feature4: 'Webmail Support',
-    price: '99'
-  }, {
-    img: '/assets/images/yoga-img/abs-yoga.png',
-    heading: 'business',
-    feature1: '100 MB Disk Space',
-    feature2: '2 Subdomains',
-    feature3: '5 Email Accounts',
-    feature4: 'Webmail Support',
-    price: '0'
-  }]
-};
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -16810,6 +16694,24 @@ function polyfill(Component) {
 }
 
 
+
+
+/***/ }),
+
+/***/ "./node_modules/react-parallax-tilt/dist/index.esm.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-parallax-tilt/dist/index.esm.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return u; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var n=function(e,t){return n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var n in t)Object.prototype.hasOwnProperty.call(t,n)&&(e[n]=t[n])},n(e,t)};var i=function(){return i=Object.assign||function(e){for(var t,n=1,i=arguments.length;n<i;n++)for(var r in t=arguments[n])Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r]);return e},i.apply(this,arguments)};function r(e,t,n,i){return new(n||(n=Promise))((function(r,a){function o(e){try{s(i.next(e))}catch(e){a(e)}}function l(e){try{s(i.throw(e))}catch(e){a(e)}}function s(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(o,l)}s((i=i.apply(e,t||[])).next())}))}function a(e,t){var n,i,r,a,o={label:0,sent:function(){if(1&r[0])throw r[1];return r[1]},trys:[],ops:[]};return a={next:l(0),throw:l(1),return:l(2)},"function"==typeof Symbol&&(a[Symbol.iterator]=function(){return this}),a;function l(a){return function(l){return function(a){if(n)throw new TypeError("Generator is already executing.");for(;o;)try{if(n=1,i&&(r=2&a[0]?i.return:a[0]?i.throw||((r=i.return)&&r.call(i),0):i.next)&&!(r=r.call(i,a[1])).done)return r;switch(i=0,r&&(a=[2&a[0],r.value]),a[0]){case 0:case 1:r=a;break;case 4:return o.label++,{value:a[1],done:!1};case 5:o.label++,i=a[1],a=[0];continue;case 7:a=o.ops.pop(),o.trys.pop();continue;default:if(!(r=o.trys,(r=r.length>0&&r[r.length-1])||6!==a[0]&&2!==a[0])){o=0;continue}if(3===a[0]&&(!r||a[1]>r[0]&&a[1]<r[3])){o.label=a[1];break}if(6===a[0]&&o.label<r[1]){o.label=r[1],r=a;break}if(r&&o.label<r[2]){o.label=r[2],o.ops.push(a);break}r[2]&&o.ops.pop(),o.trys.pop();continue}a=t.call(e,o)}catch(e){a=[6,e],i=0}finally{n=r=0}if(5&a[0])throw a[1];return{value:a[0]?a[1]:void 0,done:!0}}([a,l])}}}function o(e,t,n,i){e.style.transition="".concat(t," ").concat(n,"ms ").concat(i)}function l(e,t,n){return Math.min(Math.max(e,t),n)}var s=function(e,t){var n=this;this.glareAngle=0,this.glareOpacity=0,this.calculateGlareSize=function(e){var t=e.height,n=Math.sqrt(Math.pow(e.width,2)+Math.pow(t,2));return{width:n,height:n}},this.setSize=function(e){var t=n.calculateGlareSize(e);n.glareEl.style.width="".concat(t.width,"px"),n.glareEl.style.height="".concat(t.height,"px")},this.update=function(e,t,i,r){n.updateAngle(e,t.glareReverse),n.updateOpacity(e,t,i,r)},this.updateAngle=function(e,t){var i=e.xPercentage,r=180/Math.PI,a=i?Math.atan2(e.yPercentage,-i)*r:0;n.glareAngle=a-(t?180:0)},this.updateOpacity=function(e,t,i,r){var a,o=e.xPercentage,s=e.yPercentage,p=t.glareMaxOpacity,c=i?-1:1,u=r?-1:1,g=t.glareReverse?-1:1;switch(t.glarePosition){case"top":a=-o*c*g;break;case"right":a=s*u*g;break;case"bottom":default:a=o*c*g;break;case"left":a=-s*u*g;break;case"all":a=Math.hypot(o,s)}var h=l(a,0,100);n.glareOpacity=h*p/100},this.render=function(e){var t=e.glareColor;n.glareEl.style.transform="rotate(".concat(n.glareAngle,"deg) translate(-50%, -50%)"),n.glareEl.style.opacity=n.glareOpacity.toString(),n.glareEl.style.background="linear-gradient(0deg, rgba(255,255,255,0) 0%, ".concat(t," 100%)")},this.glareWrapperEl=document.createElement("div"),this.glareEl=document.createElement("div"),this.glareWrapperEl.appendChild(this.glareEl),this.glareWrapperEl.className="glare-wrapper",this.glareEl.className="glare";var i={position:"absolute",top:"0",left:"0",width:"100%",height:"100%",overflow:"hidden",borderRadius:t,WebkitMaskImage:"-webkit-radial-gradient(white, black)"},r=this.calculateGlareSize(e),a={position:"absolute",top:"50%",left:"50%",transformOrigin:"0% 0%",pointerEvents:"none",width:"".concat(r.width,"px"),height:"".concat(r.height,"px")};Object.assign(this.glareWrapperEl.style,i),Object.assign(this.glareEl.style,a)},p=function(){var e=this;this.glareAngle=0,this.glareOpacity=0,this.tiltAngleX=0,this.tiltAngleY=0,this.tiltAngleXPercentage=0,this.tiltAngleYPercentage=0,this.update=function(t,n){e.updateTilt(t,n),e.updateTiltManualInput(t,n),e.updateTiltReverse(n),e.updateTiltLimits(n)},this.updateTilt=function(t,n){var i=t.yPercentage,r=n.tiltMaxAngleY;e.tiltAngleX=t.xPercentage*n.tiltMaxAngleX/100,e.tiltAngleY=i*r/100*-1},this.updateTiltManualInput=function(t,n){var i=n.tiltAngleXManual,r=n.tiltAngleYManual,a=n.tiltMaxAngleX,o=n.tiltMaxAngleY;(null!==i||null!==r)&&(e.tiltAngleX=null!==i?i:0,e.tiltAngleY=null!==r?r:0,t.xPercentage=100*e.tiltAngleX/a,t.yPercentage=100*e.tiltAngleY/o)},this.updateTiltReverse=function(t){var n=t.tiltReverse?-1:1;e.tiltAngleX=n*e.tiltAngleX,e.tiltAngleY=n*e.tiltAngleY},this.updateTiltLimits=function(t){var n=t.tiltAxis;e.tiltAngleX=l(e.tiltAngleX,-90,90),e.tiltAngleY=l(e.tiltAngleY,-90,90),n&&(e.tiltAngleX="x"===n?e.tiltAngleX:0,e.tiltAngleY="y"===n?e.tiltAngleY:0)},this.updateTiltAnglesPercentage=function(t){var n=t.tiltMaxAngleY;e.tiltAngleXPercentage=e.tiltAngleX/t.tiltMaxAngleX*100,e.tiltAngleYPercentage=e.tiltAngleY/n*100},this.render=function(t){t.style.transform+="rotateX(".concat(e.tiltAngleX,"deg) rotateY(").concat(e.tiltAngleY,"deg) ")}},c=i(i({scale:1,perspective:1e3,flipVertically:!1,flipHorizontally:!1,reset:!0,transitionEasing:"cubic-bezier(.03,.98,.52,.99)",transitionSpeed:400,trackOnWindow:!1,gyroscope:!1},{tiltEnable:!0,tiltReverse:!1,tiltAngleXInitial:0,tiltAngleYInitial:0,tiltMaxAngleX:20,tiltMaxAngleY:20,tiltAxis:null,tiltAngleXManual:null,tiltAngleYManual:null}),{glareEnable:!1,glareMaxOpacity:.7,glareColor:"#ffffff",glarePosition:"bottom",glareReverse:!1,glareBorderRadius:"0"}),u=function(t){function i(){var e=null!==t&&t.apply(this,arguments)||this;return e.wrapperEl={node:null,size:{width:0,height:0,left:0,top:0},clientPosition:{x:null,y:null,xPercentage:0,yPercentage:0},updateAnimationId:null,scale:1},e.tilt=null,e.glare=null,e.addDeviceOrientationEventListener=function(){return r(e,void 0,void 0,(function(){var e;return a(this,(function(t){switch(t.label){case 0:if(!window.DeviceOrientationEvent&&"development"==="development")return console.warn("Browser doesn't support Device Orientation."),[2];if(!("function"==typeof DeviceOrientationEvent.requestPermission))return[3,4];t.label=1;case 1:return t.trys.push([1,3,,4]),[4,DeviceOrientationEvent.requestPermission()];case 2:return"granted"===t.sent()&&window.addEventListener("deviceorientation",this.onMove),[2];case 3:return e=t.sent(),console.error(e),[2];case 4:return window.addEventListener("deviceorientation",this.onMove),[2]}}))}))},e.setSize=function(){e.setWrapperElSize(),e.glare&&e.glare.setSize(e.wrapperEl.size)},e.mainLoop=function(t){null!==e.wrapperEl.updateAnimationId&&cancelAnimationFrame(e.wrapperEl.updateAnimationId),e.processInput(t),e.update(t.type),e.wrapperEl.updateAnimationId=requestAnimationFrame(e.renderFrame)},e.onEnter=function(t){var n=e.props.onEnter;e.setSize(),e.wrapperEl.node.style.willChange="transform",e.setTransitions(),n&&n(t.type)},e.onMove=function(t){e.mainLoop(t),e.emitOnMove(t)},e.onLeave=function(t){var n=e.props.onLeave;if(e.setTransitions(),n&&n(t.type),e.props.reset){var i=new CustomEvent("autoreset");e.onMove(i)}},e.processInput=function(t){var n=e.props.scale;switch(t.type){case"mousemove":e.wrapperEl.clientPosition.x=t.pageX,e.wrapperEl.clientPosition.y=t.pageY,e.wrapperEl.scale=n;break;case"touchmove":e.wrapperEl.clientPosition.x=t.touches[0].pageX,e.wrapperEl.clientPosition.y=t.touches[0].pageY,e.wrapperEl.scale=n;break;case"deviceorientation":e.processInputDeviceOrientation(t),e.wrapperEl.scale=n;break;case"autoreset":var i=e.props,r=i.tiltAngleYInitial/i.tiltMaxAngleY*100;e.wrapperEl.clientPosition.xPercentage=l(i.tiltAngleXInitial/i.tiltMaxAngleX*100,-100,100),e.wrapperEl.clientPosition.yPercentage=l(r,-100,100),e.wrapperEl.scale=1}},e.processInputDeviceOrientation=function(t){if(t.gamma&&t.beta&&e.props.gyroscope){var n=e.props,i=n.tiltMaxAngleY,r=t.gamma;e.wrapperEl.clientPosition.xPercentage=t.beta/n.tiltMaxAngleX*100,e.wrapperEl.clientPosition.yPercentage=r/i*100,e.wrapperEl.clientPosition.xPercentage=l(e.wrapperEl.clientPosition.xPercentage,-100,100),e.wrapperEl.clientPosition.yPercentage=l(e.wrapperEl.clientPosition.yPercentage,-100,100)}},e.update=function(t){var n=e.props,i=n.tiltEnable,r=n.flipVertically,a=n.flipHorizontally;"autoreset"!==t&&"deviceorientation"!==t&&"propChanged"!==t&&e.updateClientInput(),i&&e.tilt.update(e.wrapperEl.clientPosition,e.props),e.updateFlip(),e.tilt.updateTiltAnglesPercentage(e.props),e.glare&&e.glare.update(e.wrapperEl.clientPosition,e.props,r,a)},e.updateClientInput=function(){var t,n;if(e.props.trackOnWindow){var i=e.wrapperEl.clientPosition,r=i.x;t=i.y/window.innerHeight*200-100,n=r/window.innerWidth*200-100}else{var a=e.wrapperEl,o=a.size,s=a.clientPosition;t=(s.y-o.top)/o.height*200-100,n=((r=s.x)-o.left)/o.width*200-100}e.wrapperEl.clientPosition.xPercentage=l(t,-100,100),e.wrapperEl.clientPosition.yPercentage=l(n,-100,100)},e.updateFlip=function(){var t=e.props,n=t.flipHorizontally;t.flipVertically&&(e.tilt.tiltAngleX+=180,e.tilt.tiltAngleY*=-1),n&&(e.tilt.tiltAngleY+=180)},e.renderFrame=function(){e.resetWrapperElTransform(),e.renderPerspective(),e.tilt.render(e.wrapperEl.node),e.renderScale(),e.glare&&e.glare.render(e.props)},e}return function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Class extends value "+String(t)+" is not a constructor or null");function i(){this.constructor=e}n(e,t),e.prototype=null===t?Object.create(t):(i.prototype=t.prototype,new i)}(i,t),i.prototype.componentDidMount=function(){this.tilt=new p,this.initGlare(),this.addEventListeners();var e=new CustomEvent("autoreset");this.mainLoop(e);var t=new CustomEvent("initial");this.emitOnMove(t)},i.prototype.componentWillUnmount=function(){null!==this.wrapperEl.updateAnimationId&&cancelAnimationFrame(this.wrapperEl.updateAnimationId),this.removeEventListeners()},i.prototype.componentDidUpdate=function(){var e=new CustomEvent("propChanged");this.mainLoop(e)},i.prototype.addEventListeners=function(){var e=this.props,t=e.trackOnWindow,n=e.gyroscope;window.addEventListener("resize",this.setSize),t&&(window.addEventListener("mouseenter",this.onEnter),window.addEventListener("mousemove",this.onMove),window.addEventListener("mouseout",this.onLeave),window.addEventListener("touchstart",this.onEnter),window.addEventListener("touchmove",this.onMove),window.addEventListener("touchend",this.onLeave)),n&&this.addDeviceOrientationEventListener()},i.prototype.removeEventListeners=function(){var e=this.props,t=e.trackOnWindow,n=e.gyroscope;window.removeEventListener("resize",this.setSize),t&&(window.removeEventListener("mouseenter",this.onEnter),window.removeEventListener("mousemove",this.onMove),window.removeEventListener("mouseout",this.onLeave),window.removeEventListener("touchstart",this.onEnter),window.removeEventListener("touchmove",this.onMove),window.removeEventListener("touchend",this.onLeave)),n&&window.DeviceOrientationEvent&&window.removeEventListener("deviceorientation",this.onMove)},i.prototype.setWrapperElSize=function(){var e=this.wrapperEl.node.getBoundingClientRect();this.wrapperEl.size.width=this.wrapperEl.node.offsetWidth,this.wrapperEl.size.height=this.wrapperEl.node.offsetHeight,this.wrapperEl.size.left=e.left+window.scrollX,this.wrapperEl.size.top=e.top+window.scrollY},i.prototype.initGlare=function(){var e=this.props;e.glareEnable&&(this.glare=new s(this.wrapperEl.size,e.glareBorderRadius),this.wrapperEl.node.appendChild(this.glare.glareWrapperEl))},i.prototype.emitOnMove=function(e){var t=this.props.onMove;if(t){var n=0,i=0;this.glare&&(n=this.glare.glareAngle,i=this.glare.glareOpacity),t(this.tilt.tiltAngleX,this.tilt.tiltAngleY,this.tilt.tiltAngleXPercentage,this.tilt.tiltAngleYPercentage,n,i,e.type)}},i.prototype.resetWrapperElTransform=function(){this.wrapperEl.node.style.transform=""},i.prototype.renderPerspective=function(){this.wrapperEl.node.style.transform+="perspective(".concat(this.props.perspective,"px) ")},i.prototype.renderScale=function(){var e=this.wrapperEl.scale;this.wrapperEl.node.style.transform+="scale3d(".concat(e,",").concat(e,",").concat(e,")")},i.prototype.setTransitions=function(){var e=this.props,t=e.transitionSpeed,n=e.transitionEasing;o(this.wrapperEl.node,"all",t,n),this.glare&&o(this.glare.glareEl,"opacity",t,n)},i.prototype.render=function(){var t=this,n=this.props;return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div",{ref:function(e){return t.wrapperEl.node=e},onMouseEnter:this.onEnter,onMouseMove:this.onMove,onMouseLeave:this.onLeave,onTouchStart:this.onEnter,onTouchMove:this.onMove,onTouchEnd:this.onLeave,className:n.className,style:n.style},n.children)},i.defaultProps=c,i}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
+//# sourceMappingURL=index.esm.js.map
 
 
 /***/ }),
@@ -33041,6 +32943,699 @@ module.exports = camel2hyphen;
 
 /***/ }),
 
+/***/ "./node_modules/string-hash/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/string-hash/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function hash(str) {
+  var hash = 5381,
+      i    = str.length;
+
+  while(i) {
+    hash = (hash * 33) ^ str.charCodeAt(--i);
+  }
+
+  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
+   * integers. Since we want the results to be always positive, convert the
+   * signed int to an unsigned by doing an unsigned bitshift. */
+  return hash >>> 0;
+}
+
+module.exports = hash;
+
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
+/*!********************************************************!*\
+  !*** ./node_modules/styled-jsx/dist/lib/stylesheet.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/*
+Based on Glamor's sheet
+https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92ca2879/src/sheet.js
+*/
+var isProd = typeof process !== 'undefined' && process.env && "development" === 'production';
+
+var isString = function isString(o) {
+  return Object.prototype.toString.call(o) === '[object String]';
+};
+
+var StyleSheet =
+/*#__PURE__*/
+function () {
+  function StyleSheet(_temp) {
+    var _ref = _temp === void 0 ? {} : _temp,
+        _ref$name = _ref.name,
+        name = _ref$name === void 0 ? 'stylesheet' : _ref$name,
+        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
+        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? isProd : _ref$optimizeForSpeed,
+        _ref$isBrowser = _ref.isBrowser,
+        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
+
+    invariant(isString(name), '`name` must be a string');
+    this._name = name;
+    this._deletedRulePlaceholder = "#" + name + "-deleted-rule____{}";
+    invariant(typeof optimizeForSpeed === 'boolean', '`optimizeForSpeed` must be a boolean');
+    this._optimizeForSpeed = optimizeForSpeed;
+    this._isBrowser = isBrowser;
+    this._serverSheet = undefined;
+    this._tags = [];
+    this._injected = false;
+    this._rulesCount = 0;
+    var node = this._isBrowser && document.querySelector('meta[property="csp-nonce"]');
+    this._nonce = node ? node.getAttribute('content') : null;
+  }
+
+  var _proto = StyleSheet.prototype;
+
+  _proto.setOptimizeForSpeed = function setOptimizeForSpeed(bool) {
+    invariant(typeof bool === 'boolean', '`setOptimizeForSpeed` accepts a boolean');
+    invariant(this._rulesCount === 0, 'optimizeForSpeed cannot be when rules have already been inserted');
+    this.flush();
+    this._optimizeForSpeed = bool;
+    this.inject();
+  };
+
+  _proto.isOptimizeForSpeed = function isOptimizeForSpeed() {
+    return this._optimizeForSpeed;
+  };
+
+  _proto.inject = function inject() {
+    var _this = this;
+
+    invariant(!this._injected, 'sheet already injected');
+    this._injected = true;
+
+    if (this._isBrowser && this._optimizeForSpeed) {
+      this._tags[0] = this.makeStyleTag(this._name);
+      this._optimizeForSpeed = 'insertRule' in this.getSheet();
+
+      if (!this._optimizeForSpeed) {
+        if (!isProd) {
+          console.warn('StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.');
+        }
+
+        this.flush();
+        this._injected = true;
+      }
+
+      return;
+    }
+
+    this._serverSheet = {
+      cssRules: [],
+      insertRule: function insertRule(rule, index) {
+        if (typeof index === 'number') {
+          _this._serverSheet.cssRules[index] = {
+            cssText: rule
+          };
+        } else {
+          _this._serverSheet.cssRules.push({
+            cssText: rule
+          });
+        }
+
+        return index;
+      },
+      deleteRule: function deleteRule(index) {
+        _this._serverSheet.cssRules[index] = null;
+      }
+    };
+  };
+
+  _proto.getSheetForTag = function getSheetForTag(tag) {
+    if (tag.sheet) {
+      return tag.sheet;
+    } // this weirdness brought to you by firefox
+
+
+    for (var i = 0; i < document.styleSheets.length; i++) {
+      if (document.styleSheets[i].ownerNode === tag) {
+        return document.styleSheets[i];
+      }
+    }
+  };
+
+  _proto.getSheet = function getSheet() {
+    return this.getSheetForTag(this._tags[this._tags.length - 1]);
+  };
+
+  _proto.insertRule = function insertRule(rule, index) {
+    invariant(isString(rule), '`insertRule` accepts only strings');
+
+    if (!this._isBrowser) {
+      if (typeof index !== 'number') {
+        index = this._serverSheet.cssRules.length;
+      }
+
+      this._serverSheet.insertRule(rule, index);
+
+      return this._rulesCount++;
+    }
+
+    if (this._optimizeForSpeed) {
+      var sheet = this.getSheet();
+
+      if (typeof index !== 'number') {
+        index = sheet.cssRules.length;
+      } // this weirdness for perf, and chrome's weird bug
+      // https://stackoverflow.com/questions/20007992/chrome-suddenly-stopped-accepting-insertrule
+
+
+      try {
+        sheet.insertRule(rule, index);
+      } catch (error) {
+        if (!isProd) {
+          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
+        }
+
+        return -1;
+      }
+    } else {
+      var insertionPoint = this._tags[index];
+
+      this._tags.push(this.makeStyleTag(this._name, rule, insertionPoint));
+    }
+
+    return this._rulesCount++;
+  };
+
+  _proto.replaceRule = function replaceRule(index, rule) {
+    if (this._optimizeForSpeed || !this._isBrowser) {
+      var sheet = this._isBrowser ? this.getSheet() : this._serverSheet;
+
+      if (!rule.trim()) {
+        rule = this._deletedRulePlaceholder;
+      }
+
+      if (!sheet.cssRules[index]) {
+        // @TBD Should we throw an error?
+        return index;
+      }
+
+      sheet.deleteRule(index);
+
+      try {
+        sheet.insertRule(rule, index);
+      } catch (error) {
+        if (!isProd) {
+          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
+        } // In order to preserve the indices we insert a deleteRulePlaceholder
+
+
+        sheet.insertRule(this._deletedRulePlaceholder, index);
+      }
+    } else {
+      var tag = this._tags[index];
+      invariant(tag, "old rule at index `" + index + "` not found");
+      tag.textContent = rule;
+    }
+
+    return index;
+  };
+
+  _proto.deleteRule = function deleteRule(index) {
+    if (!this._isBrowser) {
+      this._serverSheet.deleteRule(index);
+
+      return;
+    }
+
+    if (this._optimizeForSpeed) {
+      this.replaceRule(index, '');
+    } else {
+      var tag = this._tags[index];
+      invariant(tag, "rule at index `" + index + "` not found");
+      tag.parentNode.removeChild(tag);
+      this._tags[index] = null;
+    }
+  };
+
+  _proto.flush = function flush() {
+    this._injected = false;
+    this._rulesCount = 0;
+
+    if (this._isBrowser) {
+      this._tags.forEach(function (tag) {
+        return tag && tag.parentNode.removeChild(tag);
+      });
+
+      this._tags = [];
+    } else {
+      // simpler on server
+      this._serverSheet.cssRules = [];
+    }
+  };
+
+  _proto.cssRules = function cssRules() {
+    var _this2 = this;
+
+    if (!this._isBrowser) {
+      return this._serverSheet.cssRules;
+    }
+
+    return this._tags.reduce(function (rules, tag) {
+      if (tag) {
+        rules = rules.concat(Array.prototype.map.call(_this2.getSheetForTag(tag).cssRules, function (rule) {
+          return rule.cssText === _this2._deletedRulePlaceholder ? null : rule;
+        }));
+      } else {
+        rules.push(null);
+      }
+
+      return rules;
+    }, []);
+  };
+
+  _proto.makeStyleTag = function makeStyleTag(name, cssString, relativeToTag) {
+    if (cssString) {
+      invariant(isString(cssString), 'makeStyleTag acceps only strings as second parameter');
+    }
+
+    var tag = document.createElement('style');
+    if (this._nonce) tag.setAttribute('nonce', this._nonce);
+    tag.type = 'text/css';
+    tag.setAttribute("data-" + name, '');
+
+    if (cssString) {
+      tag.appendChild(document.createTextNode(cssString));
+    }
+
+    var head = document.head || document.getElementsByTagName('head')[0];
+
+    if (relativeToTag) {
+      head.insertBefore(tag, relativeToTag);
+    } else {
+      head.appendChild(tag);
+    }
+
+    return tag;
+  };
+
+  _createClass(StyleSheet, [{
+    key: "length",
+    get: function get() {
+      return this._rulesCount;
+    }
+  }]);
+
+  return StyleSheet;
+}();
+
+exports["default"] = StyleSheet;
+
+function invariant(condition, message) {
+  if (!condition) {
+    throw new Error("StyleSheet: " + message + ".");
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/style.js":
+/*!***********************************************!*\
+  !*** ./node_modules/styled-jsx/dist/style.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.flush = flush;
+exports["default"] = void 0;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _stylesheetRegistry = _interopRequireDefault(__webpack_require__(/*! ./stylesheet-registry */ "./node_modules/styled-jsx/dist/stylesheet-registry.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+var styleSheetRegistry = new _stylesheetRegistry["default"]();
+
+var JSXStyle =
+/*#__PURE__*/
+function (_Component) {
+  _inheritsLoose(JSXStyle, _Component);
+
+  function JSXStyle(props) {
+    var _this;
+
+    _this = _Component.call(this, props) || this;
+    _this.prevProps = {};
+    return _this;
+  }
+
+  JSXStyle.dynamic = function dynamic(info) {
+    return info.map(function (tagInfo) {
+      var baseId = tagInfo[0];
+      var props = tagInfo[1];
+      return styleSheetRegistry.computeId(baseId, props);
+    }).join(' ');
+  } // probably faster than PureComponent (shallowEqual)
+  ;
+
+  var _proto = JSXStyle.prototype;
+
+  _proto.shouldComponentUpdate = function shouldComponentUpdate(otherProps) {
+    return this.props.id !== otherProps.id || // We do this check because `dynamic` is an array of strings or undefined.
+    // These are the computed values for dynamic styles.
+    String(this.props.dynamic) !== String(otherProps.dynamic);
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    styleSheetRegistry.remove(this.props);
+  };
+
+  _proto.render = function render() {
+    // This is a workaround to make the side effect async safe in the "render" phase.
+    // See https://github.com/zeit/styled-jsx/pull/484
+    if (this.shouldComponentUpdate(this.prevProps)) {
+      // Updates
+      if (this.prevProps.id) {
+        styleSheetRegistry.remove(this.prevProps);
+      }
+
+      styleSheetRegistry.add(this.props);
+      this.prevProps = this.props;
+    }
+
+    return null;
+  };
+
+  return JSXStyle;
+}(_react.Component);
+
+exports["default"] = JSXStyle;
+
+function flush() {
+  var cssRules = styleSheetRegistry.cssRules();
+  styleSheetRegistry.flush();
+  return cssRules;
+}
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/styled-jsx/dist/stylesheet-registry.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _stringHash = _interopRequireDefault(__webpack_require__(/*! string-hash */ "./node_modules/string-hash/index.js"));
+
+var _stylesheet = _interopRequireDefault(__webpack_require__(/*! ./lib/stylesheet */ "./node_modules/styled-jsx/dist/lib/stylesheet.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var sanitize = function sanitize(rule) {
+  return rule.replace(/\/style/gi, '\\/style');
+};
+
+var StyleSheetRegistry =
+/*#__PURE__*/
+function () {
+  function StyleSheetRegistry(_temp) {
+    var _ref = _temp === void 0 ? {} : _temp,
+        _ref$styleSheet = _ref.styleSheet,
+        styleSheet = _ref$styleSheet === void 0 ? null : _ref$styleSheet,
+        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
+        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? false : _ref$optimizeForSpeed,
+        _ref$isBrowser = _ref.isBrowser,
+        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
+
+    this._sheet = styleSheet || new _stylesheet["default"]({
+      name: 'styled-jsx',
+      optimizeForSpeed: optimizeForSpeed
+    });
+
+    this._sheet.inject();
+
+    if (styleSheet && typeof optimizeForSpeed === 'boolean') {
+      this._sheet.setOptimizeForSpeed(optimizeForSpeed);
+
+      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
+    }
+
+    this._isBrowser = isBrowser;
+    this._fromServer = undefined;
+    this._indices = {};
+    this._instancesCounts = {};
+    this.computeId = this.createComputeId();
+    this.computeSelector = this.createComputeSelector();
+  }
+
+  var _proto = StyleSheetRegistry.prototype;
+
+  _proto.add = function add(props) {
+    var _this = this;
+
+    if (undefined === this._optimizeForSpeed) {
+      this._optimizeForSpeed = Array.isArray(props.children);
+
+      this._sheet.setOptimizeForSpeed(this._optimizeForSpeed);
+
+      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
+    }
+
+    if (this._isBrowser && !this._fromServer) {
+      this._fromServer = this.selectFromServer();
+      this._instancesCounts = Object.keys(this._fromServer).reduce(function (acc, tagName) {
+        acc[tagName] = 0;
+        return acc;
+      }, {});
+    }
+
+    var _this$getIdAndRules = this.getIdAndRules(props),
+        styleId = _this$getIdAndRules.styleId,
+        rules = _this$getIdAndRules.rules; // Deduping: just increase the instances count.
+
+
+    if (styleId in this._instancesCounts) {
+      this._instancesCounts[styleId] += 1;
+      return;
+    }
+
+    var indices = rules.map(function (rule) {
+      return _this._sheet.insertRule(rule);
+    }) // Filter out invalid rules
+    .filter(function (index) {
+      return index !== -1;
+    });
+    this._indices[styleId] = indices;
+    this._instancesCounts[styleId] = 1;
+  };
+
+  _proto.remove = function remove(props) {
+    var _this2 = this;
+
+    var _this$getIdAndRules2 = this.getIdAndRules(props),
+        styleId = _this$getIdAndRules2.styleId;
+
+    invariant(styleId in this._instancesCounts, "styleId: `" + styleId + "` not found");
+    this._instancesCounts[styleId] -= 1;
+
+    if (this._instancesCounts[styleId] < 1) {
+      var tagFromServer = this._fromServer && this._fromServer[styleId];
+
+      if (tagFromServer) {
+        tagFromServer.parentNode.removeChild(tagFromServer);
+        delete this._fromServer[styleId];
+      } else {
+        this._indices[styleId].forEach(function (index) {
+          return _this2._sheet.deleteRule(index);
+        });
+
+        delete this._indices[styleId];
+      }
+
+      delete this._instancesCounts[styleId];
+    }
+  };
+
+  _proto.update = function update(props, nextProps) {
+    this.add(nextProps);
+    this.remove(props);
+  };
+
+  _proto.flush = function flush() {
+    this._sheet.flush();
+
+    this._sheet.inject();
+
+    this._fromServer = undefined;
+    this._indices = {};
+    this._instancesCounts = {};
+    this.computeId = this.createComputeId();
+    this.computeSelector = this.createComputeSelector();
+  };
+
+  _proto.cssRules = function cssRules() {
+    var _this3 = this;
+
+    var fromServer = this._fromServer ? Object.keys(this._fromServer).map(function (styleId) {
+      return [styleId, _this3._fromServer[styleId]];
+    }) : [];
+
+    var cssRules = this._sheet.cssRules();
+
+    return fromServer.concat(Object.keys(this._indices).map(function (styleId) {
+      return [styleId, _this3._indices[styleId].map(function (index) {
+        return cssRules[index].cssText;
+      }).join(_this3._optimizeForSpeed ? '' : '\n')];
+    }) // filter out empty rules
+    .filter(function (rule) {
+      return Boolean(rule[1]);
+    }));
+  }
+  /**
+   * createComputeId
+   *
+   * Creates a function to compute and memoize a jsx id from a basedId and optionally props.
+   */
+  ;
+
+  _proto.createComputeId = function createComputeId() {
+    var cache = {};
+    return function (baseId, props) {
+      if (!props) {
+        return "jsx-" + baseId;
+      }
+
+      var propsToString = String(props);
+      var key = baseId + propsToString; // return `jsx-${hashString(`${baseId}-${propsToString}`)}`
+
+      if (!cache[key]) {
+        cache[key] = "jsx-" + (0, _stringHash["default"])(baseId + "-" + propsToString);
+      }
+
+      return cache[key];
+    };
+  }
+  /**
+   * createComputeSelector
+   *
+   * Creates a function to compute and memoize dynamic selectors.
+   */
+  ;
+
+  _proto.createComputeSelector = function createComputeSelector(selectoPlaceholderRegexp) {
+    if (selectoPlaceholderRegexp === void 0) {
+      selectoPlaceholderRegexp = /__jsx-style-dynamic-selector/g;
+    }
+
+    var cache = {};
+    return function (id, css) {
+      // Sanitize SSR-ed CSS.
+      // Client side code doesn't need to be sanitized since we use
+      // document.createTextNode (dev) and the CSSOM api sheet.insertRule (prod).
+      if (!this._isBrowser) {
+        css = sanitize(css);
+      }
+
+      var idcss = id + css;
+
+      if (!cache[idcss]) {
+        cache[idcss] = css.replace(selectoPlaceholderRegexp, id);
+      }
+
+      return cache[idcss];
+    };
+  };
+
+  _proto.getIdAndRules = function getIdAndRules(props) {
+    var _this4 = this;
+
+    var css = props.children,
+        dynamic = props.dynamic,
+        id = props.id;
+
+    if (dynamic) {
+      var styleId = this.computeId(id, dynamic);
+      return {
+        styleId: styleId,
+        rules: Array.isArray(css) ? css.map(function (rule) {
+          return _this4.computeSelector(styleId, rule);
+        }) : [this.computeSelector(styleId, css)]
+      };
+    }
+
+    return {
+      styleId: this.computeId(id),
+      rules: Array.isArray(css) ? css : [css]
+    };
+  }
+  /**
+   * selectFromServer
+   *
+   * Collects style tags from the document with id __jsx-XXX
+   */
+  ;
+
+  _proto.selectFromServer = function selectFromServer() {
+    var elements = Array.prototype.slice.call(document.querySelectorAll('[id^="__jsx-"]'));
+    return elements.reduce(function (acc, element) {
+      var id = element.id.slice(2);
+      acc[id] = element;
+      return acc;
+    }, {});
+  };
+
+  return StyleSheetRegistry;
+}();
+
+exports["default"] = StyleSheetRegistry;
+
+function invariant(condition, message) {
+  if (!condition) {
+    throw new Error("StyleSheetRegistry: " + message + ".");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/styled-jsx/style.js":
+/*!******************************************!*\
+  !*** ./node_modules/styled-jsx/style.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-jsx/dist/style.js")
+
+
+/***/ }),
+
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -33951,211 +34546,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/elements/price/element/price1.js":
-/*!************************************************!*\
-  !*** ./pages/elements/price/element/price1.js ***!
-  \************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _database_elements_price_database__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../database/elements/price/database */ "./database/elements/price/database.js");
-/* harmony import */ var _database_elements_price_database__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_database_elements_price_database__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-
-
-var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\elements\\price\\element\\price1.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-
-var settings = {
-  dots: false,
-  infinite: true,
-  arrows: false,
-  autoplay: true,
-  speed: 500,
-  slidesToShow: 3,
-  swipeToSlide: true,
-  slidesToScroll: 1,
-  responsive: [{
-    breakpoint: 575,
-    settings: {
-      slidesToShow: 1
-    }
-  }, {
-    breakpoint: 991,
-    settings: {
-      slidesToShow: 2
-    }
-  }, {
-    breakpoint: 1024,
-    settings: {
-      slidesToShow: 3
-    }
-  }]
-};
-
-var PriceOne = function PriceOne() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 13
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
-    xs: "12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 17
-    }
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: "owl-carousel owl-theme pricing-slider price-margin"
-  }, settings, {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 21
-    }
-  }), _database_elements_price_database__WEBPACK_IMPORTED_MODULE_3__["PricingData"].length > 0 ? _database_elements_price_database__WEBPACK_IMPORTED_MODULE_3__["PricingData"].map(function (item, index) {
-    return __jsx("div", {
-      className: "item",
-      key: "price-".concat(index),
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39,
-        columnNumber: 33
-      }
-    }, __jsx("div", {
-      className: "price-container  shadows text-center",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40,
-        columnNumber: 37
-      }
-    }, __jsx("div", {
-      className: "price-feature-container set-relative",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 41
-      }
-    }, __jsx("div", {
-      className: "feature-text",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 45
-      }
-    }, __jsx("h3", {
-      className: "feature-text-heading font-primary",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 49
-      }
-    }, item.title), __jsx("hr", {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 49
-      }
-    })), __jsx("div", {
-      className: "price-value",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46,
-        columnNumber: 45
-      }
-    }, __jsx("h4", {
-      className: "price",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 49
-      }
-    }, "$", item.price)), __jsx("div", {
-      className: "price-features",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 45
-      }
-    }, item.features.map(function (feature, i) {
-      return __jsx("h5", {
-        key: "price-features-".concat(i),
-        className: "price-feature",
-        __self: _this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51,
-          columnNumber: 53
-        }
-      }, feature);
-    }), __jsx("a", {
-      className: " btn btn-default btn-gradient text-white btn-app1-theme",
-      href: "#",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 49
-      }
-    }, "purchase"), __jsx("div", {
-      className: "set-abs bottom-0",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 49
-      }
-    }, __jsx("img", {
-      alt: "",
-      className: "img-fluid pricing-img",
-      src: item.img,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 53
-      }
-    }))))));
-  }) : 'Pricing Data Not Found'))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (PriceOne);
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -34299,15 +34689,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sections_index_about__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sections/index/about */ "./pages/layouts/sections/index/about.js");
 /* harmony import */ var _sections_index_download__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sections/index/download */ "./pages/layouts/sections/index/download.js");
 /* harmony import */ var _sections_index_screenshots__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sections/index/screenshots */ "./pages/layouts/sections/index/screenshots.js");
-/* harmony import */ var _sections_index_price__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/index/price */ "./pages/layouts/sections/index/price.js");
+/* harmony import */ var _sections_index_tiempo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/index/tiempo */ "./pages/layouts/sections/index/tiempo.js");
 /* harmony import */ var _sections_index_cta__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sections/index/cta */ "./pages/layouts/sections/index/cta.js");
-/* harmony import */ var _sections_index_footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sections/index/footer */ "./pages/layouts/sections/index/footer.js");
+/* harmony import */ var _sections_index_historia__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sections/index/historia */ "./pages/layouts/sections/index/historia.js");
+/* harmony import */ var _sections_index_footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./sections/index/footer */ "./pages/layouts/sections/index/footer.js");
 var _this = undefined,
     _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\app1.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
  // import Custom Components
+
 
 
 
@@ -34334,7 +34726,7 @@ var App1 = function App1() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 5
     }
   }, __jsx(_containers_common_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -34342,7 +34734,7 @@ var App1 = function App1() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 7
     }
   }), __jsx(_sections_index_banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -34350,42 +34742,42 @@ var App1 = function App1() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 7
     }
   }), __jsx(_sections_index_services__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 7
     }
   }), __jsx(_sections_index_about__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 7
     }
   }), __jsx(_sections_index_download__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 7
     }
   }), __jsx(_sections_index_screenshots__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 42,
       columnNumber: 7
     }
-  }), __jsx(_sections_index_price__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }), __jsx(_sections_index_tiempo__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 44,
       columnNumber: 7
     }
   }), __jsx(_sections_index_cta__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -34394,14 +34786,30 @@ var App1 = function App1() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 46,
       columnNumber: 7
     }
-  }), __jsx(_sections_index_footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }), __jsx(_sections_index_historia__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 48,
+      columnNumber: 7
+    }
+  }), __jsx(_sections_index_cta__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    link: link,
+    mon: mon,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 7
+    }
+  }), __jsx(_sections_index_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
       columnNumber: 7
     }
   }));
@@ -35077,13 +35485,16 @@ var Banner = function Banner(_ref) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
     _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\index\\cta.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 var wpp = {
@@ -35107,7 +35518,7 @@ var CTA = function CTA(_ref) {
   var link = _ref.link,
       mon = _ref.mon;
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
       modal = _useState[0],
       setModal = _useState[1];
 
@@ -35116,29 +35527,29 @@ var CTA = function CTA(_ref) {
   };
 
   return __jsx("section", {
-    className: "app1 videos bg-theme",
     id: "contacto",
+    className: "jsx-328900003" + " " + "app1 videos bg-theme",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
       columnNumber: 9
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     md: "10",
     className: "offset-md-1",
     __self: _this,
@@ -35148,7 +35559,7 @@ var CTA = function CTA(_ref) {
       columnNumber: 17
     }
   }, __jsx("div", {
-    className: "title",
+    className: "jsx-328900003" + " " + "title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35156,7 +35567,7 @@ var CTA = function CTA(_ref) {
       columnNumber: 21
     }
   }, __jsx("div", {
-    className: "main-title",
+    className: "jsx-328900003" + " " + "main-title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35164,10 +35575,10 @@ var CTA = function CTA(_ref) {
       columnNumber: 25
     }
   }, __jsx("h2", {
-    className: "text-white",
     style: {
       lineHeight: '1.5'
     },
+    className: "jsx-328900003" + " " + "text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35175,6 +35586,7 @@ var CTA = function CTA(_ref) {
       columnNumber: 29
     }
   }, __jsx("b", {
+    className: "jsx-328900003",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35182,6 +35594,7 @@ var CTA = function CTA(_ref) {
       columnNumber: 83
     }
   }, __jsx("u", {
+    className: "jsx-328900003",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35189,7 +35602,7 @@ var CTA = function CTA(_ref) {
       columnNumber: 86
     }
   }, "Vend\xE9 tus productos o servicios con una p\xE1gina web profesional ahora!")), " precios desde ", mon)), __jsx("div", {
-    className: "sub-title",
+    className: "jsx-328900003" + " " + "sub-title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35197,7 +35610,7 @@ var CTA = function CTA(_ref) {
       columnNumber: 25
     }
   }, __jsx("p", {
-    className: "sub-title-para text-white",
+    className: "jsx-328900003" + " " + "sub-title-para text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35205,14 +35618,14 @@ var CTA = function CTA(_ref) {
       columnNumber: 29
     }
   }, "Empecemos a generar impacto a tus clientes en tiempo record y sin que malgastes el tuyo."), __jsx("p", {
-    className: "sub-title-para text-white",
+    className: "jsx-328900003" + " " + "sub-title-para text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 29
     }
-  }, "Podemos hablar por texto o agendar una llamada para sacarte de todo tipo de dudas y ayudarte a tomar la mejor decisi\xF3n.")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+  }, "Podemos hablar por texto o agendar una llamada para sacarte de todo tipo de dudas y ayudarte a tomar la mejor decisi\xF3n.")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     md: "10",
     className: "offset-md-1 text-center",
     __self: _this,
@@ -35222,9 +35635,9 @@ var CTA = function CTA(_ref) {
       columnNumber: 17
     }
   }, __jsx("a", {
-    className: "btn btn-default btn-white",
     href: link,
     target: "_blank",
+    className: "jsx-328900003" + " " + "btn btn-default btn-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35233,7 +35646,7 @@ var CTA = function CTA(_ref) {
     }
   }, "Contactar ahora ", __jsx("i", {
     "aria-hidden": "true",
-    className: "fa fa-whatsapp m-l-5",
+    className: "jsx-328900003" + " " + "fa fa-whatsapp m-l-5",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35244,6 +35657,7 @@ var CTA = function CTA(_ref) {
     style: wpp,
     href: link,
     target: "_blank",
+    className: "jsx-328900003",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -35252,14 +35666,17 @@ var CTA = function CTA(_ref) {
     }
   }, __jsx("i", {
     "aria-hidden": "true",
-    className: "fa fa-whatsapp p-10",
+    className: "jsx-328900003" + " " + "fa fa-whatsapp p-10",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48,
       columnNumber: 13
     }
-  })));
+  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "328900003",
+    __self: _this
+  }, "h2.jsx-328900003{font-size:calc(20px + (33 - 20) * ((100vw - 300px) / (1920 - 300)));}p.jsx-328900003{font-size:calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkY6XFxiYWNrdXAyXFx3ZWJcXDJtZXRhZGlnaXRhbFxcdW5pY2VcXHBhZ2VzXFxsYXlvdXRzXFxzZWN0aW9uc1xcaW5kZXhcXGN0YS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpRG9CLEFBRWdGLEFBQ0Qsb0VBREUsQUFDRCIsImZpbGUiOiJGOlxcYmFja3VwMlxcd2ViXFwybWV0YWRpZ2l0YWxcXHVuaWNlXFxwYWdlc1xcbGF5b3V0c1xcc2VjdGlvbnNcXGluZGV4XFxjdGEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCdcbmltcG9ydCB7Q29udGFpbmVyLFJvdyxDb2x9IGZyb20gJ3JlYWN0c3RyYXAnXG5cbmNvbnN0IHdwcCA9IHtcbiAgICBwb3NpdGlvbjogJ2ZpeGVkJyxcbiAgICBib3R0b206IDIwLFxuICAgIHJpZ2h0OiAxMCxcbiAgICBmb250U2l6ZTogJzI4cHgnLFxuICAgIGJhY2tncm91bmQ6ICcjMjVEMzY2JyxcbiAgICBib3JkZXI6ICcycHggc29saWQgd2hpdGUnLFxuICAgIGJvcmRlclJhZGl1czogJzUwJScsXG4gICAgd2lkdGg6IDUwLFxuICAgIGhlaWdodDogNTAsXG4gICAgY29sb3I6ICd3aGl0ZScsXG4gICAgekluZGV4OiAxMCxcbiAgICBkaXNwbGF5OiAnZmxleCcsXG4gICAgYWxpZ25JdGVtczogJ2NlbnRlcicsXG4gICAganVzdGlmeUNvbnRlbnQ6ICdjZW50ZXInXG59XG5cbmNvbnN0IENUQSA9ICh7bGluaywgbW9ufSkgPT4ge1xuICAgIGNvbnN0IFttb2RhbCwgc2V0TW9kYWxdID0gdXNlU3RhdGUoKTtcbiAgICBjb25zdCB0b2dnbGUgPSAoKSA9PiB7XG4gICAgICAgIHNldE1vZGFsKCFtb2RhbClcbiAgICB9XG5cbiAgICByZXR1cm4gKFxuICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJhcHAxIHZpZGVvcyBiZy10aGVtZVwiIGlkPVwiY29udGFjdG9cIj5cbiAgICAgICAgICAgIDxDb250YWluZXI+XG4gICAgICAgICAgICA8Um93PlxuICAgICAgICAgICAgICAgIDxDb2wgbWQ9XCIxMFwiIGNsYXNzTmFtZT1cIm9mZnNldC1tZC0xXCI+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbi10aXRsZVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0ZXh0LXdoaXRlXCIgc3R5bGU9e3tsaW5lSGVpZ2h0OicxLjUnfX0+PGI+PHU+VmVuZMOpIHR1cyBwcm9kdWN0b3MgbyBzZXJ2aWNpb3MgY29uIHVuYSBww6FnaW5hIHdlYiBwcm9mZXNpb25hbCBhaG9yYSE8L3U+PC9iPiBwcmVjaW9zIGRlc2RlIHttb259PC9oMj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdWItdGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYSB0ZXh0LXdoaXRlXCI+RW1wZWNlbW9zIGEgZ2VuZXJhciBpbXBhY3RvIGEgdHVzIGNsaWVudGVzIGVuIHRpZW1wbyByZWNvcmQgeSBzaW4gcXVlIG1hbGdhc3RlcyBlbCB0dXlvLjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYSB0ZXh0LXdoaXRlXCI+UG9kZW1vcyBoYWJsYXIgcG9yIHRleHRvIG8gYWdlbmRhciB1bmEgbGxhbWFkYSBwYXJhIHNhY2FydGUgZGUgdG9kbyB0aXBvIGRlIGR1ZGFzIHkgYXl1ZGFydGUgYSB0b21hciBsYSBtZWpvciBkZWNpc2nDs24uPC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvQ29sPlxuICAgICAgICAgICAgICAgIDxDb2wgbWQ9XCIxMFwiIGNsYXNzTmFtZT1cIm9mZnNldC1tZC0xIHRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzTmFtZT1cImJ0biBidG4tZGVmYXVsdCBidG4td2hpdGVcIiBocmVmPXtsaW5rfSB0YXJnZXQ9XCJfYmxhbmtcIj5Db250YWN0YXIgYWhvcmEgPGkgYXJpYS1oaWRkZW49XCJ0cnVlXCIgY2xhc3NOYW1lPVwiZmEgZmEtd2hhdHNhcHAgbS1sLTVcIj48L2k+PC9hPlxuICAgICAgICAgICAgICAgIDwvQ29sPlxuICAgICAgICAgICAgPC9Sb3c+XG4gICAgICAgIDwvQ29udGFpbmVyPlxuICAgICAgICA8YSBzdHlsZT17d3BwfSBocmVmPXtsaW5rfSB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICAgIDxpIGFyaWEtaGlkZGVuPVwidHJ1ZVwiIGNsYXNzTmFtZT1cImZhIGZhLXdoYXRzYXBwIHAtMTBcIj48L2k+XG4gICAgICAgIDwvYT5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBoMntmb250LXNpemU6IGNhbGMoMjBweCArICgzMyAtIDIwKSAqICgoMTAwdncgLSAzMDBweCkgLyAoMTkyMCAtIDMwMCkpKX1cbiAgICAgICAgcHtmb250LXNpemU6IGNhbGMoMTNweCArICgxNiAtIDEzKSAqICgoMTAwdncgLSAzMDBweCkgLyAoMTkyMCAtIDMwMCkpKX1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICA8L3NlY3Rpb24+XG4gICAgKVxufVxuXG5cblxuZXhwb3J0IGRlZmF1bHQgQ1RBOyJdfQ== */\n/*@ sourceURL=F:\\\\backup2\\\\web\\\\2metadigital\\\\unice\\\\pages\\\\layouts\\\\sections\\\\index\\\\cta.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (CTA);
@@ -35707,10 +36124,10 @@ var Footer = function Footer() {
 
 /***/ }),
 
-/***/ "./pages/layouts/sections/index/price.js":
-/*!***********************************************!*\
-  !*** ./pages/layouts/sections/index/price.js ***!
-  \***********************************************/
+/***/ "./pages/layouts/sections/index/historia.js":
+/*!**************************************************!*\
+  !*** ./pages/layouts/sections/index/historia.js ***!
+  \**************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -35718,339 +36135,168 @@ var Footer = function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _elements_price_element_price1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../elements/price/element/price1 */ "./pages/elements/price/element/price1.js");
+/* harmony import */ var react_parallax_tilt__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-parallax-tilt */ "./node_modules/react-parallax-tilt/dist/index.esm.js");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\index\\price.js";
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\index\\historia.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var lista = {
-  fontSize: '1rem'
+var primary = {
+  color: 'var(--primary)',
+  borderColor: 'var(--primary)',
+  marginBottom: 40
 };
 
-var Price = function Price() {
+var Business = function Business() {
   return __jsx("section", {
-    className: "app1 pricing mb-0",
-    id: "plan",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 5
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    className: "saas2",
+    id: "historia",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 13
+      columnNumber: 5
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
-    md: "10",
-    className: "offset-md-1",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "set-center-div",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 17
+      columnNumber: 9
     }
-  }, __jsx("div", {
-    className: "title title1",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    className: "align-items-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 21
+      columnNumber: 13
     }
-  }, __jsx("div", {
-    className: "main-title",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    lg: "8",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 25
+      columnNumber: 17
     }
-  }, __jsx("h2", {
-    className: "font-primary",
-    style: {
-      lineHeight: 1.2
-    },
+  }, __jsx("div", {
+    className: "offers-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
-      columnNumber: 29
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: " offer-heading-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 25
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 83
+      lineNumber: 17,
+      columnNumber: 61
     }
-  }, __jsx("u", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 86
-    }
-  }, "Imagin\xE1 Los Beneficios De Una Web de alto Impacto Para Tu Negocio...")))), __jsx("div", {
-    style: lista,
+  }, "Hola! Soy Gabriel, creador de 2MetaDigital")), __jsx("p", {
+    className: "m-b-20",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 25
     }
-  }, __jsx("ul", {
-    className: "sub-title-para",
+  }, "A lo largo de mi carrera como emprendedor aprend\xED que el contacto humano, el trabajo en equipo y la comunicaci\xF3n transparente es muy importante para el crecimiento en cualquier \xE1rea de la vida, incluyendo los negocios, es por eso que quiero que trabajemos de la mejor forma y alcancemos nuestras METAS juntos!"), __jsx("div", {
+    className: "bottom-border",
+    style: primary,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
+      columnNumber: 25
+    }
+  }), __jsx("div", {
+    className: "offers-content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "d-flex",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
       columnNumber: 29
     }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 33
-    }
-  }, __jsx("p", {
-    className: "pb-1",
-    style: {
-      fontSize: 16
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 37
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-check-circle mr-1",
-    style: {
-      color: 'var(--primary)'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 80
-    }
-  }), " ", __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 176
-    }
-  }, "... tus potenciales clientes ahora te van a tomar en serio."))), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 33
-    }
-  }, __jsx("p", {
-    className: "pb-1",
-    style: {
-      fontSize: 16
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 37
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-check-circle mr-1",
-    style: {
-      color: 'var(--primary)'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 80
-    }
-  }), " ", __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 176
-    }
-  }, "... podr\xE1s realmente transmitir el valor de tu producto o servicio."))), __jsx("li", {
+  }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 33
     }
-  }, __jsx("p", {
-    className: "pb-1",
-    style: {
-      fontSize: 16
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 37
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-check-circle mr-1",
-    style: {
-      color: 'var(--primary)'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 80
-    }
-  }), " ", __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 176
-    }
-  }, "... una nueva imagen profesional y de alto valor."))), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 33
-    }
-  }, __jsx("p", {
-    className: "pb-1",
-    style: {
-      fontSize: 16
-    },
+  }, __jsx("h4", {
+    className: "offer-main-text ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 37
     }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-check-circle mr-1",
+  }, __jsx("b", {
     style: {
-      color: 'var(--primary)'
+      fontWeight: 600
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 80
+      columnNumber: 70
     }
-  }), " ... la accesibilidad que les podr\xE1s brindar a tu tr\xE1fico.")), __jsx("li", {
+  }, __jsx("u", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 33
+      lineNumber: 23,
+      columnNumber: 98
     }
-  }, __jsx("p", {
-    className: "pb-1",
-    style: {
-      fontSize: 16
-    },
+  }, "Sobre m\xED:"))), __jsx("p", {
+    className: "offer-sub-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
       columnNumber: 37
     }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-check-circle mr-1",
-    style: {
-      color: 'var(--primary)'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 80
-    }
-  }), " ... la cantidad de tiempo que vas a ahorrar de tareas repetitivas.")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 33
-    }
-  }, __jsx("p", {
-    className: "pb-1",
-    style: {
-      fontSize: 16
-    },
+  }, "Nac\xED y vivo en Buenos Aires, Argentina, tengo 24 a\xF1os y soy emprendedor desde hace casi 10 a\xF1os (desde mis 15 a\xF1os). No solo hice desarrollo web, pero esto es algo que hago desde mis inicios como emprendedor ya que es la herramienta que siempre me permiti\xF3 promocionar y vender mis productos y servicios en l\xEDnea."), __jsx("p", {
+    className: "offer-sub-text mt-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 37
     }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-check-circle mr-1",
-    style: {
-      color: 'var(--primary)'
-    },
+  }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 80
+      columnNumber: 72
     }
-  }), " ... c\xF3mo vas a poder mejorar tu producto y tu negocio con estad\xEDsticas.")), __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 33
-    }
-  }, __jsx("p", {
-    className: "sub-title-para",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 37
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-check-circle mr-1",
-    style: {
-      color: 'var(--primary)'
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 67
-    }
-  }), " ... que ni siquiera te tengas que ocupar de la generaci\xF3n de contenido.")))), __jsx("div", {
-    className: "title m-t-40",
+  }, "En este 2022 estoy enfocado principalmente a este proyecto llamado 2metadigital, el cual inici\xE9 hace aproximadamente 2 a\xF1os, y en todo este tiempo aprend\xED a como transformar los servicios que brindo para realmente solucionar las necesidades de mis clientes."))))), __jsx("div", {
+    className: "offers-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -36058,63 +36304,81 @@ var Price = function Price() {
       columnNumber: 25
     }
   }, __jsx("div", {
-    className: "main-title",
+    className: "d-flex",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 29
     }
-  }, __jsx("h2", {
+  }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31,
       columnNumber: 33
     }
-  }, __jsx("b", {
+  }, __jsx("h4", {
+    className: "offer-main-text ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 37
+    }
+  }, __jsx("b", {
+    style: {
+      fontWeight: 600
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 70
     }
   }, __jsx("u", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 40
+      lineNumber: 32,
+      columnNumber: 98
     }
-  }, "Tu proyecto nos importa:")))), __jsx("div", {
-    className: "sub-title",
+  }, "Sobre 2MetaDigital:"))), __jsx("p", {
+    className: "offer-sub-text ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 29
+      columnNumber: 37
     }
-  }, __jsx("p", {
+  }, "Cuando empezamos con 2MetaDigital solo se enfocaba en vender eCommerces. En todo este tiempo conseguimos ampliar la gama de soluciones y perfeccionar nuestros servicios no solo en cuanto a solucionar problemas sino tambi\xE9n en cuanto a los costos de tiempo por trabajo, es decir que podemos entregar proyectos listos para funcionar en poco tiempo.")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    lg: "4",
+    sm: "6",
+    className: "m-auto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    alt: "",
+    className: "img-fluid m-t-20",
     style: {
-      fontSize: 16
+      maxHeight: 700
     },
+    loading: "lazy",
+    src: "/assets/images/cert.jpg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 33
+      lineNumber: 40,
+      columnNumber: 21
     }
-  }, __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 59
-    }
-  }, "Para conseguir los resultados que ofrecemos en esta p\xE1gina, hacemos una investigaci\xF3n de mercado de tu proyecto y an\xE1lisis de tu producto o servicio, de esta forma nosotros podemos comprender el valor y el factor diferencial del mismo y presentarlo de la manera correcta!")))))))));
+  })))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Price);
+/* harmony default export */ __webpack_exports__["default"] = (Business);
 
 /***/ }),
 
@@ -37046,7 +37310,490 @@ var Subscribs = function Subscribs() {
 
 /***/ }),
 
-/***/ 8:
+/***/ "./pages/layouts/sections/index/tiempo.js":
+/*!************************************************!*\
+  !*** ./pages/layouts/sections/index/tiempo.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _this = undefined,
+    _jsxFileName = "F:\\backup2\\web\\2metadigital\\unice\\pages\\layouts\\sections\\index\\tiempo.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+var lista = {
+  fontSize: '1rem'
+};
+
+var Price = function Price() {
+  return __jsx("section", {
+    id: "plan",
+    className: "jsx-328900003" + " " + "app1 pricing mb-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 5
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+    md: "10",
+    className: "offset-md-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "jsx-328900003" + " " + "title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "jsx-328900003" + " " + "main-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 25
+    }
+  }, __jsx("h2", {
+    style: {
+      lineHeight: 1.2
+    },
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 29
+    }
+  }, __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 58
+    }
+  }, __jsx("u", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 61
+    }
+  }, "Imagin\xE1 los beneficios de este salto de calidad para tu negocio...")))), __jsx("div", {
+    className: "jsx-328900003" + " " + "sub-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 25
+    }
+  }, __jsx("ul", {
+    className: "jsx-328900003" + " " + "sub-title-para",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 29
+    }
+  }, __jsx("li", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 33
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para pb-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--primary)'
+    },
+    className: "jsx-328900003" + " " + "fa fa-check-circle mr-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 72
+    }
+  }), " ", __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 168
+    }
+  }, "... tus potenciales clientes ahora te van a tomar en serio."))), __jsx("li", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 33
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para pb-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--primary)'
+    },
+    className: "jsx-328900003" + " " + "fa fa-check-circle mr-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 72
+    }
+  }), " ", __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 168
+    }
+  }, "... podr\xE1s realmente transmitir el valor de tu producto o servicio."))), __jsx("li", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 33
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para pb-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--primary)'
+    },
+    className: "jsx-328900003" + " " + "fa fa-check-circle mr-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 72
+    }
+  }), " ", __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 168
+    }
+  }, "... una nueva imagen profesional y de alto valor."))), __jsx("li", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 33
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para pb-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--primary)'
+    },
+    className: "jsx-328900003" + " " + "fa fa-check-circle mr-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 72
+    }
+  }), " ... la accesibilidad que les podr\xE1s brindar a tu tr\xE1fico.")), __jsx("li", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 33
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para pb-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--primary)'
+    },
+    className: "jsx-328900003" + " " + "fa fa-check-circle mr-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 72
+    }
+  }), " ... la cantidad de tiempo que vas a ahorrar de tareas repetitivas.")), __jsx("li", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 33
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para pb-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--primary)'
+    },
+    className: "jsx-328900003" + " " + "fa fa-check-circle mr-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 72
+    }
+  }), " ... c\xF3mo vas a poder mejorar tu producto y tu negocio con estad\xEDsticas.")), __jsx("li", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 33
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 37
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--primary)'
+    },
+    className: "jsx-328900003" + " " + "fa fa-check-circle mr-1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 67
+    }
+  }), " ... que ni siquiera te tengas que ocupar de la generaci\xF3n de contenido."))))), __jsx("div", {
+    className: "jsx-328900003" + " " + "title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "jsx-328900003" + " " + "main-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 25
+    }
+  }, __jsx("h2", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 29
+    }
+  }, __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 33
+    }
+  }, __jsx("u", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 36
+    }
+  }, "Tu proyecto nos importa:")))), __jsx("div", {
+    className: "jsx-328900003" + " " + "sub-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 25
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 29
+    }
+  }, __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 59
+    }
+  }, "Para conseguir los resultados que ofrecemos en esta p\xE1gina, hacemos una investigaci\xF3n de mercado de tu proyecto y an\xE1lisis de tu producto o servicio, de esta forma nosotros podemos comprender el valor y el factor diferencial del mismo y presentarlo de una manera profesional y enfocada!")))), __jsx("div", {
+    className: "jsx-328900003" + " " + "title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "jsx-328900003" + " " + "main-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 25
+    }
+  }, __jsx("h2", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 29
+    }
+  }, __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 33
+    }
+  }, __jsx("u", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 36
+    }
+  }, "Vos nos importas:")))), __jsx("div", {
+    className: "jsx-328900003" + " " + "sub-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 25
+    }
+  }, __jsx("p", {
+    className: "jsx-328900003" + " " + "sub-title-para",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 29
+    }
+  }, __jsx("b", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 59
+    }
+  }, __jsx("u", {
+    className: "jsx-328900003",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 62
+    }
+  }, "Como emprendedores comprendemos perfectamente lo valioso de tu tiempo"), ", es por eso que solo te vamos a sacar lo justo y necesario para hacer nuestro trabajo, de todo el resto nos encargamos nosotros!"))))))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "328900003",
+    __self: _this
+  }, "h2.jsx-328900003{font-size:calc(20px + (33 - 20) * ((100vw - 300px) / (1920 - 300)));}p.jsx-328900003{font-size:calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkY6XFxiYWNrdXAyXFx3ZWJcXDJtZXRhZGlnaXRhbFxcdW5pY2VcXHBhZ2VzXFxsYXlvdXRzXFxzZWN0aW9uc1xcaW5kZXhcXHRpZW1wby5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErQ29CLEFBRWdGLEFBQ0Qsb0VBREUsQUFDRCIsImZpbGUiOiJGOlxcYmFja3VwMlxcd2ViXFwybWV0YWRpZ2l0YWxcXHVuaWNlXFxwYWdlc1xcbGF5b3V0c1xcc2VjdGlvbnNcXGluZGV4XFx0aWVtcG8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQge0NvbnRhaW5lcixSb3csQ29sfSBmcm9tICdyZWFjdHN0cmFwJ1xuXG5jb25zdCBsaXN0YSA9IHtcbiAgICBmb250U2l6ZTogJzFyZW0nLFxufVxuXG5jb25zdCBQcmljZSA9ICgpID0+IChcbiAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJhcHAxIHByaWNpbmcgbWItMFwiIGlkPVwicGxhblwiPlxuICAgICAgICA8Q29udGFpbmVyPlxuICAgICAgICAgICAgPFJvdz5cbiAgICAgICAgICAgICAgICA8Q29sIG1kPVwiMTBcIiAgY2xhc3NOYW1lPVwib2Zmc2V0LW1kLTFcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluLXRpdGxlXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgyIHN0eWxlPXt7bGluZUhlaWdodDoxLjJ9fT48Yj48dT5JbWFnaW7DoSBsb3MgYmVuZWZpY2lvcyBkZSBlc3RlIHNhbHRvIGRlIGNhbGlkYWQgcGFyYSB0dSBuZWdvY2lvLi4uPC91PjwvYj48L2gyPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInN1Yi10aXRsZVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PHAgY2xhc3NOYW1lPVwic3ViLXRpdGxlLXBhcmEgcGItMVwiPjxpIGFyaWEtaGlkZGVuPVwidHJ1ZVwiIGNsYXNzTmFtZT1cImZhIGZhLWNoZWNrLWNpcmNsZSBtci0xXCIgc3R5bGU9e3tjb2xvcjondmFyKC0tcHJpbWFyeSknfX0+PC9pPiA8Yj4uLi4gdHVzIHBvdGVuY2lhbGVzIGNsaWVudGVzIGFob3JhIHRlIHZhbiBhIHRvbWFyIGVuIHNlcmlvLjwvYj48L3A+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxwIGNsYXNzTmFtZT1cInN1Yi10aXRsZS1wYXJhIHBiLTFcIj48aSBhcmlhLWhpZGRlbj1cInRydWVcIiBjbGFzc05hbWU9XCJmYSBmYS1jaGVjay1jaXJjbGUgbXItMVwiIHN0eWxlPXt7Y29sb3I6J3ZhcigtLXByaW1hcnkpJ319PjwvaT4gPGI+Li4uIHBvZHLDoXMgcmVhbG1lbnRlIHRyYW5zbWl0aXIgZWwgdmFsb3IgZGUgdHUgcHJvZHVjdG8gbyBzZXJ2aWNpby48L2I+PC9wPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48cCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYSBwYi0xXCI+PGkgYXJpYS1oaWRkZW49XCJ0cnVlXCIgY2xhc3NOYW1lPVwiZmEgZmEtY2hlY2stY2lyY2xlIG1yLTFcIiBzdHlsZT17e2NvbG9yOid2YXIoLS1wcmltYXJ5KSd9fT48L2k+IDxiPi4uLiB1bmEgbnVldmEgaW1hZ2VuIHByb2Zlc2lvbmFsIHkgZGUgYWx0byB2YWxvci48L2I+PC9wPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48cCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYSBwYi0xXCI+PGkgYXJpYS1oaWRkZW49XCJ0cnVlXCIgY2xhc3NOYW1lPVwiZmEgZmEtY2hlY2stY2lyY2xlIG1yLTFcIiBzdHlsZT17e2NvbG9yOid2YXIoLS1wcmltYXJ5KSd9fT48L2k+IC4uLiBsYSBhY2Nlc2liaWxpZGFkIHF1ZSBsZXMgcG9kcsOhcyBicmluZGFyIGEgdHUgdHLDoWZpY28uPC9wPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48cCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYSBwYi0xXCI+PGkgYXJpYS1oaWRkZW49XCJ0cnVlXCIgY2xhc3NOYW1lPVwiZmEgZmEtY2hlY2stY2lyY2xlIG1yLTFcIiBzdHlsZT17e2NvbG9yOid2YXIoLS1wcmltYXJ5KSd9fT48L2k+IC4uLiBsYSBjYW50aWRhZCBkZSB0aWVtcG8gcXVlIHZhcyBhIGFob3JyYXIgZGUgdGFyZWFzIHJlcGV0aXRpdmFzLjwvcD48L2xpPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PHAgY2xhc3NOYW1lPVwic3ViLXRpdGxlLXBhcmEgcGItMVwiPjxpIGFyaWEtaGlkZGVuPVwidHJ1ZVwiIGNsYXNzTmFtZT1cImZhIGZhLWNoZWNrLWNpcmNsZSBtci0xXCIgc3R5bGU9e3tjb2xvcjondmFyKC0tcHJpbWFyeSknfX0+PC9pPiAuLi4gY8OzbW8gdmFzIGEgcG9kZXIgbWVqb3JhciB0dSBwcm9kdWN0byB5IHR1IG5lZ29jaW8gY29uIGVzdGFkw61zdGljYXMuPC9wPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48cCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYVwiPjxpIGFyaWEtaGlkZGVuPVwidHJ1ZVwiIGNsYXNzTmFtZT1cImZhIGZhLWNoZWNrLWNpcmNsZSBtci0xXCIgc3R5bGU9e3tjb2xvcjondmFyKC0tcHJpbWFyeSknfX0+PC9pPiAuLi4gcXVlIG5pIHNpcXVpZXJhIHRlIHRlbmdhcyBxdWUgb2N1cGFyIGRlIGxhIGdlbmVyYWNpw7NuIGRlIGNvbnRlbmlkby48L3A+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRpdGxlXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW4tdGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDI+PGI+PHU+VHUgcHJveWVjdG8gbm9zIGltcG9ydGE6PC91PjwvYj48L2gyPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInN1Yi10aXRsZVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cInN1Yi10aXRsZS1wYXJhXCI+PGI+UGFyYSBjb25zZWd1aXIgbG9zIHJlc3VsdGFkb3MgcXVlIG9mcmVjZW1vcyBlbiBlc3RhIHDDoWdpbmEsIGhhY2Vtb3MgdW5hIGludmVzdGlnYWNpw7NuIGRlIG1lcmNhZG8gZGUgdHUgcHJveWVjdG8geSBhbsOhbGlzaXMgZGUgdHUgcHJvZHVjdG8gbyBzZXJ2aWNpbywgZGUgZXN0YSBmb3JtYSBub3NvdHJvcyBwb2RlbW9zIGNvbXByZW5kZXIgZWwgdmFsb3IgeSBlbCBmYWN0b3IgZGlmZXJlbmNpYWwgZGVsIG1pc21vIHkgcHJlc2VudGFybG8gZGUgdW5hIG1hbmVyYSBwcm9mZXNpb25hbCB5IGVuZm9jYWRhITwvYj48L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbi10aXRsZVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMj48Yj48dT5Wb3Mgbm9zIGltcG9ydGFzOjwvdT48L2I+PC9oMj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdWItdGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJzdWItdGl0bGUtcGFyYVwiPjxiPjx1PkNvbW8gZW1wcmVuZGVkb3JlcyBjb21wcmVuZGVtb3MgcGVyZmVjdGFtZW50ZSBsbyB2YWxpb3NvIGRlIHR1IHRpZW1wbzwvdT4sIGVzIHBvciBlc28gcXVlIHNvbG8gdGUgdmFtb3MgYSBzYWNhciBsbyBqdXN0byB5IG5lY2VzYXJpbyBwYXJhIGhhY2VyIG51ZXN0cm8gdHJhYmFqbywgZGUgdG9kbyBlbCByZXN0byBub3MgZW5jYXJnYW1vcyBub3NvdHJvcyE8L2I+PC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvQ29sPlxuICAgICAgICAgICAgPC9Sb3c+XG4gICAgICAgIDwvQ29udGFpbmVyPlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIGgye2ZvbnQtc2l6ZTogY2FsYygyMHB4ICsgKDMzIC0gMjApICogKCgxMDB2dyAtIDMwMHB4KSAvICgxOTIwIC0gMzAwKSkpfVxuICAgICAgICBwe2ZvbnQtc2l6ZTogY2FsYygxM3B4ICsgKDE2IC0gMTMpICogKCgxMDB2dyAtIDMwMHB4KSAvICgxOTIwIC0gMzAwKSkpfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgPC9zZWN0aW9uPlxuKVxuXG5cbmV4cG9ydCBkZWZhdWx0IFByaWNlOyJdfQ== */\n/*@ sourceURL=F:\\\\backup2\\\\web\\\\2metadigital\\\\unice\\\\pages\\\\layouts\\\\sections\\\\index\\\\tiempo.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Price);
+
+/***/ }),
+
+/***/ 7:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=F%3A%5Cbackup2%5Cweb%5C2metadigital%5Cunice%5Cpages%5Cindex.js ***!
   \*******************************************************************************************************************************/
@@ -37069,5 +37816,5 @@ module.exports = dll_2a2042332c40652b2b37;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

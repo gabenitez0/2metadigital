@@ -7,8 +7,9 @@ import ServicesSection from './sections/index/services'
 import AboutSection from './sections/index/about'
 import DownloadSection from './sections/index/download'
 import ScreenShotsSection from './sections/index/screenshots'
-import PriceSection from './sections/index/price'
+import Tiempo from './sections/index/tiempo'
 import Cta from './sections/index/cta'
+import Historia from './sections/index/historia'
 import FooterSection from './sections/index/footer'
 
 
@@ -40,7 +41,11 @@ const App1 = () => {
 
       <ScreenShotsSection />
 
-      <PriceSection />
+      <Tiempo />
+
+      <Cta link={link} mon={mon}/>
+
+      <Historia />
 
       <Cta link={link} mon={mon}/>
 

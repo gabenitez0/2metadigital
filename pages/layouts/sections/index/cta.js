@@ -47,6 +47,10 @@ const CTA = ({link, mon}) => {
         <a style={wpp} href={link} target="_blank">
             <i aria-hidden="true" className="fa fa-whatsapp p-10"></i>
         </a>
+        <style jsx>{`
+        h2{font-size: calc(20px + (33 - 20) * ((100vw - 300px) / (1920 - 300)))}
+        p{font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)))}
+        `}</style>
         </section>
     )
 }

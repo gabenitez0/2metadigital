@@ -27,7 +27,15 @@ const Pricing = () => (
                                 <h2><b><u>Tu proyecto nos importa:</u></b></h2>
                             </div>
                             <div className="sub-title">
-                                <p className="sub-title-para"><b>Para conseguir los resultados que ofrecemos en esta página, hacemos una investigación de mercado de tu proyecto y análisis de tu producto o servicio, de esta forma nosotros podemos comprender el valor y el factor diferencial del mismo y presentarlo de la manera correcta!</b></p>
+                                <p className="sub-title-para"><b>Para conseguir los resultados que ofrecemos en esta página, hacemos una investigación de mercado de tu proyecto y análisis de tu producto o servicio, de esta forma nosotros podemos comprender el valor y el factor diferencial del mismo y presentarlo de una manera profesional y enfocada!</b></p>
+                            </div>
+                        </div>
+                        <div className="title">
+                            <div className="main-title">
+                                <h2><b><u>Vos nos importas:</u></b></h2>
+                            </div>
+                            <div className="sub-title">
+                                <p className="sub-title-para"><b><u>Como emprendedores comprendemos perfectamente lo valioso de tu tiempo</u>, es por eso que solo te vamos a sacar lo justo y necesario para hacer nuestro trabajo, de todo el resto nos encargamos nosotros!</b></p>
                             </div>
                         </div>
                     </Col>

@@ -11,6 +11,7 @@ import Tiempo from './sections/enterprice-sass/tiempo'
 import Cta from '../layouts/sections/enterprice-sass/cta'
 import BrandSection from '../layouts/sections/enterprice-sass/brand'
 import FooterSection from '../layouts/sections/enterprice-sass/footer'
+import Historia from '../layouts/sections/enterprice-sass/historia'
 
 
 const EnterpriceSass = () => {
@@ -44,6 +45,10 @@ const EnterpriceSass = () => {
 
             <Tiempo />
 
+            <Cta link={link} mon={mon}/>
+
+            <Historia />
+            
             <Cta link={link} mon={mon}/>
 
             <BrandSection />
