@@ -64,43 +64,37 @@ const ScreenShots = () => {
                         <div className="swiper-wrapper">
                             <Slider className="screenshot-slider" style={{marginTop:0}} {...settings}>
                                 <div className="item">
-                                <a href="http://electro.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/1.jpg" /></a>
+                                <a href="http://nft.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/1.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://ropa.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/2.jpg" /></a>
+                                <a href="http://universidad.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/2.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://muebles.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/3.jpg" /></a>
+                                <a href="http://interiores.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/3.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://cosmeticos.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/4.jpg" /></a>
+                                <a href="http://hosting.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/4.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://mascotas.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/5.jpg" /></a>
+                                <a href="http://agenciaseo.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/5.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://simple.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/6.jpg" /></a>
+                                <a href="http://auto.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/6.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://deportes.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/7.jpg" /></a>
+                                <a href="http://electro.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/7.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://farma.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/8.jpg" /></a>
+                                <a href="http://arquitectura2.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/8.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://joyeria.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/9.jpg" /></a>
+                                <a href="http://cosmeticos.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/9.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://fitness.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/10.jpg" /></a>
+                                <a href="http://fitness.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/10.avif" /></a>
                                 </div>
                                 <div className="item">
-                                <a href="http://mecanica.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/11.jpg" /></a>
-                                </div>
-                                <div className="item">
-                                <a href="http://niños.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/12.jpg" /></a>
-                                </div>
-                                <div className="item">
-                                <a href="http://libros.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/13.jpg" /></a>
+                                <a href="http://farma.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/screen-shot/11.avif" /></a>
                                 </div>
                             </Slider>
                         </div>
