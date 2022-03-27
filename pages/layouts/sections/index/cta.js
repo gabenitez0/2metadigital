@@ -35,7 +35,7 @@ const CTA = ({link, mon}) => {
                         </div>
                         <div className="sub-title">
                             <p className="sub-title-para text-white">Empecemos a generar impacto a tus clientes en tiempo record y sin que malgastes el tuyo.</p>
-                            <p className="sub-title-para text-white">Podemos hablar por texto o agendar una llamada para sacarte de todo tipo de dudas y ayudarte a tomar la mejor decisión.</p>
+                            <p className="sub-title-para text-white">Podemos hablar por chat o agendar una llamada para sacarte de todo tipo de dudas y ayudarte a tomar la mejor decisión.</p>
                         </div>
                     </div>
                 </Col>
