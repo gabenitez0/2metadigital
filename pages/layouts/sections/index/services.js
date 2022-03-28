@@ -4,7 +4,7 @@ const Services = () => (
     <section className="services" id="beneficios">
         <Container>
             <Row>
-                <Col md="8" className="offset-md-2">
+                <Col md="8" className="offset-md-2" data-aos="fade-right">
                     <div className="title">
                         <div className="main-title">
                             <h2 className='mb-3'>¿Cómo Una Web De Alto Impacto Puede Potenciar Tu Negocio?</h2>
@@ -14,7 +14,7 @@ const Services = () => (
                         </div>
                     </div>
                 </Col>
-                <Col md="4">
+                <Col md="4" data-aos="fade-left" data-aos-delay="200">
                     <div className="service service-overlay">
                         <div className="img-block">
                             <img alt="" className="service-img img-fluid" ladoing="lazy" src="/assets/images/app_landing1/icons/1-1.png" />
@@ -26,7 +26,7 @@ const Services = () => (
                         </div>
                     </div>
                 </Col>
-                <Col md="4">
+                <Col md="4" data-aos="fade-left" data-aos-delay="500">
                     <div className="service service-overlay">
                         <div className="img-block">
                             <img alt="" className="service-img img-fluid" ladoing="lazy" src="/assets/images/app_landing1/icons/1-3.png" />
@@ -37,7 +37,7 @@ const Services = () => (
                         </div>
                     </div>
                 </Col>
-                <Col md="4">
+                <Col md="4" data-aos="fade-left" data-aos-delay="700">
                     <div className="service service-overlay">
                         <div className="img-block">
                             <img alt="" className="service-img img-fluid" ladoing="lazy" src="/assets/images/app_landing1/icons/1-2.png" />

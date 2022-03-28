@@ -10,7 +10,7 @@ const Price = () => (
         <Container>
             <Row>
                 <Col md="10"  className="offset-md-1">
-                    <div className="title">
+                    <div className="title" data-aos="fade-right" data-aos-delay="200">
                         <div className="main-title">
                             <h2 style={{lineHeight:1.2}}><b><u>Imaginá los beneficios de este salto de calidad para tu negocio...</u></b></h2>
                         </div>
@@ -26,7 +26,7 @@ const Price = () => (
                             </ul>
                         </div>
                     </div>
-                    <div className="title">
+                    <div className="title" data-aos="fade-left" data-aos-delay="200">
                         <div className="main-title">
                             <h2><b><u>Tu proyecto nos importa:</u></b></h2>
                         </div>
@@ -34,7 +34,7 @@ const Price = () => (
                             <p className="sub-title-para"><b>Para conseguir los resultados que ofrecemos en esta página, hacemos una investigación de mercado de tu proyecto y análisis de tu producto o servicio, de esta forma nosotros podemos comprender el valor y el factor diferencial del mismo y presentarlo de una manera profesional y enfocada a resultados!</b></p>
                         </div>
                     </div>
-                    <div className="title">
+                    <div className="title" data-aos="fade-right" data-aos-delay="200">
                         <div className="main-title">
                             <h2><b><u>Vos nos importas:</u></b></h2>
                         </div>

@@ -14,10 +14,12 @@ const Business = () => (
             <Row className="align-items-center">
                 <Col lg="8">
                     <div className="offers-container">
-                        <h3 className=" offer-heading-text"><b>Hola! Soy Gabriel, creador de 2MetaDigital</b></h3>
-                        <p className="m-b-20">A lo largo de mi carrera como emprendedor aprendí que el contacto humano, el trabajo en equipo y la comunicación transparente es muy importante para el crecimiento en cualquier área de la vida, incluyendo los negocios, es por eso que quiero que trabajemos de la mejor forma y alcancemos nuestras METAS juntos!</p>
-                        <div className="bottom-border" style={primary}></div>
-                        <div className="offers-content">
+                        <div data-aos="fade-right" data-aos-delay="200">
+                            <h3 className=" offer-heading-text"><b>Hola! Soy Gabriel, creador de 2MetaDigital</b></h3>
+                            <p className="m-b-20">A lo largo de mi carrera como emprendedor aprendí que el contacto humano, el trabajo en equipo y la comunicación transparente es muy importante para el crecimiento en cualquier área de la vida, incluyendo los negocios, es por eso que quiero que trabajemos de la mejor forma y alcancemos nuestras METAS juntos!</p>
+                            <div className="bottom-border" style={primary}></div>
+                        </div>
+                        <div className="offers-content" data-aos="fade-right" data-aos-delay="200">
                             <div className="d-flex">
                                 <div>
                                     <h4 className="offer-main-text "><b style={{fontWeight:600}}><u>Sobre mí:</u></b></h4>
@@ -26,7 +28,7 @@ const Business = () => (
                                 </div>
                             </div>
                         </div>
-                        <div className="offers-content">
+                        <div className="offers-content" data-aos="fade-right" data-aos-delay="200">
                             <div className="d-flex">
                                 <div>
                                     <h4 className="offer-main-text "><b style={{fontWeight:600}}><u>Sobre 2MetaDigital:</u></b></h4>

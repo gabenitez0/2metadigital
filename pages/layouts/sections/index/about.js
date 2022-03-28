@@ -15,7 +15,7 @@ return (
     <section className="app1 about bg-theme">
         <Container>
             <Row>
-                <Col lg="7">
+                <Col lg="7" data-aos="fade-right">
                     <div className="title title mb-5">
                         <div className="main-title">
                             <h2 className="text-white" style={{lineHeight: 1.5, textAlign:'left'}}><b>Beneficios de ofrecer tus productos y servicios de manera profesional</b></h2>
@@ -24,7 +24,7 @@ return (
                 </Col>
             </Row>
             <Row>
-                <Col lg="6">
+                <Col lg="6" data-aos="fade-right" data-aos-delay="200">
                     <Row className="set-padding">
                     <div className="m-b-40">
                             <div className="d-flex">
@@ -66,6 +66,7 @@ return (
                     src="/assets/images/app_landing1/beneficios2.webp"
                     placeholder="blur"
                     blurDataURL="/assets/images/app_landing1/beneficios-blur.png"
+                    quality={100}
                 />
                 <div className="set-abs mobile rectangle r-2  center-content bottom-0">
                     <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/icons/1-2.png" />

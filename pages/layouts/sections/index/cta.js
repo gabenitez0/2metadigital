@@ -24,10 +24,10 @@ const CTA = ({link, mon}) => {
         setModal(!modal)
     }
 
-    return (
+    return (<>
         <section className="app1 videos bg-theme" id="contacto">
             <Container>
-            <Row>
+            <Row data-aos="fade-right" data-aos-delay="400">
                 <Col md="10" className="offset-md-1">
                     <div className="title">
                         <div className="main-title">
@@ -44,6 +44,7 @@ const CTA = ({link, mon}) => {
                 </Col>
             </Row>
         </Container>
+        </section>
         <a style={wpp} href={link} target="_blank">
             <i aria-hidden="true" className="fa fa-whatsapp p-10"></i>
         </a>
@@ -51,8 +52,7 @@ const CTA = ({link, mon}) => {
         h2{font-size: calc(20px + (33 - 20) * ((100vw - 300px) / (1920 - 300)))}
         p{font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)))}
         `}</style>
-        </section>
-    )
+    </>)
 }
 
 
