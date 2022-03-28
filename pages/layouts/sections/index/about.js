@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Container,Row,Col} from 'reactstrap';
+import Image from 'next/image'
 
 const icon1 = {
     color: '#fff',
@@ -7,7 +8,10 @@ const icon1 = {
     marginRight: 20,
     marginTop: 5,
 }
-const About = () => (
+
+
+const About = () => {
+return (
     <section className="app1 about bg-theme">
         <Container>
             <Row>
@@ -55,7 +59,13 @@ const About = () => (
         </Container>
         <div className="set-abs mobile mobile-img bottom-0">
             <div className="set-relative">
-                <img alt="" className="img-fluid mobile-screen" loading="lazy" src="/assets/images/app_landing1/beneficios2.webp" />
+                <Image 
+                    height={680}
+                    width={450}
+                    className="img-fluid mobile-screen"
+                    src="/assets/images/app_landing1/beneficios2.webp" alt=""
+                    
+                />
                 <div className="set-abs mobile rectangle r-2  center-content bottom-0">
                     <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/icons/1-2.png" />
                 </div>
@@ -65,7 +75,8 @@ const About = () => (
             </div>
         </div>
     </section>
-)
+    )
+}
 
 
 export default About;

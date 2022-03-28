@@ -5,14 +5,12 @@ import {Container, Col} from 'reactstrap';
 import MpButton from './api/mercadopago';
 
 const Checkout = () => {
-
   const router = useRouter();
   const para = router.query.m;
   const price = router.query.p;
   const paypal = `https://paypal.me/2metadigital/${price}`;
   const id = router.query.id;
   const factura = `https://app.hubspot.com/quotes/${id}`;
-
 
   const header = {
     background: 'var(--primary)'
@@ -52,12 +50,13 @@ const Checkout = () => {
       items: [
         {
           title: "Proyecto para " + para,
-          unit_price: price,
+          unit_price: 12000,
           quantity: 1,
         },
       ],
     };
 
+    console.log(price);
     const isBrowser = typeof window !== 'undefined';
     if (isBrowser) {
       mercadopago.preferences
@@ -71,8 +70,6 @@ const Checkout = () => {
           script.setAttribute('data-button-label', "MercadoPago");
           
           let form = document.getElementById('btn-mp');
-          if(!global.init_point) form.appendChild(script);
-              global.init_point = response.body.init_point;
           })
       .catch(function (error) {
         console.log(error);
@@ -91,6 +88,7 @@ const Checkout = () => {
           <meta property="og:image" content="/meta6.png" />
       
           <meta name="robots" content="noindex"/>
+          {/*<script src="https://sdk.mercadopago.com/js/v2"></script>*/}
       </Head>
 
       <div style={header}>

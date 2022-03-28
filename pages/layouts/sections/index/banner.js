@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container,Row,Col} from 'reactstrap';
+import Image from 'next/image'
 
 const Banner = ({link}) => {
     
@@ -33,7 +34,13 @@ const Banner = ({link}) => {
                     </Col>
                     <Col xl="5" lg="6" md="4">
                         <div className="img-mobile set-abs" style={{bottom: '0'}}>
-                            <img alt="" className="headaer-image" style={{maxHeight: '100vh'}} src="/assets/images/app_landing1/header.webp"
+                            <Image alt="mockup header 2metadigital celular con web institucional"
+                            priority={true}
+                            height={661}
+                            width={450}
+                            layout="fixed"
+                            style={{maxHeight: '100vh'}}
+                            src="/assets/images/app_landing1/header.webp"
                             />
                         </div>
                     </Col>
