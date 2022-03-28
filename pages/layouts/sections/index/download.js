@@ -34,11 +34,15 @@ const Download = () => {
                 <Row>
                     <Col lg="5" md="6" data-aos="fade-right" data-aos-delay="100">
                         <div className="center-content">
-                            <Image alt=""
+                            <img alt=""
+                            loading="lazy"
                             layout="fill"
                             objectFit="contain"
-                            className="img-fluid m-b-20"  
-                            src="/assets/images/app_landing1/tiempo.webp" />
+                            className="img-fluid m-b-20"
+                            src="/assets/images/app_landing1/tiempo.webp"
+                            placeholder="blur"
+                            blurDataURL="/assets/images/app_landing1/header-blur.png" 
+                            />
                         </div>
                     </Col>
                     <Col lg="6" md="6" className="offset-lg-1">

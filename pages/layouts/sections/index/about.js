@@ -59,12 +59,13 @@ return (
         </Container>
         <div className="set-abs mobile mobile-img bottom-0">
             <div className="set-relative">
-                <Image 
+                <Image alt="beneficios de una web profesional de alto impacto 2metadigital"
                     height={680}
                     width={450}
                     className="img-fluid mobile-screen"
-                    src="/assets/images/app_landing1/beneficios2.webp" alt=""
-                    
+                    src="/assets/images/app_landing1/beneficios2.webp"
+                    placeholder="blur"
+                    blurDataURL="/assets/images/app_landing1/beneficios-blur.png"
                 />
                 <div className="set-abs mobile rectangle r-2  center-content bottom-0">
                     <img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing1/icons/1-2.png" />

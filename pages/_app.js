@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Router from 'next/router';
-import NProgress from 'nprogress';
-import getConfig from 'next/config'
+//import Router from 'next/router';
+//import NProgress from 'nprogress';
+//import getConfig from 'next/config'
 import { ToastContainer } from 'react-toastify';
 import Head from 'next/head'
 
@@ -14,7 +14,7 @@ import "../public/assets/scss/slick.scss";
 import "../public/assets/scss/slick-theme.scss";
 //import Customizer from '../containers/customizer';
 
-
+/*
 const { publicRuntimeConfig = {} } = getConfig() || {};
 
 NProgress.configure({ showSpinner: publicRuntimeConfig.NProgressShowSpinner });
@@ -29,9 +29,10 @@ Router.onRouteChangeComplete = () => {
 
 Router.onRouteChangeError = () => {
   NProgress.done();
-};
+};*/
 
 function MyFunctionComponent({ children }) {
+  /*
   const [loader, setLoader] = useState(true)
   const [goingUp, setGoingUp] = useState(false)
 
@@ -59,7 +60,7 @@ function MyFunctionComponent({ children }) {
       behavior: "smooth",
       top: 0
     });
-  }
+  }*/
 
   useEffect(async () => {
     const { default: ReactPixel } = await import('react-facebook-pixel');
