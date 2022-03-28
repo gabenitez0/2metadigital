@@ -6,7 +6,7 @@ import {Container, Col} from 'reactstrap';
 const Recibo = () => {
 
   const router = useRouter();
-  const m = router.query.m;
+  const para = router.query.para;
   const p = router.query.p;
   const paypal = `https://paypal.me/2metadigital/${p}`
   const id = router.query.id;
@@ -64,7 +64,7 @@ const Recibo = () => {
         <Container>
           <Col md="8" className='offset-md-2'>
             <h1 className="m-0 m-b-20" style={line}><b>Presupuesto de proyecto</b></h1>
-            <p className="text-white m-b-10" style={line}>Para: <u>{m}</u></p>
+            <p className="text-white m-b-10" style={line}>Para: <u>{para}</u></p>
             <p className="text-white" style={line}>Id: {id}</p>
           </Col>
         </Container>

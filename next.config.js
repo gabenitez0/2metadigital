@@ -1,25 +1,20 @@
-const path = require('path')
-const withCss = require('@zeit/next-css')
-const withSass = require('@zeit/next-sass')
-const withImages = require('next-images')
+//const path = require('path')
+//const withCss = require('@zeit/next-css')
+//const withSass = require('@zeit/next-sass')
+//const withImages = require('next-images')
 
-module.exports = withImages(withSass(withCss({
-  webpack: (config, { isServer }) => {
-    if (isServer) {
-      config.module.rules.push({
-        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
-        use: {
-            loader: 'url-loader',
-            options: {
-                limit: 100000,
-                name: '[name].[ext]'
-            }
-        }
-    })
-  }
-  return config
+module.exports = {
+  future: {
+    webpack5: true, // by default, if you customize webpack config, they switch back to version 4. 
+      // Looks like backward compatibility approach.
   },
-  cssLoaderOptions: {
-    url: false
-  }
-})))
+  webpack(config) {
+    config.resolve.fallback = {
+      ...config.resolve.fallback, // if you miss it, all the other options in fallback, specified
+        // by next.js will be dropped. Doesn't make much sense, but how it is
+      fs: false, // the solution
+    };
+
+    return config;
+  },
+};

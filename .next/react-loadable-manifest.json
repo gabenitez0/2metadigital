@@ -1,18 +1,8 @@
 {
-  "./dev/noop": [
-    {
-      "id": "./node_modules/next/dist/client/dev/noop.js",
-      "name": "./node_modules/next/dist/client/dev/noop.js",
-      "file": "static/chunks/0.js",
-      "publicPath": "static/chunks/0.js"
-    }
-  ],
-  "react-facebook-pixel": [
-    {
-      "id": "./node_modules/react-facebook-pixel/dist/fb-pixel.js",
-      "name": "./node_modules/react-facebook-pixel/dist/fb-pixel.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ]
+  "_app.js -> react-facebook-pixel": {
+    "id": "_app.js -> react-facebook-pixel",
+    "files": [
+      "static/chunks/node_modules_react-facebook-pixel_dist_fb-pixel_js.js"
+    ]
+  }
 }
