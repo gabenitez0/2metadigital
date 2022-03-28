@@ -30,51 +30,64 @@ const Checkout = () => {
   })
 
   const mercadopago = require("mercadopago");
-    mercadopago.configure({
-      access_token: "TEST-3617671749737057-061401-5eb30314e7645009c1caf0dad08c024f-67919268",
-    });
-    let preference = {
-      tracks: [
-          {
-              type: "facebook_ad",
-              values: {
-                  "pixel_id": '1038198026550249'
-              }
-          }
-      ],
-      back_urls: {
-          success: "https://2meta.digital/gracias",
-          failure: "https://2meta.digital/denegado"
-      },
-      auto_return: "approved",
-      items: [
+  mercadopago.configure({
+    access_token: "TEST-3617671749737057-061401-5eb30314e7645009c1caf0dad08c024f-67919268",
+  });
+  let preference = {
+    tracks: [
         {
-          title: "Proyecto para " + para,
-          unit_price: 12000,
-          quantity: 1,
-        },
-      ],
-    };
+            type: "facebook_ad",
+            values: {
+                "pixel_id": '1038198026550249'
+            }
+        }
+    ],
+    back_urls: {
+        success: "https://2meta.digital/gracias",
+        failure: "https://2meta.digital/denegado"
+    },
+    auto_return: "approved",
+    items: [
+      {
+        title: "Proyecto para " + para,
+        unit_price: 12000,
+        quantity: 1,
+      },
+    ],
+  };
 
-    console.log(price);
-    const isBrowser = typeof window !== 'undefined';
-    if (isBrowser) {
-      mercadopago.preferences
-      .create(preference)
-      .then(async function (response) {
-        console.log(response);
-          const script = document.createElement("script");
-          script.src = "https://sdk.mercadopago.com/js/v2";
-          script.async = true;
-          script.setAttribute('data-preference-id', response.body.id);
-          script.setAttribute('data-button-label', "MercadoPago");
-          
-          let form = document.getElementById('btn-mp');
-          })
-      .catch(function (error) {
-        console.log(error);
-      });
-    }
+  console.log(price);
+  const isBrowser = typeof window !== 'undefined';
+  if (isBrowser) {
+    mercadopago.preferences
+    .create(preference)
+    .then(async function (response) {
+      console.log(response);
+      /*const script = document.createElement("script");
+      script.src = "https://sdk.mercadopago.com/js/v2";
+      script.async = true;
+      script.setAttribute('data-preference-id', response.body.id);
+      script.setAttribute('data-button-label', "MercadoPago");
+      
+      let form = document.getElementById('btn-mp');*/
+      })
+    .catch(function (error) {
+      console.log(error);
+    });
+
+    const mp = new MercadoPago("TEST-d989d1e4-793a-48e9-b88c-fc91842b435a", {
+      locale: "es-AR",
+    });
+    mp.checkout({
+      preference: {
+        id: preference,
+      },
+      render: {
+        container: "#btn-mp", // Indica el nombre de la clase donde se mostrará el botón de pago
+        label: "Pagar →", // Cambia el texto del botón de pago (opcional)
+      },
+    });
+  }
 
   return (
     <Fragment>
@@ -88,7 +101,7 @@ const Checkout = () => {
           <meta property="og:image" content="/meta6.png" />
       
           <meta name="robots" content="noindex"/>
-          {/*<script src="https://sdk.mercadopago.com/js/v2"></script>*/}
+          <script src="https://sdk.mercadopago.com/js/v2"></script>
       </Head>
 
       <div style={header}>
