@@ -3,6 +3,7 @@ import Router from 'next/router';
 import NProgress from 'nprogress';
 import getConfig from 'next/config'
 import { ToastContainer } from 'react-toastify';
+import Head from 'next/head'
 
 import 'bootstrap-scss';
 import '../public/assets/scss/flaticon.scss';
@@ -71,7 +72,11 @@ function MyFunctionComponent({ children }) {
   }, []);
 
   return (
-    <> {children}
+    <> 
+    <Head>
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
+    </Head>
+    {children}
       {/*loader &&
         <div className="loader-wrapper">
           <div className="loader">

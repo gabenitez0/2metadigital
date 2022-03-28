@@ -31,6 +31,54 @@ const Checkout = () => {
     document.body.style.setProperty('--dark', '#4E56F3')
   })
 
+  const mercadopago = require("mercadopago");
+    mercadopago.configure({
+      access_token: "TEST-3617671749737057-061401-5eb30314e7645009c1caf0dad08c024f-67919268",
+    });
+    let preference = {
+      tracks: [
+          {
+              type: "facebook_ad",
+              values: {
+                  "pixel_id": '1038198026550249'
+              }
+          }
+      ],
+      back_urls: {
+          success: "https://2meta.digital/gracias",
+          failure: "https://2meta.digital/denegado"
+      },
+      auto_return: "approved",
+      items: [
+        {
+          title: "Proyecto para " + para,
+          unit_price: price,
+          quantity: 1,
+        },
+      ],
+    };
+
+    const isBrowser = typeof window !== 'undefined';
+    if (isBrowser) {
+      mercadopago.preferences
+      .create(preference)
+      .then(async function (response) {
+        console.log(response);
+          const script = document.createElement("script");
+          script.src = "https://sdk.mercadopago.com/js/v2";
+          script.async = true;
+          script.setAttribute('data-preference-id', response.body.id);
+          script.setAttribute('data-button-label', "MercadoPago");
+          
+          let form = document.getElementById('btn-mp');
+          if(!global.init_point) form.appendChild(script);
+              global.init_point = response.body.init_point;
+          })
+      .catch(function (error) {
+        console.log(error);
+      });
+    }
+
   return (
     <Fragment>
       <Head>
@@ -87,7 +135,7 @@ const Checkout = () => {
             <h4 className="m-0 text-uppercase"><u>Paso 3</u></h4>
             <h2 className="m-0 mb-3">Segundo pago (50%)</h2>
             <p className="m-b-10 mb-4" style={line}>El segunda mitad del pago se realiza cuando trabajo está completo.</p>
-            <a className="button" href={paypal} target="_blank">Pagar →</a>
+            <a className="button" id="btn-mp">Pagar →</a>
           </Col>
         </Container>
       </div>
