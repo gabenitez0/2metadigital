@@ -25,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/checkout": [
+    "/ecommerce": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/checkout.js"
+      "static/chunks/pages/ecommerce.js"
+    ],
+    "/impacto": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/impacto.js"
     ]
   },
   "ampFirstPages": []

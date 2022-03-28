@@ -63,43 +63,108 @@ const Screenshot = () => (
                         <div className="swiper-wrapper">
                             <Slider className="screenshot-slider" style={{marginTop:0}} {...settings}>
                             <div className="item">
-                                <a href="http://electro.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/1.avif" /></a>
+                                    <a href="http://electro.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/1.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/1.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://ropa.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/2.avif" /></a>
+                                    <a href="http://ropa.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/2.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/2.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://muebles.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/3.avif" /></a>
+                                    <a href="http://muebles.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/3.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/3.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://cosmeticos.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/4.avif" /></a>
+                                    <a href="http://cosmeticos.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/4.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/4.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://mascotas.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/5.avif" /></a>
+                                    <a href="http://mascotas.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/5.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/5.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://simple.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/6.avif" /></a>
+                                    <a href="http://simple.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/6.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/6.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://deportes.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/7.avif" /></a>
+                                    <a href="http://deportes.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/7.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/7.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://farma.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/8.avif" /></a>
+                                    <a href="http://farma.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/8.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/8.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://joyeria.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/9.avif" /></a>
+                                    <a href="http://joyeria.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/9.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/9.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://fitness.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/10.avif" /></a>
+                                    <a href="http://fitness.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/10.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/10.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://mecanica.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/11.avif" /></a>
+                                    <a href="http://mecanica.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/11.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/11.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://niños.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/12.avif" /></a>
+                                    <a href="http://niños.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/12.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/12.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                                 <div className="item">
-                                <a href="http://libros.2meta.digital/" target="_blank"><img alt="" className="img-fluid" loading="lazy" src="/assets/images/app_landing2/screenshot/13.avif" /></a>
+                                    <a href="http://libros.2meta.digital/" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing2/screenshot/13.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing2/screenshot/13.jpg" alt="" />
+                                        </picture>
+                                    </a>
                                 </div>
                             </Slider>
                         </div>

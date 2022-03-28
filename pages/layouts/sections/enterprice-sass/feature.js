@@ -22,8 +22,10 @@ const Feature = () => (
                 <Col xl="8" md="7">
                     <div className="center-text justify-content-center">
                         <div className="image-container">
-                            <img alt="" className="img-fluid advance-feature-img" loading="lazy"
-                                src="/assets/images/saas2/advance-feature/02.avif" />
+                            <picture>
+                                <source srcSet="/assets/images/saas2/advance-feature/02.avif" type="image/avif" />
+                                <img className="img-fluid advance-feature-img" decoding="async" loading="lazy" src="/assets/images/saas2/advance-feature/02.png" alt="" />
+                            </picture>
                         </div>
                     </div>
                 </Col>
