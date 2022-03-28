@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Nav from './nav'
+//import Nav from './nav'
 import Link from 'next/link'
 import { Container, Row, Col } from 'reactstrap'
 
@@ -16,11 +16,11 @@ const Header = props => {
     const logo = {
         maxWidth: '30vw',
         height: 'auto',
-        minWidth: '200px',
+        minWidth: '250px',
     }
 
     return (
-        <header className={`${props.className || 'app2'} loding-header nav-abs custom-scroll  `}>
+        <header style={{border:0}} className={`${props.className || 'app2'} loding-header nav-abs custom-scroll  `}>
             <Container>
                 <Row>
                     <Col>
@@ -44,7 +44,7 @@ const Header = props => {
                                                     props.className == 'saas1' ?
                                                         <img alt="" className="img-fluid" src="/assets/images/logo/logo4neg.png" />
 
-                                                        : <img alt="" className="img-fluid" src="/assets/images/logo/logo4neg.png" />
+                                                        : <img alt="" style={logo} src="/assets/images/logo/logo4neg.png" />
                                 }
                             </a>
                             {/*<div className="responsive-btn">
