@@ -1,6 +1,9 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import {Container,Row,Col} from 'reactstrap'
+import Image from 'next/image';
+
+
 const Business = () => (
     <section className="saas2 bg-gradient quick-sol" id="beneficios">
         <Container className="set-center-div">
@@ -40,7 +43,14 @@ const Business = () => (
                     </div>
                 </Col>
                 <Col lg="6" sm="6" className='m-auto'>
-                    <img alt="" className="img-fluid m-t-20" style={{maxHeight:700}} loading="lazy" src="/assets/images/saas2/beneficios2.webp" />
+                    <img alt="beneficios de una web profesional movil 2metadigital confianza clientes valor" 
+                    className="img-fluid m-t-20"
+                    layout='fill'
+                    objectFit='contain'
+                    style={{maxHeight:700}} 
+                    src="/assets/images/saas2/beneficios2.webp" 
+                    placeholder="blur"
+                    blurDataURL="/assets/images/saas2/beneficios2.webp"/>
                 </Col>
             </Row>
         </Container>

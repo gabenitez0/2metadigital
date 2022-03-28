@@ -1,5 +1,6 @@
 import React from 'react';
-import {Container,Row,Col} from 'reactstrap'
+import {Container,Row,Col} from 'reactstrap';
+
 const Banner = ({link}) => {
     const scrollToRef = (val) => {
         document.querySelector(`#${val}`).scrollIntoView({behavior: 'smooth' });
@@ -36,7 +37,12 @@ const Banner = ({link}) => {
                             </div>
                         </Col>
                         <div className="center-text set-abs" style={{right:'-6%', zIndex: 1}}>
-                            <img alt="" className="img-fluid img-dextop" style={{maxHeight:'90vh', minHeight:'85vh'}} src="/assets/images/saas2/header.webp" />
+                            <img alt="mockup header celular con web institucional alto impacto 2metadigital"
+                            className="img-fluid img-dextop"
+                            style={{maxHeight:'90vh', minHeight:'85vh'}}
+                            src="/assets/images/saas2/header.webp"
+                            data-aos="fade-left"
+                            />
                         </div>
                     </Row>
                 </Container>

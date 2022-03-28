@@ -108,7 +108,7 @@ const Footer = () => (
                                     Saenz Peña, Buenos Aires, Argentina
                                 </li>
                                 <li>
-                                    <i aria-hidden="true" className="fa fa-phone m-r-15"></i>(+54) 1133226655
+                                    <i aria-hidden="true" className="fa fa-phone m-r-15"></i>(+54) 1122505698
                                 </li>
                                 <li><i aria-hidden="true" className="fa fa-envelope m-r-15"></i>gabriel@2meta.digital
                                 </li>
