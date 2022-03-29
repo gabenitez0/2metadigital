@@ -28,8 +28,6 @@ const App1 = () => {
     document.body.style.setProperty('--dark', '#4E56F3')
   })
 
-
-
   return (
     <div>
       <Header className="app1" />
