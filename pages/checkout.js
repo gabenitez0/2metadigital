@@ -38,7 +38,7 @@ const Checkout = () => {
         {
             type: "facebook_ad",
             values: {
-                "pixel_id": '1038198026550249'
+                "pixel_id": '2811703585759192'
             }
         }
     ],

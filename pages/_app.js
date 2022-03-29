@@ -64,7 +64,7 @@ function MyFunctionComponent({ children }) {
 
   useEffect(async () => {
     const { default: ReactPixel } = await import('react-facebook-pixel');
-    ReactPixel.init(1038198026550249, null, {
+    ReactPixel.init(2811703585759192, null, {
         autoConfig: true,
         debug: true,
       });
