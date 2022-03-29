@@ -19,7 +19,7 @@ const Home = () => {
           <meta property="og:image" content="/meta1.png" />
           <meta name="keywords" content="agencia digital, programación, diseño web, diseño gráfico, desarrollo web, copywriting, marketing, agencia, ecommerce, e-commerce, tienda online, landing page, página de aterrizaje, tienda digital, tiendanube, shopify, wix"/>
 
-          <meta name="robots" content="index"/>
+          <meta name="robots" content="noindex"/>
       </Head>
 
       <Agency />
