@@ -2,10 +2,9 @@ import React, { Fragment } from 'react'
 import Head from 'next/head'
 // import Custom Components
 //import EnterpriseSass from '../pages/layouts/enterprice-sass'
-import Servicios from './layouts/app1'
+import Servicios from './layouts/app1';
 
 const Home = () => {
-
   return (
     <Fragment>
       <Head>

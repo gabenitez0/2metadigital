@@ -13,6 +13,7 @@ import Historia from './sections/index/historia'
 import FooterSection from './sections/index/footer'
 
 
+
 const App1 = () => {
   const router = useRouter();
   const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "541122505698";
@@ -27,11 +28,13 @@ const App1 = () => {
     document.body.style.setProperty('--dark', '#4E56F3')
   })
 
+
+
   return (
     <div>
       <Header className="app1" />
 
-      <BannerSection link={link}/>
+      <BannerSection link={link} />
 
       <ServicesSection />
 

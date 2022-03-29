@@ -40,12 +40,12 @@ const CTA = ({link, mon}) => {
                     </div>
                 </Col>
                 <Col md="10" className="offset-md-1 text-center">
-                    <a className="btn btn-default btn-white" href={link} target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
+                    <a className="btn btn-default btn-white" href={link} target="_blank" onClick={() => fbq('track', 'Lead')}>Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                 </Col>
             </Row>
         </Container>
         </section>
-        <a style={wpp} href={link} target="_blank">
+        <a style={wpp} href={link} target="_blank" onClick={() => fbq('track', 'Lead')}>
             <i aria-hidden="true" className="fa fa-whatsapp p-10"></i>
         </a>
         <style jsx>{`

@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Container,Row,Col} from 'reactstrap';
-import Image from 'next/image'
+import Image from 'next/image';
+import Script from 'next/script'
+
 
 const Banner = ({link}) => {
-    
-    return (
 
+    return (
+    
     <section className="app1 header" id="home">
         <div className="app1-header bg">
             <Container>
@@ -22,7 +24,7 @@ const Banner = ({link}) => {
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default btn-white" href={link} target="_blank">Contactar ahora</a>
+                                            <a className="btn btn-default btn-white" href={link} onClick={() => fbq('track', 'Lead')} target="_blank">Contactar ahora</a>
                                         </li>
                                         <li>
                                             <a className="btn btn-default primary-btn transparent" href="#beneficios">más info</a>
