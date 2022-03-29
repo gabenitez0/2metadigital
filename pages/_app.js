@@ -70,6 +70,8 @@ function MyFunctionComponent({ children }) {
       });
     ReactPixel.pageView();
     ReactPixel.track("ViewContent")
+    ReactPixel.track("Lead")
+    ReactPixel.track("Contact")
   }, []);
 
   return (
