@@ -53,6 +53,9 @@ const Banner = ({link}) => {
             .btnBig {
                 display: block;
                 max-width: 300px;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: calc(13.5px + 3 * (100vw - 300px) / 1620);
             }
             @media only screen and (max-width: 767px){
                 .btnBig {
