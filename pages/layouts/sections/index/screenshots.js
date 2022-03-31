@@ -50,7 +50,7 @@ const ScreenShots = () => {
                     <Col md="10" className="offset-md-1 m-b-10">
                         <div className="title title1">
                             <div className="main-title">
-                                <h2 className="text-white">Conocé Algunos De Nuestros Trabajos</h2>
+                                <h2 className="text-white">Plantillas de alta calidad</h2>
                             </div>
                             <div className="sub-title">
                                 <p className="text-white para">Te invitamos a ver la calidad de nuestros trabajos y lo que podemos hacer por vos.</p>

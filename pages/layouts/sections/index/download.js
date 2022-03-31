@@ -59,13 +59,13 @@ const Download = () => {
                                     </div>
                                 </div>
                                 <div className="information" data-aos="fade-left" data-aos-delay="200">
-                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>1.</i> <b>Todos nuestros diseños son de Calidad Profesional y Alto Impacto</b>: <u>lo que genera mayor Atención, mayor Confianza y mayor Conversión.</u> <a href="#proyectos" style={link}>Ver Diseños →</a></p>
+                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>1.</i> <b>Todos nuestros diseños son de Calidad Profesional y Alto Impacto</b>: lo que genera mayor Atención, mayor Confianza y mayor Conversión. <a href="#proyectos" style={link}>Ver Diseños →</a></p>
                                     <p style={{margin: '0 0 30px'}}><i style={icon1}>2.</i> <b>Seleccionamos un diseño exclusivo</b> 100% adaptado a tu producto o servicio específico.</p>
                                     <p style={{margin: '0 0 30px'}}><i style={icon1}>3.</i> <b>Nuestros servicios incluyen Soporte Técnico y Asesoramiento de Valor</b> para solucionar cualquier falla y resolver cualquier duda.</p>
                                     <div>
                                         <h6 className="font-primary m-b-25 text-uppercase"><span><b>PLUS! ► No pierdas tiempo:</b> <br/><u>Hacemos todo esto por vos!</u></span></h6>
                                     </div>
-                                    <a className="btn btn-default btn-gradient mt-4" href="#contacto">Me interesa</a>
+                                    <a className="btn btn-default btn-gradient mt-4 btnBig" href="#contacto">Me interesa</a>
                                 </div>
                             </div>
                         </div>

@@ -1,13 +1,10 @@
 import React, {useEffect} from 'react'
 import {Container,Row,Col} from 'reactstrap';
 import Image from 'next/image';
-import Script from 'next/script'
-
 
 const Banner = ({link}) => {
 
     return (
-    
     <section className="app1 header" id="home">
         <div className="app1-header bg">
             <Container>
@@ -21,16 +18,7 @@ const Banner = ({link}) => {
                                 <div className="header-sub-text">
                                     <p className="text-white p-light">Permití a tus potenciales clientes conocer mejor tu producto o servicio con una web de alta calidad y textos persuasivos para ayudarlos a tomar la decisión de compra e <b style={{fontWeight:600}}>incrementar tus ventas</b>.</p>
                                 </div>
-                                <div className="link-horizontal">
-                                    <ul>
-                                        <li>
-                                            <a className="btn btn-default btn-white" href={link} onClick={() => fbq('track', 'Lead')} target="_blank">Contactar ahora</a>
-                                        </li>
-                                        <li>
-                                            <a className="btn btn-default primary-btn transparent" href="#beneficios">más info</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                    <a className="btn btn-default btn-white btnBig" href={link} onClick={() => fbq('track', 'Lead')} target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                             </div>
                         </div>
                     </Col>
@@ -61,6 +49,22 @@ const Banner = ({link}) => {
                 </Row>
             </Container>
         </div>
+        <style jsx global>{`
+            .btnBig {
+                display: block;
+                max-width: 300px;
+            }
+            @media only screen and (max-width: 767px){
+                .btnBig {
+                    margin: auto;
+                }
+            }
+            @media only screen and (max-width: 500px){
+                .btnBig {
+                    max-width: none;
+                }
+            }
+        `}</style>
     </section>
 )
 }

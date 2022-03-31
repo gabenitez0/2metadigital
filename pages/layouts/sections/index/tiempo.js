@@ -12,7 +12,7 @@ const Price = () => (
                 <Col md="10"  className="offset-md-1">
                     <div className="title" data-aos="fade-right" data-aos-delay="200">
                         <div className="main-title">
-                            <h2 style={{lineHeight:1.2}}><b><u>Imaginá los beneficios de este salto de calidad para tu negocio...</u></b></h2>
+                            <h2 style={{lineHeight:1.2}}><b>Imaginá los beneficios de este salto de calidad para tu negocio...</b></h2>
                         </div>
                         <div className="sub-title">
                             <ul className="sub-title-para">
@@ -28,7 +28,7 @@ const Price = () => (
                     </div>
                     <div className="title" data-aos="fade-left" data-aos-delay="200">
                         <div className="main-title">
-                            <h2><b><u>Tu proyecto nos importa:</u></b></h2>
+                            <h2><b>Tu proyecto nos importa:</b></h2>
                         </div>
                         <div className="sub-title">
                             <p className="sub-title-para"><b>Para conseguir los resultados que ofrecemos en esta página, hacemos una investigación de mercado de tu proyecto y análisis de tu producto o servicio, de esta forma nosotros podemos comprender el valor y el factor diferencial del mismo y presentarlo de una manera profesional y enfocada a resultados!</b></p>
@@ -36,10 +36,10 @@ const Price = () => (
                     </div>
                     <div className="title" data-aos="fade-right" data-aos-delay="200">
                         <div className="main-title">
-                            <h2><b><u>Vos nos importas:</u></b></h2>
+                            <h2><b>Vos nos importas:</b></h2>
                         </div>
                         <div className="sub-title">
-                            <p className="sub-title-para"><b><u>Como emprendedores comprendemos perfectamente lo valioso de tu tiempo</u>, es por eso que solo te vamos a sacar lo justo y necesario para hacer nuestro trabajo, de todo el resto nos encargamos nosotros!</b></p>
+                            <p className="sub-title-para"><b>Como emprendedores comprendemos perfectamente lo valioso de tu tiempo, es por eso que solo te vamos a sacar lo justo y necesario para hacer nuestro trabajo, de todo el resto nos encargamos nosotros!</b></p>
                         </div>
                     </div>
                 </Col>

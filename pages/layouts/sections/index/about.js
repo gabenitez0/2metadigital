@@ -30,7 +30,7 @@ return (
                             <div className="d-flex">
                                 <i aria-hidden="true" style={icon1} className="fa fa-check-circle"></i>
                                 <div>
-                                    <h4 className="offer-main-text text-white m-b-15"><b style={{fontWeight:600}}><u>Transmite confianza y seguridad</u></b></h4>
+                                    <h4 className="offer-main-text text-white m-b-15"><b style={{fontWeight:600}}>Transmite confianza y seguridad</b></h4>
                                     <p className="offer-sub-text text-white">La calidad transmite confianza y profesionalismo, y un cliente potencial que no confía en una página es un cliente perdido y simplemente se va a buscar otra opción de la competencia.</p>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ return (
                             <div className="d-flex">
                                 <i aria-hidden="true" style={icon1} className="fa fa-check-circle"></i>
                                 <div>
-                                    <h4 className="offer-main-text text-white m-b-15"><b style={{fontWeight:600}}><u>Incrementa y Consolida tus clientes</u></b></h4>
+                                    <h4 className="offer-main-text text-white m-b-15"><b style={{fontWeight:600}}>Incrementa y Consolida tus clientes</b></h4>
                                     <p className="offer-sub-text text-white">Una página web con un diseño profesional llama mucho más la atención, y sumado a textos persuasivos precisos consigue que realmente seas una competencia y te tomen en cuenta.</p>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ return (
                             <div className="d-flex">
                                 <i aria-hidden="true" style={icon1} className="fa fa-check-circle"></i>
                                 <div>
-                                    <h4 className="offer-main-text text-white m-b-15"><b style={{fontWeight:600}}><u>Transmite el valor real de tu producto</u></b></h4>
+                                    <h4 className="offer-main-text text-white m-b-15"><b style={{fontWeight:600}}>Transmite el valor real de tu producto</b></h4>
                                     <p className="offer-sub-text text-white">Hacemos las páginas web enfocadas a demostrar el valor de tu producto o servicio para que tus potenciales clientes te elijan.</p>
                                 </div>
                             </div>
