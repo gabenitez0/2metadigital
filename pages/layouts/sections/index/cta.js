@@ -31,16 +31,15 @@ const CTA = ({link, mon}) => {
                 <Col md="10" className="offset-md-1">
                     <div className="title mb-4">
                         <div className="main-title">
-                            <h2 className="text-white mb-4" style={{lineHeight:'1.5'}}><b><u>Vendé tus productos o servicios con una página web profesional ahora!</u></b> precios desde {mon}</h2>
-                            <p className="text-white mb-3" style={{lineHeight:'1.5'}}>Empecemos a generar impacto a tus clientes en tiempo record y sin que malgastes el tuyo.</p>
-                            <p className="text-white" style={{lineHeight:'1.5'}}>Podemos hablar por chat o agendar una llamada para sacarte de todo tipo de dudas y ayudarte a tomar la mejor decisión.</p>
-                        </div>
-                        <div className="">
+                            <h2 className="text-white mb-4" style={{lineHeight:'1.5'}}><b><u>Diseño Web De Alto Impacto + Redacción Publicitaria: La Combinación Exacta!</u></b></h2>
+                            <p className="text-white mb-3" style={{lineHeight:'1.5'}}>Permití a tus potenciales clientes conocer el VALOR de tu producto o servicio con una web de alta calidad y textos persuasivos para ayudarlos a tomar la decisión de compra e <b style={{fontWeight:600}}>incrementar tus ventas</b>.</p>
+                            <h3 className="text-white" style={{lineHeight:'1.5'}}>Precios Promocionales desde {mon} en 2 pagos<b> (40% OFF)</b> </h3>
+                            <h3 className="text-white mb-4" style={{lineHeight:'1.5'}}><u>Solo primeros 30 clientes</u> </h3>
                         </div>
                     </div>
                 </Col>
                 <Col md="10" className="offset-md-1 text-center">
-                    <a className="btn btn-default btn-white btnBig mt-2" href={link} target="_blank" onClick={() => fbq('track', 'Lead')}>Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
+                    <a className="btn btn-default btn-white btnBig mt-2" href={link} target="_blank" onClick={() => fbq('track', 'Lead')}>Quiero aprovechar esta oportunidad <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                 </Col>
             </Row>
         </Container>

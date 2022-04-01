@@ -18,7 +18,7 @@ const Banner = ({link}) => {
                                 <div className="header-sub-text">
                                     <p className="text-white p-light">Permití a tus potenciales clientes conocer mejor tu producto o servicio con una web de alta calidad y textos persuasivos para ayudarlos a tomar la decisión de compra e <b style={{fontWeight:600}}>incrementar tus ventas</b>.</p>
                                 </div>
-                                    <a className="btn btn-default btn-white btnBig" href={link} onClick={() => fbq('track', 'Lead')} target="_blank">Contactar ahora <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
+                                    <a className="btn btn-default btn-white btnBig" href={link} onClick={() => fbq('track', 'Lead')} target="_blank">Quiero contactarme <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                             </div>
                         </div>
                     </Col>
