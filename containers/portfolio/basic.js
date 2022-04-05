@@ -32,7 +32,7 @@ const Basic = ({ className, title, subTitle, fluid }) => {
     const [portfolioData, setPortfolioData] = useState([]);
     useEffect(() => {
         async function PortfolioData() {
-        const res = await fetch('https://api.2meta.digital//api/portfolios?populate=%2A');
+        const res = await fetch('https://api.2meta.digital/api/portfolios?populate=%2A');
         const data = await res.json();
         setPortfolioData(data.data)
         }
