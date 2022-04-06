@@ -77,9 +77,14 @@ const Checkout = () => {
             <h1 className="m-0 mb-2" style={{color: "var(--secondary)"}}><b>Checkout</b></h1>
             <p className="mb-3" style={line}>Elige el medio de pago de tu preferencia.</p>
             <p className="" style={line}>Facturación para: <Badge color="primary">{presupuesto.cliente}</Badge></p>
-            <p className="" style={line}><b>Dos pagos de:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total/2)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge></p>
-            <p className="" style={line}><b>Primer Pago:</b> {presupuesto.primerpago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</p>
+            {presupuesto.dospagos ? [
+            <p className="" style={line}><b>Dos pagos de:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total/2)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge></p>,
+            <p className="" style={line}><b>Primer Pago:</b> {presupuesto.primerpago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</p>,
             <p className=""><b>Segundo Pago:</b> {presupuesto.segundopago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</p>
+            ] : [
+            <p className="" style={line}><b>Un pago de:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge></p>,
+            <p className="" style={line}><b>Estado del Pago:</b> {presupuesto.primerpago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</p>
+            ]}
           </Col>
         </Container>
       </div>
@@ -103,7 +108,7 @@ const Checkout = () => {
           <ModalBody>
             <h5>Enviar el pago al siguiente CBU:</h5>
             <p className='mt-2'><b>CBU:</b> <Badge color="primary">1430001713004964240016</Badge></p>
-            <p className='mt-2'><b>Monto:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total/2*0.95)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge> <Badge color="success">5% OFF</Badge></p>
+            <p className='mt-2'><b>Monto:</b> <Badge color="success">${presupuesto.dospagos ? presupuesto.precio && presupuesto.precio.map(p => p.total/2*0.95) : presupuesto.precio && presupuesto.precio.map(p => p.total*0.95)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge> <Badge color="success">5% OFF</Badge></p>
             <p className='mt-2 mb-1'>Tu pago se verificará y se actualizará el Estado de Pago automáticamente.</p>
           </ModalBody>
         </Modal>

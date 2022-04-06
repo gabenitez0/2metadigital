@@ -3,6 +3,7 @@ import Head from 'next/head'
 import {Container, Col, Table, Badge, Spinner} from 'reactstrap';
 import { useRouter } from "next/router";
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 
 const Presupuesto = () => {
   const footer = {
@@ -100,7 +101,7 @@ const Presupuesto = () => {
               <tr key={i}>
                 <th scope="row" className='table' style={{minWidth: 220}}>
                   {p.servicio}
-                  <p className='pt-3' style={{fontSize: "calc(12px + 1 * (100vw - 300px) / 1620)"}}>{p.desc}</p>
+                  <ReactMarkdown children={p.desc}/>
                 </th>
                 <td className='text-right table' style={{minWidth: 120, verticalAlign: 'middle'}}>
                   ${p.precio} {presupuesto.pais === "ar" ? "ARS" : "USD"}
@@ -118,24 +119,26 @@ const Presupuesto = () => {
               </th>
               <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle'}}>${presupuesto.precio && presupuesto.precio.map(p => p.subtotal)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
             </tr>
+            {presupuesto.precio && presupuesto.precio.map(p => p.motivo) != "" && 
             <tr>
               <th className='' style={{fontWeight: 400}}>
                 {presupuesto.precio && presupuesto.precio.map(p => p.motivo)}
               </th>
               <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle'}}>${presupuesto.precio && presupuesto.precio.map(p => p.descuento)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
-            </tr>
+            </tr>}
             <tr style={{borderBottom: "1px solid var(--secondary)"}}>
               <th style={{fontWeight: 600, fontSize: 15}}>
               Total
               </th>
               <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle', fontWeight: 600, fontSize: 15}}>${presupuesto.precio && presupuesto.precio.map(p => p.total)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
             </tr>
+            {presupuesto.dospagos &&
             <tr style={{borderBottom: "1px solid var(--secondary)"}}>
               <th style={{fontWeight: 600, fontSize: 15}}>
               En 2 Pagos de
               </th>
               <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle', fontWeight: 600, fontSize: 15}}>${presupuesto.precio && presupuesto.precio.map(p => p.total/2)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
-            </tr>
+            </tr>}
           </Table>
           </Col>
           <Col lg="8" className='offset-lg-2'>
@@ -149,7 +152,7 @@ const Presupuesto = () => {
               <h6><b>Aclaraciones de compra:</b></h6>
               <p className="pt-3"><b>1.</b> <u>El pago se realiza en 2 partes</u>: Se abona el 50% para iniciar con el proyecto, y el otro 50% cuando el proyecto está completado.</p>
               <p className="pt-3"><b>2.</b> <u>Moneda Seleccionada</u>: {presupuesto.pais === "ar" ? "Pesos Argentinos" : "Dólares Estadounidenses"}.</p>
-              <p className="pt-3"><b>3.</b> Si tu presupuesto incluye <u>Mantenimiento Web</u>, debes tener en cuenta que este monto se paga mensualmente.</p>
+              <p className="pt-3"><b>3.</b> <u>Mantenimiento Web</u>: debes tener en cuenta que este monto se paga mensualmente.</p>
             </div>
           </Col>
         </Container>
@@ -169,8 +172,26 @@ const Presupuesto = () => {
           vertical-align: top;
           margin-left: 2px
         }
-        .badge-warning {
-        }`}
+        ul{
+          padding-left: 1rem;
+          list-style-type: initial;
+        }
+        ul li{
+          font-weight: 400;
+          font-size: calc(13px + (1 * (100vw - 300px)) / 1620);
+          color: var(--secondary);
+        }
+        p{
+          line-height: 1.5;
+          padding-bottom: 5px;
+          padding-top: 20px;
+          font-weight: 500;
+        }
+        h1, h2, h3, h4, p{
+          color: var(--secondary);
+          line-height: 1.5;
+        }
+        `}
       </style>
       <style jsx>{`
         .nav{
@@ -229,9 +250,6 @@ const Presupuesto = () => {
           background: mediumseagreen;
           color: white;
           padding: .75rem 1.5rem;
-        }
-        h2{
-          color: var(--secondary);
         }
         .table{
           background: #f3f3f3;
