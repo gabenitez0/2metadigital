@@ -37,8 +37,8 @@ const Checkout = () => {
   const [open, setOpen] = useState(false);
 
   const paypal = presupuesto.pais === "ar"
-    ? `https://paypal.me/2metadigital/${presupuesto.precio && presupuesto.precio.map(p => p.total/2/200)}`
-    : `https://paypal.me/2metadigital/${presupuesto.precio && presupuesto.precio.map(p => p.total/2)}`;
+    ? `https://paypal.me/2metadigital/${presupuesto.precio && presupuesto.precio.map(p => presupuesto.dospagos ? p.total/2/200 : p.total/200)}`
+    : `https://paypal.me/2metadigital/${presupuesto.precio && presupuesto.precio.map(p => presupuesto.dospagos ? p.total/2 : p.total)}`;
 
   const mp = presupuesto.mp;
 
