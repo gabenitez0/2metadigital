@@ -152,8 +152,8 @@ const Presupuesto = () => {
               <h6><b>Aclaraciones de compra:</b></h6>
               <p className="pt-3"><b>1.</b> <u>Moneda Seleccionada</u>: {presupuesto.pais === "ar" ? "Pesos Argentinos" : "Dólares Estadounidenses"}.</p>
               <p className="pt-3"><b>2.</b> <u>Desarrollo Web</u>: el pago se realiza en 2 partes, se abona el 50% para iniciar con el proyecto, y el otro 50% cuando el proyecto está completado.</p>
-              <p className="pt-3"><b>3.</b> <u>Mantenimiento Web</u>: el pago se realiza mensualmente.</p>
-              <p className="pt-3"><b>4.</b> <u>Campaña de Anuncios</u>: se realiza en un solo pago.</p>
+              <p className="pt-3"><b>3.</b> <u>Mantenimiento Web</u>: el pago se realiza mensualmente o anualmente.</p>
+              <p className="pt-3"><b>4.</b> <u>Campaña de Anuncios</u>: se realiza en un solo pago y no incluye presupuesto de inversión.</p>
             </div>
           </Col>
         </Container>
