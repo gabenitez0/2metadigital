@@ -8,7 +8,7 @@ const Checkout = () => {
 
   const line = {
     lineHeight: 1.5,
-    paddingBottom: 15,
+    paddingTop: 15,
   }
   const footer = {
     background: 'var(--secondary)',
@@ -36,8 +36,11 @@ const Checkout = () => {
   
   const [open, setOpen] = useState(false);
 
-  const paypal = presupuesto.pais === "ar"
+  const paypal = 
+    presupuesto.pais === "ar"
     ? `https://paypal.me/2metadigital/${presupuesto.precio && presupuesto.precio.map(p => presupuesto.dospagos ? p.total/2/200 : p.total/200)}`
+    : presupuesto.pais === "mx"
+    ? `https://paypal.me/2metadigital/${presupuesto.precio && presupuesto.precio.map(p => presupuesto.dospagos ? p.total/2/20 : p.total/20)}`
     : `https://paypal.me/2metadigital/${presupuesto.precio && presupuesto.precio.map(p => presupuesto.dospagos ? p.total/2 : p.total)}`;
 
   const mp = presupuesto.mp;
@@ -61,7 +64,7 @@ const Checkout = () => {
           <Col lg="8" className='offset-lg-2 d-flex align-items-center justify-content-between flex-wrap'>
             <div className='d-flex align-items-center pr-3'>
               <img src="/fav6.png" />
-              <h6 className="pl-2">2metadigital</h6>
+              <h6 className="pl-2">2MetaDigital</h6>
             </div>
             <div className="pt-2 pb-2">
               <h6>Pago: {
@@ -78,11 +81,11 @@ const Checkout = () => {
             <p className="mb-3" style={line}>Elige el medio de pago de tu preferencia.</p>
             <p className="" style={line}>Facturación para: <Badge color="primary">{presupuesto.cliente}</Badge></p>
             {presupuesto.dospagos ? [
-            <p className="" style={line}><b>Dos pagos de:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total/2)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge></p>,
+            <p className="" style={line}><b>Dos pagos de:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total/2)} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}</Badge></p>,
             <p className="" style={line}><b>Primer Pago:</b> {presupuesto.primerpago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</p>,
             <p className=""><b>Segundo Pago:</b> {presupuesto.segundopago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</p>
             ] : [
-            <p className="" style={line}><b>Un pago de:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge></p>,
+            <p className="" style={line}><b>Un pago de:</b> <Badge color="success">${presupuesto.precio && presupuesto.precio.map(p => p.total)} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}</Badge></p>,
             <p className="" style={line}><b>Estado del Pago:</b> {presupuesto.primerpago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</p>
             ]}
           </Col>
@@ -91,14 +94,15 @@ const Checkout = () => {
       <div className='text-center'>
         <Container>
           <Col lg="8" className='offset-lg-2'>
-            <h2 className='mt-5'>Selecciona un medio de pago</h2>
+            <h2 className='mt-5 mb-4'>Selecciona un medio de pago</h2>
             {presupuesto.pais === "ar" && [
             <a onClick={() => setOpen(true)} className='btnBig mt-4 ml-auto mr-auto' style={{background:""}}>Transferencia Bancaria (5% OFF)</a>,
             <a href={mp} target="_blank" className='btnBig mt-3 ml-auto mr-auto' style={{background:"#009ee3"}}>MercadoPago</a>
             ]}
-            <a href={paypal} target="_blank" className='btnBig mt-3 ml-auto mr-auto' style={{background:"#005ea6"}}>Paypal</a>
-            <p className='mt-3'>Próximamente:</p>
-            <a className='btnBig mt-1 ml-auto mr-auto' style={{background:"orange"}}>Criptomonedas (5% OFF)</a>
+            <p className='mt-3'>Tarjetas de crédito y débito:</p>
+            <a href={paypal} target="_blank" className='btnBig mt-1 ml-auto mr-auto' style={{background:"#005ea6"}}>Paypal</a>
+            <p className='mt-3'>Criptomonedas:</p>
+            <a className='btnBig mt-1 ml-auto mr-auto' style={{background:"orange"}}>Próximamente (5% OFF)</a>
           </Col>
         </Container>
         <Modal centered isOpen={open} toggle={() => setOpen(false)}>
@@ -108,17 +112,27 @@ const Checkout = () => {
           <ModalBody>
             <h5>Enviar el pago al siguiente CBU:</h5>
             <p className='mt-2'><b>CBU:</b> <Badge color="primary">1430001713004964240016</Badge></p>
-            <p className='mt-2'><b>Monto:</b> <Badge color="success">${presupuesto.dospagos ? presupuesto.precio && presupuesto.precio.map(p => p.total/2*0.95) : presupuesto.precio && presupuesto.precio.map(p => p.total*0.95)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</Badge> <Badge color="success">5% OFF</Badge></p>
+            <p className='mt-2'><b>Monto:</b> <Badge color="success">${presupuesto.dospagos ? presupuesto.precio && presupuesto.precio.map(p => p.total/2*0.95) : presupuesto.precio && presupuesto.precio.map(p => p.total*0.95)} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}</Badge> <Badge color="success">5% OFF</Badge></p>
             <p className='mt-2 mb-1'>Tu pago se verificará y se actualizará el Estado de Pago automáticamente.</p>
           </ModalBody>
         </Modal>
       </div>
-      <div className="mt-5 pt-2 pb-2 text-center" style={footer}>
+      <div className="mt-5 pt-4 pb-3 footer">
         <Container>
-          <Col lg="8" className='offset-lg-2'>
-            <Link href={urlpresupuesto}><a className='text-white' style={{fontWeight:300}}><u>Volver a ver presupuesto</u></a></Link>
-            <span className="text-white d-block">Copyright 2022 - 2MetaDigital</span>
-          </Col>
+          <Row lg="8" className='offset-lg-2'>
+            <Col>
+              <a href="https://2meta.digital" target="_blank"><u>2MetaDigital</u></a>
+              <span>Buenos Aires, Argentina</span>
+              <span><a href="mailto:gabriel@2meta.digital">gabriel@2meta.digital</a></span>
+              <span><a href="https://web.whatsapp.com/send/?phone=541122505698" target="_blank">+54 11 2250-5698</a></span>
+            </Col>
+            <Col>
+              <Link href={urlpresupuesto}><a><u>Volver al presupuesto</u></a></Link>
+              <span>Copyright © 2022</span>
+              <span>Derechos reservados</span>
+              <span>2MetaDigital</span>
+            </Col>
+          </Row>
         </Container>
       </div>
       <style jsx global>{`
@@ -132,6 +146,16 @@ const Checkout = () => {
         }`}
       </style>
       <style jsx>{`
+        .footer{
+          background: var(--secondary);
+          font-weight: 300;
+          color: white;
+        }
+        .footer a, .footer span{
+          display: block;
+          color: white;
+          font-weight: 300;
+        }
         h2, h3, h4{
           color: var(--secondary)
         }

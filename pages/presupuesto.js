@@ -1,18 +1,14 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import Head from 'next/head'
-import {Container, Col, Table, Badge, Spinner} from 'reactstrap';
+import {Container, Col, Row, Table, Badge, Spinner} from 'reactstrap';
 import { useRouter } from "next/router";
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 
 const Presupuesto = () => {
-  const footer = {
-    background: 'var(--secondary)',
-    textAlign: 'center'
-  }
   const line = {
     lineHeight: 1.5,
-    paddingTop: 15,
+    paddingTop: 10,
   }
   
   const router = useRouter();
@@ -63,7 +59,7 @@ const Presupuesto = () => {
           <Col lg="8" className='offset-lg-2 d-flex align-items-center justify-content-between flex-wrap'>
             <div className='d-flex align-items-center pr-3'>
               <img src="/fav6.png" />
-              <h6 className="pl-2">2metadigital</h6>
+              <h6 className="pl-2">2MetaDigital</h6>
             </div>
             <div className="pt-2 pb-2">
               <h6>Pago: {presupuesto.primerpago & presupuesto.segundopago === true ? <Badge color="success">Completado</Badge> : <Badge color="warning">Pendiente <Spinner size="sm">Update</Spinner></Badge>}</h6>
@@ -104,7 +100,7 @@ const Presupuesto = () => {
                   <ReactMarkdown children={p.desc}/>
                 </th>
                 <td className='text-right table' style={{minWidth: 120, verticalAlign: 'middle'}}>
-                  ${p.precio} {presupuesto.pais === "ar" ? "ARS" : "USD"}
+                  ${p.precio} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}
                 </td>
               </tr>
               ))}
@@ -117,27 +113,27 @@ const Presupuesto = () => {
               <th style={{fontWeight: 400}}>
                 Subtotal
               </th>
-              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle'}}>${presupuesto.precio && presupuesto.precio.map(p => p.subtotal)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
+              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle'}}>${presupuesto.precio && presupuesto.precio.map(p => p.subtotal)} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}</td>
             </tr>
             {presupuesto.precio && presupuesto.precio.map(p => p.motivo) != "" && 
             <tr>
               <th className='' style={{fontWeight: 400}}>
                 {presupuesto.precio && presupuesto.precio.map(p => p.motivo)}
               </th>
-              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle'}}>${presupuesto.precio && presupuesto.precio.map(p => p.descuento)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
+              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle'}}>${presupuesto.precio && presupuesto.precio.map(p => p.descuento)} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}</td>
             </tr>}
             <tr style={{borderBottom: "1px solid var(--secondary)"}}>
               <th style={{fontWeight: 600, fontSize: 15}}>
               Total
               </th>
-              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle', fontWeight: 600, fontSize: 15}}>${presupuesto.precio && presupuesto.precio.map(p => p.total)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
+              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle', fontWeight: 600, fontSize: 15}}>${presupuesto.precio && presupuesto.precio.map(p => p.total)} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}</td>
             </tr>
             {presupuesto.dospagos &&
             <tr style={{borderBottom: "1px solid var(--secondary)"}}>
               <th style={{fontWeight: 600, fontSize: 15}}>
               En 2 Pagos de
               </th>
-              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle', fontWeight: 600, fontSize: 15}}>${presupuesto.precio && presupuesto.precio.map(p => p.total/2)} {presupuesto.pais === "ar" ? "ARS" : "USD"}</td>
+              <td className='text-right' style={{minWidth: 120, verticalAlign: 'middle', fontWeight: 600, fontSize: 15}}>${presupuesto.precio && presupuesto.precio.map(p => p.total/2)} {presupuesto.pais === "ar" ? "ARS" : presupuesto.pais === "mx" ? "MXN" : "USD"}</td>
             </tr>}
           </Table>
           </Col>
@@ -149,21 +145,28 @@ const Presupuesto = () => {
           </Col>
           <Col lg="8" className='offset-lg-2'>
             <div className='aclaraciones mt-3'>
-              <h6><b>Aclaraciones de compra:</b></h6>
-              <p className="pt-3"><b>1.</b> <u>Moneda Seleccionada</u>: {presupuesto.pais === "ar" ? "Pesos Argentinos" : "Dólares Estadounidenses"}.</p>
-              <p className="pt-3"><b>2.</b> <u>Desarrollo Web</u>: el pago se realiza en 2 partes, se abona el 50% para iniciar con el proyecto, y el otro 50% cuando el proyecto está completado.</p>
-              <p className="pt-3"><b>3.</b> <u>Mantenimiento Web</u>: el pago se realiza mensualmente o anualmente.</p>
-              <p className="pt-3"><b>4.</b> <u>Campaña de Anuncios</u>: se realiza en un solo pago y no incluye presupuesto de inversión.</p>
+              <h6><b>Condiciones y aclaraciones:</b></h6>
+              <ReactMarkdown className="pt-3" children={presupuesto.condiciones}/>
             </div>
           </Col>
         </Container>
       </div>
-      <div className="mt-5 pt-2 pb-2 text-center" style={footer}>
+      <div className="mt-5 pt-4 pb-3 footer">
         <Container>
-          <Col lg="8" className='offset-lg-2'>
-            <a className='text-white' style={{fontWeight:300}}><u>Imprimir presupuesto</u></a>
-            <span className="text-white d-block">Copyright 2022 - 2MetaDigital</span>
-          </Col>
+          <Row lg="8" className='offset-lg-2'>
+            <Col>
+              <a href="https://2meta.digital" target="_blank"><u>2MetaDigital</u></a>
+              <span>Buenos Aires, Argentina</span>
+              <span><a href="mailto:gabriel@2meta.digital">gabriel@2meta.digital</a></span>
+              <span><a href="https://web.whatsapp.com/send/?phone=541122505698" target="_blank">+54 11 2250-5698</a></span>
+            </Col>
+            <Col>
+              <a onClick={() => print()}><u>Imprimir presupuesto</u></a>
+              <span>Copyright © 2022</span>
+              <span>Derechos reservados</span>
+              <span>2MetaDigital</span>
+            </Col>
+          </Row>
         </Container>
       </div>
       <style jsx global>{`
@@ -173,14 +176,21 @@ const Presupuesto = () => {
           vertical-align: top;
           margin-left: 2px
         }
+        ol{
+          padding-left: 1rem;
+          margin: 0;
+        }
         ul{
           padding-left: 1rem;
           list-style-type: initial;
         }
-        ul li{
+        ul li, ol li{
           font-weight: 400;
           font-size: calc(13px + (1 * (100vw - 300px)) / 1620);
           color: var(--secondary);
+        }
+        ol ::marker, ul ::marker{
+          font-weight: 600;
         }
         p{
           line-height: 1.5;
@@ -195,6 +205,16 @@ const Presupuesto = () => {
         `}
       </style>
       <style jsx>{`
+        .footer{
+          background: var(--secondary);
+          font-weight: 300;
+          color: white;
+        }
+        .footer a, .footer span{
+          display: block;
+          color: white;
+          font-weight: 300;
+        }
         .nav{
           position: fixed;
           top: 0;
