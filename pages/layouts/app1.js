@@ -34,9 +34,9 @@ const App1 = () => {
 
       <BannerSection link={link} />
 
-      <ServicesSection />
+      {/*<ServicesSection />*/}
 
-      <AboutSection />
+      {/*<AboutSection />*/}
 
       <DownloadSection />
 
@@ -46,9 +46,9 @@ const App1 = () => {
 
       <Cta link={link} mon={mon}/>
 
-      <Historia />
+      {/*<Historia />*/}
 
-      <Cta link={link} mon={mon}/>
+      {/*<Cta link={link} mon={mon}/>*/}
 
       <FooterSection />
 
