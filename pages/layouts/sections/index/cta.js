@@ -31,10 +31,9 @@ const CTA = ({link, mon}) => {
                 <Col md="10" className="offset-md-1">
                     <div className="title mb-4">
                         <div className="main-title">
-                            <h2 className="text-white mb-4" style={{lineHeight:'1.5'}}><b><u>Diseño Web De Alto Impacto + Redacción Publicitaria: La Combinación Exacta!</u></b></h2>
-                            <p className="text-white mb-3" style={{lineHeight:'1.5'}}>Permití a tus potenciales clientes conocer el VALOR de tu producto o servicio con una web de alta calidad y textos persuasivos para ayudarlos a tomar la decisión de compra e <b style={{fontWeight:600}}>incrementar tus ventas</b>.</p>
-                            <h3 className="text-white" style={{lineHeight:'1.5'}}>Precios Promocionales desde {mon} en 2 pagos<b> (40% OFF)</b> </h3>
-                            <h3 className="text-white mb-4" style={{lineHeight:'1.5'}}><u>Solo primeros 30 clientes</u> </h3>
+                            <h2 className="text-white mb-4" style={{lineHeight:'1.5'}}><u>¡Empecemos a transformar tu negocio con tu Nueva Página Web Profesional!</u></h2>
+                            <h3 className="text-white mb-3" style={{lineHeight:'1.5', fontWeight:600}}>Tenemos Precios Promocionales y una Propuesta Personalizada para tu negocio Solo para los próximos 10 clientes</h3>
+                            <h4 className="text-white mb-4" style={{lineHeight:'1.5', fontSize: 24, fontWeight:800}}>↓ ¡<u>Contactanos Ahora</u>! ↓</h4>
                         </div>
                     </div>
                 </Col>
