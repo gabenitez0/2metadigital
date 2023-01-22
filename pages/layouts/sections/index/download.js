@@ -55,15 +55,16 @@ const Download = () => {
                                         </div>
                                     </div>
                                     <div className="center-img-content" data-aos="fade-left">
-                                        <h3 className="m-b-40"><b><u>No Pierdas Más Ventas</u> Por Diseños Poco Confiables, Poco Acordes Con Tus Servicios O Fallas Técnicas</b></h3>
+                                        <h2 className="mb-4"><u>No dejes que tu negocio se quede atrás</u></h2>
+                                        <h3 className="m-b-40"><b>Aprovechá las ventajas de una página web profesional y atraé más clientes.</b></h3>
                                     </div>
                                 </div>
                                 <div className="information" data-aos="fade-left" data-aos-delay="200">
-                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>1.</i> <b>Todos nuestros diseños son de Calidad Profesional y Alto Impacto</b>: lo que genera mayor Atención, mayor Confianza y mayor Conversión. <a href="#proyectos" style={link}>Ver Diseños →</a></p>
-                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>2.</i> <b>Seleccionamos un diseño exclusivo</b> 100% adaptado a tu producto o servicio específico.</p>
-                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>3.</i> <b>Nuestros servicios incluyen Soporte Técnico y Asesoramiento de Valor</b> para solucionar cualquier falla y resolver cualquier duda.</p>
+                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>1.</i> <b>Potencia tu Alcance y Ventas:</b> aparece en Google y vende 24/7 de forma automática.</p>
+                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>2.</i> <b>Trabajos de Alta Calidad Profesional:</b> lo que genera más Atracción, más Confianza y más Ventas. <a href="#proyectos" style={link}>Ver Trabajos →</a></p>
+                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>3.</i> <b>Soporte Técnico y Asesoramiento:</b> te resolvemos cualquier duda y solucionamos cualquier problema.</p>
                                     <div>
-                                        <h6 className="font-primary m-b-25 text-uppercase"><span><b>PLUS! ► No pierdas tiempo:</b> <br/><u>Hacemos todo esto por vos!</u></span></h6>
+                                        <h6 className="font-primary mb-5 text-uppercase"><span><b>¡Tu página web profesional en solo 7 días!</b> <br/><u>Para Empresas de servicios y tiendas de productos</u></span></h6>
                                     </div>
                                     <a className="btn btn-default btn-gradient mt-4 btnBig" href="#contacto">Me interesa</a>
                                 </div>
