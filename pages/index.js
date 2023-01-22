@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-          <title>2MetaDigital | Tu Página Web Profesional de Alto Impacto</title>
-          <meta name='description' content='Tu próxima página web te espera. Hacemos tu página web profesional desde $18000 ARS.' />
-          <meta property="og:description" content="Tu próxima página web te espera. Hacemos tu página web profesional desde $18000 ARS." />
+          <title>MetaDigital | Diseño de páginas web profesionales para negocios</title>
+          <meta name='description' content='Diseño y desarrollo de páginas web profesionales para negocios. Sitios web atractivos, optimizados para móviles y para motores de búsqueda. Atrae más clientes y aumenta tus ventas.' />
+          <meta property="og:description" content="Diseño y desarrollo de páginas web profesionales para negocios. Sitios web atractivos, optimizados para móviles y para motores de búsqueda. Atrae más clientes y aumenta tus ventas." />
           
           <link rel="icon" type="image/png" href="/fav5.png" />
           <meta property="og:image" content="/meta5.png" />
