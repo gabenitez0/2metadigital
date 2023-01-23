@@ -5,12 +5,6 @@ const Error = ({ statusCode }) => {
 
     const isErrorPage = true
 
-    useEffect(() => {
-        document.body.style.setProperty('--primary', '#000000')
-        document.body.style.setProperty('--secondary', '#434345')
-        document.body.style.setProperty('--light', '#252525')
-        document.body.style.setProperty('--dark', '#000000')
-    })
 
     return (
         <div className="bg-purple" >
