@@ -1,9 +1,13 @@
 import React from 'react';
 import {Container,Row,Col} from 'reactstrap'
 const link = {
-    color: 'var(--primary)',
+    color: 'var(--tertiary)',
     display: 'block',
     marginTop: 20,
+}
+const logo = {
+    maxWidth: '80%',
+    margin: '40px auto 0',
 }
 const Subscribs = () => (
     <footer className="app1 subscribe bg">
@@ -58,6 +62,7 @@ const Subscribs = () => (
                         </ul>
                     </div>
                 </Col>
+                <img alt="" style={logo} src="/assets/images/logo/logo2-nobg-400.png" />
             </Row>
         </Container>
     </footer>
