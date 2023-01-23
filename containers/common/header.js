@@ -42,9 +42,9 @@ const Header = props => {
                                                     <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
                                                     :
                                                     props.className == 'saas1' ?
-                                                        <img alt="" className="img-fluid" src="/assets/images/logo/logo4neg.png" />
+                                                        <img alt="" className="img-fluid" src="/assets/images/logo/1.png" />
 
-                                                        : <img alt="" style={logo} src="/assets/images/logo/logo4neg.png" />
+                                                        : <img alt="" style={logo} src="/assets/images/logo/logo5.png" />
                                 }
                             </a>
                             {/*<div className="responsive-btn">
