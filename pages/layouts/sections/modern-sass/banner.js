@@ -1,5 +1,8 @@
 import React from 'react';
 import {Container,Row,Col} from 'reactstrap'
+import Image from 'next/image';
+
+
 const Banner = () => (
     <section className="saas1 header" id="home">
         <div className="saas1-header bg header8-content">
@@ -10,24 +13,25 @@ const Banner = () => (
                             <div>
                                 <div className="header-text">
                                     <div className="d-flex">
-                                        <h1><span className="theme-color">P</span>rograma <span
-                                            className="small-text">de </span><span className="theme-color">A</span>filiados</h1>
+                                        <h1>Transformá tu negocio con una <span className="theme-color">Página Web Profesional</span> y atractiva</h1>
                                         <div className="center-content slider-logo">
                                             <img alt="" className="img-fluid" src="/assets/images/saas1/slider-logo.png" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="header-sub-text">
-                                    <h3 className="text-white">¿Eres vendedor? ¿Te dedicas al marketing o publicidad?<span>
-                                        <br/> Genera Ingresos Extra</span> con Nosotros Ahora!</h3>
+                                    <h3 className="text-white">¡Atrae más clientes y aumenta tus ventas hoy!</h3>
                                 </div>
                                 <div className="header-sub-text">
-                                    <h6>Gana desde<span className="theme-color"> $60 USD </span>hasta<span className="theme-color"> +$250 USD </span>por<span className="theme-color"> Cada Venta </span><br/>de cualquiera de nuestros productos y servicios</h6>
+                                    <h6>No pierdas más oportunidades de negocio.
+                                    <br/>Obtené una página web profesional y 
+                                    <span className="theme-color"> ¡destacá entre la competencia!</span><br/>
+                                    </h6>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="btn btn-default primary-btn transparent" href="#como-funciona">¿Cómo funciona?</a>
+                                            <a className="btn btnBig" href="#contacto">Me interesa (contactar)</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -36,7 +40,17 @@ const Banner = () => (
                     </Col>
                     <div>
                         <div className="center-text slider-banner">
-                            <img alt="slid-banner" src="/assets/images/saas1/header.png" className="img-fluid"/>
+                            <Image alt="pagina web profesional metadigital"
+                            data-aos="fade-left"
+                            height={661}
+                            width={450}
+                            layout="fixed"
+                            style={{maxHeight: '100vh'}}
+                            src="/assets/images/app_landing1/header.webp"
+                            quality={100}
+                            placeholder="blur"
+                            blurDataURL="/assets/images/app_landing1/header-blur.png"
+                            />
                         </div>
                     </div>
                 </Row>
