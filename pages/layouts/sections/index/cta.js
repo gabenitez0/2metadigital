@@ -38,7 +38,7 @@ const CTA = ({link, mon}) => {
                     </div>
                 </Col>
                 <Col md="10" className="offset-md-1 text-center">
-                    <a className="btn btn-default btn-white btnBig mt-2" href={link} target="_blank" onClick={() => fbq('track', 'Lead')}>Quiero aprovechar esta oportunidad <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
+                    <a className="btn btnBig mt-2" href={link} target="_blank" onClick={() => fbq('track', 'Lead')}>Quiero aprovechar esta oportunidad <i aria-hidden="true" className="fa fa-whatsapp m-l-5"></i></a>
                 </Col>
             </Row>
         </Container>
@@ -51,6 +51,28 @@ const CTA = ({link, mon}) => {
         p{font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)))}
         .btnBig {
             margin: auto;
+            display: block;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: calc(13.5px + 3 * (100vw - 300px) / 1620);
+            background: var(--tertiary);
+            color: white;
+            padding: 15px;
+        }
+        @media only screen and (max-width: 767px){
+            .btnBig {
+                margin: auto;
+            }
+        }
+        @media only screen and (max-width: 500px){
+            .btnBig {
+                font-size: calc(17px + 3 * (100vw - 300px) / 1620);
+                max-width: none;
+            }
+        }
+        .btnBig:hover {
+            background: white;
+            color: var(--tertiary)!important;
         }
         `}</style>
     </>)
