@@ -16,14 +16,14 @@ const Price = () => (
                         </div>
                         <div className="sub-title">
                             <ul className="sub-title-para">
-                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i><b> ... aparecerás en los principales motores de búsqueda como Google.</b></p></li>
-                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i> <b>... podrás automatizar procesos de marketing y ventas.</b></p></li>
-                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i> <b>... tus clientes podrán encontrarte y comprar en cualquier momento 24/7.</b></p></li>
-                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i> <b>... tendrás una nueva imagen profesional y de alto valor.</b></p></li>
-                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i> ... tendrás disponibilidad 24/7 para todos los dispositivos.</p></li>
-                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i> ... ahorrarás hasta 24 horas semanales de tareas repetitivas.</p></li>
-                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i> ... tendrás acceso a estadísticas y analíticas sobre tu público.</p></li>
-                                <li><p className="sub-title-para"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--primary)'}}></i> ... podrás transmitir el valor de tu producto o servicio.</p></li>
+                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i><b> ... aparecerás en los principales motores de búsqueda como Google.</b></p></li>
+                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i> <b>... podrás automatizar procesos de marketing y ventas.</b></p></li>
+                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i> <b>... tus clientes podrán encontrarte y comprar en cualquier momento 24/7.</b></p></li>
+                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i> <b>... tendrás una nueva imagen profesional y de alto valor.</b></p></li>
+                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i> ... tendrás disponibilidad 24/7 para todos los dispositivos.</p></li>
+                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i> ... ahorrarás hasta 24 horas semanales de tareas repetitivas.</p></li>
+                                <li><p className="sub-title-para pb-1"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i> ... tendrás acceso a estadísticas y analíticas sobre tu público.</p></li>
+                                <li><p className="sub-title-para"><i aria-hidden="true" className="fa fa-check-circle mr-1" style={{color:'var(--tertiary)'}}></i> ... podrás transmitir el valor de tu producto o servicio.</p></li>
                             </ul>
                         </div>
                     </div>
