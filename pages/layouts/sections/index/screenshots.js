@@ -64,6 +64,14 @@ const ScreenShots = () => {
                         <div className="swiper-wrapper">
                             <Slider className="screenshot-slider" style={{marginTop:0}} {...settings}>
                                 <div className="item">
+                                    <a href="https://latitud34desarrollos.com" target="_blank">
+                                        <picture>
+                                            <source srcSet="/assets/images/app_landing1/screen-shot/1.avif" type="image/avif" />
+                                            <img className="img-fluid" decoding="async" loading="lazy" src="/assets/images/app_landing1/screen-shot/1.jpg" alt="" />
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div className="item">
                                     <a href="#!">
                                         <picture>
                                             <source srcSet="/assets/images/app_landing1/screen-shot/1.avif" type="image/avif" />
