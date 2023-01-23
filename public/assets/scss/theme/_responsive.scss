@@ -4928,6 +4928,13 @@
 }
 
 @media only screen and (max-width: 767px) {
+  header{
+    nav{
+      a{
+        margin: auto;
+      }
+    }
+  }
   .saas2 {
     &.laptop-slider {
       .slider-container {
@@ -7767,6 +7774,7 @@
     padding: 10px 0;
     nav {
       padding: 0 !important;
+      justify-content: center;
     }
   }
   .portfolio-metro {
