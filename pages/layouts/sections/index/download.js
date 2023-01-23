@@ -5,7 +5,7 @@ import {Container,Row,Col} from 'reactstrap'
 import Image from 'next/image'
 
 const icon1 = {
-    background: 'var(--primary)',
+    background: 'var(--tertiary)',
     color: 'white',
     padding: 3,
     fontWeight: 600,
@@ -16,7 +16,7 @@ const icon1 = {
 }
 
 const link = {
-    color: 'var(--primary)',
+    color: 'var(--tertiary)',
     display: 'block',
     marginTop: 6,
 }
@@ -66,7 +66,7 @@ const Download = () => {
                                     <div>
                                         <h6 className="font-primary mb-5 text-uppercase"><span><b>¡Tu página web profesional en solo 7 días!</b> <br/><u>Para Empresas de servicios y tiendas de productos</u></span></h6>
                                     </div>
-                                    <a className="btn btn-default btn-gradient mt-4 btnBig" href="#contacto">Me interesa</a>
+                                    <a className="btn btn-default mt-4 btnBig" href="#contacto">Me interesa</a>
                                 </div>
                             </div>
                         </div>
