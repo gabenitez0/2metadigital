@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-          <title>MetaDigital | Diseño de páginas web profesionales para negocios</title>
+          <title>PaginasWebArg | Diseño de páginas web profesionales para negocios</title>
           <meta name='description' content='Diseño y desarrollo de páginas web profesionales para negocios. Sitios web atractivos, optimizados para móviles y para motores de búsqueda. Atrae más clientes y aumenta tus ventas.' />
           <meta property="og:description" content="Diseño y desarrollo de páginas web profesionales para negocios. Sitios web atractivos, optimizados para móviles y para motores de búsqueda. Atrae más clientes y aumenta tus ventas." />
           
