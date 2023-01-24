@@ -13,46 +13,46 @@ const Banner = () => (
                             <div>
                                 <div className="header-text">
                                     <div className="d-flex">
-                                        <h1>Transformá tu negocio con una <span className="theme-color">Página Web Profesional</span> y atractiva</h1>
-                                        <div className="center-content slider-logo">
+                                        <h1>Transformá tu negocio con una <span className="theme-color">Página Web Profesional</span></h1>
+                                        {/*<div className="center-content slider-logo">
                                             <img alt="" className="img-fluid" src="/assets/images/saas1/slider-logo.png" />
-                                        </div>
+                                        </div>*/}
                                     </div>
                                 </div>
                                 <div className="header-sub-text">
                                     <h3 className="text-white">¡Atrae más clientes y aumenta tus ventas hoy!</h3>
                                 </div>
-                                <div className="header-sub-text">
+                                {/*<div className="header-sub-text">
                                     <h6>No pierdas más oportunidades de negocio.
                                     <br/>Obtené una página web profesional y 
                                     <span className="theme-color"> ¡destacá entre la competencia!</span><br/>
                                     </h6>
-                                </div>
-                                <div className="link-horizontal">
+                                </div>*/}
+                                <div className="link-horizontal mt-5 pt-3">
                                     <ul>
                                         <li>
-                                            <a className="btn btnBig" href="#contacto">Me interesa (contactar)</a>
+                                            <a className="btn btnBig" href="#contacto">Cotizar gratis ahora</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </Col>
-                    <div>
+                    {/*<div>
                         <div className="center-text slider-banner">
                             <Image alt="pagina web profesional metadigital"
                             data-aos="fade-left"
-                            height={661}
-                            width={450}
+                            height={533}
+                            width={800}
                             layout="fixed"
                             style={{maxHeight: '100vh'}}
-                            src="/assets/images/app_landing1/header.webp"
+                            src="/assets/images/saas2/header.webp"
                             quality={100}
                             placeholder="blur"
-                            blurDataURL="/assets/images/app_landing1/header-blur.png"
+                            blurDataURL="/assets/images/saas2/header.webp"
                             />
                         </div>
-                    </div>
+                    </div>*/}
                 </Row>
             </Container>
         </div>
