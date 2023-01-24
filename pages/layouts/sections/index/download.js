@@ -8,7 +8,7 @@ const icon1 = {
     background: 'var(--tertiary)',
     color: 'white',
     padding: 3,
-    fontWeight: 600,
+    fontWeight: 800,
     display: 'inline-block',
     width: 20,
     height: 27,
@@ -29,23 +29,23 @@ const Download = () => {
     }, []);
 
     return (
-        <section className="app1 download">
+        <section className="app1 download" id="paginasweb">
             <Container>
                 <Row>
-                    <Col lg="5" md="6">
+                    <Col lg="6" md="6" sm="6" xs="10" className="m-auto">
                         <div className="center-content">
-                            <img alt="no pierdas ventas diseños profesionales de alta calidad y alto impacto 2metadigital"
+                            <img alt="no pierdas ventas diseños profesionales 2metadigital"
                             loading="lazy"
                             layout="fill"
                             objectFit="contain"
-                            className="img-fluid m-b-20"
+                            className="img-fluid m-b-20 m-auto"
                             src="/assets/images/app_landing1/tiempo.webp"
                             placeholder="blur"
-                            blurDataURL="/assets/images/app_landing1/header-blur.png" 
+                            blurDataURL="/assets/images/app_landing1/header-blur.png"
                             />
                         </div>
                     </Col>
-                    <Col lg="6" md="6" className="offset-lg-1">
+                    <Col lg="6">
                         <div className="center-text">
                             <div>
                                 <div className="download-img">
@@ -55,18 +55,27 @@ const Download = () => {
                                         </div>
                                     </div>
                                     <div className="center-img-content" data-aos="fade-left">
-                                        <h2 className="mb-4"><u>No dejes que tu negocio se quede atrás</u></h2>
-                                        <h3 className="m-b-40"><b>Aprovechá las ventajas de una página web profesional y atraé más clientes.</b></h3>
+                                        <h2 className="mb-4"><u>¿Cómo hacemos las páginas web para nuestros clientes?</u></h2>
+                                        <h3 className="mb-5"><b>Nuestra propuesta es diferente, hacemos páginas webs enfocadas a resultados.</b></h3>
                                     </div>
                                 </div>
-                                <div className="information" data-aos="fade-left" data-aos-delay="200">
-                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>1.</i> <b>Potencia tu Alcance y Ventas:</b> aparece en Google y vende 24/7 de forma automática.</p>
-                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>2.</i> <b>Trabajos de Alta Calidad Profesional:</b> lo que genera más Atracción, más Confianza y más Ventas. <a href="#proyectos" style={link}>Ver Trabajos →</a></p>
-                                    <p style={{margin: '0 0 30px'}}><i style={icon1}>3.</i> <b>Soporte Técnico y Asesoramiento:</b> te resolvemos cualquier duda y solucionamos cualquier problema.</p>
+                                <div className="information mt-2" data-aos="fade-left" data-aos-delay="200">
+                                    <p className="mb-4">
+                                        <i aria-hidden="true" style={{color:"var(--tertiary)"}} class="fa fa-check-square-o mr-2"></i>
+                                        <b>Optimización para Google:</b> tu página web aparecerá en los resultados de búsqueda para <b>aumentar tu alcance y clientes potenciales.</b></p>
+                                    <p className="mb-4">
+                                        <i aria-hidden="true" style={{color:"var(--tertiary)"}} class="fa fa-check-square-o mr-2"></i>
+                                        <b>Diseños de Alta Calidad:</b> realizamos diseños que impactan visualmente y redacción de textos para <b>aumentar ventas y conversiones.</b></p>
+                                    <p className="mb-4">
+                                        <i aria-hidden="true" style={{color:"var(--tertiary)"}} class="fa fa-check-square-o mr-2"></i>
+                                        <b>Enfocadas a Ventas:</b> hacemos páginas web preparadas para campañas de publicidad con Google Ads, Analytics, Meta Ads y Pixel.</p>
+                                    <p className="mb-5">
+                                        <i aria-hidden="true" style={{color:"var(--tertiary)"}} class="fa fa-check-square-o mr-2"></i>
+                                        <b>Funcionalidades específicas:</b> hacemos lo que tu negocio necesite, formularios de contacto, chats en vivo, carrito de compras, y más!</p>
                                     <div>
-                                        <h6 className="font-primary mb-5 text-uppercase"><span><b>¡Tu página web profesional en solo 7 días!</b> <br/><u>Para Empresas de servicios y tiendas de productos</u></span></h6>
+                                        <h4 className="font-primary mb-5"><b>Todo esto,<br/><span style={{color:"var(--tertiary)"}}>¡En solo en 7 días!</span></b></h4>
                                     </div>
-                                    <a className="btn btn-default mt-4 btnBig" href="#contacto">Me interesa</a>
+                                    {/*<a className="btn btn-default mt-4 btnBig" href="#contacto">Me interesa</a>*/}
                                 </div>
                             </div>
                         </div>
