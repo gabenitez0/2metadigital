@@ -2231,6 +2231,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .footer-nosotros{
+    margin-bottom: 3rem;
+  }
   .collection-wrapper {
     .data-sticky_parent {
       .product-right {
@@ -3341,7 +3344,7 @@
       .bg {
         min-height: 600px;
         height: 100vh;
-        padding-top: 60px;
+        padding-top: 120px;
       }
       .center-text {
         height: calc(500px - 63px);
