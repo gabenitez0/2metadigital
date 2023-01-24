@@ -5,12 +5,14 @@ import Header from '../../containers/common/header'
 import BannerSection from './sections/modern-sass/banner'
 //import ServicesSection from './sections/index/services'
 //import AboutSection from './sections/index/about'
+import CasosExito from './sections/index/casosexito'
 import DownloadSection from './sections/index/download'
 import ScreenShotsSection from './sections/index/screenshots'
 import Tiempo from './sections/index/tiempo'
+import BuildSection from '../layouts/sections/modern-sass/build'
 import Cta from './sections/index/cta'
 //import Historia from './sections/index/historia'
-import FooterSection from './sections/index/footer'
+import FooterSection from './sections/modern-sass/footer'
 
 
 
@@ -33,9 +35,13 @@ const App1 = () => {
 
       <DownloadSection />
 
-      <ScreenShotsSection />
+      {/*<CasosExito />*/}
 
-      <Tiempo />
+      <BuildSection />
+
+      {/*<ScreenShotsSection />*/}
+
+      {/*<Tiempo />*/}
 
       <Cta link={link} mon={mon}/>
 
