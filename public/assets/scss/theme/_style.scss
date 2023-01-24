@@ -69,6 +69,13 @@
 .center-header {
   z-index: 1;
 }
+.slick-arrow{
+  z-index: 999;
+}
+.slick-prev:before, .slick-next:before{
+  font-size: 50px!important;
+  font-weight: 600;
+}
 ::selection {
   background-color: $primary;
   color: $white;
@@ -89,7 +96,7 @@ body {
 h1,
 h2 {
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
+  
 }
 h4,
 h5,
@@ -103,7 +110,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: capitalize;
+  
 }
 h2,
 h3,
@@ -152,6 +159,7 @@ h3 {
   font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1920 - 300)));
   margin-top: -4px;
   margin-bottom: 0;
+  color: var(--primary);
 }
 h4 {
   font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
@@ -174,11 +182,12 @@ p {
 }
 
 a {
-  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
-  color: $secondary;
+  font-size: calc(14px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
+  color: var(--tertiary);
   &:hover {
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
   }
   &:focus {
     outline: none;
@@ -217,7 +226,7 @@ ul {
   margin-left: 0;
   color: $secondary;
   line-height: 1;
-  text-transform: capitalize;
+  
   &:before {
     content: "";
     position: absolute;
@@ -748,7 +757,7 @@ section {
     }
     h6 {
       &.main-text {
-        text-transform: capitalize;
+        
         text-align: center;
         margin-bottom: 20px;
       }
@@ -886,7 +895,7 @@ section {
   font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
   font-weight: 500;
   border: 2px solid;
-  text-transform: capitalize;
+  
   border-radius: 50px;
   color: $white !important;
   transition: 0.5s;
@@ -1665,7 +1674,7 @@ screenshot section end
     .download-center {
       h5 {
         color: $primary;
-        text-transform: capitalize;
+        
         margin-bottom: 0;
       }
     }
@@ -1683,7 +1692,6 @@ screenshot section end
   .information {
     p {
       font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1920 - 300)));
-      margin-top: 45px;
       margin-bottom: 50px;
       letter-spacing: 0;
     }
@@ -2245,7 +2253,7 @@ body {
     display: inline-block;
   }
   a {
-    text-transform: capitalize;
+    
   }
   .menu-head {
     font-weight: 600;
@@ -2533,8 +2541,8 @@ header {
   padding: 0;
   overflow: hidden;
   .center-text {
-    height: calc(100vh - 83px);
-    margin-top: 83px;
+    height: 74vh;
+    margin-top: 100px;
   }
   &.wedding {
     .center-text {
@@ -2555,7 +2563,7 @@ header {
     font-size: 18px;
     color: $white;
     margin-bottom: 40px;
-    text-transform: capitalize;
+    
     font-weight: 300;
   }
   .bg {
@@ -2640,7 +2648,7 @@ header {
       background-size: contain;
     }
     &.saas1-header {
-      background-image: url("/assets/images/saas1/slider-banner.jpg");
+      background-image: url("/assets/images/saas1/slider-banner2.jpg");
     }
     &.saas2-bg {
       background-image: url("/assets/images/saas2/slider.png"), linear-gradient(0deg, #02002400 25%, #5e57ea 25%, #9547db 100%);
@@ -3176,7 +3184,7 @@ footer {
         color: $white;
         &::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
-          text-transform: capitalize;
+          
           font-size: 12px;
           opacity: 0.4;
           letter-spacing: 1px;
@@ -3184,7 +3192,7 @@ footer {
         }
         &::-moz-placeholder {
           /* Firefox 19+ */
-          text-transform: capitalize;
+          
           font-size: 12px;
           opacity: 0.4;
           letter-spacing: 1px;
@@ -3192,7 +3200,7 @@ footer {
         }
         &:-ms-input-placeholder {
           /* IE 10+ */
-          text-transform: capitalize;
+          
           font-size: 12px;
           opacity: 0.4;
           letter-spacing: 1px;
@@ -3200,7 +3208,7 @@ footer {
         }
         &:-moz-placeholder {
           /* Firefox 18- */
-          text-transform: capitalize;
+          
           font-size: 12px;
           opacity: 0.4;
           letter-spacing: 1px;
@@ -3238,7 +3246,7 @@ footer {
             margin-right: 0;
           }
           a {
-            text-transform: capitalize;
+            
             color: white;
           }
           &:hover {
@@ -3277,7 +3285,7 @@ footer {
     li {
       margin-bottom: 10px;
       color: $white;
-      text-transform: capitalize;
+      
       a {
         font-weight: 300;
         color: $white;
@@ -3570,7 +3578,7 @@ booking section end
   h4,
   h5,
   h6 {
-    text-transform: capitalize;
+    
   }
   li {
     font-weight: 400;
@@ -4140,7 +4148,7 @@ booking section end
   h4,
   h5,
   h6 {
-    text-transform: capitalize;
+    
   }
   h3,
   h4,
@@ -4540,28 +4548,28 @@ booking section end
           color: $white;
           font-size: 16px;
           font-weight: 300;
-          text-transform: capitalize;
+          
         }
         &::-moz-placeholder {
           /* Firefox 19+ */
           color: $white;
           font-size: 16px;
           font-weight: 300;
-          text-transform: capitalize;
+          
         }
         &:-ms-input-placeholder {
           /* IE 10+ */
           color: $white;
           font-size: 16px;
           font-weight: 300;
-          text-transform: capitalize;
+          
         }
         &:-moz-placeholder {
           /* Firefox 18- */
           color: $white;
           font-size: 16px;
           font-weight: 300;
-          text-transform: capitalize;
+          
         }
       }
     }
@@ -4650,7 +4658,7 @@ music css end
   h1,
   h2 {
     font-family: "Poppins", sans-serif;
-    text-transform: capitalize;
+    
   }
 
   h4,
@@ -4668,7 +4676,7 @@ music css end
   h4,
   h5,
   h6 {
-    text-transform: capitalize;
+    
   }
 
   h2,
@@ -5155,7 +5163,7 @@ wedding-theme css end
   h4,
   h5,
   h6 {
-    text-transform: capitalize;
+    
   }
   h1,
   h2,
@@ -5618,7 +5626,7 @@ yoga-theme css end
   h1,
   h2 {
     font-family: "Poppins", sans-serif;
-    text-transform: capitalize;
+    
   }
   h4,
   h5,
@@ -5633,7 +5641,7 @@ yoga-theme css end
   h5,
   h6 {
     font-family: "Poppins", sans-serif;
-    text-transform: capitalize;
+    
   }
   h2,
   h3,
@@ -5707,7 +5715,7 @@ yoga-theme css end
     text-transform: uppercase;
   }
   a {
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
   }
   .title {
@@ -6374,7 +6382,7 @@ agency css end
         font-size: 12px;
         margin-left: -60px;
         border-radius: 0;
-        text-transform: capitalize;
+        
       }
     }
   }
@@ -7007,7 +7015,7 @@ tap to top css end
     margin-bottom: 0;
   }
   p {
-    font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
+    font-size: calc(14px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
     margin-top: 0;
     letter-spacing: 0.05em;
     margin-bottom: -7px;
@@ -7016,6 +7024,7 @@ tap to top css end
     text-transform: none;
     &.theme-color {
       color: var(--tertiary);
+      background: floralwhite;
     }
   }
   .title {
@@ -7073,11 +7082,11 @@ tap to top css end
       margin-bottom: 30px;
       h3 {
         color: $white;
-        font-weight: 200;
+        font-weight: 600;
         span {
           font-size: 30px;
           font-weight: 600;
-          color: var(--tertiary);;
+          color: var(--tertiary);
         }
       }
     }
@@ -7112,7 +7121,6 @@ tap to top css end
   }
   @media only screen and (max-width: 500px){
      h1{
-        margin-top: 50px!important;
         font-size: 30px;
       }
       h3{
@@ -7189,8 +7197,8 @@ tap to top css end
     display: flex;
     align-items: center;
     .container {
-      margin-bottom: 4.5%;
-      margin-top: 5%;
+      margin-bottom: 1%;
+      margin-top: 0%;
     }
     .build-right-slider {
       position: absolute;
@@ -7323,8 +7331,8 @@ tap to top css end
     .build-box {
       text-align: left;
       .build-head {
-        font-size: calc(18px + (45 - 18) * ((100vw - 300px) / (1920 - 300)));
-        margin-bottom: 40px;
+        font-size: 28px;
+        margin-bottom: 20px;
         font-weight: 600;
         letter-spacing: 0.04em;
       }
@@ -7333,7 +7341,7 @@ tap to top css end
         font-weight: 300;
       }
       ul {
-        margin-top: 45px;
+        margin-top: 40px;
         li {
           margin-bottom: 18px;
           font-size: 16px;
@@ -7573,7 +7581,7 @@ tap to top css end
           &.no-weight {
             font-weight: unset;
             margin: 45px 0 40px 0;
-            text-transform: capitalize;
+            
             span {
               font-weight: 700;
             }
@@ -7813,7 +7821,7 @@ tap to top css end
     .subscribe-input {
       h6 {
         font-weight: 300;
-        text-transform: capitalize;
+        
         margin-right: 16px;
       }
       .display-flex {
@@ -7998,7 +8006,7 @@ tap to top css end
     }
   }
   &.footer2 {
-    background-color: $secondary;
+    background-color: #071828;
     .logo-sec {
       .footer-social {
         .footer-social-list {
@@ -8632,7 +8640,7 @@ wedding css start
             margin-top: 20px;
             font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1920 - 300)));
             margin-bottom: -4px;
-            text-transform: capitalize;
+            
           }
         }
       }
@@ -8678,7 +8686,7 @@ event css start
   h4,
   h5,
   h6 {
-    text-transform: capitalize;
+    
   }
   h2,
   h3,
@@ -9033,7 +9041,7 @@ gym css start
   h1,
   h2 {
     font-family: "Poppins", sans-serif;
-    text-transform: capitalize;
+    
   }
   h4,
   h5,
@@ -9050,7 +9058,7 @@ gym css start
   h4,
   h5,
   h6 {
-    text-transform: capitalize;
+    
   }
   h2,
   h3,
@@ -9080,7 +9088,7 @@ gym css start
     margin-bottom: -10px;
   }
   h2 {
-    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1920 - 300)));
+    font-size: 30px;
     margin-top: 0px;
     margin-bottom: -5px;
   }
@@ -9814,7 +9822,7 @@ breadcrumb-section css start
     align-items: center;
     li {
       letter-spacing: 1px;
-      text-transform: capitalize;
+      
       color: $black;
       + li:before {
         padding: 8px;
@@ -10941,7 +10949,7 @@ error css end
   .portfolio-text {
     margin-top: 10px;
     .head-text {
-      text-transform: capitalize;
+      
       margin-bottom: 10px;
       line-height: 100px;
     }
@@ -11203,7 +11211,7 @@ error css end
               float: right;
               padding: 5px 10px 0;
               color: $gray15;
-              text-transform: capitalize;
+              
               font-weight: 300;
               margin-bottom: -3px;
               &:hover {
@@ -11458,7 +11466,7 @@ error css end
     padding-bottom: 0;
     .table {
       border: 1px solid $lighten-white;
-      text-transform: capitalize;
+      
       color: $black;
       .product-name {
         width: 15%;
@@ -11564,7 +11572,7 @@ error css end
       a {
         h5 {
           margin-bottom: 0;
-          text-transform: capitalize;
+          
           margin-top: 10px;
         }
       }
@@ -11678,7 +11686,7 @@ error css end
           color: $gray;
           font-weight: 400;
           font-size: 14px;
-          text-transform: capitalize;
+          
           margin-bottom: 0;
           letter-spacing: 0;
           img {
@@ -11739,7 +11747,7 @@ error css end
           width: 85%;
           font-size: 15px;
           padding-right: 10px;
-          text-transform: capitalize;
+          
           font-weight: 700;
         }
       }
@@ -11839,7 +11847,7 @@ error css end
       }
       .field-label {
         line-height: 24px;
-        text-transform: capitalize;
+        
         color: $gray10;
         margin-bottom: 10px;
         font-weight: 700;
@@ -12031,7 +12039,7 @@ error css end
         label {
           position: relative;
           padding-left: 30px;
-          text-transform: capitalize;
+          
           color: $gray;
           cursor: pointer;
           font-weight: 500;
@@ -12098,7 +12106,7 @@ error css end
         }
         p {
           margin-bottom: 0;
-          text-transform: capitalize;
+          
           letter-spacing: 0;
           font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
         }
@@ -12557,7 +12565,7 @@ error css end
       cursor: pointer;
       font-size: 14px;
       user-select: none;
-      text-transform: capitalize;
+      
       color: $primary;
       input {
         position: absolute;
@@ -12637,7 +12645,7 @@ error css end
         font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1920 - 300)));
         border-right: 1px solid lighten($black, 86.5%);
         padding: 20px 16px;
-        text-transform: capitalize;
+        
         width: 33%;
         h5 {
           margin-bottom: 0;
@@ -13139,7 +13147,7 @@ error css end
       right: 10px;
       color: $gray10;
       font-weight: 600;
-      text-transform: capitalize;
+      
       opacity: 0;
     }
     a {
@@ -13177,7 +13185,7 @@ error css end
         color: $gray10;
         font-weight: 600;
         letter-spacing: 1px;
-        text-transform: capitalize;
+        
       }
       .price {
         padding-bottom: 10px;
@@ -13275,7 +13283,7 @@ error css end
   }
   .product-title {
     color: $primary;
-    text-transform: capitalize;
+    
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -14032,7 +14040,7 @@ error css end
       padding: 20px;
       margin-bottom: 0;
       h3 {
-        text-transform: capitalize;
+        
         color: $gray19;
         margin-bottom: 0;
         font-weight: 400;
@@ -14087,7 +14095,7 @@ error css end
         margin-bottom: 15px;
         font-size: 18px;
         color: $primary;
-        text-transform: capitalize;
+        
       }
       &.product-pagination {
         border: none;
@@ -14108,7 +14116,7 @@ error css end
         }
         label {
           font-size: 16px;
-          text-transform: capitalize;
+          
           padding-left: 5px;
         }
       }
@@ -14167,7 +14175,7 @@ error css end
     line-height: 1;
     .theme-form {
       label {
-        text-transform: capitalize;
+        
         color: $primary;
         font-size: 14px;
         font-weight: 600;
@@ -14227,7 +14235,7 @@ error css end
     line-height: 1;
     .theme-form {
       label {
-        text-transform: capitalize;
+        
         color: $primary;
         font-size: 14px;
         font-weight: 600;
@@ -15266,7 +15274,7 @@ header {
                   padding-top: 10px;
                   margin-top: 20px;
                   h5 {
-                    text-transform: capitalize;
+                    
                     margin-bottom: 0;
                     color: $gray;
 
@@ -15279,7 +15287,7 @@ header {
                   a {
                     font-size: 16px;
                     color: $font-color;
-                    text-transform: capitalize;
+                    
                     font-weight: 700;
 
                     &:hover {
@@ -15455,7 +15463,7 @@ header {
           a {
             margin: 0;
             border: 0;
-            text-transform: capitalize;
+            
             width: 100%;
             min-width: 240px;
             padding: 10px 18px;
@@ -15465,7 +15473,7 @@ header {
             letter-spacing: 0;
             font-size: 13px;
             &:hover {
-              color: $primary !important;
+              color: var(--tertiary) !important;
               transition: all 0.5s ease;
             }
           }
@@ -15508,7 +15516,7 @@ header {
       letter-spacing: 0;
       font-weight: 600;
       border-bottom: 1px solid #eee;
-      text-transform: capitalize;
+      
     }
     .menu-arrow {
       font-size: 10px;
@@ -15844,7 +15852,7 @@ footer {
   }
   .product-title {
     color: $dark-font;
-    text-transform: capitalize;
+    
     font-weight: 700;
     margin-bottom: 0;
   }
@@ -16243,7 +16251,7 @@ footer {
       right: 10px;
       color: #333333;
       font-weight: 600;
-      text-transform: capitalize;
+      
       opacity: 0;
     }
     a {
@@ -16282,7 +16290,7 @@ footer {
         color: #333333;
         font-weight: 600;
         letter-spacing: 1px;
-        text-transform: capitalize;
+        
       }
       .price {
         padding-bottom: 10px;
