@@ -25,7 +25,7 @@ const CTA = ({link, mon}) => {
     }
 
     return (<>
-        <section className="app1 videos" id="contacto">
+        <section className="app1 videos mt-2 mb-3" id="contacto">
             <Container>
             <Row data-aos="fade-right" data-aos-delay="200">
                 <Col md="10" className="offset-md-1">
