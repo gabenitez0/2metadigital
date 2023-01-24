@@ -12,8 +12,8 @@ const Home = () => {
           <meta name='description' content='Diseño y desarrollo de páginas web profesionales para negocios. Sitios web atractivos, optimizados para móviles y para motores de búsqueda. Atrae más clientes y aumenta tus ventas.' />
           <meta property="og:description" content="Diseño y desarrollo de páginas web profesionales para negocios. Sitios web atractivos, optimizados para móviles y para motores de búsqueda. Atrae más clientes y aumenta tus ventas." />
           
-          <link rel="icon" type="image/png" href="/fav5.png" />
-          <meta property="og:image" content="/meta5.png" />
+          <link rel="icon" type="image/png" href="/assets/images/saas1/favicon2.png" />
+          <meta property="og:image" content="/meta4.png" />
           <meta name="keywords" content="agencia digital, programación, diseño web, diseño gráfico, desarrollo web, copywriting, marketing, agencia, ecommerce, e-commerce, tienda online, landing page, página de aterrizaje, tienda digital, tiendanube, shopify, wix"/>
           <meta name="author" content="Gabriel Benitez" />
           <meta name="robots" content="index"/>
