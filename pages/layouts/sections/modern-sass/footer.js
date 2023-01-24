@@ -10,7 +10,7 @@ const Footer = () => (
                         {/*<div className="footer-title mobile-title">
                             <h3 className="text-white">Nosotros</h3>
                         </div>*/}
-                        <div className="footer-contant">
+                        <div className="footer-contant nosotros">
                             <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/logo5.png" />
                             <div className="footer-para">
                                 <h6 className="text-white para-address">Somos el departamento especializado en Páginas Web de la Agencia de Marketing MetaDigital</h6>
