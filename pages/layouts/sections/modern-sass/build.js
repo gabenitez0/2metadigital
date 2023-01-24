@@ -41,7 +41,7 @@ const Build = () => (
         <Container>
             <Row>
                 <Col md="10" className="offset-md-1 mb-4">
-                    <div className="title title1">
+                    <div className="title title1 mt-1">
                         <div className="main-title">
                             <h2 className="mb-2"><span className="theme-color">Casos de éxito</span></h2>
                         </div>
