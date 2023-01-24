@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-//import Router from 'next/router';
+import { useRouter } from "next/router";
+import Script from 'next/script';
 //import NProgress from 'nprogress';
 //import getConfig from 'next/config'
 import { ToastContainer } from 'react-toastify';
-import Head from 'next/head'
+import Head from 'next/head';
+import * as gtag from "./api/gtag";
 
 import 'bootstrap-scss';
 import '../public/assets/scss/flaticon.scss';
@@ -61,7 +63,8 @@ function MyFunctionComponent({ children }) {
       top: 0
     });
   }*/
-
+  
+/*
   useEffect(async () => {
     const { default: ReactPixel } = await import('react-facebook-pixel');
     ReactPixel.init(2811703585759192, null, {
@@ -69,7 +72,18 @@ function MyFunctionComponent({ children }) {
         debug: true,
       });
     ReactPixel.pageView();
-  }, []);
+  }, []);*/
+
+  const router = useRouter();
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
   
 
   return (
@@ -100,6 +114,24 @@ function MyFunctionComponent({ children }) {
 export default function MyApp({ Component, pageProps, graphql }) {
   return (
     <div>
+    {/* Global Site Tag (gtag.js) - Google Analytics */}
+    <Script
+      strategy="lazyOnload"
+      src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+    />
+    <Script
+      strategy="lazyOnload"
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${gtag.GA_TRACKING_ID}', {
+            page_path: window.location.pathname,
+          });
+        `,
+      }}
+    />
       <MyFunctionComponent>
         <Component {...pageProps} />
         
