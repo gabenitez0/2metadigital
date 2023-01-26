@@ -33,8 +33,8 @@ const CTA = ({link, mon}) => {
                         <div className="main-title">
                             <i class="fa fa-magnet mb-4" aria-hidden="true" style={{fontSize:80, color:"var(--tertiary)"}}></i>
                             <h2 className="mb-4" style={{lineHeight:'1.5', fontSize:28}}><u>¡Empecemos a transformar tu negocio con tu Nueva Página Web Profesional!</u></h2>
-                            <h3 className="mb-3" style={{lineHeight:'1.5', fontWeight:600}}>Tenemos Precios Promocionales y una Propuesta Personalizada para tu negocio Solo para los próximos 10 clientes</h3>
-                            <h4 className="mb-4" style={{lineHeight:'1.5', fontSize: 24, fontWeight:800}}>↓ ¡<u>Contactanos Ahora</u>! ↓</h4>
+                            <h3 className="mb-3" style={{lineHeight:'1.5', fontWeight:600}}>¡Descuento de 50% para los primeros 10 clientes de esta oferta!</h3>
+                            <h4 className="mb-4" style={{lineHeight:'1.5', fontSize: 24, fontWeight:800}}>↓ <u>Contactanos Ahora</u> ↓</h4>
                         </div>
                     </div>
                 </Col>
