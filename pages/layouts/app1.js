@@ -18,7 +18,7 @@ import FooterSection from './sections/modern-sass/footer'
 
 const App1 = () => {
   const router = useRouter();
-  const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "541140745960";
+  const ref = router.query.ref && router.query.ref.length > 7 ? router.query.ref : "5491140745960";
   const link = `https://wa.me/${ref}?text=Hola%2C%20me%20interesa%20una%20página%20web%20profesional%20para%20mi%20negocio`
 
   const mon = router.query.mon === "usd" ? "$150 USD" : "$18000 ARS";
